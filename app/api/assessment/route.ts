@@ -2,10 +2,12 @@ import { NextResponse } from "next/server";
 
 import {
   buildAssessmentContext,
-  buildChatCompletionsPayload,
+  buildChatCompletionsPayloads,
   createFallbackAssessmentResult,
   extractChatCompletionText,
+  extractProviderErrorMessage,
   parseAssessmentResult,
+  prioritizePayloadVariantsForBaseUrl,
 } from "@/lib/pvzti/assessment";
 import { questionBank } from "@/lib/pvzti/question-bank";
 import { plantProfiles } from "@/lib/pvzti/plants";
@@ -16,6 +18,14 @@ export const runtime = "nodejs";
 
 function createJsonErrorResponse(message: string, status: number) {
   return NextResponse.json({ error: message }, { status });
+}
+
+function normalizeProviderErrorMessage(rawText: string) {
+  try {
+    return extractProviderErrorMessage(JSON.parse(rawText));
+  } catch {
+    return extractProviderErrorMessage(rawText);
+  }
 }
 
 export async function POST(request: Request) {
@@ -66,47 +76,72 @@ export async function POST(request: Request) {
   }
 
   try {
-    const completionResponse = await fetch(`${baseUrl}/chat/completions`, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Authorization: `Bearer ${apiKey}`,
-      },
-      body: JSON.stringify(
-        buildChatCompletionsPayload({
-          context: assessmentContext,
-          model,
-        }),
-      ),
-      cache: "no-store",
-      signal: AbortSignal.timeout(20000),
-    });
+    const payloadVariants = prioritizePayloadVariantsForBaseUrl(
+      buildChatCompletionsPayloads({
+        context: assessmentContext,
+        model,
+      }),
+      baseUrl,
+    );
+    let lastFailureNotice = "AI 请求失败，已自动降级。";
 
-    if (!completionResponse.ok) {
-      return NextResponse.json({
-        ...createFallbackAssessmentResult({
-          summary: baseSummary,
-          profiles: plantProfiles,
-        }),
-        notice: `AI 请求失败，已自动降级。状态码 ${completionResponse.status}。`,
+    for (const variant of payloadVariants) {
+      const completionResponse = await fetch(`${baseUrl}/chat/completions`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${apiKey}`,
+        },
+        body: JSON.stringify(variant.body),
+        cache: "no-store",
+        signal: AbortSignal.timeout(20000),
       });
+
+      if (!completionResponse.ok) {
+        const errorText = await completionResponse.text();
+        const providerMessage = normalizeProviderErrorMessage(errorText);
+        const details = providerMessage ? ` ${providerMessage}` : "";
+
+        lastFailureNotice = `AI 请求失败，已自动降级。状态码 ${completionResponse.status}，请求模式 ${variant.label}。${details}`.trim();
+
+        if (
+          (completionResponse.status === 400 || completionResponse.status === 422) &&
+          variant !== payloadVariants[payloadVariants.length - 1]
+        ) {
+          continue;
+        }
+
+        return NextResponse.json({
+          ...createFallbackAssessmentResult({
+            summary: baseSummary,
+            profiles: plantProfiles,
+          }),
+          notice: lastFailureNotice,
+        });
+      }
+
+      const completionPayload = (await completionResponse.json()) as unknown;
+      const rawText = extractChatCompletionText(completionPayload);
+      const assessmentResult = parseAssessmentResult({
+        rawText,
+        fallbackSummary: baseSummary,
+      });
+
+      if (assessmentResult.source === "fallback") {
+        lastFailureNotice = `AI 已返回内容，但格式不符合预期，已从 ${variant.label} 降级为规则结果。`;
+        continue;
+      }
+
+      return NextResponse.json(assessmentResult);
     }
 
-    const completionPayload = (await completionResponse.json()) as unknown;
-    const rawText = extractChatCompletionText(completionPayload);
-    const assessmentResult = parseAssessmentResult({
-      rawText,
-      fallbackSummary: baseSummary,
+    return NextResponse.json({
+      ...createFallbackAssessmentResult({
+        summary: baseSummary,
+        profiles: plantProfiles,
+      }),
+      notice: lastFailureNotice,
     });
-
-    if (assessmentResult.source === "fallback") {
-      return NextResponse.json({
-        ...assessmentResult,
-        notice: "AI 已返回内容，但格式不符合预期，已自动降级为规则结果。",
-      });
-    }
-
-    return NextResponse.json(assessmentResult);
   } catch {
     return NextResponse.json({
       ...createFallbackAssessmentResult({

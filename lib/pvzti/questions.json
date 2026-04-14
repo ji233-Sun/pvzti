@@ -5,7 +5,7 @@
     {
       "id": "q01",
       "title": "启动方式",
-      "prompt": "一个全新的项目突然落到你面前，你第一反应更像哪一种？",
+      "prompt": "一个全新的项目或挑战突然落到面前，你最本能的启动姿势是？",
       "options": [
         {
           "id": "q01-a",
@@ -21,13 +21,13 @@
         },
         {
           "id": "q01-c",
-          "label": "先埋好伏笔，等关键节点再一击命中。",
+          "label": "不急于表态，暗中埋好伏笔，等关键节点再一击命中。",
           "tone": "潜伏型、时机型",
           "scores": { "potatoMine": 3, "cabbagePult": 1 }
         },
         {
           "id": "q01-d",
-          "label": "先站远一点看全局，梳理路线后再推进。",
+          "label": "先站远一点看全局，梳理出结构路线后再推进。",
           "tone": "统筹型、结构型",
           "scores": { "cabbagePult": 3, "sunflower": 1 }
         }
@@ -35,590 +35,590 @@
     },
     {
       "id": "q02",
-      "title": "赶工时刻",
-      "prompt": "截止日期突然提前，团队开始慌乱时，你更可能怎么做？",
+      "title": "面对分歧",
+      "prompt": "当讨论逐渐升温，空气中充满火药味时，你的应对策略通常是？",
       "options": [
         {
           "id": "q02-a",
-          "label": "先稳住前线，把最危险的部分扛下来。",
-          "tone": "防御型、承压型",
-          "scores": { "wallnut": 3, "sunflower": 1 }
-        },
-        {
-          "id": "q02-b",
-          "label": "直接清掉最卡的大问题，让局面瞬间松开。",
-          "tone": "决断型、破局型",
+          "label": "不破不立，直接把情绪和底线砸到桌面上，当场解决。",
+          "tone": "爆发型、破局型",
           "scores": { "cherryBomb": 3, "peashooter": 1 }
         },
         {
+          "id": "q02-b",
+          "label": "像一块海绵吸收火力，守住核心立场，任凭对方风浪起。",
+          "tone": "承压型、边界型",
+          "scores": { "wallnut": 3, "potatoMine": 1 }
+        },
+        {
           "id": "q02-c",
-          "label": "不急着乱动，先找出真正值得出手的点。",
-          "tone": "观察型、伏击型",
-          "scores": { "potatoMine": 3, "wallnut": 1 }
+          "label": "退居二线，不动声色地观察对方的逻辑漏洞，准备最后发言。",
+          "tone": "观察型、后发型",
+          "scores": { "potatoMine": 3, "cabbagePult": 1 }
         },
         {
           "id": "q02-d",
-          "label": "重新排顺序和节奏，把混乱变成一个能执行的表。",
-          "tone": "结构型、统筹型",
-          "scores": { "cabbagePult": 3, "sunflower": 1 }
+          "label": "主动缓和气氛，寻找能让大家都下得去台阶的中间地带。",
+          "tone": "协调型、支持型",
+          "scores": { "sunflower": 3, "cabbagePult": 1 }
         }
       ]
     },
     {
       "id": "q03",
-      "title": "被需要时",
-      "prompt": "朋友或同事陷入低潮时，你通常会提供哪种帮助？",
+      "title": "独处时光",
+      "prompt": "终于迎来一个没有任何安排的周末，你会如何度过？",
       "options": [
         {
           "id": "q03-a",
-          "label": "给他稳定陪伴和实际支持，让对方慢慢恢复。",
-          "tone": "照料型、持续型",
+          "label": "沉浸在那些能给自己持续充电的小事里，或者和亲密的人待着。",
+          "tone": "供能型、亲密型",
           "scores": { "sunflower": 3, "wallnut": 1 }
         },
         {
           "id": "q03-b",
-          "label": "直接帮他把卡点拆掉，尽快重新动起来。",
-          "tone": "执行型、推进型",
+          "label": "迅速锁定一个感兴趣的目标（游戏、电影或运动），直接拉满进度条。",
+          "tone": "单点突破、即时反馈",
           "scores": { "peashooter": 3, "cherryBomb": 1 }
         },
         {
           "id": "q03-c",
-          "label": "先安静观察，等他真正准备好再给关键建议。",
-          "tone": "等待型、敏锐型",
-          "scores": { "potatoMine": 3, "sunflower": 1 }
+          "label": "享受完全不被打扰的封闭感，谁也别想轻易闯入我的结界。",
+          "tone": "守护型、封闭型",
+          "scores": { "wallnut": 3, "potatoMine": 1 }
         },
         {
           "id": "q03-d",
-          "label": "帮他重新理解整件事，看见新的视角和路径。",
-          "tone": "视野型、策略型",
+          "label": "习惯性地将下周的生活甚至人生规划，在脑海里像下棋一样推演一遍。",
+          "tone": "抽离型、全局型",
           "scores": { "cabbagePult": 3, "potatoMine": 1 }
         }
       ]
     },
     {
       "id": "q04",
-      "title": "说服方式",
-      "prompt": "你要说服别人接受一个新方案时，更习惯哪种方式？",
+      "title": "突发危机",
+      "prompt": "旅行途中突然下起暴雨，原定行程全部作废，你会？",
       "options": [
         {
           "id": "q04-a",
-          "label": "先给出立刻可执行的结果，让人看到它能成。",
-          "tone": "直推型、结果型",
-          "scores": { "peashooter": 3, "cabbagePult": 1 }
+          "label": "有点炸毛，但立刻做出果断决绝的决定，哪怕代价巨大也要立刻止损。",
+          "tone": "决断型、情绪高燃",
+          "scores": { "cherryBomb": 3, "peashooter": 1 }
         },
         {
           "id": "q04-b",
-          "label": "先说明它如何让团队长期更轻松、更健康。",
-          "tone": "培育型、长期型",
-          "scores": { "sunflower": 3, "cabbagePult": 1 }
-        },
-        {
-          "id": "q04-c",
-          "label": "先解除大家对风险的担心，再推动改变。",
-          "tone": "稳健型、保护型",
+          "label": "只要最重要的人和行李都没事，找个屋檐躲着也能岁月静好。",
+          "tone": "底线型、知足型",
           "scores": { "wallnut": 3, "sunflower": 1 }
         },
         {
+          "id": "q04-c",
+          "label": "打开地图和备忘录，像开上帝视角一样重新拼凑出一条新路线。",
+          "tone": "系统型、重构型",
+          "scores": { "cabbagePult": 3, "wallnut": 1 }
+        },
+        {
           "id": "q04-d",
-          "label": "在最关键的瞬间一句拍板，让犹豫的人跟上来。",
-          "tone": "高压型、破局型",
-          "scores": { "cherryBomb": 3, "peashooter": 1 }
+          "label": "刚才一路上就觉得天色不对，早就偷偷看好了一个避雨的绝佳位置。",
+          "tone": "预判型、藏匿型",
+          "scores": { "potatoMine": 3, "cabbagePult": 1 }
         }
       ]
     },
     {
       "id": "q05",
-      "title": "冲突处理",
-      "prompt": "当两个人意见相撞、火药味渐浓时，你更像谁？",
+      "title": "社交试探",
+      "prompt": "误入一个全是陌生人的派对，你会用哪种方式寻找同类？",
       "options": [
         {
           "id": "q05-a",
-          "label": "先把场面挡住，不让冲突继续外溢。",
-          "tone": "守线型、稳场型",
-          "scores": { "wallnut": 3, "sunflower": 1 }
+          "label": "散发善意与温和的磁场，让那些同样需要安全感的人自动靠近。",
+          "tone": "稳定型、散发型",
+          "scores": { "sunflower": 3, "peashooter": 1 }
         },
         {
           "id": "q05-b",
-          "label": "让双方都把话讲透，然后迅速往结论推进。",
-          "tone": "推进型、直给型",
+          "label": "抛出一个直白的话题，看看谁能最快接住我的梗。",
+          "tone": "直接型、试探型",
           "scores": { "peashooter": 3, "cherryBomb": 1 }
         },
         {
           "id": "q05-c",
-          "label": "先听、先记，等真正的矛盾点露出来再出手。",
-          "tone": "潜伏型、洞察型",
-          "scores": { "potatoMine": 3, "wallnut": 1 }
+          "label": "找个舒服的角落先坐下，构筑起礼貌的屏障，别人不招惹我，我就不动。",
+          "tone": "防御型、被动型",
+          "scores": { "wallnut": 3, "potatoMine": 1 }
         },
         {
           "id": "q05-d",
-          "label": "把争执翻译成结构问题，让双方换个视角看。",
-          "tone": "抽离型、分析型",
+          "label": "默默打量全场，给每个人在心里贴上标签，评估他们的“危险系数”。",
+          "tone": "评估型、旁观型",
           "scores": { "cabbagePult": 3, "sunflower": 1 }
         }
       ]
     },
     {
       "id": "q06",
-      "title": "学习新技能",
-      "prompt": "面对一个完全陌生的新工具或新领域，你通常怎么上手？",
+      "title": "表达不满",
+      "prompt": "合作对象的做事方式让你极度不适，你会怎么反馈？",
       "options": [
         {
           "id": "q06-a",
-          "label": "先上手试，错了再调。",
-          "tone": "试打型、快反馈型",
-          "scores": { "peashooter": 3, "cherryBomb": 1 }
+          "label": "绝不拖泥带水，当面指出问题，哪怕场面难看也要立刻切割。",
+          "tone": "果断型、爆破型",
+          "scores": { "cherryBomb": 3, "peashooter": 1 }
         },
         {
           "id": "q06-b",
-          "label": "先弄清它背后的体系和结构，再学得更稳。",
-          "tone": "结构型、系统型",
-          "scores": { "cabbagePult": 3, "potatoMine": 1 }
+          "label": "表面顺从，但在心里默默记下一笔，等到忍无可忍时让他付出代价。",
+          "tone": "隐忍型、反扑型",
+          "scores": { "potatoMine": 3, "cherryBomb": 1 }
         },
         {
           "id": "q06-c",
-          "label": "先找可靠的人或资料，慢慢把基础打牢。",
-          "tone": "积累型、耐心型",
-          "scores": { "sunflower": 3, "wallnut": 1 }
+          "label": "不纠缠情绪，直接甩出一套更合理的流程标准，用规则碾压对方。",
+          "tone": "结构型、降维型",
+          "scores": { "cabbagePult": 3, "peashooter": 1 }
         },
         {
           "id": "q06-d",
-          "label": "先观察常见坑位，避免一开始就踩雷。",
-          "tone": "审慎型、伏击型",
-          "scores": { "potatoMine": 3, "wallnut": 1 }
+          "label": "默默收紧合作尺度，把自己的核心利益保护好，公事公办。",
+          "tone": "界限型、防守型",
+          "scores": { "wallnut": 3, "potatoMine": 1 }
         }
       ]
     },
     {
       "id": "q07",
-      "title": "理想团队位置",
-      "prompt": "在一个配合顺畅的团队里，你最想站在哪种位置？",
+      "title": "陷入低谷",
+      "prompt": "当生活陷入一段毫无起色的瓶颈期，你会如何自救？",
       "options": [
         {
           "id": "q07-a",
-          "label": "负责打开局面的人。",
-          "tone": "开路型、前锋型",
-          "scores": { "peashooter": 3, "cherryBomb": 1 }
+          "label": "把旧的计划全部推翻，用一次疯狂的冒险或消费来刺激自己。",
+          "tone": "破局型、能量型",
+          "scores": { "cherryBomb": 3, "cabbagePult": 1 }
         },
         {
           "id": "q07-b",
-          "label": "负责给大家持续供能的人。",
-          "tone": "支持型、续航型",
-          "scores": { "sunflower": 3, "wallnut": 1 }
+          "label": "坚信量变引起质变，不管怎样，先把眼前的日常任务刷出声响。",
+          "tone": "行动型、输出型",
+          "scores": { "peashooter": 3, "wallnut": 1 }
         },
         {
           "id": "q07-c",
-          "label": "负责守住底线和风险的人。",
-          "tone": "守护型、边界型",
-          "scores": { "wallnut": 3, "sunflower": 1 }
+          "label": "告诉自己这只是在“憋大招”，蛰伏越久，将来的反弹越惊人。",
+          "tone": "蓄力型、时机型",
+          "scores": { "potatoMine": 3, "sunflower": 1 }
         },
         {
           "id": "q07-d",
-          "label": "负责看节奏、定路径和找关键点的人。",
-          "tone": "策略型、节奏型",
+          "label": "跳出现状，用第三视角的冷峻目光审视人生系统，寻找卡壳的齿轮。",
+          "tone": "抽离型、上帝视角",
           "scores": { "cabbagePult": 3, "potatoMine": 1 }
         }
       ]
     },
     {
       "id": "q08",
-      "title": "被打断之后",
-      "prompt": "当你的计划被人突然打断，你更常出现哪种反应？",
+      "title": "抚慰伤痛",
+      "prompt": "好友遭遇重大挫折，深夜打电话找你哭诉，你会怎么说？",
       "options": [
         {
           "id": "q08-a",
-          "label": "先顶住情绪，确保局面不失控。",
-          "tone": "承压型、守住型",
-          "scores": { "wallnut": 3, "sunflower": 1 }
+          "label": "“谁干的？告诉我，我这就去替你出气！”",
+          "tone": "护短型、仗义型",
+          "scores": { "cherryBomb": 3, "wallnut": 1 }
         },
         {
           "id": "q08-b",
-          "label": "马上换一条路，继续把目标往前推。",
-          "tone": "机动型、推进型",
-          "scores": { "peashooter": 3, "cherryBomb": 1 }
+          "label": "“别怕，这通电话打多久我都陪着你，明天我带着好吃的去找你。”",
+          "tone": "供养型、支持型",
+          "scores": { "sunflower": 3, "wallnut": 1 }
         },
         {
           "id": "q08-c",
-          "label": "先暂停一下，看看这次打断是不是隐藏信号。",
-          "tone": "观察型、判断型",
-          "scores": { "potatoMine": 3, "cabbagePult": 1 }
+          "label": "“这件事的底层逻辑其实是这样……我们可以从这几个维度来复盘。”",
+          "tone": "理智型、梳理型",
+          "scores": { "cabbagePult": 3, "peashooter": 1 }
         },
         {
           "id": "q08-d",
-          "label": "重新整理优先级，把新变量纳入整体布局。",
-          "tone": "统筹型、重构型",
-          "scores": { "cabbagePult": 3, "sunflower": 1 }
+          "label": "“先别急着下结论，说不定这正是你翻盘的最好引子。”",
+          "tone": "翻盘型、隐忍型",
+          "scores": { "potatoMine": 3, "cabbagePult": 1 }
         }
       ]
     },
     {
       "id": "q09",
-      "title": "高光时刻",
-      "prompt": "什么样的时刻最让你觉得“这就是我发挥价值的时候”？",
+      "title": "面对繁琐",
+      "prompt": "桌面上堆满了看似毫无意义却又不得不做的琐碎任务，你会？",
       "options": [
         {
           "id": "q09-a",
-          "label": "别人还在犹豫时，我已经开始解决了。",
-          "tone": "前冲型、执行型",
+          "label": "像没有感情的机器一样，突突突一口气全部扫射完毕。",
+          "tone": "高效型、推进型",
           "scores": { "peashooter": 3, "cherryBomb": 1 }
         },
         {
           "id": "q09-b",
-          "label": "团队状态乱的时候，我能把人和资源接住。",
-          "tone": "供能型、稳定型",
-          "scores": { "sunflower": 3, "wallnut": 1 }
-        },
-        {
-          "id": "q09-c",
-          "label": "大家快撑不住的时候，我还能扛住那一下。",
-          "tone": "守线型、可靠型",
+          "label": "耐着性子慢慢啃，把它当成修炼内心抗压能力的一种修行。",
+          "tone": "承压型、韧性型",
           "scores": { "wallnut": 3, "sunflower": 1 }
         },
         {
+          "id": "q09-c",
+          "label": "拖延到最后一刻，在极度焦虑中爆发出惊人的专注力，瞬间秒杀。",
+          "tone": "极限型、爆发型",
+          "scores": { "potatoMine": 3, "cherryBomb": 1 }
+        },
+        {
           "id": "q09-d",
-          "label": "别人看不见的关键点，我提前看到了。",
-          "tone": "洞察型、策略型",
-          "scores": { "potatoMine": 2, "cabbagePult": 2 }
+          "label": "先花一半时间建立一个分类系统，然后把它们分门别类丢进框里。",
+          "tone": "统筹型、归纳型",
+          "scores": { "cabbagePult": 3, "peashooter": 1 }
         }
       ]
     },
     {
       "id": "q10",
-      "title": "面对机会",
-      "prompt": "一个听起来很诱人的机会出现，但风险和收益都不透明，你会？",
+      "title": "被人误解",
+      "prompt": "当别人因为片面的信息而对你产生误会时，你的第一反应是？",
       "options": [
         {
           "id": "q10-a",
-          "label": "先抢占先机，进去之后再修正。",
-          "tone": "抢位型、行动型",
-          "scores": { "peashooter": 3, "cherryBomb": 1 }
+          "label": "不解释，甚至觉得有点好笑，真正的底牌没必要逢人就亮。",
+          "tone": "深藏型、低调型",
+          "scores": { "potatoMine": 3, "wallnut": 1 }
         },
         {
           "id": "q10-b",
-          "label": "先看看它能不能为长期关系和资源加分。",
-          "tone": "长期型、资源型",
-          "scores": { "sunflower": 3, "cabbagePult": 1 }
+          "label": "感到委屈，但更愿意通过持续的陪伴和行动，让时间证明一切。",
+          "tone": "长期型、维系型",
+          "scores": { "sunflower": 3, "wallnut": 1 }
         },
         {
           "id": "q10-c",
-          "label": "先确认最坏情况自己能不能兜住。",
-          "tone": "风险型、守备型",
-          "scores": { "wallnut": 3, "potatoMine": 1 }
+          "label": "第一时间冲上去澄清事实，把逻辑和证据拍在对方面前。",
+          "tone": "直接型、正面型",
+          "scores": { "peashooter": 3, "sunflower": 1 }
         },
         {
           "id": "q10-d",
-          "label": "再等等，先看局势如何发酵再决定。",
-          "tone": "时机型、耐心型",
-          "scores": { "potatoMine": 3, "cabbagePult": 1 }
+          "label": "彻底心寒，一旦信任破裂，就瞬间把这个人从生命里炸毁、除名。",
+          "tone": "决绝型、零容忍",
+          "scores": { "cherryBomb": 3, "potatoMine": 1 }
         }
       ]
     },
     {
       "id": "q11",
-      "title": "表达偏好",
-      "prompt": "如果别人误解了你，你更可能怎么澄清自己？",
+      "title": "游戏偏好",
+      "prompt": "在一场多人合作的生存游戏中，你最倾向于选择什么定位？",
       "options": [
         {
           "id": "q11-a",
-          "label": "直接说清楚事实，不绕弯子。",
-          "tone": "直球型、明确型",
-          "scores": { "peashooter": 3, "wallnut": 1 }
+          "label": "站在最后排纵观全局，用各种阵法和增益控制战场的辅助大脑。",
+          "tone": "全局型、控场型",
+          "scores": { "cabbagePult": 3, "sunflower": 1 }
         },
         {
           "id": "q11-b",
-          "label": "先照顾对方情绪，再慢慢把误会化开。",
-          "tone": "柔和型、安抚型",
-          "scores": { "sunflower": 3, "wallnut": 1 }
+          "label": "冲锋陷阵的脆皮输出，享受满屏伤害数字带来的极致快感。",
+          "tone": "输出型、爽感型",
+          "scores": { "peashooter": 3, "cherryBomb": 1 }
         },
         {
           "id": "q11-c",
-          "label": "不急着马上解释，先看误会是怎么形成的。",
-          "tone": "洞察型、慢判断型",
-          "scores": { "potatoMine": 3, "cabbagePult": 1 }
+          "label": "把防御点满的前排坦克，看着敌人打我不掉血的样子就觉得很安心。",
+          "tone": "守护型、抗压型",
+          "scores": { "wallnut": 3, "sunflower": 1 }
         },
         {
           "id": "q11-d",
-          "label": "把整个前因后果重新讲一遍，让对方看懂结构。",
-          "tone": "复盘型、全局型",
-          "scores": { "cabbagePult": 3, "sunflower": 1 }
+          "label": "平时看不见人影，只在残血局现身，一击完成华丽逆转的刺客。",
+          "tone": "潜伏型、收割型",
+          "scores": { "potatoMine": 3, "peashooter": 1 }
         }
       ]
     },
     {
       "id": "q12",
-      "title": "休息方式",
-      "prompt": "你最能恢复状态的休息方式通常是哪一种？",
+      "title": "天降横财",
+      "prompt": "突然得到一笔完全不受限制的意外奖金，你会如何使用？",
       "options": [
         {
           "id": "q12-a",
-          "label": "做点轻量但有反馈的小事，让自己重新热起来。",
-          "tone": "动能型、快恢复型",
-          "scores": { "peashooter": 3, "sunflower": 1 }
+          "label": "直接梭哈一个早就想买的大件，体验肾上腺素飙升的快乐。",
+          "tone": "冲动型、享受型",
+          "scores": { "cherryBomb": 3, "peashooter": 1 }
         },
         {
           "id": "q12-b",
-          "label": "慢慢补充能量，和舒服的人待在一起。",
-          "tone": "续航型、陪伴型",
-          "scores": { "sunflower": 3, "wallnut": 1 }
+          "label": "把它存进最稳妥的账户，或者加固现有的生活屏障，换取长久的安全感。",
+          "tone": "安全型、保守型",
+          "scores": { "wallnut": 3, "sunflower": 1 }
         },
         {
           "id": "q12-c",
-          "label": "回到安静安全的环境里，把自己包裹好。",
-          "tone": "安全型、收纳型",
-          "scores": { "wallnut": 3, "potatoMine": 1 }
+          "label": "买一些能提升日常幸福感的小物件，顺便请在乎的人吃顿大餐。",
+          "tone": "利他型、协调型",
+          "scores": { "sunflower": 3, "peashooter": 1 }
         },
         {
           "id": "q12-d",
-          "label": "独处一会儿，把脑子里的线重新理顺。",
-          "tone": "整理型、抽离型",
+          "label": "将其作为撬动更大资源的杠杆，投入到一个长期且复杂的计划中。",
+          "tone": "布局型、结构型",
           "scores": { "cabbagePult": 3, "potatoMine": 1 }
         }
       ]
     },
     {
       "id": "q13",
-      "title": "别人眼中的你",
-      "prompt": "别人最常用哪类词来形容你？",
+      "title": "心动时刻",
+      "prompt": "当你意识到自己对某个人产生了好感，你会如何行动？",
       "options": [
         {
           "id": "q13-a",
-          "label": "快、直接、有推进力。",
-          "tone": "推进型、锋利型",
-          "scores": { "peashooter": 3, "cherryBomb": 1 }
+          "label": "步步为营，放出若有似无的诱饵，等对方主动踩进自己的领地。",
+          "tone": "诱捕型、耐心型",
+          "scores": { "potatoMine": 3, "cabbagePult": 1 }
         },
         {
           "id": "q13-b",
-          "label": "温和、可靠、让人安心。",
-          "tone": "抚慰型、续航型",
-          "scores": { "sunflower": 3, "wallnut": 1 }
+          "label": "毫不掩饰眼里的光，用频繁的互动和直球表达去占据对方的视线。",
+          "tone": "主动型、直球型",
+          "scores": { "peashooter": 3, "cherryBomb": 1 }
         },
         {
           "id": "q13-c",
-          "label": "稳、能扛、值得信赖。",
-          "tone": "守护型、承担型",
+          "label": "默默成为对方生活里最可靠的后盾，只要他回头，就能看到你。",
+          "tone": "守护型、陪伴型",
           "scores": { "wallnut": 3, "sunflower": 1 }
         },
         {
           "id": "q13-d",
-          "label": "聪明、会看时机、关键时刻很准。",
-          "tone": "判断型、隐忍型",
-          "scores": { "potatoMine": 2, "cabbagePult": 2 }
+          "label": "审视两人关系的匹配度，从更高维度评估这段感情的长期可行性。",
+          "tone": "评估型、抽离型",
+          "scores": { "cabbagePult": 3, "wallnut": 1 }
         }
       ]
     },
     {
       "id": "q14",
-      "title": "临场决策",
-      "prompt": "事情发展得比预想更快，你通常怎么决策？",
+      "title": "面临淘汰",
+      "prompt": "在一场生存竞技中，你即将面临被淘汰的风险，你会？",
       "options": [
         {
           "id": "q14-a",
-          "label": "立刻给出一个能推动局面的方向。",
-          "tone": "快决策、推进型",
-          "scores": { "peashooter": 3, "cherryBomb": 1 }
+          "label": "宁为玉碎不为瓦全，就算是走，也要拉一个最强的垫背。",
+          "tone": "玉碎型、爆发型",
+          "scores": { "cherryBomb": 3, "potatoMine": 1 }
         },
         {
           "id": "q14-b",
-          "label": "先确认大家能不能接住，再决定力度。",
-          "tone": "照料型、稳态型",
-          "scores": { "sunflower": 3, "wallnut": 1 }
+          "label": "极致收缩防御，只要我不主动犯错，总有人会比我先倒下。",
+          "tone": "耗散型、防御型",
+          "scores": { "wallnut": 3, "cabbagePult": 1 }
         },
         {
           "id": "q14-c",
-          "label": "先把风险最高的地方堵上，避免局面翻车。",
-          "tone": "风险型、防守型",
-          "scores": { "wallnut": 3, "potatoMine": 1 }
+          "label": "抛弃所有顾虑，疯狂增加输出频率，用绝对的行动量搏一线生机。",
+          "tone": "拼搏型、极限输出",
+          "scores": { "peashooter": 3, "sunflower": 1 }
         },
         {
           "id": "q14-d",
-          "label": "先判断这是不是一次必须全力出手的窗口。",
-          "tone": "爆发型、判断型",
-          "scores": { "cherryBomb": 3, "potatoMine": 1 }
+          "label": "冷静研究规则漏洞，寻找从根本上掀翻这场局面的方法。",
+          "tone": "破壁型、系统思维",
+          "scores": { "cabbagePult": 3, "potatoMine": 1 }
         }
       ]
     },
     {
       "id": "q15",
-      "title": "长期任务",
-      "prompt": "面对漫长而重复的任务，你最靠什么把它做下去？",
+      "title": "房间整理",
+      "prompt": "看着一团糟的房间，你决定开始大扫除，你的风格是？",
       "options": [
         {
           "id": "q15-a",
-          "label": "靠持续的小反馈，让自己一直有推进感。",
-          "tone": "推进型、反馈型",
-          "scores": { "peashooter": 3, "sunflower": 1 }
+          "label": "找回遗忘在角落里的旧物，陷入回忆，最后只整理了一个抽屉。",
+          "tone": "挖掘型、怀旧型",
+          "scores": { "potatoMine": 3, "sunflower": 1 }
         },
         {
           "id": "q15-b",
-          "label": "靠稳定节奏和可持续安排。",
-          "tone": "蓄能型、耐久型",
-          "scores": { "sunflower": 3, "wallnut": 1 }
+          "label": "买一堆极具系统性的收纳盒，给每一件物品设定精确的经纬度。",
+          "tone": "秩序型、归纳型",
+          "scores": { "cabbagePult": 3, "wallnut": 1 }
         },
         {
           "id": "q15-c",
-          "label": "靠责任感，答应了就得顶住。",
-          "tone": "责任型、耐压型",
-          "scores": { "wallnut": 3, "sunflower": 1 }
+          "label": "挂上彩灯，换上暖色地毯，最重要的不是整洁，而是氛围拉满。",
+          "tone": "氛围型、供养型",
+          "scores": { "sunflower": 3, "cabbagePult": 1 }
         },
         {
           "id": "q15-d",
-          "label": "靠把它拆成阶段节点，等待关键收割点。",
-          "tone": "布局型、节奏型",
-          "scores": { "cabbagePult": 2, "potatoMine": 2 }
+          "label": "看着烦，直接拎起垃圾袋进行断舍离，扔掉一半东西瞬间清爽。",
+          "tone": "决断型、清理型",
+          "scores": { "cherryBomb": 3, "peashooter": 1 }
         }
       ]
     },
     {
       "id": "q16",
-      "title": "带新人",
-      "prompt": "如果你要带一个完全没经验的新人，你最自然的方式是？",
+      "title": "绝地反击",
+      "prompt": "在陷入被动许久后，终于迎来了反击的最佳时机，你会？",
       "options": [
         {
           "id": "q16-a",
-          "label": "先让他动起来，在实践里学得最快。",
-          "tone": "实战型、快上手型",
-          "scores": { "peashooter": 3, "cherryBomb": 1 }
+          "label": "酝酿已久的杀手锏在此刻破土而出，用惊人的伤害给对方致命一击。",
+          "tone": "绝杀型、后发制人",
+          "scores": { "potatoMine": 3, "cherryBomb": 1 }
         },
         {
           "id": "q16-b",
-          "label": "先给他安全感和节奏，让他不慌。",
-          "tone": "照料型、陪跑型",
-          "scores": { "sunflower": 3, "wallnut": 1 }
+          "label": "不讲武德，直接制造一场声势浩大的混乱，把对方的心态彻底炸崩。",
+          "tone": "震慑型、火力覆盖",
+          "scores": { "cherryBomb": 3, "peashooter": 1 }
         },
         {
           "id": "q16-c",
-          "label": "先告诉他哪些坑不能踩，建立底线意识。",
-          "tone": "边界型、守护型",
-          "scores": { "wallnut": 3, "potatoMine": 1 }
+          "label": "用无懈可击的逻辑链条和层层嵌套的计划，像收网一样绞杀对方。",
+          "tone": "织网型、高维打击",
+          "scores": { "cabbagePult": 3, "potatoMine": 1 }
         },
         {
           "id": "q16-d",
-          "label": "先讲清地图和方法，让他知道自己在做什么。",
-          "tone": "结构型、导师型",
-          "scores": { "cabbagePult": 3, "sunflower": 1 }
+          "label": "积攒了足够的底气，开始源源不断地进行正面施压，直到对方崩溃。",
+          "tone": "持续施压、正攻法",
+          "scores": { "peashooter": 3, "wallnut": 1 }
         }
       ]
     },
     {
       "id": "q17",
-      "title": "资源有限时",
-      "prompt": "时间、人手、预算都不太够时，你会优先做什么？",
+      "title": "面对赞美",
+      "prompt": "当别人当众对你进行高调且真诚的赞美时，你心里通常在想什么？",
       "options": [
         {
           "id": "q17-a",
-          "label": "先做最能见效的那一部分，赢一口气。",
-          "tone": "先手型、见效型",
-          "scores": { "peashooter": 3, "cherryBomb": 1 }
+          "label": "像阳光照在身上一样温暖，赶紧回赞对方，把这份美好传递回去。",
+          "tone": "吸收型、反哺型",
+          "scores": { "sunflower": 3, "peashooter": 1 }
         },
         {
           "id": "q17-b",
-          "label": "先保障基本运转，让队伍不散掉。",
-          "tone": "供给型、维持型",
-          "scores": { "sunflower": 3, "wallnut": 1 }
+          "label": "表面云淡风轻甚至有点面瘫，但心里的小地雷已经开心地跳起舞来。",
+          "tone": "闷骚型、反差型",
+          "scores": { "potatoMine": 3, "wallnut": 1 }
         },
         {
           "id": "q17-c",
-          "label": "先守住最不能失手的核心区域。",
-          "tone": "防守型、底线型",
-          "scores": { "wallnut": 3, "sunflower": 1 }
+          "label": "理所应当，这就是我努力应得的，甚至觉得他们夸得还不够精准。",
+          "tone": "自信型、直面型",
+          "scores": { "peashooter": 3, "cherryBomb": 1 }
         },
         {
           "id": "q17-d",
-          "label": "先找那个一旦命中就能扭转局势的点。",
-          "tone": "关键点、爆破型",
-          "scores": { "potatoMine": 2, "cherryBomb": 2 }
+          "label": "默默退后半步，思考这份赞美背后是否带有某种期待或隐性的人情交换。",
+          "tone": "警惕型、抽离型",
+          "scores": { "cabbagePult": 3, "potatoMine": 1 }
         }
       ]
     },
     {
       "id": "q18",
-      "title": "你最怕的状态",
-      "prompt": "哪种状态最容易让你觉得“这不是我想要的节奏”？",
+      "title": "秘密保管",
+      "prompt": "朋友向你倾诉了一个惊天大秘密，你会如何处理？",
       "options": [
         {
           "id": "q18-a",
-          "label": "所有事都拖着不动，没有明确推进。",
-          "tone": "厌停滞型",
-          "scores": { "peashooter": 3, "cherryBomb": 1 }
-        },
-        {
-          "id": "q18-b",
-          "label": "大家各忙各的，却没人照顾整体状态。",
-          "tone": "厌失联型",
-          "scores": { "sunflower": 3, "cabbagePult": 1 }
-        },
-        {
-          "id": "q18-c",
-          "label": "边界被反复踩线，风险越来越高。",
-          "tone": "厌失守型",
+          "label": "就像吞进了一块石头，死死压在心底，甚至对自己的记忆都设下防火墙。",
+          "tone": "封存型、死守型",
           "scores": { "wallnut": 3, "potatoMine": 1 }
         },
         {
+          "id": "q18-b",
+          "label": "听完之后就用上帝视角将其归档，觉得这不过是人类复杂系统中的一个寻常bug。",
+          "tone": "冷峻型、客观型",
+          "scores": { "cabbagePult": 3, "wallnut": 1 }
+        },
+        {
+          "id": "q18-c",
+          "label": "虽然绝不说出去，但每次看到相关的人，眼神总不自觉地闪烁，像憋着个大招。",
+          "tone": "憋气型、微表情",
+          "scores": { "potatoMine": 3, "peashooter": 1 }
+        },
+        {
           "id": "q18-d",
-          "label": "场面很热闹，但谁都没想清楚要点。",
-          "tone": "厌空转型",
-          "scores": { "cabbagePult": 2, "potatoMine": 2 }
+          "label": "情绪波动极大，差点当场炸毛，表现得甚至比当事人还要激动。",
+          "tone": "共情爆炸、情绪共振",
+          "scores": { "cherryBomb": 3, "sunflower": 1 }
         }
       ]
     },
     {
       "id": "q19",
-      "title": "成就感来源",
-      "prompt": "哪一种结果最能给你真实的成就感？",
+      "title": "遗忘角落",
+      "prompt": "在团体中，如果你发现自己逐渐被边缘化，你的反应是？",
       "options": [
         {
           "id": "q19-a",
-          "label": "事情真的被我推进了，而且推进得很漂亮。",
-          "tone": "推动型、命中型",
-          "scores": { "peashooter": 3, "cabbagePult": 1 }
+          "label": "无所谓，正好落得清静，躲在暗处观察他们的表演也挺有意思的。",
+          "tone": "隐形型、冷眼旁观",
+          "scores": { "potatoMine": 3, "cabbagePult": 1 }
         },
         {
           "id": "q19-b",
-          "label": "因为我在，别人和团队都变得更稳了。",
-          "tone": "滋养型、支持型",
+          "label": "感觉能量被抽干，会努力去寻找能重新建立情感连接的触点。",
+          "tone": "趋光型、关系依赖",
           "scores": { "sunflower": 3, "wallnut": 1 }
         },
         {
           "id": "q19-c",
-          "label": "一场本可能失控的局面，最后被我守住了。",
-          "tone": "兜底型、守线型",
-          "scores": { "wallnut": 3, "sunflower": 1 }
+          "label": "哪里有事做就去哪里，用极高的办事效率重新刷出强烈的存在感。",
+          "tone": "行动派、存在感",
+          "scores": { "peashooter": 3, "cherryBomb": 1 }
         },
         {
           "id": "q19-d",
-          "label": "我判断对了关键时机，一次出手就改写结果。",
-          "tone": "关键点、爆发型",
-          "scores": { "potatoMine": 2, "cherryBomb": 2 }
+          "label": "忍无可忍，制造一个足够吸引眼球的事件，强行把聚光灯拉回自己身上。",
+          "tone": "破壁者、强干预",
+          "scores": { "cherryBomb": 3, "peashooter": 1 }
         }
       ]
     },
     {
       "id": "q20",
-      "title": "终局偏好",
-      "prompt": "如果把你放进一场漫长战局，你最想成为哪种存在？",
+      "title": "自我定义",
+      "prompt": "如果必须用一句略带中二的台词来总结你的人生哲学，你会选？",
       "options": [
         {
           "id": "q20-a",
-          "label": "持续压制、稳定输出的前场火力。",
-          "tone": "持续进攻型",
-          "scores": { "peashooter": 3, "wallnut": 1 }
-        },
-        {
-          "id": "q20-b",
-          "label": "默默供能，却让整片阵地越打越顺。",
-          "tone": "供能续航型",
-          "scores": { "sunflower": 3, "cabbagePult": 1 }
-        },
-        {
-          "id": "q20-c",
-          "label": "最前方那道让人安心的防线。",
-          "tone": "守住阵线型",
+          "label": "“最好的防守就是坚不可摧，我站在这里，就是你们的底气。”",
+          "tone": "守护者、绝对壁垒",
           "scores": { "wallnut": 3, "sunflower": 1 }
         },
         {
-          "id": "q20-d",
-          "label": "关键时刻落下一击，直接决定战局走向。",
-          "tone": "终结爆发型",
+          "id": "q20-b",
+          "label": "“不要轻易试探我的底线，当一切无可挽回时，我会掀翻整张桌子。”",
+          "tone": "引爆者、极端浪漫",
           "scores": { "cherryBomb": 3, "potatoMine": 1 }
+        },
+        {
+          "id": "q20-c",
+          "label": "“他们只看到了我的平庸，却不知道我在等待一个改写结局的契机。”",
+          "tone": "潜伏者、终极后手",
+          "scores": { "potatoMine": 3, "cabbagePult": 1 }
+        },
+        {
+          "id": "q20-d",
+          "label": "“不在乎一时的得失，因为我是那个在云端俯瞰整个棋局的棋手。”",
+          "tone": "执棋者、绝对理性",
+          "scores": { "cabbagePult": 3, "wallnut": 1 }
         }
       ]
     }

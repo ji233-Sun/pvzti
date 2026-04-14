@@ -4,8 +4,11 @@ import { readFileSync } from "node:fs";
 
 import {
   buildAssessmentContext,
+  buildChatCompletionsPayloads,
+  prioritizePayloadVariantsForBaseUrl,
   parseAssessmentResult,
   createFallbackAssessmentResult,
+  extractProviderErrorMessage,
 } from "../lib/pvzti/assessment.ts";
 import { plantOrder, plantProfiles } from "../lib/pvzti/plants.ts";
 import {
@@ -155,6 +158,70 @@ test("parseAssessmentResult keeps AI scores when payload is valid", () => {
   assert.equal(aiResult.source, "ai");
   assert.equal(aiResult.leadingPlantId, "sunflower");
   assert.equal(aiResult.scores.sunflower, 88);
+});
+
+test("buildChatCompletionsPayloads creates a strict request and two compatibility fallbacks", () => {
+  const summary = calculateBaseScores(mockQuestionBank, mockAnswers);
+  const context = buildAssessmentContext({
+    questionBank: mockQuestionBank,
+    answers: mockAnswers,
+    summary,
+  });
+
+  const payloads = buildChatCompletionsPayloads({
+    context,
+    model: "gpt-4.1-mini",
+  });
+
+  assert.equal(payloads.length, 3);
+  assert.equal(payloads[0]?.label, "strict-json-schema");
+  assert.equal(payloads[0]?.body.messages[0]?.role, "developer");
+  assert.equal(payloads[0]?.body.response_format.type, "json_schema");
+  assert.equal(payloads[0]?.body.max_completion_tokens, 900);
+
+  assert.equal(payloads[1]?.label, "compatible-json-object");
+  assert.equal(payloads[1]?.body.messages[0]?.role, "system");
+  assert.equal(payloads[1]?.body.response_format.type, "json_object");
+  assert.equal(payloads[1]?.body.max_tokens, 900);
+  assert.equal("max_completion_tokens" in payloads[1]!.body, false);
+
+  assert.equal(payloads[2]?.label, "compatible-plain-json");
+  assert.equal(payloads[2]?.body.messages[0]?.role, "system");
+  assert.equal("response_format" in payloads[2]!.body, false);
+  assert.equal(payloads[2]?.body.max_tokens, 900);
+});
+
+test("extractProviderErrorMessage reads common OpenAI-compatible error payloads", () => {
+  const errorMessage = extractProviderErrorMessage({
+    error: {
+      message: "Unsupported parameter: response_format.type=json_schema",
+    },
+  });
+
+  assert.equal(errorMessage, "Unsupported parameter: response_format.type=json_schema");
+});
+
+test("prioritizePayloadVariantsForBaseUrl prefers compatible variants for DeepSeek", () => {
+  const summary = calculateBaseScores(mockQuestionBank, mockAnswers);
+  const context = buildAssessmentContext({
+    questionBank: mockQuestionBank,
+    answers: mockAnswers,
+    summary,
+  });
+
+  const payloads = buildChatCompletionsPayloads({
+    context,
+    model: "deepseek-chat",
+  });
+
+  const prioritized = prioritizePayloadVariantsForBaseUrl(
+    payloads,
+    "https://api.deepseek.com/v1",
+  );
+
+  assert.equal(prioritized[0]?.label, "compatible-json-object");
+  assert.equal(prioritized[1]?.label, "compatible-plain-json");
+  assert.equal(prioritized[2]?.label, "strict-json-schema");
 });
 
 test("createFallbackAssessmentResult bases both comments on the top plant", () => {
