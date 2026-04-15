@@ -1,0 +1,11 @@
+.git
+.next
+.ace-tool
+node_modules
+coverage
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.env*
+!.env.example
