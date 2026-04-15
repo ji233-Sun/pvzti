@@ -60,30 +60,11 @@ export type PlantProfile = {
   bias: string[];
 };
 
-export type AnswerSummary = {
-  questionId: string;
-  title: string;
-  prompt: string;
-  selectedOptionId: string;
-  selectedOptionLabel: string;
-  selectedTone: string;
-  selectedScores: Partial<Record<PlantId, number>>;
-};
-
-export type AssessmentContext = {
-  leadingPlantId: PlantId;
-  rawScores: DimensionScores;
-  baseScores: DimensionScores;
-  answers: AnswerSummary[];
-  answerTranscript: string[];
-  plants: PlantProfile[];
-};
-
 export type AssessmentResult = {
   scores: DimensionScores;
   leadingPlantId: PlantId;
   detailedComment: string;
   playfulComment: string;
-  source: "ai" | "fallback";
+  source: "rule";
   notice?: string;
 };

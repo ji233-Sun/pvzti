@@ -53,8 +53,7 @@ export function QuizLanding() {
           用 20 道题，测出你更像哪株植物。
         </h1>
         <p className="mt-4 max-w-2xl text-base leading-8 text-muted-foreground sm:text-lg">
-          这是一个借鉴 MBTI 体验节奏的轻量人格测评。你会在 20 道题里留下偏好轨迹，我们先做基础维度计算，再在结束阶段用 AI
-          结合植物画像进行二次评估。
+          这是一个借鉴 MBTI 体验节奏的轻量人格测评。你会在 20 道题里留下偏好轨迹，系统会直接依据题目里的维度分值计算结果，并给出对应的植物人格解析。
         </p>
         <div className="mt-8 flex flex-wrap gap-3 text-sm text-muted-foreground">
           <span className="rounded-full border border-border bg-background px-3 py-1">
@@ -64,7 +63,7 @@ export function QuizLanding() {
             6 个植物维度
           </span>
           <span className="rounded-full border border-border bg-background px-3 py-1">
-            AI 详细评语
+            规则结果解析
           </span>
         </div>
         <p className="mt-6 text-sm leading-6 text-muted-foreground">

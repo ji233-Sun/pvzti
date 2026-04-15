@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import { ArrowLeft, LoaderCircle, RefreshCcw, Sparkles } from "lucide-react";
+import { ArrowLeft, LoaderCircle, RefreshCcw, ShieldCheck } from "lucide-react";
 
 import { plantThemeMap } from "@/components/pvzti/plant-theme";
 import { Button } from "@/components/ui/button";
@@ -114,18 +114,15 @@ export function QuizResult() {
           </div>
 
           <div className="min-w-52 rounded-[1.5rem] border border-border/70 bg-background/85 p-5">
-            <div className="text-sm text-muted-foreground">结果来源</div>
+            <div className="text-sm text-muted-foreground">评分方式</div>
             <div className="mt-2 flex items-center gap-2 text-base font-medium text-foreground">
-              <Sparkles className="size-4 text-primary" />
-              {result.source === "ai" ? "AI 增强评分" : "规则降级结果"}
+              <ShieldCheck className="size-4 text-primary" />
+              规则计算结果
             </div>
             <div className="mt-4 text-sm text-muted-foreground">当前题目来源</div>
             <div className="mt-2 text-base font-medium text-foreground">
               {session.mode === "ai-generated" ? "AI智能出题" : "标准题库"}
             </div>
-            {result.notice ? (
-              <p className="mt-3 text-sm leading-6 text-muted-foreground">{result.notice}</p>
-            ) : null}
           </div>
         </div>
       </div>

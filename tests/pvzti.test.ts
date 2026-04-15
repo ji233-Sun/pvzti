@@ -3,10 +3,7 @@ import test from "node:test";
 import { readFileSync } from "node:fs";
 
 import {
-  buildAssessmentContext,
-  buildChatCompletionsPayloads,
   prioritizePayloadVariantsForBaseUrl,
-  parseAssessmentResult,
   createFallbackAssessmentResult,
   extractProviderErrorMessage,
 } from "../lib/pvzti/assessment.ts";
@@ -152,92 +149,6 @@ test("calculateBaseScores tallies raw scores and normalizes each plant dimension
   assert.equal(summary.leadingPlantId, plantOrder[1]);
 });
 
-test("buildAssessmentContext includes selected answers, raw scores, and plant profiles", () => {
-  const summary = calculateBaseScores(mockQuestionBank, mockAnswers);
-  const context = buildAssessmentContext({
-    questionBank: mockQuestionBank,
-    answers: mockAnswers,
-    summary,
-  });
-
-  assert.equal(context.leadingPlantId, "sunflower");
-  assert.equal(context.answers.length, 2);
-  assert.equal(
-    context.answers[0]?.selectedOptionLabel,
-    "先把资源和士气都拉满，再稳步推进。",
-  );
-  assert.match(
-    context.answerTranscript[0] ?? "",
-    /第一题：面对新项目时，你通常先做什么？[\s\S]*用户选择：先把资源和士气都拉满，再稳步推进。/,
-  );
-  assert.equal(context.baseScores.wallnut, 100);
-  assert.equal(context.plants[0]?.id, "peashooter");
-  assert.equal(context.plants.at(-1)?.id, "cherryBomb");
-});
-
-test("parseAssessmentResult keeps AI scores when payload is valid", () => {
-  const summary = calculateBaseScores(mockQuestionBank, mockAnswers);
-  const aiResult = parseAssessmentResult({
-    rawText: JSON.stringify({
-      scores: {
-        peashooter: 22,
-        sunflower: 88,
-        wallnut: 74,
-        potatoMine: 20,
-        cabbagePult: 36,
-        cherryBomb: 18,
-      },
-      detailedComment: "你像向日葵一样，擅长把能量和秩序带进团队。",
-      playfulComment: "你是会发光的后勤 MVP。",
-    }),
-    fallbackSummary: summary,
-  });
-
-  assert.equal(aiResult.source, "ai");
-  assert.equal(aiResult.leadingPlantId, "sunflower");
-  assert.equal(aiResult.scores.sunflower, 88);
-});
-
-test("buildChatCompletionsPayloads creates a strict request and two compatibility fallbacks", () => {
-  const summary = calculateBaseScores(mockQuestionBank, mockAnswers);
-  const context = buildAssessmentContext({
-    questionBank: mockQuestionBank,
-    answers: mockAnswers,
-    summary,
-  });
-
-  const payloads = buildChatCompletionsPayloads({
-    context,
-    model: "gpt-4.1-mini",
-  });
-
-  assert.equal(payloads.length, 3);
-  assert.equal(payloads[0]?.label, "strict-json-schema");
-  assert.equal(payloads[0]?.body.messages[0]?.role, "developer");
-  assert.match(
-    payloads[0]?.body.messages[0]?.content ?? "",
-    /逐题阅读用户的题面与所选答案，并在评语中体现这些作答线索/,
-  );
-  assert.equal(payloads[0]?.body.response_format.type, "json_schema");
-  assert.equal(payloads[0]?.body.max_completion_tokens, 900);
-  assert.match(payloads[0]?.body.messages[1]?.content ?? "", /"answerTranscript": \[/);
-
-  assert.equal(payloads[1]?.label, "compatible-json-object");
-  assert.equal(payloads[1]?.body.messages[0]?.role, "system");
-  assert.match(
-    payloads[1]?.body.messages[0]?.content ?? "",
-    /详细评语必须结合题面与所选答案，总结用户反复出现的偏好与行为模式/,
-  );
-  assert.equal(payloads[1]?.body.response_format.type, "json_object");
-  assert.equal(payloads[1]?.body.max_tokens, 900);
-  assert.equal("max_completion_tokens" in payloads[1]!.body, false);
-
-  assert.equal(payloads[2]?.label, "compatible-plain-json");
-  assert.equal(payloads[2]?.body.messages[0]?.role, "system");
-  assert.equal("response_format" in payloads[2]!.body, false);
-  assert.equal(payloads[2]?.body.max_tokens, 900);
-});
-
 test("extractProviderErrorMessage reads common OpenAI-compatible error payloads", () => {
   const errorMessage = extractProviderErrorMessage({
     error: {
@@ -249,17 +160,20 @@ test("extractProviderErrorMessage reads common OpenAI-compatible error payloads"
 });
 
 test("prioritizePayloadVariantsForBaseUrl prefers compatible variants for DeepSeek", () => {
-  const summary = calculateBaseScores(mockQuestionBank, mockAnswers);
-  const context = buildAssessmentContext({
-    questionBank: mockQuestionBank,
-    answers: mockAnswers,
-    summary,
-  });
-
-  const payloads = buildChatCompletionsPayloads({
-    context,
-    model: "deepseek-chat",
-  });
+  const payloads = [
+    {
+      label: "strict-json-schema" as const,
+      body: { model: "deepseek-chat", temperature: 0.7, messages: [] },
+    },
+    {
+      label: "compatible-json-object" as const,
+      body: { model: "deepseek-chat", temperature: 0.7, messages: [] },
+    },
+    {
+      label: "compatible-plain-json" as const,
+      body: { model: "deepseek-chat", temperature: 0.7, messages: [] },
+    },
+  ];
 
   const prioritized = prioritizePayloadVariantsForBaseUrl(
     payloads,
@@ -271,7 +185,7 @@ test("prioritizePayloadVariantsForBaseUrl prefers compatible variants for DeepSe
   assert.equal(prioritized[2]?.label, "strict-json-schema");
 });
 
-test("createFallbackAssessmentResult bases both comments on the top plant", () => {
+test("createFallbackAssessmentResult returns a rule-based result from normalized scores", () => {
   const fallback = createFallbackAssessmentResult({
     summary: {
       rawScores: {
@@ -305,8 +219,17 @@ test("createFallbackAssessmentResult bases both comments on the top plant", () =
   });
 
   assert.equal(fallback.leadingPlantId, "sunflower");
+  assert.deepEqual(fallback.scores, {
+    peashooter: 20,
+    sunflower: 90,
+    wallnut: 40,
+    potatoMine: 10,
+    cabbagePult: 30,
+    cherryBomb: 20,
+  });
   assert.match(fallback.detailedComment, /向日葵/);
   assert.match(fallback.playfulComment, /向日葵/);
+  assert.equal(fallback.source, "rule");
 });
 
 test("loadQuizSession falls back to an empty session when storage is empty or malformed", () => {
@@ -331,7 +254,7 @@ test("saveQuizSession persists answers, progress, and result for later routes", 
     leadingPlantId: "sunflower",
     detailedComment: "你擅长为团队补足能量。",
     playfulComment: "会发光的后勤 MVP。",
-    source: "ai",
+    source: "rule",
   };
 
   const session = {
@@ -504,10 +427,16 @@ test("assessment route rejects requests without a valid question bank", async ()
   assert.match(await response.text(), /题库/);
 });
 
-test("assessment route calculates fallback results from the provided question bank", async () => {
+test("assessment route returns rule-based results without calling AI scoring", async () => {
   const { POST: postAssessment } = await import("../app/api/assessment/route.ts");
   const previousApiKey = process.env.OPENAI_API_KEY;
-  delete process.env.OPENAI_API_KEY;
+  const previousFetch = globalThis.fetch;
+  let fetchCallCount = 0;
+  process.env.OPENAI_API_KEY = "test-key";
+  globalThis.fetch = (async (...args: Parameters<typeof fetch>) => {
+    fetchCallCount += 1;
+    return previousFetch(...args);
+  }) as typeof fetch;
 
   const customQuestionBank: QuestionBank = {
     ...defaultQuestionBank,
@@ -541,12 +470,17 @@ test("assessment route calculates fallback results from the provided question ba
     assert.equal(response.status, 200);
 
     const payload = (await response.json()) as AssessmentResult & { notice?: string };
-    assert.equal(payload.source, "fallback");
-    assert.match(payload.notice ?? "", /OPENAI_API_KEY/);
+    assert.equal(payload.source, "rule");
+    assert.equal(payload.notice, undefined);
+    assert.equal(fetchCallCount, 0);
   } finally {
+    globalThis.fetch = previousFetch;
     if (previousApiKey) {
       process.env.OPENAI_API_KEY = previousApiKey;
+      return;
     }
+
+    delete process.env.OPENAI_API_KEY;
   }
 });
 
@@ -559,6 +493,8 @@ test("quiz landing exposes both standard and ai entry points", () => {
   assert.match(source, /标准题库/);
   assert.match(source, /AI智能出题/);
   assert.match(source, /router\.push\(\"\/quiz\/ai\"\)/);
+  assert.doesNotMatch(source, /AI 详细评语/);
+  assert.doesNotMatch(source, /二次评估/);
 });
 
 test("ai quiz routes render the dedicated config and generating components", () => {
@@ -607,6 +543,7 @@ test("quiz runtime screens resolve the active question bank from session helpers
   assert.doesNotMatch(quizQuestionsSource, /import \{ questionBank \} from/);
   assert.doesNotMatch(quizLoadingSource, /import \{ questionBank \} from/);
   assert.doesNotMatch(quizResultSource, /import \{ questionBank \} from/);
+  assert.doesNotMatch(quizResultSource, /AI 增强评分|规则降级结果/);
 });
 
 test("quiz option cards do not render tone labels under the option copy", () => {

@@ -49,11 +49,15 @@ function sanitizeResult(value: unknown): AssessmentResult | null {
     return null;
   }
 
+  const legacySource = value.source;
+  const hasSupportedSource =
+    legacySource === "rule" || legacySource === "ai" || legacySource === "fallback";
+
   if (
     !isPlantId(value.leadingPlantId) ||
     typeof value.detailedComment !== "string" ||
     typeof value.playfulComment !== "string" ||
-    (value.source !== "ai" && value.source !== "fallback") ||
+    !hasSupportedSource ||
     !isRecord(value.scores)
   ) {
     return null;
@@ -77,7 +81,7 @@ function sanitizeResult(value: unknown): AssessmentResult | null {
     leadingPlantId: value.leadingPlantId,
     detailedComment: value.detailedComment,
     playfulComment: value.playfulComment,
-    source: value.source,
+    source: "rule",
     ...(typeof value.notice === "string" ? { notice: value.notice } : {}),
   };
 }

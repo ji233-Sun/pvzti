@@ -27,8 +27,7 @@ export default function Home() {
               如果人格是一片草坪，你会长成哪株植物？
             </h1>
             <p className="mt-5 max-w-2xl text-lg leading-8 text-muted-foreground">
-              这是一套借鉴 MBTI 体验节奏的植物人格测评。你会在 20 道题里留下偏好路径，系统先做基础维度计算，再在结束阶段用 AI
-              根据你的答案与植物画像进行二次分析。
+              这是一套借鉴 MBTI 体验节奏的植物人格测评。你会在 20 道题里留下偏好路径，系统会直接依据题目里的维度分值计算结果，并给出对应的植物人格解析。
             </p>
             <div className="mt-8 flex flex-wrap gap-3 text-sm text-muted-foreground">
               <span className="rounded-full border border-border bg-background px-3 py-1">
@@ -38,7 +37,7 @@ export default function Home() {
                 6 个植物维度
               </span>
               <span className="rounded-full border border-border bg-background px-3 py-1">
-                AI 详细结果
+                规则结果解析
               </span>
             </div>
             <div className="mt-10 flex flex-wrap gap-3">

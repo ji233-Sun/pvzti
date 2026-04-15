@@ -75,7 +75,7 @@ export function QuizExperience() {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ answers }),
+        body: JSON.stringify({ questionBank, answers }),
       });
 
       const payload = (await response.json()) as AssessmentResult & { error?: string };
@@ -104,8 +104,7 @@ export function QuizExperience() {
             用 20 道题，测出你更像哪株植物。
           </h1>
           <p className="mt-4 max-w-2xl text-base leading-8 text-muted-foreground sm:text-lg">
-            这是一个借鉴 MBTI 体验节奏的轻量人格测评。你会在 20 道题里留下偏好轨迹，我们先做基础维度计算，再在结束阶段用 AI
-            结合植物画像进行二次评估。
+            这是一个借鉴 MBTI 体验节奏的轻量人格测评。你会在 20 道题里留下偏好轨迹，系统会直接依据题目里的维度分值计算结果，并给出对应的植物人格解析。
           </p>
           <div className="mt-8 flex flex-wrap gap-3 text-sm text-muted-foreground">
             <span className="rounded-full border border-border bg-background px-3 py-1">
@@ -115,7 +114,7 @@ export function QuizExperience() {
               6 个植物维度
             </span>
             <span className="rounded-full border border-border bg-background px-3 py-1">
-              AI 详细评语
+              规则结果解析
             </span>
           </div>
           <div className="mt-10 flex flex-wrap gap-3">
@@ -204,16 +203,11 @@ export function QuizExperience() {
             </div>
 
             <div className="min-w-52 rounded-[1.5rem] border border-border/70 bg-background/85 p-5">
-              <div className="text-sm text-muted-foreground">结果来源</div>
+              <div className="text-sm text-muted-foreground">评分方式</div>
               <div className="mt-2 flex items-center gap-2 text-base font-medium text-foreground">
                 <Sparkles className="size-4 text-primary" />
-                {result.source === "ai" ? "AI 增强评分" : "规则降级结果"}
+                规则计算结果
               </div>
-              {result.notice ? (
-                <p className="mt-3 text-sm leading-6 text-muted-foreground">
-                  {result.notice}
-                </p>
-              ) : null}
             </div>
           </div>
         </div>
