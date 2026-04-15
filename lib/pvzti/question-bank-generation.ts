@@ -5,7 +5,7 @@ type ChatCompletionsBody = {
   model: string;
   temperature: number;
   messages: Array<{
-    role: "developer" | "system" | "user";
+    role: "system" | "user";
     content: string;
   }>;
   max_completion_tokens?: number;
@@ -146,7 +146,7 @@ export function buildQuestionBankGenerationPayloads({
         },
         messages: [
           {
-            role: "developer",
+            role: "system",
             content: `${sharedInstruction}\n输出必须是严格合法的 JSON，且总题数固定为 20。`,
           },
           {

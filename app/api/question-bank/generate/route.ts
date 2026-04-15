@@ -54,38 +54,43 @@ export async function POST(request: Request) {
   let lastFailureMessage = "AI 题库生成失败，请稍后重试。";
 
   for (const variant of payloadVariants) {
-    const completionResponse = await fetch(`${baseUrl}/chat/completions`, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Authorization: `Bearer ${apiKey}`,
-      },
-      body: JSON.stringify(variant.body),
-      cache: "no-store",
-      signal: AbortSignal.timeout(30000),
-    });
+    try {
+      const completionResponse = await fetch(`${baseUrl}/chat/completions`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${apiKey}`,
+        },
+        body: JSON.stringify(variant.body),
+        cache: "no-store",
+        signal: AbortSignal.timeout(30000),
+      });
 
-    if (!completionResponse.ok) {
-      const completionErrorPayload = (await completionResponse.json().catch(() => null)) as
-        | unknown
-        | null;
-      lastFailureMessage =
-        extractProviderErrorMessage(completionErrorPayload) ??
-        `AI 题库生成请求失败（${completionResponse.status}）。`;
+      if (!completionResponse.ok) {
+        const completionErrorPayload = (await completionResponse.json().catch(() => null)) as
+          | unknown
+          | null;
+        lastFailureMessage =
+          extractProviderErrorMessage(completionErrorPayload) ??
+          `AI 题库生成请求失败（${completionResponse.status}）。`;
+        continue;
+      }
+
+      const completionPayload = (await completionResponse.json()) as unknown;
+      const questionBank = parseGeneratedQuestionBank(
+        extractChatCompletionText(completionPayload),
+      );
+
+      if (!questionBank) {
+        lastFailureMessage = `AI 已返回内容，但 ${variant.label} 的题库结构不合法。`;
+        continue;
+      }
+
+      return NextResponse.json({ questionBank });
+    } catch {
+      lastFailureMessage = "AI 题库生成失败，请稍后重试。";
       continue;
     }
-
-    const completionPayload = (await completionResponse.json()) as unknown;
-    const questionBank = parseGeneratedQuestionBank(
-      extractChatCompletionText(completionPayload),
-    );
-
-    if (!questionBank) {
-      lastFailureMessage = `AI 已返回内容，但 ${variant.label} 的题库结构不合法。`;
-      continue;
-    }
-
-    return NextResponse.json({ questionBank });
   }
 
   return createJsonErrorResponse(lastFailureMessage, 502);

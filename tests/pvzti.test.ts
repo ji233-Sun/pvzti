@@ -415,6 +415,7 @@ test("buildQuestionBankGenerationPayloads builds a strict json-schema request", 
   assert.equal(payloads.length, 3);
   assert.equal(payloads[0]?.label, "strict-json-schema");
   assert.equal(payloads[0]?.body.response_format?.type, "json_schema");
+  assert.equal(payloads[0]?.body.messages[0]?.role, "system");
   assert.match(payloads[0]?.body.messages[1]?.content ?? "", /校园社团协作/);
   assert.match(payloads[0]?.body.messages[1]?.content ?? "", /关系互动/);
 });
@@ -446,6 +447,46 @@ test("question bank generation route rejects a request with missing fields", asy
 
   assert.equal(response.status, 400);
   assert.match(await response.text(), /题目场景/);
+});
+
+test("question bank generation route returns json when provider request throws unexpectedly", async () => {
+  const { POST: generateQuestionBankPost } = await import(
+    "../app/api/question-bank/generate/route.ts"
+  );
+  const previousApiKey = process.env.OPENAI_API_KEY;
+  const previousFetch = globalThis.fetch;
+  process.env.OPENAI_API_KEY = "test-key";
+  globalThis.fetch = (async () => {
+    throw new Error("network down");
+  }) as typeof fetch;
+
+  try {
+    const response = await generateQuestionBankPost(
+      new Request("http://localhost/api/question-bank/generate", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          scenario: "校园社团协作",
+          tone: "轻松一点",
+          focus: "关系互动",
+        }),
+      }),
+    );
+
+    assert.equal(response.status, 502);
+    assert.match(response.headers.get("content-type") ?? "", /application\/json/);
+
+    const payload = (await response.json()) as { error?: string };
+    assert.match(payload.error ?? "", /AI 题库生成失败/);
+  } finally {
+    globalThis.fetch = previousFetch;
+    if (previousApiKey) {
+      process.env.OPENAI_API_KEY = previousApiKey;
+      return;
+    }
+
+    delete process.env.OPENAI_API_KEY;
+  }
 });
 
 test("assessment route rejects requests without a valid question bank", async () => {
@@ -557,6 +598,8 @@ test("ai generating screen requests the question-bank generation route and offer
   assert.match(source, /\/api\/question-bank\/generate/);
   assert.match(source, /重新生成/);
   assert.match(source, /切回标准题库/);
+  assert.match(source, /readGenerationResponse/);
+  assert.doesNotMatch(source, /const payload = \(await response\.json\(\)\) as GenerationResponse;/);
 });
 
 test("quiz runtime screens resolve the active question bank from session helpers", () => {

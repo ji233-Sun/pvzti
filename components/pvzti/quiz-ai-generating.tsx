@@ -18,6 +18,22 @@ type GenerationResponse = {
   error?: string;
 };
 
+const generationFallbackMessage = "AI 题库生成失败，请稍后重试。";
+
+async function readGenerationResponse(response: Response): Promise<GenerationResponse> {
+  const rawText = await response.text();
+
+  if (!rawText) {
+    return {};
+  }
+
+  try {
+    return JSON.parse(rawText) as GenerationResponse;
+  } catch {
+    return {};
+  }
+}
+
 export function QuizAiGenerating() {
   const router = useRouter();
   const [attempt, setAttempt] = useState(0);
@@ -36,33 +52,39 @@ export function QuizAiGenerating() {
 
       setErrorMessage(null);
 
-      const response = await fetch("/api/question-bank/generate", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(session.generationPrompt),
-      });
+      try {
+        const response = await fetch("/api/question-bank/generate", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(session.generationPrompt),
+        });
 
-      const payload = (await response.json()) as GenerationResponse;
+        const payload = await readGenerationResponse(response);
 
-      if (!response.ok || !payload.questionBank) {
-        if (!cancelled) {
-          setErrorMessage(payload.error ?? "AI 题库生成失败，请稍后重试。");
+        if (!response.ok || !payload.questionBank) {
+          if (!cancelled) {
+            setErrorMessage(payload.error ?? generationFallbackMessage);
+          }
+          return;
         }
-        return;
-      }
 
-      if (cancelled) {
-        return;
-      }
+        if (cancelled) {
+          return;
+        }
 
-      saveQuizSession(
-        window.sessionStorage,
-        createAiQuizSession({
-          questionBank: payload.questionBank,
-          generationPrompt: session.generationPrompt,
-        }),
-      );
-      router.replace("/quiz/questions");
+        saveQuizSession(
+          window.sessionStorage,
+          createAiQuizSession({
+            questionBank: payload.questionBank,
+            generationPrompt: session.generationPrompt,
+          }),
+        );
+        router.replace("/quiz/questions");
+      } catch {
+        if (!cancelled) {
+          setErrorMessage(generationFallbackMessage);
+        }
+      }
     }
 
     void generateQuestionBank();
