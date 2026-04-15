@@ -269,8 +269,3 @@ npm test
 - AI 智能出题依赖 OpenAI 兼容的 Chat Completions 接口
 - AI 出题模式要求生成的题库必须严格满足 20 题、每题 4 个选项
 - 当前结果体系固定为 6 种植物人格，不支持自定义人格模型
-
-## 参考文档
-
-- [`docs/pvzti-question-bank-prompt.md`](./docs/pvzti-question-bank-prompt.md)
-- [`docs/superpowers/specs/2026-04-15-ai-smart-question-mode-design.md`](./docs/superpowers/specs/2026-04-15-ai-smart-question-mode-design.md)
