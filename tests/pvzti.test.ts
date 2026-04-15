@@ -15,7 +15,15 @@ import {
   calculateBaseScores,
   validateQuestionBank,
 } from "../lib/pvzti/scoring.ts";
+import {
+  clearQuizSession,
+  createEmptyQuizSession,
+  hasCompleteQuizAnswers,
+  loadQuizSession,
+  saveQuizSession,
+} from "../lib/pvzti/quiz-session.ts";
 import type {
+  AssessmentResult,
   DimensionScores,
   QuestionBank,
   QuizAnswers,
@@ -83,6 +91,26 @@ const mockAnswers: QuizAnswers = {
   q2: "q2-o1",
 };
 
+function createMemoryStorage(initialValue?: string) {
+  let storedValue = initialValue ?? null;
+
+  return {
+    getItem(key: string) {
+      return key === "pvzti.quiz.session" ? storedValue : null;
+    },
+    setItem(key: string, value: string) {
+      if (key === "pvzti.quiz.session") {
+        storedValue = value;
+      }
+    },
+    removeItem(key: string) {
+      if (key === "pvzti.quiz.session") {
+        storedValue = null;
+      }
+    },
+  };
+}
+
 test("question bank validator accepts a complete 20-question JSON bank", () => {
   const questionBank = JSON.parse(
     readFileSync(new URL("../lib/pvzti/questions.json", import.meta.url), "utf8"),
@@ -132,6 +160,10 @@ test("buildAssessmentContext includes selected answers, raw scores, and plant pr
     context.answers[0]?.selectedOptionLabel,
     "先把资源和士气都拉满，再稳步推进。",
   );
+  assert.match(
+    context.answerTranscript[0] ?? "",
+    /第一题：面对新项目时，你通常先做什么？[\s\S]*用户选择：先把资源和士气都拉满，再稳步推进。/,
+  );
   assert.equal(context.baseScores.wallnut, 100);
   assert.equal(context.plants[0]?.id, "peashooter");
   assert.equal(context.plants.at(-1)?.id, "cherryBomb");
@@ -176,11 +208,20 @@ test("buildChatCompletionsPayloads creates a strict request and two compatibilit
   assert.equal(payloads.length, 3);
   assert.equal(payloads[0]?.label, "strict-json-schema");
   assert.equal(payloads[0]?.body.messages[0]?.role, "developer");
+  assert.match(
+    payloads[0]?.body.messages[0]?.content ?? "",
+    /逐题阅读用户的题面与所选答案，并在评语中体现这些作答线索/,
+  );
   assert.equal(payloads[0]?.body.response_format.type, "json_schema");
   assert.equal(payloads[0]?.body.max_completion_tokens, 900);
+  assert.match(payloads[0]?.body.messages[1]?.content ?? "", /"answerTranscript": \[/);
 
   assert.equal(payloads[1]?.label, "compatible-json-object");
   assert.equal(payloads[1]?.body.messages[0]?.role, "system");
+  assert.match(
+    payloads[1]?.body.messages[0]?.content ?? "",
+    /详细评语必须结合题面与所选答案，总结用户反复出现的偏好与行为模式/,
+  );
   assert.equal(payloads[1]?.body.response_format.type, "json_object");
   assert.equal(payloads[1]?.body.max_tokens, 900);
   assert.equal("max_completion_tokens" in payloads[1]!.body, false);
@@ -260,4 +301,50 @@ test("createFallbackAssessmentResult bases both comments on the top plant", () =
   assert.equal(fallback.leadingPlantId, "sunflower");
   assert.match(fallback.detailedComment, /向日葵/);
   assert.match(fallback.playfulComment, /向日葵/);
+});
+
+test("loadQuizSession falls back to an empty session when storage is empty or malformed", () => {
+  const emptyStorage = createMemoryStorage();
+  assert.deepEqual(loadQuizSession(emptyStorage), createEmptyQuizSession());
+
+  const malformedStorage = createMemoryStorage("{bad json");
+  assert.deepEqual(loadQuizSession(malformedStorage), createEmptyQuizSession());
+});
+
+test("saveQuizSession persists answers, progress, and result for later routes", () => {
+  const storage = createMemoryStorage();
+  const result: AssessmentResult = {
+    scores: {
+      peashooter: 18,
+      sunflower: 86,
+      wallnut: 64,
+      potatoMine: 22,
+      cabbagePult: 40,
+      cherryBomb: 30,
+    },
+    leadingPlantId: "sunflower",
+    detailedComment: "你擅长为团队补足能量。",
+    playfulComment: "会发光的后勤 MVP。",
+    source: "ai",
+  };
+
+  saveQuizSession(storage, {
+    answers: mockAnswers,
+    currentIndex: 1,
+    result,
+  });
+
+  assert.deepEqual(loadQuizSession(storage), {
+    answers: mockAnswers,
+    currentIndex: 1,
+    result,
+  });
+
+  clearQuizSession(storage);
+  assert.deepEqual(loadQuizSession(storage), createEmptyQuizSession());
+});
+
+test("hasCompleteQuizAnswers requires every question id to be answered", () => {
+  assert.equal(hasCompleteQuizAnswers(mockAnswers, mockQuestionBank.questions), true);
+  assert.equal(hasCompleteQuizAnswers({ q1: "q1-o1" }, mockQuestionBank.questions), false);
 });

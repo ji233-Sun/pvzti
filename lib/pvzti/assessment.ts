@@ -1,6 +1,14 @@
 import { plantProfiles, plantProfilesById } from "./plants";
 import { getLeadingPlantId } from "./scoring";
-import { plantIds, type AssessmentContext, type AssessmentResult, type BaseScoreSummary, type PlantProfile, type QuestionBank, type QuizAnswers } from "./types";
+import {
+  plantIds,
+  type AssessmentContext,
+  type AssessmentResult,
+  type BaseScoreSummary,
+  type PlantProfile,
+  type QuestionBank,
+  type QuizAnswers,
+} from "./types";
 
 type ChatCompletionsBody = {
   model: string;
@@ -33,8 +41,13 @@ type ChatCompletionsPayloadVariant = {
 const sharedInstructionLines = [
   "你是 PVZTI 测评分析器。",
   "请根据用户已选答案、基础维度分数、六个植物的画像与属性偏向，为六个植物维度输出 0-100 的整数分。",
+  "你会收到用户逐题作答数据，其中 answers 与 answerTranscript 都包含题面、选项、语气和基础打分线索。",
+  "请逐题阅读用户的题面与所选答案，并在评语中体现这些作答线索。",
   "最终的 detailedComment 与 playfulComment 必须只围绕最高分植物书写，不能混写多个植物人格。",
   "如果用户答案的语义与基础分数没有明显冲突，请尽量保持与基础分数接近，不要无理由颠覆。",
+  "详细评语必须结合题面与所选答案，总结用户反复出现的偏好与行为模式，并点出 1-2 个可能的盲点或压力反应。",
+  "如果答案里存在互相拉扯的倾向，可以简短解释这种张力，但最终结论仍要收束到最高分植物。",
+  "俏皮短评要短促、有记忆点，像给用户的一句昵称式总结。",
   "请用简洁但有画面感的中文输出。",
 ];
 
@@ -73,11 +86,21 @@ export function buildAssessmentContext({
     ];
   });
 
+  const answerTranscript = answerSummaries.map((answerSummary) =>
+    [
+      `${answerSummary.title}：${answerSummary.prompt}`,
+      `用户选择：${answerSummary.selectedOptionLabel}`,
+      `作答气质：${answerSummary.selectedTone}`,
+      `该题加分：${JSON.stringify(answerSummary.selectedScores)}`,
+    ].join("\n"),
+  );
+
   return {
     leadingPlantId: summary.leadingPlantId,
     rawScores: summary.rawScores,
     baseScores: summary.normalizedScores,
     answers: answerSummaries,
+    answerTranscript,
     plants: plantProfiles,
   };
 }

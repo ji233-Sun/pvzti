@@ -67,6 +67,7 @@ export type AssessmentContext = {
   rawScores: DimensionScores;
   baseScores: DimensionScores;
   answers: AnswerSummary[];
+  answerTranscript: string[];
   plants: PlantProfile[];
 };
 
