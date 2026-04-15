@@ -1,7 +1,7 @@
 services:
   pvzti:
     container_name: pvzti-app
-    image: ghcr.io/ji233-sun/pvzti:latest
+    image: ${PVZTI_IMAGE:-ghcr.io/ji233-sun/pvzti:latest}
     pull_policy: always
     ports:
       - "39123:3000"
