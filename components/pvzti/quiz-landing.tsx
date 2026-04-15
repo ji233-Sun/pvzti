@@ -1,24 +1,46 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { ArrowRight, RefreshCcw, ShieldCheck } from "lucide-react";
+import { ArrowRight, RefreshCcw, ShieldCheck, Sparkles } from "lucide-react";
 
 import { plantThemeMap } from "@/components/pvzti/plant-theme";
 import { Button } from "@/components/ui/button";
-import { clearQuizSession } from "@/lib/pvzti/quiz-session";
+import {
+  createDefaultQuizSession,
+  getActiveQuestionBank,
+  loadQuizSession,
+  saveQuizSession,
+} from "@/lib/pvzti/quiz-session";
 import { plantProfilesById, plantOrder } from "@/lib/pvzti/plants";
 import { cn } from "@/lib/utils";
 
 export function QuizLanding() {
   const router = useRouter();
 
-  function startFreshQuiz() {
-    clearQuizSession(window.sessionStorage);
+  function startStandardQuiz() {
+    saveQuizSession(window.sessionStorage, createDefaultQuizSession());
     router.push("/quiz/questions");
   }
 
   function continueQuiz() {
-    router.push("/quiz/questions");
+    const session = loadQuizSession(window.sessionStorage);
+
+    if (session.mode === "ai-generated" && session.generationPrompt && !getActiveQuestionBank(session)) {
+      router.push("/quiz/ai/generating");
+      return;
+    }
+
+    if (session.result) {
+      router.push("/quiz/result");
+      return;
+    }
+
+    if (getActiveQuestionBank(session)) {
+      router.push("/quiz/questions");
+      return;
+    }
+
+    router.push("/quiz");
   }
 
   return (
@@ -46,15 +68,19 @@ export function QuizLanding() {
           </span>
         </div>
         <p className="mt-6 text-sm leading-6 text-muted-foreground">
-          直接进入题目会自动继续你在当前标签页里的进度；如果想从头再来，可以使用“重新开始”。
+          标准题库会直接进入现成 20 题；AI智能出题会先根据你的偏好生成一套全新题目。继续当前进度会优先恢复你正在进行的模式。
         </p>
         <div className="mt-10 flex flex-wrap gap-3">
-          <Button size="lg" onClick={continueQuiz}>
-            开始测评
+          <Button size="lg" onClick={startStandardQuiz}>
+            标准题库
             <ArrowRight />
           </Button>
-          <Button size="lg" variant="outline" onClick={startFreshQuiz}>
-            重新开始
+          <Button size="lg" variant="outline" onClick={() => router.push("/quiz/ai")}>
+            AI智能出题
+            <Sparkles />
+          </Button>
+          <Button size="lg" variant="ghost" onClick={continueQuiz}>
+            继续当前进度
             <RefreshCcw />
           </Button>
         </div>

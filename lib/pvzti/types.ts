@@ -31,6 +31,14 @@ export type QuestionBank = {
   questions: Question[];
 };
 
+export type QuizMode = "default" | "ai-generated";
+
+export type AiQuestionGenerationPrompt = {
+  scenario: string;
+  tone: string;
+  focus: string;
+};
+
 export type QuizAnswers = Record<string, string>;
 
 export type BaseScoreSummary = {

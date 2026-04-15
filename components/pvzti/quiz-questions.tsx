@@ -5,10 +5,10 @@ import { useRouter } from "next/navigation";
 import { ArrowLeft, ArrowRight, LoaderCircle, RefreshCcw, Sparkles } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
-import { questionBank } from "@/lib/pvzti/question-bank";
 import {
   clearQuizSession,
   createEmptyQuizSession,
+  getActiveQuestionBank,
   loadQuizSession,
   saveQuizSession,
 } from "@/lib/pvzti/quiz-session";
@@ -40,12 +40,15 @@ export function QuizQuestions() {
   useEffect(() => {
     queueMicrotask(() => {
       const nextSession = loadQuizSession(window.sessionStorage);
+      const activeQuestionBank = getActiveQuestionBank(nextSession);
 
       setSessionState({
         isHydrated: true,
         session: {
           ...nextSession,
-          currentIndex: Math.min(nextSession.currentIndex, questionBank.questions.length - 1),
+          currentIndex: activeQuestionBank
+            ? Math.min(nextSession.currentIndex, activeQuestionBank.questions.length - 1)
+            : 0,
         },
       });
     });
@@ -64,7 +67,16 @@ export function QuizQuestions() {
   }
 
   const { session } = sessionState;
-  const currentQuestion = questionBank.questions[session.currentIndex];
+  const activeQuestionBank = getActiveQuestionBank(session);
+
+  if (!activeQuestionBank) {
+    clearQuizSession(window.sessionStorage);
+    router.replace("/quiz");
+    return createHydrationPlaceholder();
+  }
+
+  const currentQuestion = activeQuestionBank.questions[session.currentIndex];
+  const totalQuestions = activeQuestionBank.questions.length;
 
   if (!currentQuestion) {
     clearQuizSession(window.sessionStorage);
@@ -95,7 +107,7 @@ export function QuizQuestions() {
       return;
     }
 
-    if (session.currentIndex === questionBank.questions.length - 1) {
+    if (session.currentIndex === totalQuestions - 1) {
       const nextSession = {
         ...session,
         result: null,
@@ -110,10 +122,7 @@ export function QuizQuestions() {
       ...previous,
       session: {
         ...previous.session,
-        currentIndex: Math.min(
-          previous.session.currentIndex + 1,
-          questionBank.questions.length - 1,
-        ),
+        currentIndex: Math.min(previous.session.currentIndex + 1, totalQuestions - 1),
       },
     }));
   }
@@ -140,19 +149,17 @@ export function QuizQuestions() {
         <div>
           <div className="text-sm tracking-[0.24em] text-primary uppercase">正在测评</div>
           <h1 className="mt-2 text-3xl font-semibold text-foreground">
-            第 {session.currentIndex + 1} / {questionBank.questions.length} 题
+            第 {session.currentIndex + 1} / {totalQuestions} 题
           </h1>
         </div>
-        <div className="text-sm text-muted-foreground">
-          已回答 {answeredCount} / {questionBank.questions.length}
-        </div>
+        <div className="text-sm text-muted-foreground">已回答 {answeredCount} / {totalQuestions}</div>
       </div>
 
       <div className="mt-5 h-3 overflow-hidden rounded-full bg-muted">
         <div
           className="h-full rounded-full bg-primary transition-all"
           style={{
-            width: `${((session.currentIndex + 1) / questionBank.questions.length) * 100}%`,
+            width: `${((session.currentIndex + 1) / totalQuestions) * 100}%`,
           }}
         />
       </div>
@@ -208,7 +215,7 @@ export function QuizQuestions() {
             <RefreshCcw />
           </Button>
           <Button size="lg" onClick={handleNext} disabled={!currentAnswer}>
-            {session.currentIndex === questionBank.questions.length - 1 ? (
+            {session.currentIndex === totalQuestions - 1 ? (
               <>
                 完成测评
                 <Sparkles />

@@ -1,13 +1,20 @@
+import { defaultQuestionBank, sanitizeQuestionBank } from "./question-bank";
 import { plantIds } from "./types";
 import type {
+  AiQuestionGenerationPrompt,
   AssessmentResult,
   Question,
+  QuestionBank,
   QuizAnswers,
+  QuizMode,
 } from "./types";
 
 export const quizSessionStorageKey = "pvzti.quiz.session";
 
 export type QuizSessionState = {
+  mode: QuizMode;
+  questionBank: QuestionBank | null;
+  generationPrompt: AiQuestionGenerationPrompt | null;
   answers: QuizAnswers;
   currentIndex: number;
   result: AssessmentResult | null;
@@ -75,12 +82,68 @@ function sanitizeResult(value: unknown): AssessmentResult | null {
   };
 }
 
+function sanitizeGenerationPrompt(value: unknown): AiQuestionGenerationPrompt | null {
+  if (!isRecord(value)) {
+    return null;
+  }
+
+  const scenario = typeof value.scenario === "string" ? value.scenario.trim() : "";
+  const tone = typeof value.tone === "string" ? value.tone.trim() : "";
+  const focus = typeof value.focus === "string" ? value.focus.trim() : "";
+
+  if (!scenario || !tone || !focus) {
+    return null;
+  }
+
+  return { scenario, tone, focus };
+}
+
 export function createEmptyQuizSession(): QuizSessionState {
   return {
+    mode: "default",
+    questionBank: null,
+    generationPrompt: null,
     answers: {},
     currentIndex: 0,
     result: null,
   };
+}
+
+export function createDefaultQuizSession(): QuizSessionState {
+  return {
+    ...createEmptyQuizSession(),
+    mode: "default",
+    questionBank: defaultQuestionBank,
+  };
+}
+
+export function createAiDraftQuizSession(
+  generationPrompt: AiQuestionGenerationPrompt,
+): QuizSessionState {
+  return {
+    ...createEmptyQuizSession(),
+    mode: "ai-generated",
+    generationPrompt,
+  };
+}
+
+export function createAiQuizSession({
+  questionBank,
+  generationPrompt,
+}: {
+  questionBank: QuestionBank;
+  generationPrompt: AiQuestionGenerationPrompt;
+}): QuizSessionState {
+  return {
+    ...createEmptyQuizSession(),
+    mode: "ai-generated",
+    questionBank,
+    generationPrompt,
+  };
+}
+
+export function getActiveQuestionBank(session: QuizSessionState) {
+  return session.questionBank;
 }
 
 export function sanitizeQuizSession(value: unknown): QuizSessionState {
@@ -89,6 +152,9 @@ export function sanitizeQuizSession(value: unknown): QuizSessionState {
   }
 
   return {
+    mode: value.mode === "ai-generated" ? "ai-generated" : "default",
+    questionBank: sanitizeQuestionBank(value.questionBank),
+    generationPrompt: sanitizeGenerationPrompt(value.generationPrompt),
     answers: sanitizeAnswers(value.answers),
     currentIndex:
       typeof value.currentIndex === "number" && Number.isInteger(value.currentIndex)

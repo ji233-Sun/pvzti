@@ -10,6 +10,7 @@ import {
   createFallbackAssessmentResult,
   extractProviderErrorMessage,
 } from "../lib/pvzti/assessment.ts";
+import { defaultQuestionBank } from "../lib/pvzti/question-bank.ts";
 import { plantOrder, plantProfiles } from "../lib/pvzti/plants.ts";
 import {
   calculateBaseScores,
@@ -17,10 +18,15 @@ import {
 } from "../lib/pvzti/scoring.ts";
 import {
   clearQuizSession,
+  createAiDraftQuizSession,
+  createAiQuizSession,
+  createDefaultQuizSession,
   createEmptyQuizSession,
+  getActiveQuestionBank,
   hasCompleteQuizAnswers,
   loadQuizSession,
   saveQuizSession,
+  sanitizeQuizSession,
 } from "../lib/pvzti/quiz-session.ts";
 import type {
   AssessmentResult,
@@ -328,17 +334,16 @@ test("saveQuizSession persists answers, progress, and result for later routes", 
     source: "ai",
   };
 
-  saveQuizSession(storage, {
+  const session = {
+    ...createDefaultQuizSession(),
     answers: mockAnswers,
     currentIndex: 1,
     result,
-  });
+  };
 
-  assert.deepEqual(loadQuizSession(storage), {
-    answers: mockAnswers,
-    currentIndex: 1,
-    result,
-  });
+  saveQuizSession(storage, session);
+
+  assert.deepEqual(loadQuizSession(storage), session);
 
   clearQuizSession(storage);
   assert.deepEqual(loadQuizSession(storage), createEmptyQuizSession());
@@ -347,6 +352,261 @@ test("saveQuizSession persists answers, progress, and result for later routes", 
 test("hasCompleteQuizAnswers requires every question id to be answered", () => {
   assert.equal(hasCompleteQuizAnswers(mockAnswers, mockQuestionBank.questions), true);
   assert.equal(hasCompleteQuizAnswers({ q1: "q1-o1" }, mockQuestionBank.questions), false);
+});
+
+test("createDefaultQuizSession seeds the default bank and default mode", () => {
+  const session = createDefaultQuizSession();
+
+  assert.equal(session.mode, "default");
+  assert.equal(session.generationPrompt, null);
+  assert.equal(session.questionBank?.questions.length, 20);
+  assert.equal(getActiveQuestionBank(session)?.version, defaultQuestionBank.version);
+});
+
+test("createAiDraftQuizSession stores generation prompt without answers or result", () => {
+  const session = createAiDraftQuizSession({
+    scenario: "宿舍和朋友一起策划活动",
+    tone: "轻松一点",
+    focus: "合作分工",
+  });
+
+  assert.equal(session.mode, "ai-generated");
+  assert.equal(session.questionBank, null);
+  assert.deepEqual(session.answers, {});
+  assert.equal(session.result, null);
+  assert.equal(session.generationPrompt?.focus, "合作分工");
+});
+
+test("createAiQuizSession writes the generated bank and resets progress", () => {
+  const session = createAiQuizSession({
+    questionBank: mockQuestionBank,
+    generationPrompt: {
+      scenario: "校园社团",
+      tone: "轻巧",
+      focus: "关系互动",
+    },
+  });
+
+  assert.equal(session.mode, "ai-generated");
+  assert.equal(session.questionBank?.version, "test-v1");
+  assert.equal(session.currentIndex, 0);
+  assert.deepEqual(session.answers, {});
+  assert.equal(session.result, null);
+});
+
+test("sanitizeQuizSession drops invalid question banks and invalid generation prompts", () => {
+  const sanitized = sanitizeQuizSession({
+    mode: "not-a-real-mode",
+    questionBank: { version: "broken", totalQuestions: 1, questions: [] },
+    generationPrompt: { scenario: "ok", tone: 1, focus: "ok" },
+    answers: { q1: "q1-o1" },
+    currentIndex: 4,
+    result: null,
+  });
+
+  assert.equal(sanitized.mode, "default");
+  assert.equal(sanitized.questionBank, null);
+  assert.equal(sanitized.generationPrompt, null);
+  assert.equal(sanitized.currentIndex, 4);
+  assert.deepEqual(sanitized.answers, { q1: "q1-o1" });
+});
+
+test("validateAiQuestionGenerationPrompt trims valid input and rejects empty fields", async () => {
+  const { validateAiQuestionGenerationPrompt } = await import(
+    "../lib/pvzti/question-bank-generation.ts"
+  );
+
+  const valid = validateAiQuestionGenerationPrompt({
+    scenario: "  校园社团协作  ",
+    tone: "  有点幽默  ",
+    focus: "  关系互动  ",
+  });
+
+  assert.equal(valid.isValid, true);
+  assert.deepEqual(valid.prompt, {
+    scenario: "校园社团协作",
+    tone: "有点幽默",
+    focus: "关系互动",
+  });
+
+  const invalid = validateAiQuestionGenerationPrompt({
+    scenario: "   ",
+    tone: "轻松",
+    focus: "合作",
+  });
+
+  assert.equal(invalid.isValid, false);
+  assert.match(invalid.error ?? "", /题目场景/);
+});
+
+test("buildQuestionBankGenerationPayloads builds a strict json-schema request", async () => {
+  const { buildQuestionBankGenerationPayloads } = await import(
+    "../lib/pvzti/question-bank-generation.ts"
+  );
+
+  const payloads = buildQuestionBankGenerationPayloads({
+    prompt: {
+      scenario: "校园社团协作",
+      tone: "轻松一点",
+      focus: "关系互动",
+    },
+    model: "gpt-4.1-mini",
+  });
+
+  assert.equal(payloads.length, 3);
+  assert.equal(payloads[0]?.label, "strict-json-schema");
+  assert.equal(payloads[0]?.body.response_format?.type, "json_schema");
+  assert.match(payloads[0]?.body.messages[1]?.content ?? "", /校园社团协作/);
+  assert.match(payloads[0]?.body.messages[1]?.content ?? "", /关系互动/);
+});
+
+test("parseGeneratedQuestionBank rejects invalid generated json", async () => {
+  const { parseGeneratedQuestionBank } = await import(
+    "../lib/pvzti/question-bank-generation.ts"
+  );
+
+  const parsed = parseGeneratedQuestionBank(
+    JSON.stringify({ version: "broken", totalQuestions: 1, questions: [] }),
+  );
+
+  assert.equal(parsed, null);
+});
+
+test("question bank generation route rejects a request with missing fields", async () => {
+  const { POST: generateQuestionBankPost } = await import(
+    "../app/api/question-bank/generate/route.ts"
+  );
+
+  const response = await generateQuestionBankPost(
+    new Request("http://localhost/api/question-bank/generate", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ tone: "轻松一点", focus: "关系互动" }),
+    }),
+  );
+
+  assert.equal(response.status, 400);
+  assert.match(await response.text(), /题目场景/);
+});
+
+test("assessment route rejects requests without a valid question bank", async () => {
+  const { POST: postAssessment } = await import("../app/api/assessment/route.ts");
+
+  const response = await postAssessment(
+    new Request("http://localhost/api/assessment", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ answers: mockAnswers }),
+    }),
+  );
+
+  assert.equal(response.status, 400);
+  assert.match(await response.text(), /题库/);
+});
+
+test("assessment route calculates fallback results from the provided question bank", async () => {
+  const { POST: postAssessment } = await import("../app/api/assessment/route.ts");
+  const previousApiKey = process.env.OPENAI_API_KEY;
+  delete process.env.OPENAI_API_KEY;
+
+  const customQuestionBank: QuestionBank = {
+    ...defaultQuestionBank,
+    version: "custom-test-v1",
+    questions: defaultQuestionBank.questions.map((question, questionIndex) => {
+      const nextQuestionId = `custom-q${String(questionIndex + 1).padStart(2, "0")}`;
+
+      return {
+        ...question,
+        id: nextQuestionId,
+        options: question.options.map((option, optionIndex) => ({
+          ...option,
+          id: `${nextQuestionId}-${String.fromCharCode(97 + optionIndex)}`,
+        })),
+      };
+    }),
+  };
+  const customAnswers = Object.fromEntries(
+    customQuestionBank.questions.map((question) => [question.id, question.options[0]!.id]),
+  ) as QuizAnswers;
+
+  try {
+    const response = await postAssessment(
+      new Request("http://localhost/api/assessment", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ questionBank: customQuestionBank, answers: customAnswers }),
+      }),
+    );
+
+    assert.equal(response.status, 200);
+
+    const payload = (await response.json()) as AssessmentResult & { notice?: string };
+    assert.equal(payload.source, "fallback");
+    assert.match(payload.notice ?? "", /OPENAI_API_KEY/);
+  } finally {
+    if (previousApiKey) {
+      process.env.OPENAI_API_KEY = previousApiKey;
+    }
+  }
+});
+
+test("quiz landing exposes both standard and ai entry points", () => {
+  const source = readFileSync(
+    new URL("../components/pvzti/quiz-landing.tsx", import.meta.url),
+    "utf8",
+  );
+
+  assert.match(source, /标准题库/);
+  assert.match(source, /AI智能出题/);
+  assert.match(source, /router\.push\(\"\/quiz\/ai\"\)/);
+});
+
+test("ai quiz routes render the dedicated config and generating components", () => {
+  const configPageSource = readFileSync(
+    new URL("../app/quiz/ai/page.tsx", import.meta.url),
+    "utf8",
+  );
+  const generatingPageSource = readFileSync(
+    new URL("../app/quiz/ai/generating/page.tsx", import.meta.url),
+    "utf8",
+  );
+
+  assert.match(configPageSource, /QuizAiConfig/);
+  assert.match(generatingPageSource, /QuizAiGenerating/);
+});
+
+test("ai generating screen requests the question-bank generation route and offers standard fallback", () => {
+  const source = readFileSync(
+    new URL("../components/pvzti/quiz-ai-generating.tsx", import.meta.url),
+    "utf8",
+  );
+
+  assert.match(source, /\/api\/question-bank\/generate/);
+  assert.match(source, /重新生成/);
+  assert.match(source, /切回标准题库/);
+});
+
+test("quiz runtime screens resolve the active question bank from session helpers", () => {
+  const quizQuestionsSource = readFileSync(
+    new URL("../components/pvzti/quiz-questions.tsx", import.meta.url),
+    "utf8",
+  );
+  const quizLoadingSource = readFileSync(
+    new URL("../components/pvzti/quiz-loading.tsx", import.meta.url),
+    "utf8",
+  );
+  const quizResultSource = readFileSync(
+    new URL("../components/pvzti/quiz-result.tsx", import.meta.url),
+    "utf8",
+  );
+
+  assert.match(quizQuestionsSource, /getActiveQuestionBank/);
+  assert.match(quizLoadingSource, /questionBank:/);
+  assert.match(quizResultSource, /当前题目来源|mode === "ai-generated"/);
+
+  assert.doesNotMatch(quizQuestionsSource, /import \{ questionBank \} from/);
+  assert.doesNotMatch(quizLoadingSource, /import \{ questionBank \} from/);
+  assert.doesNotMatch(quizResultSource, /import \{ questionBank \} from/);
 });
 
 test("quiz option cards do not render tone labels under the option copy", () => {

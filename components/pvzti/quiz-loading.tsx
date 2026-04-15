@@ -5,14 +5,14 @@ import { useRouter } from "next/navigation";
 import { ArrowLeft, LoaderCircle, RefreshCcw, Sparkles } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
-import { questionBank } from "@/lib/pvzti/question-bank";
 import {
   clearQuizSession,
+  getActiveQuestionBank,
   hasCompleteQuizAnswers,
   loadQuizSession,
   saveQuizSession,
 } from "@/lib/pvzti/quiz-session";
-import type { AssessmentResult, QuizAnswers } from "@/lib/pvzti/types";
+import type { AssessmentResult, QuestionBank, QuizAnswers } from "@/lib/pvzti/types";
 
 type AssessmentPayload = AssessmentResult & { error?: string };
 
@@ -23,8 +23,8 @@ let inflightAssessmentRequest:
     }
   | null = null;
 
-async function requestAssessment(answers: QuizAnswers) {
-  const requestKey = JSON.stringify(answers);
+async function requestAssessment(questionBank: QuestionBank, answers: QuizAnswers) {
+  const requestKey = JSON.stringify({ questionBank, answers });
 
   if (inflightAssessmentRequest?.key === requestKey) {
     return inflightAssessmentRequest.promise;
@@ -36,7 +36,7 @@ async function requestAssessment(answers: QuizAnswers) {
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ answers }),
+      body: JSON.stringify({ questionBank, answers }),
     });
 
     const payload = (await response.json()) as AssessmentPayload;
@@ -70,13 +70,19 @@ export function QuizLoading() {
 
     async function generateResult() {
       const session = loadQuizSession(window.sessionStorage);
+      const activeQuestionBank = getActiveQuestionBank(session);
 
       if (session.result) {
         router.replace("/quiz/result");
         return;
       }
 
-      if (!hasCompleteQuizAnswers(session.answers, questionBank.questions)) {
+      if (!activeQuestionBank) {
+        router.replace("/quiz");
+        return;
+      }
+
+      if (!hasCompleteQuizAnswers(session.answers, activeQuestionBank.questions)) {
         router.replace("/quiz/questions");
         return;
       }
@@ -84,7 +90,7 @@ export function QuizLoading() {
       setErrorMessage(null);
 
       try {
-        const result = await requestAssessment(session.answers);
+        const result = await requestAssessment(activeQuestionBank, session.answers);
 
         if (cancelled) {
           return;
@@ -92,7 +98,7 @@ export function QuizLoading() {
 
         saveQuizSession(window.sessionStorage, {
           ...session,
-          currentIndex: questionBank.questions.length - 1,
+          currentIndex: activeQuestionBank.questions.length - 1,
           result,
         });
         router.replace("/quiz/result");

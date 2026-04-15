@@ -9,10 +9,10 @@ import {
   parseAssessmentResult,
   prioritizePayloadVariantsForBaseUrl,
 } from "@/lib/pvzti/assessment";
-import { questionBank } from "@/lib/pvzti/question-bank";
+import { sanitizeQuestionBank } from "@/lib/pvzti/question-bank";
 import { plantProfiles } from "@/lib/pvzti/plants";
 import { calculateBaseScores, validateQuizAnswers } from "@/lib/pvzti/scoring";
-import type { QuizAnswers } from "@/lib/pvzti/types";
+import type { QuestionBank, QuizAnswers } from "@/lib/pvzti/types";
 
 export const runtime = "nodejs";
 
@@ -30,19 +30,28 @@ function normalizeProviderErrorMessage(rawText: string) {
 
 export async function POST(request: Request) {
   let answers: QuizAnswers | undefined;
+  let inputQuestionBank: QuestionBank | null = null;
 
   try {
-    const payload = (await request.json()) as { answers?: QuizAnswers };
+    const payload = (await request.json()) as {
+      questionBank?: unknown;
+      answers?: QuizAnswers;
+    };
     answers = payload.answers;
+    inputQuestionBank = sanitizeQuestionBank(payload.questionBank);
   } catch {
     return createJsonErrorResponse("请求体不是合法的 JSON。", 400);
+  }
+
+  if (!inputQuestionBank) {
+    return createJsonErrorResponse("缺少合法题库。", 400);
   }
 
   if (!answers || typeof answers !== "object") {
     return createJsonErrorResponse("缺少测评答案。", 400);
   }
 
-  const answerValidation = validateQuizAnswers(questionBank, answers);
+  const answerValidation = validateQuizAnswers(inputQuestionBank, answers);
 
   if (!answerValidation.isValid) {
     return createJsonErrorResponse(
@@ -51,9 +60,9 @@ export async function POST(request: Request) {
     );
   }
 
-  const baseSummary = calculateBaseScores(questionBank, answers);
+  const baseSummary = calculateBaseScores(inputQuestionBank, answers);
   const assessmentContext = buildAssessmentContext({
-    questionBank,
+    questionBank: inputQuestionBank,
     answers,
     summary: baseSummary,
   });

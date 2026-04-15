@@ -6,9 +6,9 @@ import { ArrowLeft, LoaderCircle, RefreshCcw, Sparkles } from "lucide-react";
 
 import { plantThemeMap } from "@/components/pvzti/plant-theme";
 import { Button } from "@/components/ui/button";
-import { questionBank } from "@/lib/pvzti/question-bank";
 import {
   clearQuizSession,
+  getActiveQuestionBank,
   hasCompleteQuizAnswers,
   loadQuizSession,
   saveQuizSession,
@@ -34,6 +34,12 @@ export function QuizResult() {
 
   useEffect(() => {
     const nextSession = loadQuizSession(window.sessionStorage);
+    const activeQuestionBank = getActiveQuestionBank(nextSession);
+
+    if (!activeQuestionBank) {
+      router.replace("/quiz");
+      return;
+    }
 
     if (nextSession.result) {
       queueMicrotask(() => {
@@ -42,12 +48,12 @@ export function QuizResult() {
       return;
     }
 
-    if (hasCompleteQuizAnswers(nextSession.answers, questionBank.questions)) {
+    if (hasCompleteQuizAnswers(nextSession.answers, activeQuestionBank.questions)) {
       router.replace("/quiz/loading");
       return;
     }
 
-    router.replace("/quiz");
+    router.replace("/quiz/questions");
   }, [router]);
 
   if (!session?.result) {
@@ -112,6 +118,10 @@ export function QuizResult() {
             <div className="mt-2 flex items-center gap-2 text-base font-medium text-foreground">
               <Sparkles className="size-4 text-primary" />
               {result.source === "ai" ? "AI 增强评分" : "规则降级结果"}
+            </div>
+            <div className="mt-4 text-sm text-muted-foreground">当前题目来源</div>
+            <div className="mt-2 text-base font-medium text-foreground">
+              {session.mode === "ai-generated" ? "AI智能出题" : "标准题库"}
             </div>
             {result.notice ? (
               <p className="mt-3 text-sm leading-6 text-muted-foreground">{result.notice}</p>
