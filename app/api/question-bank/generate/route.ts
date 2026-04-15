@@ -3,6 +3,7 @@ import { NextResponse } from "next/server";
 import {
   extractChatCompletionText,
   extractProviderErrorMessage,
+  isUnsupportedResponseFormatError,
   prioritizePayloadVariantsForBaseUrl,
 } from "@/lib/pvzti/assessment";
 import {
@@ -52,8 +53,22 @@ export async function POST(request: Request) {
   );
 
   let lastFailureMessage = "AI 题库生成失败，请稍后重试。";
+  let hasSeenResponseFormatRejection = false;
+  let hasAttemptedPlainJsonVariant = false;
 
   for (const variant of payloadVariants) {
+    if (variant.label === "compatible-plain-json") {
+      hasAttemptedPlainJsonVariant = true;
+    }
+
+    if (
+      variant.body.response_format &&
+      hasSeenResponseFormatRejection &&
+      hasAttemptedPlainJsonVariant
+    ) {
+      continue;
+    }
+
     try {
       const completionResponse = await fetch(`${baseUrl}/chat/completions`, {
         method: "POST",
@@ -70,9 +85,18 @@ export async function POST(request: Request) {
         const completionErrorPayload = (await completionResponse.json().catch(() => null)) as
           | unknown
           | null;
-        lastFailureMessage =
-          extractProviderErrorMessage(completionErrorPayload) ??
+        const failureMessage =
+          extractProviderErrorMessage(completionErrorPayload) ||
           `AI 题库生成请求失败（${completionResponse.status}）。`;
+
+        if (
+          variant.body.response_format &&
+          isUnsupportedResponseFormatError(failureMessage)
+        ) {
+          hasSeenResponseFormatRejection = true;
+        }
+
+        lastFailureMessage = failureMessage;
         continue;
       }
 

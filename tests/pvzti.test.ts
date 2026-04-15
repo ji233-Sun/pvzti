@@ -489,6 +489,94 @@ test("question bank generation route returns json when provider request throws u
   }
 });
 
+test("question bank generation route preserves plain-json failures after response_format is rejected", async () => {
+  const { POST: generateQuestionBankPost } = await import(
+    "../app/api/question-bank/generate/route.ts"
+  );
+  const previousApiKey = process.env.OPENAI_API_KEY;
+  const previousBaseUrl = process.env.OPENAI_BASE_URL;
+  const previousFetch = globalThis.fetch;
+  const requestedResponseFormats: Array<string | null> = [];
+  process.env.OPENAI_API_KEY = "test-key";
+  process.env.OPENAI_BASE_URL = "https://api.deepseek.com/v1";
+  globalThis.fetch = (async (_input, init) => {
+    const rawBody = typeof init?.body === "string" ? init.body : "";
+    const requestBody = JSON.parse(rawBody) as {
+      response_format?: { type?: string };
+    };
+    const responseFormatType = requestBody.response_format?.type ?? null;
+    requestedResponseFormats.push(responseFormatType);
+
+    if (responseFormatType) {
+      return new Response(
+        JSON.stringify({
+          error: {
+            message: "This response_format type is unavailable now",
+          },
+        }),
+        {
+          status: 400,
+          headers: { "Content-Type": "application/json" },
+        },
+      );
+    }
+
+    return new Response(
+      JSON.stringify({
+        choices: [
+          {
+            message: {
+              content: JSON.stringify({
+                version: "broken",
+                totalQuestions: 1,
+                questions: [],
+              }),
+            },
+          },
+        ],
+      }),
+      {
+        status: 200,
+        headers: { "Content-Type": "application/json" },
+      },
+    );
+  }) as typeof fetch;
+
+  try {
+    const response = await generateQuestionBankPost(
+      new Request("http://localhost/api/question-bank/generate", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          scenario: "校园社团协作",
+          tone: "轻松一点",
+          focus: "关系互动",
+        }),
+      }),
+    );
+
+    assert.equal(response.status, 502);
+    assert.deepEqual(requestedResponseFormats, ["json_object", null]);
+
+    const payload = (await response.json()) as { error?: string };
+    assert.match(payload.error ?? "", /compatible-plain-json 的题库结构不合法/);
+  } finally {
+    globalThis.fetch = previousFetch;
+    if (previousApiKey) {
+      process.env.OPENAI_API_KEY = previousApiKey;
+    } else {
+      delete process.env.OPENAI_API_KEY;
+    }
+
+    if (previousBaseUrl) {
+      process.env.OPENAI_BASE_URL = previousBaseUrl;
+      return;
+    }
+
+    delete process.env.OPENAI_BASE_URL;
+  }
+});
+
 test("assessment route rejects requests without a valid question bank", async () => {
   const { POST: postAssessment } = await import("../app/api/assessment/route.ts");
 

@@ -115,6 +115,15 @@ export function extractProviderErrorMessage(payload: unknown) {
   return "";
 }
 
+export function isUnsupportedResponseFormatError(message: string) {
+  const normalizedMessage = message.trim().toLowerCase();
+
+  return (
+    normalizedMessage.includes("response_format") &&
+    (normalizedMessage.includes("unsupported") || normalizedMessage.includes("unavailable"))
+  );
+}
+
 export function createFallbackAssessmentResult({
   summary,
   profiles,
