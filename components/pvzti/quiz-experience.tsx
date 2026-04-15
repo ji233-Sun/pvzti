@@ -241,14 +241,13 @@ export function QuizExperience() {
 
           <div className="space-y-6">
             <article className="rounded-[2rem] border border-border/70 bg-card/90 p-6 shadow-sm">
-              <h2 className="text-xl font-semibold text-foreground">详细评语</h2>
-              <p className="mt-4 text-base leading-8 text-muted-foreground">
+              <h2 className="text-xl font-semibold text-foreground">评语</h2>
+              <blockquote className="mt-4 rounded-[1.5rem] border border-border/60 bg-muted/35 px-5 py-4 text-lg leading-8 text-foreground">
+                “{result.playfulComment}”
+              </blockquote>
+              <p className="mt-6 text-base leading-8 text-muted-foreground">
                 {result.detailedComment}
               </p>
-            </article>
-            <article className="rounded-[2rem] border border-border/70 bg-card/90 p-6 shadow-sm">
-              <h2 className="text-xl font-semibold text-foreground">俏皮短评</h2>
-              <p className="mt-4 text-lg leading-8 text-foreground">{result.playfulComment}</p>
             </article>
             <div className="flex flex-wrap gap-3">
               <Button size="lg" onClick={resetQuiz}>

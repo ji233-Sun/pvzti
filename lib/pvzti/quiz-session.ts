@@ -20,6 +20,8 @@ export type QuizSessionState = {
   result: AssessmentResult | null;
 };
 
+export type ContinueQuizPath = "/quiz/ai/generating" | "/quiz/result" | "/quiz/questions";
+
 type StorageLike = Pick<Storage, "getItem" | "setItem" | "removeItem">;
 
 function isRecord(value: unknown): value is Record<string, unknown> {
@@ -148,6 +150,22 @@ export function createAiQuizSession({
 
 export function getActiveQuestionBank(session: QuizSessionState) {
   return session.questionBank;
+}
+
+export function getContinueQuizPath(session: QuizSessionState): ContinueQuizPath | null {
+  if (session.mode === "ai-generated" && session.generationPrompt && !getActiveQuestionBank(session)) {
+    return "/quiz/ai/generating";
+  }
+
+  if (session.result) {
+    return "/quiz/result";
+  }
+
+  if (getActiveQuestionBank(session)) {
+    return "/quiz/questions";
+  }
+
+  return null;
 }
 
 export function sanitizeQuizSession(value: unknown): QuizSessionState {

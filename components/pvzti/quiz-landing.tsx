@@ -1,5 +1,6 @@
 "use client";
 
+import { useSyncExternalStore } from "react";
 import { useRouter } from "next/navigation";
 import { ArrowRight, RefreshCcw, ShieldCheck, Sparkles } from "lucide-react";
 
@@ -7,15 +8,39 @@ import { plantThemeMap } from "@/components/pvzti/plant-theme";
 import { Button } from "@/components/ui/button";
 import {
   createDefaultQuizSession,
-  getActiveQuestionBank,
+  getContinueQuizPath,
   loadQuizSession,
+  quizSessionStorageKey,
   saveQuizSession,
 } from "@/lib/pvzti/quiz-session";
 import { plantProfilesById, plantOrder } from "@/lib/pvzti/plants";
 import { cn } from "@/lib/utils";
 
+function subscribeToQuizSession(onStoreChange: () => void) {
+  if (typeof window === "undefined") {
+    return () => {};
+  }
+
+  const handleStorage = (event: StorageEvent) => {
+    if (event.key === null || event.key === quizSessionStorageKey) {
+      onStoreChange();
+    }
+  };
+
+  window.addEventListener("storage", handleStorage);
+
+  return () => {
+    window.removeEventListener("storage", handleStorage);
+  };
+}
+
 export function QuizLanding() {
   const router = useRouter();
+  const continueQuizPath = useSyncExternalStore(
+    subscribeToQuizSession,
+    () => getContinueQuizPath(loadQuizSession(window.sessionStorage)),
+    () => null,
+  );
 
   function startStandardQuiz() {
     saveQuizSession(window.sessionStorage, createDefaultQuizSession());
@@ -23,24 +48,13 @@ export function QuizLanding() {
   }
 
   function continueQuiz() {
-    const session = loadQuizSession(window.sessionStorage);
+    const nextPath = getContinueQuizPath(loadQuizSession(window.sessionStorage));
 
-    if (session.mode === "ai-generated" && session.generationPrompt && !getActiveQuestionBank(session)) {
-      router.push("/quiz/ai/generating");
+    if (!nextPath) {
       return;
     }
 
-    if (session.result) {
-      router.push("/quiz/result");
-      return;
-    }
-
-    if (getActiveQuestionBank(session)) {
-      router.push("/quiz/questions");
-      return;
-    }
-
-    router.push("/quiz");
+    router.push(nextPath);
   }
 
   return (
@@ -78,7 +92,12 @@ export function QuizLanding() {
             AI智能出题
             <Sparkles />
           </Button>
-          <Button size="lg" variant="ghost" onClick={continueQuiz}>
+          <Button
+            size="lg"
+            variant="ghost"
+            onClick={continueQuiz}
+            disabled={!continueQuizPath}
+          >
             继续当前进度
             <RefreshCcw />
           </Button>

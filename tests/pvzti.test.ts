@@ -20,6 +20,7 @@ import {
   createDefaultQuizSession,
   createEmptyQuizSession,
   getActiveQuestionBank,
+  getContinueQuizPath,
   hasCompleteQuizAnswers,
   loadQuizSession,
   saveQuizSession,
@@ -317,6 +318,41 @@ test("createAiQuizSession writes the generated bank and resets progress", () => 
   assert.equal(session.result, null);
 });
 
+test("getContinueQuizPath only returns a route when a resumable session exists", () => {
+  assert.equal(getContinueQuizPath(createEmptyQuizSession()), null);
+  assert.equal(
+    getContinueQuizPath(
+      createAiDraftQuizSession({
+        scenario: "校园社团",
+        tone: "轻巧",
+        focus: "关系互动",
+      }),
+    ),
+    "/quiz/ai/generating",
+  );
+  assert.equal(getContinueQuizPath(createDefaultQuizSession()), "/quiz/questions");
+  assert.equal(
+    getContinueQuizPath({
+      ...createDefaultQuizSession(),
+      result: {
+        scores: {
+          peashooter: 18,
+          sunflower: 86,
+          wallnut: 64,
+          potatoMine: 22,
+          cabbagePult: 40,
+          cherryBomb: 30,
+        },
+        leadingPlantId: "sunflower",
+        detailedComment: "你擅长为团队补足能量。",
+        playfulComment: "会发光的后勤 MVP。",
+        source: "rule",
+      },
+    }),
+    "/quiz/result",
+  );
+});
+
 test("sanitizeQuizSession drops invalid question banks and invalid generation prompts", () => {
   const sanitized = sanitizeQuizSession({
     mode: "not-a-real-mode",
@@ -493,6 +529,7 @@ test("quiz landing exposes both standard and ai entry points", () => {
   assert.match(source, /标准题库/);
   assert.match(source, /AI智能出题/);
   assert.match(source, /router\.push\(\"\/quiz\/ai\"\)/);
+  assert.match(source, /disabled=\{!continueQuizPath\}/);
   assert.doesNotMatch(source, /AI 详细评语/);
   assert.doesNotMatch(source, /二次评估/);
 });
@@ -544,6 +581,19 @@ test("quiz runtime screens resolve the active question bank from session helpers
   assert.doesNotMatch(quizLoadingSource, /import \{ questionBank \} from/);
   assert.doesNotMatch(quizResultSource, /import \{ questionBank \} from/);
   assert.doesNotMatch(quizResultSource, /AI 增强评分|规则降级结果/);
+});
+
+test("quiz result page merges short and long commentary into one review card", () => {
+  const quizResultSource = readFileSync(
+    new URL("../components/pvzti/quiz-result.tsx", import.meta.url),
+    "utf8",
+  );
+
+  assert.match(quizResultSource, />评语</);
+  assert.match(quizResultSource, /<blockquote[\s\S]*result\.playfulComment/);
+  assert.match(quizResultSource, /result\.detailedComment/);
+  assert.doesNotMatch(quizResultSource, /详细评语/);
+  assert.doesNotMatch(quizResultSource, /俏皮短评/);
 });
 
 test("quiz option cards do not render tone labels under the option copy", () => {
