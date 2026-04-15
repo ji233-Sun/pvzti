@@ -348,3 +348,17 @@ test("hasCompleteQuizAnswers requires every question id to be answered", () => {
   assert.equal(hasCompleteQuizAnswers(mockAnswers, mockQuestionBank.questions), true);
   assert.equal(hasCompleteQuizAnswers({ q1: "q1-o1" }, mockQuestionBank.questions), false);
 });
+
+test("quiz option cards do not render tone labels under the option copy", () => {
+  const quizQuestionsSource = readFileSync(
+    new URL("../components/pvzti/quiz-questions.tsx", import.meta.url),
+    "utf8",
+  );
+  const quizExperienceSource = readFileSync(
+    new URL("../components/pvzti/quiz-experience.tsx", import.meta.url),
+    "utf8",
+  );
+
+  assert.doesNotMatch(quizQuestionsSource, /\{option\.tone\}/);
+  assert.doesNotMatch(quizExperienceSource, /\{option\.tone\}/);
+});

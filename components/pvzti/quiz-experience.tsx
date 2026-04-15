@@ -323,7 +323,6 @@ export function QuizExperience() {
                 )}
               >
                 <div className="font-medium text-foreground">{option.label}</div>
-                <div className="mt-2 text-sm text-muted-foreground">{option.tone}</div>
               </button>
             );
           })}
