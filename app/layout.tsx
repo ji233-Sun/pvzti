@@ -5,19 +5,18 @@ import { cn } from "@/lib/utils";
 
 const fontVariables = {
   "--font-geist-sans":
-    '"Segoe UI", "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", sans-serif',
-  "--font-geist-mono":
-    '"JetBrains Mono", "SFMono-Regular", "Menlo", "Monaco", "Consolas", monospace',
+    '"Segoe UI", "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", sans-serif',
   "--font-mono":
     '"JetBrains Mono", "SFMono-Regular", "Menlo", "Monaco", "Consolas", monospace',
 } as CSSProperties;
 
 export const metadata: Metadata = {
   title: {
-    default: "PVZTI",
+    default: "植物人格测评 | PVZTI",
     template: "%s | PVZTI",
   },
-  description: "一个借鉴 MBTI 节奏的植物人格测评站点。",
+  description:
+    "探索你的植物人格！基于五维人格体系的趣味测评，在 305 种植物中找到最契合你的那一个。",
 };
 
 export default function RootLayout({
@@ -26,11 +25,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="zh-CN"
-      className={cn("h-full", "antialiased", "font-mono")}
-      style={fontVariables}
-    >
+    <html lang="zh-CN" className={cn("h-full antialiased")} style={fontVariables}>
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );

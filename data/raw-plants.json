@@ -1,0 +1,3752 @@
+[
+  {
+    "id": "1",
+    "name": "豌豆射手",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122117/c10d728320c431a4e9cb651f7ae5a7ab.png",
+    "catalog": "“问我成功的滋味如何？”豌豆射手慢悠悠地啜了一口热茶。“这个我现在不能告诉你，我正在整理我的商业合同。这是我的外套，保管好！”",
+    "skillIntro": "豌豆射手，你的第一道防线，发射豌豆攻击僵尸。",
+    "labels": [
+      "物理",
+      "豌豆"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "2",
+    "name": "向日葵",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/202601caf7c69f6f6afffb67b7f6585d905e6b/87f905c34082c9535d997ecce0c72a29.png",
+    "catalog": "出道以来，她的第一首主打歌“Zombies On Your Lawn”在社交网络上大红大紫。因此趁热打铁，正在加紧录制“向日葵炫舞秀”的视频，请大家拭目以待！",
+    "skillIntro": "向日葵，为你生产更多阳光的基础植物。尽可能多地种植吧！",
+    "labels": [
+      "产阳"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/阳光.png"
+  },
+  {
+    "id": "3",
+    "name": "坚果",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122117/84a62d33c789495fcc869e07c796432c.png",
+    "catalog": "在球迷们的坚定呼声下，此前宣布退役的保龄球联赛冠军坚果高调宣布回归。努力!加油!",
+    "skillIntro": "坚果拥有足以保护其它植物的坚硬外壳。",
+    "labels": [
+      "防御"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/坚韧.png"
+  },
+  {
+    "id": "4",
+    "name": "土豆地雷",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122118/baf79283bd59418155000aa14e02957b.png",
+    "catalog": "土豆地雷是个兢兢业业工作的好同志，在热火朝天的工作气氛中他很享受。什么？他只是个小个子？你没见过他的身体吧？想见么？",
+    "skillIntro": "土豆地雷一触即爆，但是准备时间有点长。把他们种在僵尸的前方。",
+    "labels": [
+      "消耗",
+      "灰烬",
+      "物理",
+      "群伤"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "5",
+    "name": "卷心菜投手",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122118/54cc648c8c7b6579e23329153ed9c0db.png",
+    "catalog": "卷心菜投手从丰收大学荣获投手博士学位，关于如何成为人生赢家，它总是滔滔不绝。他也常常吹嘘他做的汤，不过吃过的人都不愿意提及这个话题。",
+    "skillIntro": "投掷卷心菜，卷心菜能越过障碍物，击中后方的敌人。",
+    "labels": [
+      "抛投",
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "6",
+    "name": "冰冻生菜",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/202604882bc0d0d2f1012abfb892b95937fd0d/5eb4822b0aeeddcfd103936df69f510e.png",
+    "catalog": "当它忽闪着大眼时，看它的人会被迷得神魂颠倒，灵魂出窍。不过，只对僵尸有效。",
+    "skillIntro": "踩上冰冻生菜的僵尸会被冻住。",
+    "labels": [
+      "寒冰",
+      "控场",
+      "消耗"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "7",
+    "name": "回旋镖射手",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122118/8a5ec88d5cfb6b7fcc33da7c1f9a8dd5.png",
+    "catalog": "回旋镖射手是防守团队的新成员。它最爱和朋友考拉熊一起，散散步，听听流行歌，无比惬意。",
+    "skillIntro": "回旋镖射手投出回旋镖，对最多三个目标造成两次伤害！",
+    "labels": [
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "8",
+    "name": "双胞向日葵",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122118/302f3967304cb1da6eeca71b42d08d8c.png",
+    "catalog": "双胞向日葵的闪亮奢华墨镜让它超有明星范儿。时时都得招架狗仔的突然袭击。",
+    "skillIntro": "双胞向日葵提供两倍的阳光产量。",
+    "labels": [
+      "产阳"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/阳光.png"
+  },
+  {
+    "id": "9",
+    "name": "菜问",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122118/d09eae6ab87f1bd0c640783ae889ed0a.png",
+    "catalog": "来自中国广东的功夫高手，精通东方和西方拳术。他现在正在全世界范围修行，学习新奇的拳法或者教一些学生。说起学生，也许有几个比他本人有名得多。",
+    "skillIntro": "菜问能够迅速痛打身前或身后的敌人。",
+    "labels": [
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "10",
+    "name": "弹簧豆",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122118/f72c259905b34a8cc6ae10fe4d217fd3.png",
+    "catalog": "弹簧豆非常安静和内向，以至于没什么人了解他。但他的粉丝团却十分壮大，尤其受姑娘们的追捧。",
+    "skillIntro": "弹簧豆会把靠近的僵尸弹开。如果附近有水，僵尸就会被直接弹入水里。",
+    "labels": [
+      "位移"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "11",
+    "name": "地刺",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122118/2d0f1427a4768ad1eb2ab69b360d8ee3.png",
+    "catalog": "地刺虽然出身贫寒，现在他的针灸事业可谓蒸蒸日上。",
+    "skillIntro": "地刺可以摧毁一个滚桶僵尸，并对踩到他的僵尸造成伤害。",
+    "labels": [
+      "低矮",
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "12",
+    "name": "火龙草",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122118/01a5268dca1d9a15b27303ea6f21e098.png",
+    "catalog": "即便火龙草是植物中最强大的龙，也无法阻止他插上梦想的翅膀，他想去海底世界一探究竟。",
+    "skillIntro": "火龙草呼出的火焰可以造成6格伤害。",
+    "labels": [
+      "火焰",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "13",
+    "name": "能量花",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122118/54349687eae9b69204b77d83e26b707c.png",
+    "catalog": "从小到大，能量花成长的每一步都是三好学生的范儿，她一直致力于为广大的植物同胞们带来满满的正能量。",
+    "skillIntro": "能量花可以凭空制造一颗能量豆。",
+    "labels": [
+      "支援",
+      "消耗"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/辅助.png"
+  },
+  {
+    "id": "14",
+    "name": "窝瓜",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122118/a5e39f905b206477360f50c2a43dd1bf.png",
+    "catalog": "窝瓜只是他的艺名，他的本名叫…小明。",
+    "skillIntro": "窝瓜会压扁第一个接近它的僵尸。",
+    "labels": [
+      "消耗",
+      "物理",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "15",
+    "name": "巴豆",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122118/06b977ee048be7578566e7872315edd2.png",
+    "catalog": "他不是天生脸红，那是憋红的。",
+    "skillIntro": "巴豆送上的是肠胃瘫痪的“大礼”！",
+    "labels": [
+      "控场",
+      "消耗",
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "16",
+    "name": "双向射手",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122118/b3f0b1081f83da76947f9819d39ee6c0.png",
+    "catalog": "前面的头说：“轮到我用眉毛了！”后面的头说：那只好一人一半了。虽然出生就差两分钟，可眉毛争夺战的硝烟永难停息。",
+    "skillIntro": "双向射手可以向前后两个方向发射豌豆。",
+    "labels": [
+      "物理",
+      "豌豆"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "17",
+    "name": "火爆辣椒",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122118/926d565103626138661ebe147dda4123.png",
+    "catalog": "在白天他是火爆辣椒，夜晚他将变身成为超级英雄———缝纫侠。他的绝招是打蝴蝶结。",
+    "skillIntro": "火爆辣椒可以摧毁一整条线上的僵尸。",
+    "labels": [
+      "消耗",
+      "火焰",
+      "灰烬"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "18",
+    "name": "噬碑藤",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122118/c17910292493cc4b3615b287f85b5d6f.png",
+    "catalog": "尽管看上去外表凶恶，脾气暴躁，但噬碑藤其实只是想给你个温柔的拥抱。除非你是一只小狗，没错，他怕狗。",
+    "skillIntro": "噬碑藤会吃掉墓碑。",
+    "labels": [
+      "消耗"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "19",
+    "name": "寒冰射手",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/202604882bc0d0d2f1012abfb892b95937fd0d/7e2f98299120005124c2a05e6bda7d06.png",
+    "catalog": "尽管外表很酷，寒冰射手很热爱他的朋友，尊老爱幼。聚会时他的拿手好戏是什么？当然是用冷笑话炒热全场～",
+    "skillIntro": "寒冰射手发射冰冻豆减慢僵尸速度。",
+    "labels": [
+      "减速",
+      "寒冰",
+      "豌豆"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "20",
+    "name": "火炬树桩",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122118/07981ff9cd653e03f22d4a51fba3869a.png",
+    "catalog": "因为兴趣相投，火炬树桩和火龙草迅速成为了好朋友。你可以在类似场合见到他们，比如夏威夷土著风情酒廊，或者是文艺复兴风格的马戏团。",
+    "skillIntro": "火炬树桩可以把穿过他的豌豆变成火球，造成两倍伤害。",
+    "labels": [
+      "支援",
+      "防御"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/辅助.png"
+  },
+  {
+    "id": "21",
+    "name": "玉米投手",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122118/3f3b7ddc9627885448d34154f12913ed.png",
+    "catalog": "玉米投手原来是电影院的引座员，不过自从看了“油炸绿番茄”这个电影后，他发现自己是天生演戏的料，于是他带着他的黄油和玉米粒，向演艺圈进军。",
+    "skillIntro": "玉米投手，投掷玉米粒和黄油。",
+    "labels": [
+      "抛投",
+      "控场",
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "22",
+    "name": "闪电芦苇",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122118/35d6c388c70c7517314714fd2887de6e.png",
+    "catalog": "这可能有些令人吃惊。闪电芦苇是业余无线电的热衷者。它的呼号是“闪0电3嗝1”。每周二你可以在调频收听到它给年纪大的植物们朗读经典。这周主题：理智的种子与情感。",
+    "skillIntro": "闪电芦苇会对路线上最近的僵尸发射闪电，并且其电压会形成电弧扫过附近的僵尸。",
+    "labels": [
+      "控场",
+      "电能"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "23",
+    "name": "椰子加农炮",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122118/f8597820c5990679ebc5a6e44d037b48.png",
+    "catalog": "椰子加农炮不再年轻，却有着一头秀发，他依然活跃在最前线。至于秀发闪亮的原因，我们猜测大概是上了蜡了。",
+    "skillIntro": "椰子加农炮可以把整条路线轰翻，造成中等威力的爆炸破坏。",
+    "labels": [
+      "手操",
+      "爆炸",
+      "物理",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "24",
+    "name": "西瓜投手",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122118/e2857e9f0aa9d42af3f310376b2f42ef.png",
+    "catalog": "“人人都说我的头长得像个西瓜”，投手家族的二把手说。“可能是真的吧。”千万别问它是不是无籽西瓜，它一听就翻脸。",
+    "skillIntro": "西瓜投手能对成群的僵尸造成巨大伤害。",
+    "labels": [
+      "抛投",
+      "物理",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "25",
+    "name": "豌豆荚",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122118/22bd53e838523eee00e64e568a873d5c.png",
+    "catalog": "豌豆荚毕业于职业小丑学院的空间量子力学专业，他是家族中的的开心果，大家都爱他。",
+    "skillIntro": "堆叠种植多棵豌豆使威力升至5倍！",
+    "labels": [
+      "物理",
+      "豌豆"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "26",
+    "name": "变身茄子",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122118/88575c8aebbccb7f0d5123d7c9ffb202.png",
+    "catalog": "变身茄子在法国进修过表演艺术，在街头表演中完善了他的最新节目“关在盒子里的茄子”。",
+    "skillIntro": "变身茄子允许你同一个关卡携带两张相同的植物卡片！",
+    "labels": [
+      "支援"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "27",
+    "name": "双重射手",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122118/e27dae96e9114cf3e6f5072293e81162.png",
+    "catalog": "如果你对双重射手好，他会加倍报答。如果你惹了他，那你可能会得到加倍的反击。当然他的人际关系相当好，大家最愿意做的就是借钱给他",
+    "skillIntro": "双重射手能一次发射两颗豌豆",
+    "labels": [
+      "物理",
+      "豌豆"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "28",
+    "name": "钢地刺",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122118/b6c6320edf3d3ab7ccb7aad60c569c5b.png",
+    "catalog": "钢地刺是具有金属气质的植物，所以它决定在麦迪逊摇滚公园开一场重金属摇滚演唱会，消息一经发布，门票立即抢售一空。",
+    "skillIntro": "钢地刺可以摧毁多个滚桶僵尸，并对踩到他的僵尸造成伤害。",
+    "labels": [
+      "低矮",
+      "控场",
+      "物理",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "29",
+    "name": "高坚果",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122118/1e87bc5f916573fdf762b68f0c031af7.png",
+    "catalog": "高坚果专为高个人士开了服装连锁店。“良心生意，多余的料子会送还给您。”",
+    "skillIntro": "高坚果是有名的重型防御植物，他可以有效地阻挡僵尸的前进。",
+    "labels": [
+      "防御",
+      "高大"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/坚韧.png"
+  },
+  {
+    "id": "30",
+    "name": "三重射手",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122118/cd4f5d72c81b266d6b3c2f1e646dfb74.png",
+    "catalog": "三重射手热爱多人电玩，但分屏总是不管用，因为左边的射手爱耍小手段。",
+    "skillIntro": "三重射手可以在三条道上同时射出豌豆。",
+    "labels": [
+      "物理",
+      "豌豆"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "31",
+    "name": "冰西瓜投手",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122118/7cddf502b5a07165fa1431edd76dee30.png",
+    "catalog": "你可能在这部伟大的纪录片中会认出冰西瓜的富有磁性的声音，比如“这上面很冷”“冰冻重击”还有“冲浪的因纽特人”。",
+    "skillIntro": "冰西瓜投手能造成范围性的伤害并让僵尸减速。",
+    "labels": [
+      "寒冰",
+      "抛投",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "32",
+    "name": "樱桃炸弹",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122118/a8ed5a7e9b2caeb91616fff2ecac91ad.png",
+    "catalog": "组建乐队是樱桃炸弹兄弟的梦想。“我们很想知道每种爆炸的节奏。我们颠覆音乐，引爆粉丝，轰动舞台，当然还有摧毁僵尸！喂，别忘记买明年的唱片！",
+    "skillIntro": "樱桃炸弹，能炸掉一定范围内的全部僵尸。由于一种下就会立刻爆炸，所以请把他们种在僵尸身边。",
+    "labels": [
+      "消耗",
+      "火焰",
+      "灰烬",
+      "爆炸"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "33",
+    "name": "仙桃",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122118/212a62b7d5939a14c1af4e79788264c1.png",
+    "catalog": "仙桃的简历上写着自己本是王母娘娘的御用蟠桃，被贬下凡后做了战地医生。",
+    "skillIntro": "能医治周围的植物，恢复他们的生命值。",
+    "labels": [
+      "支援",
+      "治疗"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/辅助.png"
+  },
+  {
+    "id": "34",
+    "name": "火葫芦",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122118/35207fd0d63c74c13d6475bb33e01fb9.png",
+    "catalog": "火葫芦原先只是个杂技班里的小配角，自从上了僵尸战场后，他才发现自己真正的价值。",
+    "skillIntro": "火葫芦蓄力后能朝前方吐火，造成持续火焰伤害，对付木制的兵器架特别有效。",
+    "labels": [
+      "手操",
+      "火焰",
+      "群伤"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "35",
+    "name": "白萝卜",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122118/c757b1ecfaa9056fedecbd0a1c08e895.png",
+    "catalog": "白萝卜学了很多年气功，但他一直都只会一招：纹丝不动。",
+    "skillIntro": "稳固地立在地上，抵抗气功僵尸的法术和时空黑洞的吞噬。",
+    "labels": [
+      "物理",
+      "防御"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/坚韧.png"
+  },
+  {
+    "id": "36",
+    "name": "竹笋",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122118/51e498e519d206dc04e2ddc195780503.png",
+    "catalog": "竹笋从土行孙那里习得土遁功夫，又经过不懈努力，终于获得“钻头工程学院”学士称号。",
+    "skillIntro": "在地底移动，并对上方的僵尸造成穿刺伤害。",
+    "labels": [
+      "物理",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "37",
+    "name": "棱镜草",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122119/3a3f086f4c4f7bb58fd4b51df175dc90.png",
+    "catalog": "棱镜草知道如何运用隐藏在彩虹中的无穷能量。在他冷峻的面孔下，驱动五彩缤纷的辐射对抗僵尸大军使他获得巨大的享受与满足。",
+    "skillIntro": "棱镜草可以将阳光聚焦成一团色彩斑斓的辐射攻击波。",
+    "labels": [
+      "手操",
+      "电能"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "38",
+    "name": "激光豆",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122119/2da1261c6ec1483b8e684387a225659a.png",
+    "catalog": "经过了激光眼科手术后，他获得了不可思议的能力。现在激光豆拥有了强大的能量，以及不眨眼游戏中的压倒性实力。",
+    "skillIntro": "激光豆向整条路线开火，击溃他前面的所有僵尸。",
+    "labels": [
+      "电能",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "39",
+    "name": "星星果",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122119/e8a4bde0baabd69d122a8c5048c9a948.png",
+    "catalog": "他是个来自小城镇的水果，来到大城市找到了未来之路。他最喜欢的交通方式是：传送带，螺旋桨直升机，和火箭。哇欧～～",
+    "skillIntro": "星星果可以向五个方向发射小星星。",
+    "labels": [
+      "电能"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "40",
+    "name": "三叶草",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122119/7300e4cc8509a8065fd87370c2127885.png",
+    "catalog": "三叶草五岁生日那天，他得到一个很闪亮的生日蛋糕。他许好愿望，然后深吸一口气却只吹灭了60%的蜡烛。但他没有放弃，小时候那次失败促使他更加的努力，直到现在。",
+    "skillIntro": "三叶草吹走空中所有僵尸。",
+    "labels": [
+      "支援",
+      "消耗"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "41",
+    "name": "脉冲黄桃",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122119/68b678eaf1b6dc4f0a9999277a1aa5e0.png",
+    "catalog": "如果你要去和脉冲黄桃一起吃饭聚会，给你个小提示，吃饭的时候别埋头玩手机。",
+    "skillIntro": "脉冲黄桃一旦启动会使整片区域的所有机器设备失灵。",
+    "labels": [
+      "控场",
+      "消耗"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "42",
+    "name": "充能柚子",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122119/646c79bd18e35ba12e9379e33b325dd9.png",
+    "catalog": "“厚积而薄发”是充能柚子座右铭，少年老成的性格让人觉得他渊博，稳重。有人问他成功的秘诀时，他指了指他家那台大屏等离子电视机。",
+    "skillIntro": "充能柚子可以发射等离子炮。",
+    "labels": [
+      "电能"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "43",
+    "name": "全息坚果",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122119/bd66491d483ad9c2d7ef5a508f606361.png",
+    "catalog": "作为一枚年轻的坚果，他花了太多时间在两面镜子之间思考人生了。",
+    "skillIntro": "虽然全息坚果比坚果弱，但是他们可以慢慢自我治疗。",
+    "labels": [
+      "防御"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/坚韧.png"
+  },
+  {
+    "id": "44",
+    "name": "瓷砖萝卜",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122119/37b5907759dc1cd4dcae6f1547abf0fc.png",
+    "catalog": "瓷砖萝卜常常标榜自己是井字游戏冠军。但大家却觉得，他这么说只是为了缓解突然蹲下在地板上画一些圈圈叉叉的尴尬。",
+    "skillIntro": "瓷砖萝卜可以建立强化瓷砖，以供玩家种植植物。",
+    "labels": [
+      "支援"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/辅助.png"
+  },
+  {
+    "id": "45",
+    "name": "胡萝卜导弹车",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122121/58c8cf81cba8a393da1d80d33fb90beb.png",
+    "catalog": "胡萝卜在少年时代是机器人动画的狂热爱好者，他的房间摆满了各种机器人模型，他玩过几乎每一款机器人题材的电子游戏，他甚至尝试过在自己身上纹上一些代表某些机器人的纹身。当他成为一名科学家后，他开始疯狂地研究如何将太阳能作为机器人的动力来源……后来他把自己的研究成果应用在了自己身上。于是有人叫他胡萝卜导弹车，但是他更愿意称呼自己为柯博文。",
+    "skillIntro": "胡萝卜导弹车可以发射胡萝卜飞弹，对前方僵尸造成大威力伤害。",
+    "labels": [
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "46",
+    "name": "小喷菇",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122120/8eff3f25a61d7f24f1625b687b4afbce.png",
+    "catalog": "小喷菇对所有最新的网络时尚无所不知。他沉溺在“菇博”，“菇信”和“美菇秀秀”中不能自拔。但是有时候他还是会想念草坪网友聚会,那种纯朴简单的友情一去不返。",
+    "skillIntro": "小喷菇射程很近并只能持续一段时间。",
+    "labels": [
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "47",
+    "name": "大喷菇",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122120/b1528f5c2b2b5f39356e4a4874d05d19.png",
+    "catalog": "“我是一个充满自信,无所不能的蘑菇，”大喷菇如是说道，“但是有时候，当我吃下能量豆，我听到有植物在窃窃私语。他们居然叫我‘气球菇’!他们根本不知道这有多伤人!”",
+    "skillIntro": "大喷菇喷射的有害气体可对前方一定区域的所有僵尸造成伤害。",
+    "labels": [
+      "控场",
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "48",
+    "name": "魅惑菇",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122120/999204a3834b65674a388d1e09d500c6.png",
+    "catalog": "魅惑菇认为说服僵尸为植物而战毫无挑战。但是他还没说服过任何一只僵尸鸡。“会有那么一天的，”他说，“一定会有那一天的。”",
+    "skillIntro": "当僵尸吃下魅惑菇后，他将会掉转方向为你作战。",
+    "labels": [
+      "操控"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "49",
+    "name": "阳光菇",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122120/55cb197b5025874cd7c2f87ade544ac3.png",
+    "catalog": "众所周知，阳光菇拥有迷人的微笑和开朗的性格，但老实讲，即便是他也有过黑暗的日子。身处黑暗还得把东西一直照亮实属不易。",
+    "skillIntro": "阳光菇可以生产阳光，并且随着它的成长，单次获得的阳光会不断增加。",
+    "labels": [
+      "产阳"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/阳光.png"
+  },
+  {
+    "id": "50",
+    "name": "阳光豆",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122120/8849d8579d372217d3024638ffc0d817.png",
+    "catalog": "作为豆子兄弟里的老大哥，阳光豆总觉得他的弟弟妹妹们不靠谱。巴豆总是很粗俗，激光豆太前卫，弹簧豆就是个懒虫。尽管如此，他依然深爱着他的家人们。",
+    "skillIntro": "阳光豆用阳光来影响僵尸。当一个僵尸吃掉它后受到伤害时就会产生阳光。",
+    "labels": [
+      "产阳",
+      "消耗"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/阳光.png"
+  },
+  {
+    "id": "51",
+    "name": "花生射手",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025062015/b541faf02117d488f62f2839c7388601.png",
+    "catalog": "花生射手知道有些人对他挺\"过敏\"。他试着了解他们的顾虑,并且给予对方足够的空间。即便如此,他仍然会情不自禁地怀念以前的时光-回到那个人人爱花生的时代。",
+    "skillIntro": "花生射手可以阻挡僵尸的前进并可以喷射花生米。",
+    "labels": [
+      "物理",
+      "防御"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/坚韧.png"
+  },
+  {
+    "id": "52",
+    "name": "磁力菇",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122120/da991c45147cb3fda92a2ea19439881f.png",
+    "catalog": "虽然磁力菇外形奇特，但是对找女朋友完全没有影响。可真谈了恋爱却都维持不长，每个姑娘都因为同一个理由和他分手:太粘人。",
+    "skillIntro": "吸走铁桶、铁盔或其它金属物品。",
+    "labels": [
+      "削弱"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "53",
+    "name": "路灯花",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122120/579aad88e26c2025fabce178ac6a2fd8.png",
+    "catalog": "路灯花蔑视科学，他就这样。其他植物吸收光能排出氧气，路灯花却吸收黑暗发出灯光。路灯花曾就此坦言：“我不说什么‘巫术魔法’之类的东西，我只使用'黑暗原力'这个词，我只是……我认为我已经说得够多的了。”",
+    "skillIntro": "路灯花可以驱散迷雾并且看到隐形状态的盗贼僵尸。",
+    "labels": [
+      "支援"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "54",
+    "name": "咖啡豆",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122120/7ff22c4498910435ee84fc9edbb61e6d.png",
+    "catalog": "“伙计伙计，快起来看上帝啊！”咖啡豆每次都喜欢用这句他最喜欢的电影台词来叫别人起床。还真别说，这法儿挺有效的，至少他的小伙伴每次睁眼都能看到一个鸟人的身影。",
+    "skillIntro": "咖啡豆可以唤醒范围内沉睡的植物并为他们增加少许攻击力。",
+    "labels": [
+      "支援",
+      "消耗"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/辅助.png"
+  },
+  {
+    "id": "55",
+    "name": "寒冰菇",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/202604882bc0d0d2f1012abfb892b95937fd0d/c2c50783a0a1af8d46093e3fc3c65d5f.png",
+    "catalog": "寒冰菇最讨厌冬天，因为他睡觉的时候根本暖和不起来，最可怕的是每当他早上起床都会看到壁炉里结着厚厚的一层冰棱，这个时候他就会无比羡慕他的同胞兄弟烈焰菇。",
+    "skillIntro": "寒冰菇可以随着自身的成长释放越来越强大的法术攻击前方的僵尸。",
+    "labels": [
+      "减速",
+      "寒冰",
+      "控场"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "56",
+    "name": "烈焰菇",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122121/84405b19e4e42a4f0cdd100c5cd9d03a.png",
+    "catalog": "烈焰菇最讨厌夏天，因为他练习法术的时候会因为太热而流太多的汗。更倒霉的是他家的空调老因为温度太高而坏掉，每当此时他就会无比羡慕他的同胞兄弟寒冰菇。",
+    "skillIntro": "烈焰菇可以随着自身的成长释放越来越强大的法术攻击前方的僵尸。",
+    "labels": [
+      "火焰"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "57",
+    "name": "橡木弓手",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122120/5efc6419036f7fce0dcf4e54b10f257a.png",
+    "catalog": "橡木弓手从小打碎了无数邻居家的窗户玻璃才练到了如今的境界，为此他没有少挨老爸的巴掌。他有一个随身携带的日记，最后一页上写着：“僵尸膝盖：998/10000。”",
+    "skillIntro": "橡木弓手可以发射强力的箭矢攻击前方的僵尸。",
+    "labels": [
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "58",
+    "name": "蒲公英",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122121/df3b819091afbe4d37e49b6fb95b9f12.png",
+    "catalog": "蒲公英曾经是一个普通的文艺青年，没事的时候他喜欢躺在大树下看书，以及在看书的间隙中仰望天空。他的梦想是成为一名翱翔在蓝天下的飞行员，于是当他长大以后，他成为了一名机场联络员……是的，您没有看错，因为长年不正确的看书姿势导致他的视力下降得厉害，他没能通过飞行员体检！",
+    "skillIntro": "蒲公英可以发射威力强大的绒球，轰炸前方的敌人。",
+    "labels": [
+      "爆炸",
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "59",
+    "name": "大力花菜",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122121/f2b7c94f29cc7051df903b482ce0102c.png",
+    "catalog": "大力花菜曾经梦想着成为一位超级英雄，就像他经常看的漫画中的那些英雄一样。为此他拒绝了可爱的番茄妹妹的告白，参加了学校的柔道社，上学在学校苦练功夫，放学去学校背后的小巷子里匡扶正义……终于有一天，他收到了学校的留级通知书。",
+    "skillIntro": "大力花菜可以挥动僵尸攻击前后方。",
+    "labels": [
+      "物理",
+      "秒杀",
+      "防御"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/坚韧.png"
+  },
+  {
+    "id": "60",
+    "name": "机枪石榴",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122121/1fe5bb748ce16bad207d541882ccebaa.png",
+    "catalog": "石榴在去图书馆偷看校花的时候无意中看了一本叫《论石榴的1000种吃法》的书，书的扉页上写着一句影响了他一生的话：无论如何吃，石榴籽都是要被吐掉的。后来他参了军，成了一名枪法奇烂的机枪手，又后来他退了伍，成了一名每天磕着瓜子晒晒太阳的房东。再后来？你没看到对面那个张开大嘴向你们乱喷口水的家伙吗？",
+    "skillIntro": "机枪石榴可以扫射前方范围的僵尸。",
+    "labels": [
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "61",
+    "name": "莲叶",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025072201/273e2d62b7bc6f02d66aed8aca4bb922.png",
+    "catalog": "不太有人知道，原来莲叶超级喜欢广场舞。他一上场，就仿佛舞池里滑动的圆盘横扫全场。他特爱这种舞可以令自己突破极限，飘飘欲仙的感觉。",
+    "skillIntro": "莲叶可以让你在它上面种植非水生植物。",
+    "labels": [
+      "支援",
+      "水生"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/辅助.png"
+  },
+  {
+    "id": "62",
+    "name": "保龄泡泡",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122120/ca96a8df8dc851233bfd8aaa561ac86a.png",
+    "catalog": "猜猜哪个队直到现在蝉联五次冠军？没错，就是保龄泡泡队。他们现在如日中天。你和你的队友以为可以有什么办法打败他们吗？呵呵，继续做梦去吧，伙计。",
+    "skillIntro": "保龄泡泡发射的泡泡可以弹射多个僵尸。",
+    "labels": [
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "63",
+    "name": "缠绕水草",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122120/c16f68c09614dc3481f39ec84a562a4b.png",
+    "catalog": "缠绕水草喜欢沉思。他主攻哲学。如果拉着他喝上一杯草根啤酒，他就开始不停地讲尼采的“查拉图斯特拉如是说”，要么就是死磕康德的“纯理性批判”，听起来的确很高大上，不过有时你只不过想聊点轻松的话题，比如水底的温度是多少。",
+    "skillIntro": "缠绕水草是一种可以把接近他的第一个僵尸拉进水中的水生植物。",
+    "labels": [
+      "水生",
+      "消耗",
+      "物理",
+      "秒杀"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "64",
+    "name": "香蕉火箭炮",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122120/5b0254550593d7a95504cfe30322dc4e.png",
+    "catalog": "尽量不抱成见看人是很重要的。成见往往办错事。而且也会伤害到别人。不过坦白地讲…香蕉火箭炮完全单纯就是香蕉而已。",
+    "skillIntro": "香蕉火箭炮可以发射香蕉炮弹到草坪任意格子上。",
+    "labels": [
+      "手操",
+      "爆炸",
+      "物理",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "65",
+    "name": "鳄梨",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122120/cf2b832a6e27497b053107bff2b8e546.png",
+    "catalog": "问起鳄梨自己的事情，他就会呵呵道：“我曾经被类似熊夹子的陷阱夹过。我总是能吐射出令全场植物妒忌的强力精准，岩石般坚硬的子弹。呵呵，人们说我能在水上漂。我非常喜欢墨西哥辣味卷。”没错，这家伙是有点点飘飘然不过他知道自己在做什么。",
+    "skillIntro": "鳄梨可以远距离发射种子。当受到攻击时，他们会直线向前冲咬所有遇到的僵尸。",
+    "labels": [
+      "水生",
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "66",
+    "name": "导向蓟",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122120/dd2e1fbfee9c82c7295e49db692e9828.png",
+    "catalog": "别奢望可以靠近导向蓟。那个时候他早已经盯上你了。他能看穿任何伪装。就好像带着激光枪一样…瞄准着你的灵魂。",
+    "skillIntro": "导向蓟会对离自己最近的目标发射跟踪弹。",
+    "labels": [
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "67",
+    "name": "大嘴花",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122121/1e48dd4e8d5e9a68cc16d41c14af60ce.png",
+    "catalog": "每个人都很欣赏大嘴花的所作所为，因为他的大胃口在很多场合都曾拯救过他们。但说句真心话，大嘴花的朋友们认为他吃僵尸是件很粗鄙的事情。更何况他的口气！当他不理解别人为什么会送他薄荷的时候，实在没有人忍心告诉他真相。",
+    "skillIntro": "大嘴花可以吞食前方的僵尸，但是在消化僵尸时容易受到僵尸攻击。",
+    "labels": [
+      "位移",
+      "物理",
+      "秒杀"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "68",
+    "name": "强酸柠檬",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122121/2610c01ed6be7e6bbf27d9d6f643f887.png",
+    "catalog": "别看柠檬喜欢玩水，他其实是个旱鸭子。虽然他跟人讲起小时候下水捉鱼的故事时总是一副信誓旦旦的样子，但是配合他现在的形象和身下那个萌萌的游泳圈一起看的话，这实在不是一件有说服力的事情。",
+    "skillIntro": "强酸柠檬可以对铁制护甲造成额外的伤害。",
+    "labels": [
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "69",
+    "name": "幽灵辣椒",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122120/22567621c348a76ae56a918e3ca8c206.png",
+    "catalog": "当你看着她的时候你可能不会认识她，幽灵辣椒去什么地方的时候并不会一直都套着她那张白色床单。她第一次套上床单还是在某一年的万圣节派对上，每个人都为此精心准备了装扮而她觉得装扮成一个古老的鬼魂会比较有意思。但是从那以后她跟床单之间似乎有了一种心有灵犀的感觉，如同陷入爱河一般。",
+    "skillIntro": "幽灵辣椒能对接近的僵尸造成持续伤害。",
+    "labels": [
+      "消耗",
+      "物理",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "70",
+    "name": "甜薯",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122121/6463c35b2202ee00917ffc08423846af.png",
+    "catalog": "甜薯就像她看起来那样甜。她最喜欢的动物是独角兽。按她的原话说她最喜欢的颜色则是“彩虹的所有颜色”。当她写字母“i”的时候，她喜欢把点画成一颗心的形状。坦白来讲，对别人来说她的甜度简直无法忍受。但是对她来讲，这只是刚刚好而已。",
+    "skillIntro": "甜薯可以吸引附近的僵尸并阻挡他们前进。",
+    "labels": [
+      "位移",
+      "防御"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/坚韧.png"
+  },
+  {
+    "id": "71",
+    "name": "竹员外",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122121/dfdf8e228fbcee02a62dc4b6695690b3.png",
+    "catalog": "竹员外一个人住在烟花镇西边的一所大宅子里，别看他面相凶恶，其实他是一个喜欢小孩子的和善老头。每到过年的时候他都会给镇上的小孩子送鞭炮和烟花，希望他们能开开心心地过新年。而他最大的愿望，是希望他在远方学艺的孙子竹笋有一天能踩着鞭炮的碎屑敲响这座宅子的大门……",
+    "skillIntro": "竹员外能对接近的僵尸造成爆炸伤害。",
+    "labels": [
+      "消耗",
+      "火焰",
+      "爆炸",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "72",
+    "name": "莲小蓬",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122120/c68f6491587f5840fa0e0fd29d98fd6e.png",
+    "catalog": "莲小蓬是植物枪械爱好者俱乐部的成员，为了展现他的身份，他特意去做了一个左轮手枪的造型。对新造型非常满意的他决定去自己的哥哥莲叶那炫耀一番。出门的时候他无意中扫到电视里在播放功夫世界武僧僵尸入侵的消息，看了看那些个武僧的头顶，莲小蓬突然有种不想出门的感觉……",
+    "skillIntro": "莲小蓬在水中比在陆地上拥有更强的战斗力。",
+    "labels": [
+      "控场",
+      "水生",
+      "物理",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "73",
+    "name": "树脂投手",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122121/229dacea75d7039722a2f20795c3a3d7.png",
+    "catalog": "看到树脂投手那强健的投臂你就会本能地相信他的厉害。他虽然还很年轻，但是所有人都觉得他是个很有天赋的“小学生”。一些著名的松果球队的预备队一直在注意他，认为他能成长为一名核心球员。当然，有人批评他总是投出一些黏糊糊的曲线球，认为这是一种犯规的行为。但是，他使用的可是纯天然无污染的树脂，我们翻遍了整本规则，也没有找到这是一种犯规行为的条目。",
+    "skillIntro": "树脂投手能减速僵尸。",
+    "labels": [
+      "减速",
+      "抛投",
+      "控场"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "74",
+    "name": "飓风甘蓝",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/202604882bc0d0d2f1012abfb892b95937fd0d/5d197adeeb1e9c51adfc3404e0292d7d.png",
+    "catalog": "可以说用“金刚无敌吹奏手”来形容飓风甘蓝真是一语中的。他是双年展爱乐乐团首席长号手。同时还精通小号，萨克斯和大号。但是，老兄，你应该看看他使用富鲁格号的演奏。哥们绝对是一绝~！",
+    "skillIntro": "飓风甘蓝吹出飓风将所有僵尸推出场外。",
+    "labels": [
+      "位移",
+      "减速",
+      "消耗"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "75",
+    "name": "火焰豌豆射手",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025062015/38447b8163b44a67224a2cf232d069a1.png",
+    "catalog": "火焰豌豆射手清楚当她激动起来会是什么样子。但是和“喷火”打交道可不是闹着玩的，更重要的是，这是危险的工作。所以她闲暇时，总是对孩子们说用火安全。“我是受过专业训练的”，她解释说。“孩子们，别在家里玩火。”",
+    "skillIntro": "火焰豌豆射手喷射火焰豌豆。",
+    "labels": [
+      "火焰",
+      "豌豆"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "76",
+    "name": "烤马铃薯",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122121/2a720f26a1b4167a1bb7866192f9a051.png",
+    "catalog": "烤马铃薯即使在去皮时也能活得如此积极，为什么？瑜伽，这就是答案。她从来没有错过哪怕一堂瑜伽课。此外，还有定期冥想。这是她能够面对僵尸战斗，日复一日辛勤工作而没有倒下去的唯一方法。",
+    "skillIntro": "烤马铃薯可以融化场上冰块。",
+    "labels": [
+      "支援",
+      "消耗"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/辅助.png"
+  },
+  {
+    "id": "77",
+    "name": "辣椒投手",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122121/e5a7ed9ad68278ccc86de38e47e48871.png",
+    "catalog": "有人说，辣椒投手有点容易头脑发热。有些人觉得他火热的性格让人倒胃口。但事实是，他只是比较专注和执着而已。他爱他所做的事情。他感谢自己拥有的一切。 “我来自草坪的野草区，”辣椒投手解释。 “我努力扎根令自己立足。我是一个自力更生的辣椒，我认为任何事都不是理所当然的。”",
+    "skillIntro": "辣椒投手向僵尸投出火焰辣椒还能冰释其周围的植物。",
+    "labels": [
+      "抛投",
+      "火焰"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "78",
+    "name": "甜菜护卫",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122121/179e8053dca53011fc131d412ee4a425.png",
+    "catalog": "你也许还记得WWF里(世界蔬叶摔角大赛)甜菜护卫的闪光时代。当时他获得“男仔中的男仔”金腰带，那真的是嗨翻全场，万众瞩目！他的动作！他的战风！他的气势！大家爱死他了。那个时候他确实是人气明星。当然，那也已经是之前的事情了。但是如今如果你仔细观察，当甜菜护卫和僵尸战斗的时候，你会看到他使用的正是看家招式-摔跤动作。称之为“一击入魂”的秘技-真是百用百中。",
+    "skillIntro": "甜菜护卫是防守反击型植物，可以将僵尸击退。",
+    "labels": [
+      "位移",
+      "防御"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/坚韧.png"
+  },
+  {
+    "id": "79",
+    "name": "眩晕洋葱",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122121/36e2222be6aff7a3af023e45127661b1.png",
+    "catalog": "哦，当然，每个人都知道眩晕洋葱作为战士以他强大的气团在战场上驰骋多年。但他可远不止这点本事。他是一个多才多艺的钢琴家。他会说五种流利的语言。哎呀，他在业余时间还是青葱年少组织的组长。这位老兄层次很多哦。来吧，一层层剥开，你就会看到。",
+    "skillIntro": "眩晕洋葱可以呼出令草坪上身边的僵尸眩晕的气团",
+    "labels": [
+      "控场",
+      "消耗",
+      "群体"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "80",
+    "name": "旋转芜菁",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122121/1998c0e4874a255d3246aeae5dc23599.png",
+    "catalog": "有时候旋转芜菁会听到其它植物互相八卦。“你注意到没？某某某发胖了。”他们还会说，像这样的话题“我听说某某某正在和某某某约会，你能相信吗？”但是旋转芜菁不是这种爱八卦的类型。对于在别人背后议论八卦，她更有兴趣事情是尽力超越别人。",
+    "skillIntro": "旋转芜菁可以沿着4个对角线发射子弹，每个方向瞄向一个目标。",
+    "labels": [
+      "物理",
+      "飞行"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "81",
+    "name": "大王花",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122121/70869fc222fa9d288df409dad38f9e97.png",
+    "catalog": "大王花是公园里最受孩子们欢迎的员工之一，每次他出现的地方总会被孩子们团团围住，大王花很享受这种感觉，“我吹泡泡的技术是最棒的！孩子们都很喜欢看我吹泡泡”每次他都这么向别人介绍自己。他不知道的是，别人在点头微笑的同时大多会感觉很疑惑：大王花不是负责卖气球的吗？",
+    "skillIntro": "大王花可以攻击前方躲在后方的僵尸。",
+    "labels": [
+      "物理",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "82",
+    "name": "旋风橡果",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122121/6e639a7247cc8697919f563ac822da14.png",
+    "catalog": "旋风橡果非常喜欢运动。他曾经与回旋镖竞争过植物运动会飞盘表演赛的冠军，可惜后者用一手四方飞盘的技术打败了他。为了能在下一届运动会中能有出彩表现，他开始疯狂练习跑步，他对自己拥有玩飞盘的经验感觉信心满满：他已经可以利用旋转跑出最快的起步速度——副作用是冲出一段距离之后会回旋回来。",
+    "skillIntro": "旋风橡果可以攻击前方一排的僵尸，并击断海象僵尸的牙齿。",
+    "labels": [
+      "物理",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "83",
+    "name": "板栗小队",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122121/329962b34d212ff5aaf66cb9ab6febc7.png",
+    "catalog": "小板栗们最喜欢住在一起生活，当有人问起原因时，他们就会跟对方自豪地讲述一群刚毕业的小板栗挤在一栋小屋内艰苦奋斗，互相扶持，誓要出栗头地的故事。当然在故事的最后他们还会不忘小小地抱怨一下某个外号“靓仔”的小板栗挤占太多空间的不良行径……而跟他们认识了很多年的毛竹同学一句话道出了真相：“他们不过是没钱付房租罢了。”",
+    "skillIntro": "板栗小队可以召唤板栗小兵攻击前方一定区域内的僵尸。",
+    "labels": [
+      "召唤",
+      "物理",
+      "防御"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/坚韧.png"
+  },
+  {
+    "id": "84",
+    "name": "竹小弟",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024122121/2dfc51a78d2e6bbc63c70eccea995bff.png",
+    "catalog": "竹小弟自小开始跟着邻镇的一个戏班子跑腿，自小跑龙套的他希望有一天成为班里的台柱子，于是他苦练各种功夫，终于有一天练成了连续后空翻的看家本领。皇天不负苦心人，竹小弟终于接到了第一场他担纲主角的戏，主要剧情是这样的：有一天，在森林中一只凶猛的狼绑架了小猪，猪妈妈勇敢地寻找狼的巢穴来救它……",
+    "skillIntro": "竹小弟可以顶住僵尸，阻止它们前进。",
+    "labels": [
+      "位移",
+      "防御"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/坚韧.png"
+  },
+  {
+    "id": "85",
+    "name": "旋涡枇杷",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024123119/d3eed6611dbfc46a0eb63ed6b81da2ef.png",
+    "catalog": "梦想成为芭蕾舞演员的旋涡枇杷有一项绝活：她可以在原地旋转很多圈。“我觉得我一定能成为这个世界上最伟大的芭蕾舞演员，但是没有人愿意聘请我，我不理解为什么会这样。”旋涡枇杷沮丧地说，顺便吞下了一大口冰激凌。",
+    "skillIntro": "旋涡枇杷可以发动旋风将僵尸拉扯到一起。",
+    "labels": [
+      "位移",
+      "消耗",
+      "飞行"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "86",
+    "name": "电离红掌",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024123119/0adf010abaf438ad476d20d240da5ff6.png",
+    "catalog": "不要为电离红掌中和正负电荷的能力而感到惊讶，看看兄弟俩全部都是满分的物理试卷你就明白了。但是它俩却始终无法理解对方的想法，比如在选择戴什么颜色的领带、在看纪录片还是电视剧、在去印度餐厅还是中餐厅约会这样的问题上。不过他们也明白，缺了对方，他们谁也不是操纵闪电的天才。",
+    "skillIntro": "电离红掌能吸收闪电并攻击前方僵尸。",
+    "labels": [
+      "电能"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "87",
+    "name": "芦笋战机",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024123119/584bb9d3e80f757c2503385b750d9ce1.png",
+    "catalog": "芦笋享有“蔬菜之王”的美称，然而它却并不以此为傲。从小热爱研究各类热兵器的它只有在战场上才能实现自己的价值。“我只希望大家能够记住战场上热血的我！”芦笋认真地说道。",
+    "skillIntro": "芦笋战机可以攻击前方及左右两行的僵尸。",
+    "labels": [
+      "物理",
+      "飞行"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "88",
+    "name": "飞碟瓜",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024123119/88d90da6411ccb078c158b2a827f8390.png",
+    "catalog": "大家总是误把飞碟瓜当做外星生物，但是大家慢慢发现，它只不过是因为过于内向而不敢融入大家。不过，千万不要惹飞碟瓜生气，被它的光照到可不是一件轻松的事情。",
+    "skillIntro": "飞碟瓜能发出光线捕捉接近的僵尸",
+    "labels": [
+      "控场",
+      "消耗",
+      "飞行"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "89",
+    "name": "蚕豆突击队",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024123119/ba0550037d4d8239655ad63bef4a2ce6.png",
+    "catalog": "蚕豆们在飞行学校学习的时候获得了“最佳飞行员”的称号，毕业后，他们迫不及待地组成了一支飞行队。尽管蚕豆们常常吹嘘自己的飞行技术，不过大家似乎都不太敢踏上他们颠簸的母舰。",
+    "skillIntro": "蚕豆突击队能发动突击队员攻击周围的僵尸。",
+    "labels": [
+      "物理",
+      "飞行"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "90",
+    "name": "灯笼草",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024123119/1cac090c376c729ef0bd3086cceb65d2.png",
+    "catalog": "灯笼草很快就与火炬树桩和火龙草成了形影不离的好朋友，他们自称为“火焰三剑客”。不过夏威夷风情酒廊似乎不太敢招待他们三个，老板可不愿意再看见烧焦的酒桌。",
+    "skillIntro": "灯笼草能发现隐形状态下的僵尸",
+    "labels": [
+      "支援",
+      "消耗",
+      "飞行"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "91",
+    "name": "旋转菠萝",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024123119/c229b7740857b55fd2268e63044edaa0.png",
+    "catalog": "为了满足飞上天空的梦想，菠萝从小时候看过的动画片中寻得了灵感：他把头上的叶子改造成了竹蜻蜓并希望自己能在天空中自由的翱翔。如我们所见的一样，这个异想天开的点子居然成功了！不过副作用也很明显：他不得不每隔一段时间跟着旋转一下以抵消一部分叶子旋转带来的压力。",
+    "skillIntro": "旋转菠萝可以阻挡僵尸前进，并通过旋转自身反弹远程子弹。",
+    "labels": [
+      "防御",
+      "飞行"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/坚韧.png"
+  },
+  {
+    "id": "92",
+    "name": "魔术菇",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010523/952023d0407cee33d2e3227a3c05a64f.png",
+    "catalog": "在成为耀眼的魔术菇之前，魔术菇只不过是蘑菇村落中最普通的圆脑袋蘑菇，但是这一切都在它接触魔术世界的时候改变了。“对！我就是一个耀眼的明星！”魔术菇熟练地耍着手中的扑克，这是他认为自己最英俊的姿态。不要愚蠢地以为魔术菇的帽子里面藏了一只兔子，掀开它你就完蛋了！",
+    "skillIntro": "魔术菇可以发射扑克攻击前后方的僵尸。",
+    "labels": [
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "93",
+    "name": "玫瑰剑客",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010523/5390ee0fddaa48cd937410598d42f353.png",
+    "catalog": "这名来自遥远东方的神秘剑客自称为凡尔赛·高，他在酒馆里喝酒的时候总是吹嘘自己是一名超越时代的艺术家。“这些粗鲁的家伙根本无法理解我想表达的东西！”他总是如此愤愤不平地说道，“那位著名的歌手向日葵，我曾经给她画过一幅划时代的画像，但是她居然宣称我画的是垃圾！这可是我唯一一幅除了玫瑰之外的画像！我还特意在画的下面签上了自己名字的缩写，我敢打赌光凭这个签名就足以使这副画成为无价之宝……嗝~”",
+    "skillIntro": "玫瑰剑客可以攻击接近的僵尸，并对低生命的僵尸发动强力攻击。",
+    "labels": [
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "94",
+    "name": "电击蓝莓",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010523/2f448aa03f544ee56b4e67789697fcce.png",
+    "catalog": "电击蓝莓为自己既能够保持中性又能够带电的能力感到无比自豪，“我喜欢让僵尸们不断推测我的行踪”，她说道，“僵尸们总是在被我的闪电劈得四分五裂的时候惊叹道，‘天哪，我可没看见那玩意儿向我劈来！’”",
+    "skillIntro": "电击蓝莓可以对一定范围内的僵尸造成巨大的伤害。",
+    "labels": [
+      "电能"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "95",
+    "name": "捣蛋萝卜",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010523/c549ae336cb4066cbada6ab7e35596e3.png",
+    "catalog": "捣蛋萝卜曾经拥有过成为一个瘦子的梦想，不过当他发现他巨大的肚子里可以塞入各种各样武器的时候，他就彻底放弃了之前那个不切实际的想法。孩子们也非常喜欢和捣蛋萝卜一起玩耍，因为他们总是以为捣蛋萝卜的肚子里装满了糖果。“有时候我不得不躲在泥土之中”，捣蛋萝卜无奈地说道，“我真的害怕我会伤害到接近我的孩子们。”",
+    "skillIntro": "捣蛋萝卜可以依次发射三枚不同形状和伤害的萝卜导弹。",
+    "labels": [
+      "抛投",
+      "物理",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "96",
+    "name": "向日葵歌手",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010523/60e9b6a914b90410b1a59f957b0e0c7f.png",
+    "catalog": "为了准备两周年的庆典活动，组织方特意邀请了植物界最著名的歌手向日葵作为特邀嘉宾出席。除了大把阳光的出场费，组织方还花费了数天时间说服领导、找回失踪的经纪人小豌豌、并答应邀请著名的发型师三叶草为向日葵制作新发型才成功。届时你将能在庆典会场聆听她献唱成名曲《Zombies On Your Lawn》，如果你能买到票或者干掉高大的追秒草保镖的话……",
+    "skillIntro": "向日葵歌手可以通过演唱产出阳光并鼓舞周围的植物，提升他们的攻击力并缩短休息时间。",
+    "labels": [
+      "产阳",
+      "支援"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/阳光.png"
+  },
+  {
+    "id": "97",
+    "name": "榴莲",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010523/0842377a9b30937c3289a5e4b4a86915.png",
+    "catalog": "“当别人提到我的时候，他们说我太难以接近了，因为我总是很害怕别人的接近。并且，我的气味有点难闻。”榴莲这么说着。但是实际上，他知道他比自己说的更糟糕：他的脾气非常暴躁。",
+    "skillIntro": "榴莲可以阻挡僵尸前进并对攻击他的僵尸造成伤害。",
+    "labels": [
+      "物理",
+      "防御"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/坚韧.png"
+  },
+  {
+    "id": "98",
+    "name": "南瓜巫师",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010523/e793af2cc28fd0b4144dd34fee052119.png",
+    "catalog": "南瓜巫师独自一人住在森林中一处神秘的沼泽地当中，它神秘而强大，会使用各种神奇的魔法，比如命令它的扫帚为它扫地、或者命令它的扫帚替它煮饭洗碗、又或者命令它的扫帚为它炼制各种奇怪的药剂、再或者命令它的扫帚……好吧，它其实是一个毫无生活自理能力的半吊子巫师罢了。",
+    "skillIntro": "南瓜巫师可以投掷出南瓜控制普通的人形僵尸，在南瓜存在时为你作战。",
+    "labels": [
+      "抛投",
+      "操控"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "99",
+    "name": "黄金叶",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010523/f1d92c3ae2fece76108dd76ef8b4970e.png",
+    "catalog": "\"即使开始投入一点点,你也能收获巨大阳光\", 黄金叶说。她是太阳能市场的死忠粉丝。",
+    "skillIntro": "黄金叶在所种植的格子上建立黄金格子",
+    "labels": [
+      "产阳"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/阳光.png"
+  },
+  {
+    "id": "100",
+    "name": "阿.开.木.木.",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025062015/ab9f4b2687e8db5a5633997605697a12.png",
+    "catalog": "阿门 开丹 木汗 木德 实际上一直在为自己的简称-阿.开.木.木.寻找另外一个不同的全称扩展名。因为当我们认真看看这些字，“开丹”实在说不通阿。",
+    "skillIntro": "阿.开.木.木.抛射出可以在僵尸之间弹射的炮弹。",
+    "labels": [
+      "抛投",
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "101",
+    "name": "红针花",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010523/1d72b1e3179c3ff477000911f5193b72.png",
+    "catalog": "对于红针花来说灵活柔韧性是极其重要的关键。“我确确实实每天早上都作拉伸练习，”他说。“这对精神与肉体时刻保持灵敏反应十分重要。”",
+    "skillIntro": "红针花靠近大本营时火力全开发射子弹，远离老家则会提升防御性。",
+    "labels": [
+      "输出",
+      "防御"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "102",
+    "name": "大丽菊",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010523/6f486e8533fa925132021f8a8b99acaf.png",
+    "catalog": "“现代这个世界生活速度太快，”大丽菊说。“人们需要放慢节奏，品味一些孢子”",
+    "skillIntro": "大丽菊喷出使附近的僵尸减速的香雾",
+    "labels": [
+      "减速",
+      "剧毒",
+      "控场",
+      "消耗"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "103",
+    "name": "岩浆番石榴",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010523/6d61e4d4b83bcc88612612c7c8387656.png",
+    "catalog": "岩浆番石榴皱着眉头压抑着愤怒。它尝试保持冷静。 它是那么的努力，但当僵尸对他得寸进尺时，他就不能忍了。",
+    "skillIntro": "岩浆番石榴会喷射岩浆,并生成一个岩浆坑对僵尸造成伤害。",
+    "labels": [
+      "消耗",
+      "火焰",
+      "灰烬",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "104",
+    "name": "金蟾菇",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010523/08d2d5392463e47e51070ba66b2668af.png",
+    "catalog": "金蟾菇不喜欢傻站着。“我把所有我想做的事都记在小本子上，并总把小本子放在我能看到的地方这样我就能时刻保持动力”她说。每当有工作需要完成，她总能第一个跳出来。",
+    "skillIntro": "金蟾菇能吞下整个的僵尸, 然后产生阳光。",
+    "labels": [
+      "产阳",
+      "物理",
+      "秒杀"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "105",
+    "name": "棉小雪",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/202604882bc0d0d2f1012abfb892b95937fd0d/3acd04c79b9ebe77beafbdb5e6a7c684.png",
+    "catalog": "作为植物跳远大赛冠军的有力竞争者，棉小雪一直在坚持锻炼，跳着前进成为了她的一个生活习惯，只是，有时候跳得太远也不一定是件好事情……",
+    "skillIntro": "棉小雪可以踩踏攻击前方的僵尸。",
+    "labels": [
+      "减速",
+      "寒冰",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "106",
+    "name": "龙舌兰",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010523/9b2cf92cea88659ad99323bbd67734dc.png",
+    "catalog": "“高手对决，胜负往往就在一瞬间。那些花哨的剑术不值一提。”每当有人提到那次“史诗级”的决斗，龙舌兰就会一脸不屑的说道。其实大家都知道龙舌兰和玫瑰剑客比的只不过是剪刀石头布。",
+    "skillIntro": "龙舌兰可以攻击前方两格的僵尸，并对头上有防具的僵尸造成额外伤害。",
+    "labels": [
+      "物理",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "107",
+    "name": "菠萝蜜",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010523/c1c5cb02b9b7e62021acf489fe53804e.png",
+    "catalog": "菠萝蜜是天竺流行乐的忠实粉丝，他最爱做的事情就是唱着“多冷个隆冬，多冷个隆冬，多冷个隆冬哒哒哒~”的天竺神曲不断往前翻滚。",
+    "skillIntro": "菠萝蜜滚动攻击前方一行的僵尸，并能堵住向导僵尸打开的地道口。",
+    "labels": [
+      "支援",
+      "消耗",
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "108",
+    "name": "猕猴桃",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010600/36e9fcf5465f26dd60be2781d77a9bb5.png",
+    "catalog": "“齐天大圣、斗战胜佛、美猴王……”猕猴桃恨不得把所有头衔都亮出来为自己代言。但现实总是残酷的，在僵尸眼里他只是个能吃的水果……而已……",
+    "skillIntro": "猕猴桃可以变出金箍棒攻击最近的僵尸，并对范围内的僵尸造成持续伤害。",
+    "labels": [
+      "减速",
+      "物理",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "109",
+    "name": "梅小美",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010600/9ebcb5d27f010a7c5c0cd73b2d1e7e22.png",
+    "catalog": "从小训练投掷技能的梅小美是各种游乐场内套圈小游戏店主的噩梦，到她对这种被她称作“小孩子的游戏”的小游戏丧失兴趣为止，从一脸苦逼的店家手中赢来的奖品已经足够堆满一个小房间。据说最近她迷上了打靶，附近的几家经营射击小游戏的店家已经准备关门歇业避避风头了。",
+    "skillIntro": "发射可以散射的梅花攻击前方僵尸。",
+    "labels": [
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "110",
+    "name": "火龙果",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010600/38a8ce500874f9dd74bfea66cc49a90f.png",
+    "catalog": "火龙果从小就很焦虑，因为他总想数清楚自己的果肉里有多少籽，它还很容易发怒，因为总有人怀疑他和黑芝麻有什么关系。后来他想通了，把难题全部抛出来，让僵尸们去头疼吧！",
+    "skillIntro": "吐出燃烧的果肉，杀伤一小片敌人。",
+    "labels": [
+      "抛投",
+      "火焰"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "111",
+    "name": "天使星星果",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010600/f21f36f09a5eb7d9f4a5d07b9d20749c.png",
+    "catalog": "粉嫩的天使星星果小公举非常瞧不起来自小地方的星星果，她认为星星果连转动一下都懒，太没追求了。",
+    "skillIntro": "天使星星果可以向十个方向发射小星星。",
+    "labels": [
+      "电能"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "112",
+    "name": "火柴花拳手",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010600/5bbc41e2072e4bce3b7731dc016626db.png",
+    "catalog": "火炬树桩总想告诉大家火柴花是自己的后代，但火柴花除了能点燃豌豆之外，还是一个用拳头说话的战士，比火炬树桩只会摆出凶相吓唬敌人强多了。",
+    "skillIntro": "攻击面前的敌人，越打火越大，着火了还能点着豌豆。",
+    "labels": [
+      "支援",
+      "火焰"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "113",
+    "name": "火焰花女王",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010600/0df3ed34353bdcf73de7903eec77e66a.png",
+    "catalog": "「在远处观赏时，火焰花女王也许是我见过最优雅矜持的植物了，可当你靠近她时，就会发现她简直就是一头喷火的母恐龙。」——一位僵尸探险家的绝笔（死因：胆敢说火焰花是恐龙而被女神亲卫队群殴至死）",
+    "skillIntro": "火焰花女王对远程的敌人进行抛射攻击，对靠近的敌人则会喷吐火焰。",
+    "labels": [
+      "抛投",
+      "火焰",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "114",
+    "name": "机枪豌豆",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010600/a83adc036545f82b987b4498d1e358cf.png",
+    "catalog": "某次研究中心的爆炸事故发生时，一棵芦苇刚好被闪电击中，于是他变成了闪电芦苇侠；而与此同时，正在操作机枪的豌豆射手也被击中，这就是我们全新的超级英雄——机枪豌豆的来历。",
+    "skillIntro": "机枪豌豆能够一次射出4发豌豆攻击前方敌人。",
+    "labels": [
+      "物理",
+      "豌豆"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "115",
+    "name": "魔音甜菜",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010600/c493ec40e31e961c2809dfded0682cd3.png",
+    "catalog": "魔音甜菜拥有劲爆的节奏和韵律，还有令人沉迷的曲子，不过只有短短几秒。",
+    "skillIntro": "魔音甜菜每隔数秒都会弹奏造成伤害。",
+    "labels": [
+      "物理",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "116",
+    "name": "逆时草",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010600/a3fe2235bf3c8b320601e51ac73f0881.png",
+    "catalog": "“性能可的它其受接要需们我”逆时草说，“限局常非性向单的间时得觉直一我。”",
+    "skillIntro": "逆时草可以让时光倒流，把僵尸送回他们开始的地方。",
+    "labels": [
+      "控场",
+      "消耗"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "117",
+    "name": "潜伏芹菜",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010600/9f1ecb6e2d6ce3212d19f88caaecdc45.png",
+    "catalog": "潜伏芹菜非常讨厌别人说他的攻击方式没特色。他觉得保持低调对植物来说更重要。",
+    "skillIntro": "潜伏芹菜突然出现并从后面攻击僵尸。",
+    "labels": [
+      "低矮",
+      "物理",
+      "防御"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "118",
+    "name": "孢子菇",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025062015/c9be4d714264d07ed566dc36d1e13a80.png",
+    "catalog": "“我最喜欢的算术方式？”孢子菇想。“我猜应该是，嗯，加法！等等，不……是乘法。”",
+    "skillIntro": "孢子菇发射出的孢子能够从被打败的僵尸身上制造新的孢子菇。",
+    "labels": [
+      "抛投",
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "119",
+    "name": "大蒜",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010600/72234cf2b387df39e39cfba239c8381f.png",
+    "catalog": "对抗僵尸的利器，也能抵挡住任何不慎游荡过来的吸血鬼。",
+    "skillIntro": "大蒜能把僵尸引到别的路线上。",
+    "labels": [
+      "位移",
+      "防御"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "120",
+    "name": "复活萝卜",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010600/2cc831fe11f65304a0f1cc6dff80a633.png",
+    "catalog": "“我该怎样复活阵亡的植物呢？”复活萝卜问道。“简言之，就是用维生素。维生素加上魔法。”",
+    "skillIntro": "复活萝卜能让被吃掉的植物活过来。",
+    "labels": [
+      "支援",
+      "消耗"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/辅助.png"
+  },
+  {
+    "id": "121",
+    "name": "仙人掌",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010600/174396a66551fb1768639182a1a9755d.png",
+    "catalog": "最近对仙人掌来说，情况发生了巨大变化。图书交易，电影，卡车表演什么的…她只想保持谦虚，跟平时一样发射尖刺就行了。",
+    "skillIntro": "仙人掌可以发射穿透性尖刺，对多个敌人造成伤害！",
+    "labels": [
+      "物理",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "122",
+    "name": "猫尾草",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010600/0330dc8b85b39eed847be12febae1a92.png",
+    "catalog": "猫尾草接受采访时，记者问到：“您是怎么看待与导向蓟之间的竞争关系？”猫尾草面不改色地回答：“喵喵喵~”翻译过来的意思是--“没什么问题是卖个萌解决不了的~”",
+    "skillIntro": "发射导向针刺攻击僵尸，并有概率造成麻痹效果。",
+    "labels": [
+      "控场",
+      "水生",
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "123",
+    "name": "喇叭花",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010600/026feb5aaadb314080016528e7fd2538.png",
+    "catalog": "喇叭花一直饱受楼上装修的噪音打扰，他请教邻居DJ甜菜如何解决之后，立马下单买了一个MSR-7耳机。",
+    "skillIntro": "发射音波攻击僵尸，并反弹僵尸发射的音波。",
+    "labels": [
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "124",
+    "name": "爆裂葡萄",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010600/fd2052b9ee204974bc63d48eb7e0c34e.png",
+    "catalog": "“嘶啪-轰！”爆裂葡萄热情地说。“你喜欢这声音吗？我这多得是呢！哇-嘭！叭-砰！咂……呃……嗑……嗯……好吧，我想我只会那三种。”",
+    "skillIntro": "爆裂葡萄会爆炸并朝八个方向散射出飞弹。",
+    "labels": [
+      "消耗",
+      "火焰",
+      "灰烬",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "125",
+    "name": "冰龙草",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010600/04203b3c9fad1a18ee5f5d3f4409c3b5.png",
+    "catalog": "当有人提到他堂兄火龙草的时候，冰龙草就会浑身散发出寒意。“我们对温度的概念很不一样，我不想讨论。”他说。",
+    "skillIntro": "冰龙草对前方的6格呼出冰冻雾气。",
+    "labels": [
+      "减速",
+      "寒冰",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "126",
+    "name": "缩小紫罗兰",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010600/dca33c7674c7db6a7d7ed5e4f2abc097.png",
+    "catalog": "缩小紫罗兰开始很害羞，但令人惊奇的是，在发现自己可以缩小僵尸的天赋之后，她的外貌就彻底变了。",
+    "skillIntro": "缩小紫罗兰可以缩小一个区域内的僵尸，让他们受到更多伤害并降低他们咬植物的伤害。",
+    "labels": [
+      "削弱",
+      "消耗"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "127",
+    "name": "原始豌豆射手",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010600/066432649f4eddf78d8067ba6ad0c3d9.png",
+    "catalog": "原始豌豆射手也许很原始，但他依然参与了不少软件开发相关课程且表现优异。",
+    "skillIntro": "原始豌豆射手能够向僵尸发射重型眩晕豌豆。",
+    "labels": [
+      "位移",
+      "控场",
+      "物理",
+      "豌豆"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "128",
+    "name": "原始坚果墙",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010600/0db3eeef3afc7d5e06d4bbf3843159a8.png",
+    "catalog": "“呼噜”，原始坚果墙说。“呼噜呼噜呼噜”，他继续说道。“哦库噜呼噜呼噜”，他总结道。一个非常有想法的坚果，那就是原始坚果墙。",
+    "skillIntro": "原始坚果墙有比传统的坚果墙价格要贵一些，但它们可以很快种好。",
+    "labels": [
+      "防御"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/坚韧.png"
+  },
+  {
+    "id": "129",
+    "name": "香水蘑菇",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025062015/5e7cdb25568f981432ad4722f21cd5a5.png",
+    "catalog": "香水蘑菇会放出纯净浓缩的爱情之雾。",
+    "skillIntro": "香水蘑菇可以迷惑恐龙来对抗僵尸。",
+    "labels": [
+      "支援",
+      "消耗"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "130",
+    "name": "原始向日葵",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010600/dc213b46180139c5fd8e7fd4303dd39b.png",
+    "catalog": "原始向日葵刚来到日光产出行业，所以请对她耐心一点。她在阳光制造产业中不限量自助餐厅的早期试用者。",
+    "skillIntro": "原始向日葵会产出大号太阳，而不是普通太阳。",
+    "labels": [
+      "产阳"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/阳光.png"
+  },
+  {
+    "id": "131",
+    "name": "原始土豆地雷",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010600/5e86997672ba7e63a84aec3223726706.png",
+    "catalog": "原始土豆地雷并不觉得自己很原始。对他来说，他是最前沿的科技。谁知道呢？或许他真的是。",
+    "skillIntro": "原始土豆地雷比普通土豆地雷要贵一些，但它们激活得非常快，而且会对大范围的敌人造成伤害。",
+    "labels": [
+      "消耗",
+      "灰烬",
+      "物理",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "132",
+    "name": "龙吼草",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010600/175531448237ec7d662f4b973a70e28c.png",
+    "catalog": "龙吼草自小就嗓门大，所以在高中的时候就参加了学校的合唱团。然而过了没多久，他就因“种种原因”选择了退出。“我还是觉得他适合独唱，”喇叭花评价说，“毕竟对于合唱团来说，他一个人需要的安全距离也太大了些……”",
+    "skillIntro": "龙吼草能把靠近的僵尸吃掉，并吐掉无法消化的恐龙蛋。",
+    "labels": [
+      "剧毒",
+      "秒杀"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "133",
+    "name": "胆小荆棘",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010600/8537a02d2d9ee13eeb4ca909a426e3b2.png",
+    "catalog": "胆小荆棘毕生只专注一件大胆的事情，就是和雷龙的脚过不去。",
+    "skillIntro": "胆小荆棘能够抵挡雷龙的踩踏。",
+    "labels": [
+      "支援",
+      "消耗"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "134",
+    "name": "原始大王花",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010600/15112fc607e24787ef9e8145b236056b.png",
+    "catalog": "作为植物世界风云榜“越丑越厉害”大奖的获得者，原始大王花看到自己不争气的小辈时，只能感叹：“没想到褪了毛之后连战斗力都退化了，战斗力可不是靠吹出来的。”",
+    "skillIntro": "原始大王花可以发射毒液球攻击僵尸，并造成缓速效果。",
+    "labels": [
+      "剧毒"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "135",
+    "name": "蔗师父",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010600/1dbe1b67b5590f9fc39f3e4b75a80c1a.png",
+    "catalog": "蔗师父也是布鲁斯·李的狂热粉丝，为了表达对偶像的敬意，他自小就开始练习蔗拳道，并耍得一手好双蔗棍。模仿布鲁斯·李是他最爱做的事情，以至于现在说话只会“啊哒！啊哒！”地叫。",
+    "skillIntro": "蔗师父能够使用双蔗棍攻击前方多个僵尸。",
+    "labels": [
+      "位移",
+      "物理",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "136",
+    "name": "玉米加农炮",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010900/15965eaa17f075a16bbef5aff79a02f1.png",
+    "catalog": "自称德州上校的玉米加农炮到底是怎样？嗯——他曾经在哈佛深造，并就职于纽约一家著名的律师事务所，所以不要问我为什么一名律师最后会跑到51区这么不着调的问题，毕竟这是一个瞎子也能做律师的时代……",
+    "skillIntro": "玉米加农炮可以发射玉米导弹到草坪任意格子上。",
+    "labels": [
+      "手操",
+      "爆炸",
+      "物理",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "137",
+    "name": "苹果迫击炮",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010900/90bee07813ad48edd2e09db46df034d5.png",
+    "catalog": "每日一苹果，僵尸远离我。",
+    "skillIntro": "苹果迫击炮可以攻击邻近三行的僵尸，并对僵尸造成短暂的僵直。",
+    "labels": [
+      "抛投",
+      "控场",
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "138",
+    "name": "金缕梅女巫",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010900/572b6586f815a0d41913d5ba5fe0ebe5.png",
+    "catalog": "金缕梅女巫停了下来，不确定接下来怎么做，但她只犹豫了一下子就知道了，像往常一样使用魔法！",
+    "skillIntro": "金缕梅女巫可以把僵尸变为小喷菇。（金缕梅女巫等阶必须大于或等于僵尸等阶+1阶）",
+    "labels": [
+      "秒杀",
+      "魔法"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "139",
+    "name": "逃脱树根",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010900/694331aba64c01c963fed2b910e10383.png",
+    "catalog": "在上周植物们为逃脱树根举办了一场充满惊喜的派对，但逃脱树根做完他的事情之后，确实为植物们留下了一场充满惊喜的派对！",
+    "skillIntro": "逃脱树根在僵尸靠近后会变化为随机一种爆炸性植物，也可与其他植物互换位置。",
+    "labels": [
+      "消耗",
+      "灰烬",
+      "爆炸"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "140",
+    "name": "电流醋栗",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010900/b0ae59919266694484095241cece0cb7.png",
+    "catalog": "“电是一种非常好的自然现象，”电流醋栗说道，“但电磁才是真实存在的整体。”",
+    "skillIntro": "同一行或列的电流醋栗之间可以形成电墙，对经过的僵尸造成伤害。",
+    "labels": [
+      "电能",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "141",
+    "name": "白瓜相扑手",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010900/878ed439c775139d2765fc7dcf604fa1.png",
+    "catalog": "白瓜相扑手是一个热血青年，热爱的相扑这个行业，他每天刻苦提升自己相扑实力，因为它有一个梦想，自己相扑实力可以“称霸世界”！",
+    "skillIntro": "白瓜相扑手以静制动，可以大力击退僵尸",
+    "labels": [
+      "位移",
+      "物理",
+      "防御"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/坚韧.png"
+  },
+  {
+    "id": "142",
+    "name": "超能花菜",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010900/a1be49da839410a0811a039b6fe263a9.png",
+    "catalog": "超能花菜眼睛因痛苦而旋转。他只是想为他的小说写一个大结局，但他担心他的表弟不会理解。",
+    "skillIntro": "向敌人发射魅惑光线",
+    "labels": [
+      "操控",
+      "魔法"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "143",
+    "name": "毒影菇",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010900/cb25dfba704946b54028a9e0fe7b3887.png",
+    "catalog": "尽管它是一种有毒且不容易食用的真菌，但它仍然是一种完美的选择",
+    "skillIntro": "让中毒僵尸死后中毒传染其他僵尸",
+    "labels": [
+      "减速",
+      "暗影",
+      "毒液",
+      "消耗"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "144",
+    "name": "月光花",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010900/df23da5e53478a29c9e0f484b6068c9c.png",
+    "catalog": "月光花是一个很厉害的合作者。她会与任何合作者之间达成很好的默契。",
+    "skillIntro": "月光散发出一种光芒，可以使邻近的影子植物产生能量",
+    "labels": [
+      "产阳",
+      "支援",
+      "暗影"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/辅助.png"
+  },
+  {
+    "id": "145",
+    "name": "爆炸坚果",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010900/dddde83252dc645eede32af636b54ff6.png",
+    "catalog": "“我唯一的遗憾，就是只有一颗装满了消化甘油的内心，这对草坪的保护远远不够。”爆炸坚果如是说。",
+    "skillIntro": "爆炸坚果提供保护，如果外壳被吃掉，马上就会炸毁僵尸。",
+    "labels": [
+      "火焰",
+      "爆炸",
+      "群攻",
+      "防御"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/坚韧.png"
+  },
+  {
+    "id": "146",
+    "name": "夜影龙葵",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010900/ef4df729b821dd91d3666f500303e422.png",
+    "catalog": "对于茄属植物来说，攻击是一种责任和特权。他来自一长串热情的追踪者，他的家人包括三名国王、四名大使和一名总统。",
+    "skillIntro": "在暗影状态下的时候，会用力投掷和重新长出树叶",
+    "labels": [
+      "暗影",
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "147",
+    "name": "幽暮投手",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010900/9090f2051b8783da73bced01b2f2a1dd.png",
+    "catalog": "很容易就能看到薄暮投手，但这只是因为她受过广泛的训练，而且真的喜欢抛物线。",
+    "skillIntro": "朝敌人抛射致命花瓣",
+    "labels": [
+      "抛投",
+      "暗影",
+      "物理",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "148",
+    "name": "铃儿草投手",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010900/7b45770a8d0c85748f98dd0b5b29e88a.png",
+    "catalog": "铃儿草投手喜欢僵尸。她从她的伙伴那里得到了一些谣言，但她立场坚定。她喜欢僵尸，不为此道歉。",
+    "skillIntro": "爱心印记可以叠加伤害",
+    "labels": [
+      "抛投",
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "149",
+    "name": "暗樱草",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010900/6d03d4917e1e58dba1d90938800a0d32.png",
+    "catalog": "暗樱草说:僵尸最适合的位置就是在土里，所以我真的只是加快了这个过程而已。",
+    "skillIntro": "暗影状态下可以拖动3个僵尸",
+    "labels": [
+      "暗影",
+      "消耗",
+      "物理",
+      "秒杀"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "150",
+    "name": "炙热山葵",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010901/4e7b34677191f1073b702f10ffef0f2d.png",
+    "catalog": "“抽人的技巧全在手腕上”，炙热山葵说。“好吧，准确的说也不是手腕，毕竟我没有手腕。你得，呃……自己成为手腕。”",
+    "skillIntro": "炙热山葵会使用火焰鞭笞来攻击前方和后方的僵尸。",
+    "labels": [
+      "火焰"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "151",
+    "name": "防风草",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010901/7a7771be466268fbd62b586ebe7938d3.png",
+    "catalog": "平时是个胆小弱懦的呆萌少年，但是只要进入作战状态就会变成一位勇敢无敌的勇士！",
+    "skillIntro": "快速用钳子造成倍数攻击",
+    "labels": [
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "152",
+    "name": "槲寄冰仙子",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/202604882bc0d0d2f1012abfb892b95937fd0d/d392f0a61cfd11d6a8b29bd577eff4a0.png",
+    "catalog": "槲寄冰每年的圣诞节都会赐福给那些善良的人们，但是由于太过马虎，偶尔会失手发射1颗冰弹造成一点小事故~。",
+    "skillIntro": "槲寄冰仙子可以发射寒冰炮弹到草坪任意格子上。",
+    "labels": [
+      "寒冰",
+      "手操",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "153",
+    "name": "野兽猕猴桃",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010901/9a675d59e347c41d2651a0ee7efb5d0d.png",
+    "catalog": "一直生存在荒野之中，可以适应各种恶劣环境，长期的恶劣环境生存，导致它拥有超人的力量，也许“贝爷”碰到它谁吃谁还说不准呢~~",
+    "skillIntro": "野兽猕猴桃会震地对周围造成伤害",
+    "labels": [
+      "位移",
+      "物理",
+      "群攻",
+      "防御"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "154",
+    "name": "黄金蓓蕾",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010901/5dcfb90310a66e1d1314b039d8fd2230.png",
+    "catalog": "“你们那些植物学家总是挖空心思琢磨能不能做到，”黄金蓓蕾这话并非针对任何事或任何人，“却从不会停下来思考应不应该。”",
+    "skillIntro": "黄金蓓蕾能瞬间迸发出大量阳光。",
+    "labels": [
+      "产阳",
+      "消耗"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/阳光.png"
+  },
+  {
+    "id": "155",
+    "name": "平顶菇",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010901/833999c6d87d1b89efef74ffc956cecd.png",
+    "catalog": "平顶菇本想安安静静地晒晒阳光，却总是被人拿来修马路。它表示说“下水道下面可冷了”。",
+    "skillIntro": "平顶菇可以堵住地面上的下水道洞。",
+    "labels": [
+      "防御"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "156",
+    "name": "莲藕射手",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010901/ea5d8885fdf8f7976944fadf4288e45c.png",
+    "catalog": "莲藕射手是资深环保人士，看到漫天的雾霾，它总想射点什么。",
+    "skillIntro": "可以吸收毒雾造成额外伤害。",
+    "labels": [
+      "位移",
+      "寒冰"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "157",
+    "name": "芦藜药师",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010901/31459b95dd1e5ecad8aa60ca7e69122e.png",
+    "catalog": "芦藜药师从小学医，希望可以救死扶伤，但对于僵尸，可能死亡才是解脱",
+    "skillIntro": "可以对攻击范围内的僵尸造成伤害附带中毒效果",
+    "labels": [
+      "减速",
+      "剧毒",
+      "抛投"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "158",
+    "name": "番莲工程师",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010901/b65c9d68e4579af302b90ef3f4240fea.png",
+    "catalog": "番莲立志要成为一名工程师，但到现在它只会造齿轮。",
+    "skillIntro": "都可以对上下2行造成持续伤害。",
+    "labels": [
+      "控场",
+      "物理",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "159",
+    "name": "吹风荚兰",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010901/83a8181e8dae52832aae246afebfc58b.png",
+    "catalog": "吹风荚兰一直想成为一名理发师，但是他只能吹出各种造型",
+    "skillIntro": "可以吹走绅士僵尸的伞",
+    "labels": [
+      "控场",
+      "物理",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "160",
+    "name": "桑葚爆破手",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010901/3e0c275ea4f14ebf37ede7701ccb87d0.png",
+    "catalog": "他是一个军事迷，而且酷爱收集各种军事材料，有一天他把自己打扮成炮手的形象，在街上吓到不少植物~",
+    "skillIntro": "丢出手雷对一格内僵尸造成伤害",
+    "labels": [
+      "爆炸",
+      "物理",
+      "秒杀",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "161",
+    "name": "电能豌豆",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012016/005db9eb461d4f1444ccd6ece811ec4d.png",
+    "catalog": "电能豌豆一直有个梦想，想成为一个超级英雄，但是它本身毫无超能力，一天在看电视发现，超级英雄可以通过“电”发生异变，于是它每天都去电厂希望可以获得超能力。",
+    "skillIntro": "电能豌豆发射子弹为中心可以对周围单位造成伤害",
+    "labels": [
+      "电能",
+      "群攻",
+      "豌豆"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "162",
+    "name": "寒冰醋栗",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012016/08d5add060a731bbd3ccd499b0648934.png",
+    "catalog": "寒冰醋栗常年在零下30度的地区生活，经常和寒冰豌豆聊天，突然一天寒冰醋栗它打了一个喷嚏，它说了句:这天好冷啊~",
+    "skillIntro": "同一行或列的寒冰醋栗之间可以形成冰地，对经过的僵尸造成伤害。",
+    "labels": [
+      "减速",
+      "寒冰",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "163",
+    "name": "热辣海枣",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012016/6063d5f8a4a61232b33c938c94d01f6b.png",
+    "catalog": "热辣海枣是一个魔术师。他很有礼貌，读书得很好，有很多有趣的观点，也很乐意积极的倾听别人的心声，所以僵尸在街区周围排队等着给他倾述。",
+    "skillIntro": "热辣海枣可以吸引附近的僵尸并阻挡他们前进。",
+    "labels": [
+      "消耗",
+      "火焰",
+      "灰烬",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "164",
+    "name": "郁金香号手",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012016/35cfb62f83ca205b80993e5015ab646f.png",
+    "catalog": "生活中的郁金香号手温文尔雅，可是一旦到了舞台，他可是变得热情异常，双重人格 使得他让别人又爱又恨，常听人说：那可是个让人琢磨不透的家伙呢。",
+    "skillIntro": "既可以远程攻击，又可以近距离治疗的植物",
+    "labels": [
+      "治疗",
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "165",
+    "name": "茄子忍者",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012016/ca24437c1ee1cc13fd6b4e2d1eea5fbf.png",
+    "catalog": "从小就接受传统忍术的训练，被誉为忍者界千年一遇的天才，精通各种忍术，更是被忍皇亲自任命为下一任的接班人，但是它却并不开心，因为它曾经输给过菜问，它认为不击败菜问就不算是无敌存在，这也成为它的心结。",
+    "skillIntro": "可以跨行使用手里剑对弧度攻击范围内僵尸造成伤害。",
+    "labels": [
+      "物理",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "166",
+    "name": "芭蕉舞蹈家",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012016/42025d48726275ba860f2ebc61ca639a.png",
+    "catalog": "为了准备五周年的庆典活动，组织方特意邀请了植物界最  名的舞蹈家芭蕉作为特邀嘉宾出席。虽然芭蕉在植物界是巨星，但是却非常喜欢做慈善，她决定把这次出场费全部捐出给植物慈善机构，获得了外界一致好评。并且此次芭蕉将会带来她新创造的传统扇子舞，这个话题流量瞬间达到了植度网搜索第一名。如果想要在现场一睹她的风采，请一定要准时抢票哦！",
+    "skillIntro": "把僵尸推至最后一格",
+    "labels": [
+      "位移",
+      "输出"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "167",
+    "name": "水仙花射手",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012016/6d07ea770823c20634c8f15482b35642.png",
+    "catalog": "水仙花是一个贵族，从小接受高等教育但是自己却是个性格淘气可爱的机灵鬼，贵族气质与淘气性格形成的反差萌让小伙伴们对她非常宠溺。",
+    "skillIntro": "大泡沫可以带走僵尸的防具和小鬼僵尸",
+    "labels": [
+      "寒冰",
+      "水生"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "168",
+    "name": "双枪松果",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012016/a981b85ef1f216fd008fb2b57f0388ec.png",
+    "catalog": "在神秘的西部小镇里，双枪松果是一名神枪手牛仔，打击各种侵犯他小镇的恶霸僵尸，让僵尸们一提到他的名字就瑟瑟发抖。他差一点就成为这名镇子的警长，但是被他拒绝了，因为他觉得警长太无趣还不如去酒吧喝一杯。",
+    "skillIntro": "击败僵尸后下次普攻可以释放特殊攻击",
+    "labels": [
+      "物理",
+      "秒杀"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "169",
+    "name": "冬青骑士",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012016/4006556e42e553824cec76ddc7fe040c.png",
+    "catalog": "冬青骑士建议不要随便的拿他们的果实吃，他说：在没有被允许情况下吃他的果实是非常不礼貌的，作为一名骑士非常痛恨不礼貌的行为。作为一名骑士要提醒小朋友不要乱吃，可能会拉肚子哦~",
+    "skillIntro": "冬青可以发射小冬青到草坪上的任意格子位置",
+    "labels": [
+      "召唤",
+      "手操",
+      "物理",
+      "防御"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/坚韧.png"
+  },
+  {
+    "id": "170",
+    "name": "警爆磁菇",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012016/64ba680c37061ddbd7375204b3cc6ab4.png",
+    "catalog": "警爆磁菇是个不折不扣的行动派，每次朋友们叫他名字的时候他都会强调：“我是警爆磁菇，不是警报慈菇，我和那些只会嘴炮的家伙可不一样！”",
+    "skillIntro": "警爆磁菇在对僵尸造成伤害的同时还能瘫痪机械僵尸",
+    "labels": [
+      "消耗",
+      "电能",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "171",
+    "name": "暗影豌豆",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012016/a493d6a14676d59dc0e0dd2ed7391274.png",
+    "catalog": "暗影豌豆总觉得有光才有影子是一件极度不科学事情。因为他就是影子，不需要光也能存在~",
+    "skillIntro": "暗影豌豆近战可以把僵尸拖入地下",
+    "labels": [
+      "减速",
+      "暗影",
+      "物理",
+      "豌豆"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "172",
+    "name": "食人花豌豆",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012017/e63dc7bbf939d7e12c24de031083cc10.png",
+    "catalog": "食人花豌豆是一个十足的吃货，不会放过任何一个美食。但是由于天天暴饮暴食，导致消化不良，让他好一阵子只吐不吃。所以告诫吃货们，喜欢美食可以，但是要适量哦！",
+    "skillIntro": "从地底钻出吃掉直线上的僵尸",
+    "labels": [
+      "物理",
+      "秒杀"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "173",
+    "name": "水晶兰",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012017/5e950e278c0bc4646485484a4f35d638.png",
+    "catalog": "冰雪的女王，喜欢在自己的庭院里堆满雪人，当然如果雪人不太听话的话，她也不介意给予一些小小的惩罚。",
+    "skillIntro": "冰雪的掌控者，喜欢把敌人变成雪人",
+    "labels": [
+      "寒冰",
+      "控场"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "174",
+    "name": "豌豆迫击炮",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012017/7d40bd725b1c99c29375729c28b52cc5.png",
+    "catalog": "豌豆迫击炮密切关注着整个战斗场景，“如果有什么东西溜了进来，”他若有所思地说，“那就是我的错，如果发生了这种事，我是不会原谅我自己的。”",
+    "skillIntro": "吐出子弹对僵尸们造成伤害",
+    "labels": [
+      "抛投",
+      "物理",
+      "群攻",
+      "豌豆"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "175",
+    "name": "雷龙草",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012017/491c31e2692dc2e94348133c7c18e687.png",
+    "catalog": "雷龙草作为闪电家族的一部分，自称来自阿斯咖德，是家族里出了名的恶霸，嘴里老是嘟囔着 “I am dragon of thunder”。“人人都说我长得像火龙草，我可跟它什么关系都没有，我长得比那伙计长得好看多了！”它不屑的说道。",
+    "skillIntro": "吐出雷电球，释放电流，对前方的僵尸造成范围伤害",
+    "labels": [
+      "控场",
+      "电能",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "176",
+    "name": "芦荟医师",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012017/124978f8e0401ce8846086c715f1c092.png",
+    "catalog": "芦荟游走于各大化妆品新品发布会，借机推销她的产品“芦荟水”。今年整个护肤品市场都在讲美白，这可是芦荟的强项。",
+    "skillIntro": "可以净化调香师僵尸的毒雾，提升周围植物的攻击力",
+    "labels": [
+      "支援",
+      "治疗"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/辅助.png"
+  },
+  {
+    "id": "177",
+    "name": "熊果臼炮",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012017/239a7a3a61583c1fc60930e9a763aea2.png",
+    "catalog": "臼炮从未上过前线。这不，刚刚的一次质检，因为他的卡膛、滑膛等熊果问题又被打上了质量不合格的标签。",
+    "skillIntro": "发射滚动的熊果炮弹攻击一行的僵尸",
+    "labels": [
+      "物理",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "178",
+    "name": "冬瓜守卫",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012017/1857ffc3edc09834a07795f9460c35f3.png",
+    "catalog": "冬瓜站在那个关键的位置已经很久了。数不清的僵尸都跃跃欲试，想要让他动一动，让一下道，啊~~~声音越来越小，徘徊在天际。",
+    "skillIntro": "压住僵尸和像圆环的机关地块、发怒时会震飞小范围的僵尸",
+    "labels": [
+      "防御"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/坚韧.png"
+  },
+  {
+    "id": "179",
+    "name": "电力绿茶",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012019/882a55374a40279c83842bc146fcd5c3.png",
+    "catalog": "“我想被吃掉，我需要被吃掉！”电力绿茶说。“不过，我很开心那个时候能电击附近的僵尸！”",
+    "skillIntro": "可以对3X3的范围内所有僵尸造成伤害。",
+    "labels": [
+      "电能",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "180",
+    "name": "小黄梨",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012019/38e1425a4188b474c8599dfd32fae223.png",
+    "catalog": "小黄梨可以削弱僵尸。当然，小黄梨并不喜欢这种特性，“别人老是说我颜值和菠萝蜜一样！！”。",
+    "skillIntro": "使僵尸吃了之后变成小鬼僵尸",
+    "labels": [
+      "削弱",
+      "消耗"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "181",
+    "name": "宝石商石榴",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012019/55727441068c86d948f937c3aa8e0172.png",
+    "catalog": "宝石商作为城中最有权势的植物，当地许多有名的僵尸都非常乐意为其作画，宝石商也会支付他们相应的报酬，付款方式并没有使用扫码，而是宝石直接“支付”，干净利索。",
+    "skillIntro": "宝石在命中僵尸后可以随机弹射",
+    "labels": [
+      "抛投",
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "182",
+    "name": "油橄榄",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012019/4a62426cba26320d131e945f2cf64a47.png",
+    "catalog": "油橄榄从地中海远道而来，进入神秘国度学习烹饪技巧。他刚刚掌握了颠勺：锅中倒入少许油，拿起炒锅颠上两下，满锅的火焰，看起来炫酷极了。",
+    "skillIntro": "可以使芭蕾舞僵尸滑倒，产生的油还能被火系植物的攻击点着。",
+    "labels": [
+      "支援",
+      "消耗"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "183",
+    "name": "白鹭花战机",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012019/d1a4c4f5637d0622312be9b70f11b985.png",
+    "catalog": "白鹭花是个孤傲的角色，你永远看不到他的笑容。当然你也可以理解他是在装酷，因为事实上他确实在装酷。",
+    "skillIntro": "导弹攻击，击中僵尸造成眩晕",
+    "labels": [
+      "控场",
+      "物理",
+      "飞行"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "184",
+    "name": "爆炸草莓",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012019/0d082f4193ee0eb98064f7936421530e.png",
+    "catalog": "大的这个？小的这个？放心，我会把它们都扔到你脸上！我爱敌人就和爱炸弹一样，因为他们都快要爆炸啦！",
+    "skillIntro": "爆炸草莓可以造成三种不同程度的高额伤害",
+    "labels": [
+      "手操",
+      "物理",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "185",
+    "name": "毒液豌豆射手",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012017/a7eb16dde4448edd84c875680e500af1.png",
+    "catalog": "谁都无法想象毒液豌豆会做出这样疯狂的举动，甚至连他自己都不知道。在植物眼中他就是个疯子，但是在自己眼中，这个是时尚。你知道他做的是什么吗？就是做夸张的动作去逗别人笑罢了。",
+    "skillIntro": "毒液豌豆射手能减速僵尸，并具备毒系伤害",
+    "labels": [
+      "减速",
+      "剧毒",
+      "豌豆"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "186",
+    "name": "杜英投手",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012017/2dd9c4d5865f51ad9a8ba1da4fa34904.png",
+    "catalog": "杜英投手是国家一级运动员，每遇到一棵新植物，杜英都会问他们:\"生命在于运动，要和我对打羽毛球吗？\"",
+    "skillIntro": "当僵尸在远处时会发射弹射子弹，近距离会秒杀低血量僵尸",
+    "labels": [
+      "物理",
+      "秒杀"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "187",
+    "name": "飞镖洋蓟",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012017/34a6bf0f71c45512f9f2c37359ad6f60.png",
+    "catalog": "如果你能用一支精心挑选的飞镖打赢这场战斗，为什么还要浪费徒步士兵的枪子呢？飞镖洋蓟不解道：你为什么要这么做？为什么会有人这么做？",
+    "skillIntro": "飞镖洋蓟的飞镖会优先攻击最危险的僵尸",
+    "labels": [
+      "电能"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "188",
+    "name": "荸荠兄弟",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012017/47426d7ffc37b40905c39471b8385764.png",
+    "catalog": "荸荠兄弟依然是本年度冬季运动会中冰壶项目的夺冠热门，他们的绝活就是最后的时候将其他选手的冰壶全部撞出去，只留下他们自己的，走完所有的路，让别人无路可走。",
+    "skillIntro": "通过冰壶之间的撞击对僵尸造成伤害，并生成冰道使其减速",
+    "labels": [
+      "召唤",
+      "寒冰"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "189",
+    "name": "尖刺秋葵",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012017/bc8ea46f29bd468b2487e53a302be0ed.png",
+    "catalog": "要知道尖刺秋葵可是个暴脾气，虽然火柴花拳手可能不服，但她凭借“左右互搏”的技巧，可是获得过“蔬菜三大高手”菜问的认可的，只不过她靠了些小手段。",
+    "skillIntro": "尖刺秋葵越战越强，用毒刺减速并伤害僵尸",
+    "labels": [
+      "剧毒",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "190",
+    "name": "铜钱草鼓手",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012017/c97002c8125dea951fbb626eabc2f7b6.png",
+    "catalog": "回到后台受尽奚落，那天晚上哭着入睡，但第二天早上起来，他做了什么?练习，练习，还是练习，他心中只有一个目标，再也不能被任何人嘲笑。 七年后他回到周年庆舞台上，敲出了有史以来最动听的独奏。",
+    "skillIntro": "铜钱草鼓手会为植物带来大量属性提升，尤其是乐团提升最多",
+    "labels": [
+      "减速",
+      "支援",
+      "治疗"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/辅助.png"
+  },
+  {
+    "id": "191",
+    "name": "终极番茄",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012017/125fef1059c63b9716931fb572896d97.png",
+    "catalog": "终极番茄在执行宇航任务的时候，被来自外太空的光之粒子灌注到了身体之中，光之粒子之中拥有着正义的意志，引导终极番茄使用光之力去守卫家园，击败邪恶的僵尸。",
+    "skillIntro": "终极番茄可以通过重复种植使自身变强。",
+    "labels": [
+      "电能"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "192",
+    "name": "潜行开口箭",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012018/f3ae78904a6f67028e0df402094122cb.png",
+    "catalog": "潜行开口箭是忍界公认的一流好手，但是大家都说茄子忍者比潜行开口箭强，潜行开口箭对此并不在意，因为他认为双方的战斗方式不同，他更喜欢隐藏在阴影中确保自己的安全。",
+    "skillIntro": "潜行开口箭会从地下突然出现攻击附近的僵尸。",
+    "labels": [
+      "低矮",
+      "物理",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "193",
+    "name": "暗影荚兰",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012018/8970be802e966885bf26af3f332ced4b.png",
+    "catalog": "“怪物！”“怪胎！”“四不像！”暗影荚兰的身边总是充斥着各种质疑的声音，但它从来不理会，因为它清楚自己存在于世的价值，它不需要去证明什么，“每颗植物都有自己存在的价值”暗影荚兰低调地说道。",
+    "skillIntro": "暗影形态下通过给叶片充能，使僵尸受到“易伤”效果。",
+    "labels": [
+      "削弱",
+      "暗影",
+      "物理",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "194",
+    "name": "凤梨链刃",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012018/b17bbf6f9b0d2405608b3b834a0fed5d.png",
+    "catalog": "“石头剪刀布?那是什么新的决斗方式么?”对于凤梨链刃而言，身边的一切都是那么无趣，唱歌，跳舞，打僵尸?那些都是庸俗的植物干的事情。他所追求的是酣畅淋漓的战斗。“嘿!你!对，就那个两个拳头的白菜!我们来打上一架!”但他不知道的是，他所挑衅到的植物可并不只有他眼前那颗白菜，还有他手下的徒弟们。若他们围而攻之，想来他必败。不过，最终这场战斗却是以平手而告终，毕竟花园讲究以和为贵，不提倡搞窝里斗。",
+    "skillIntro": "凤梨链刃会使用手上的链刃，对僵尸造成大量伤害。",
+    "labels": [
+      "物理",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "195",
+    "name": "千金藤",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012018/d477b65337b8f684dafd1d7f480b4054.png",
+    "catalog": "千金藤的偶像是飞盾国家队的队长，因为仰慕其格挡和飞盾的英姿，所以千金藤也努力练就了一身飞盾和格挡的本领。别问为什么盾牌会碎，问就是一般民用品。",
+    "skillIntro": "千金藤可以击落忍者小鬼僵尸的河豚鱼，飞盾会溅射。",
+    "labels": [
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "196",
+    "name": "滴水冰莲",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/202604882bc0d0d2f1012abfb892b95937fd0d/3667165f3164bc8bcf5143dd85825f7f.png",
+    "catalog": "滴水冰莲作为消防队的一员，对灭火有着极端的热情，就连一丁点的火苗都不能容忍，甚至还常备了冰水对高热物品进行降温呢。",
+    "skillIntro": "可以熄灭花火僵尸点燃的植物，减速路过的僵尸。",
+    "labels": [
+      "减速",
+      "削弱",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "197",
+    "name": "石斛防风网",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012018/d19cddeeae19e3ed405b250350b6db27.png",
+    "catalog": "石斛防风网们始终坚持在抗风第一线，为身后的植物家人们提供安全的空间，免受风灾的袭扰。",
+    "skillIntro": "可以联合起来，抵挡强风来袭。",
+    "labels": [
+      "防御"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/坚韧.png"
+  },
+  {
+    "id": "198",
+    "name": "厨师杓兰",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012018/bd1d9a429c0349aa95977897e630ba5e.png",
+    "catalog": "厨师杓兰曾经是首屈一指的顶级大厨，做出来的汤羹美味至极，直到有一天他接触到了一本新食谱《哞哞城厨艺精粹》，并奉若圣典，他的料理就开始产生了令人意外的效果。",
+    "skillIntro": "厨师杓兰的汤汁会使僵尸绕道而行。",
+    "labels": [
+      "削弱",
+      "抛投",
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "199",
+    "name": "粘液桉果",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012019/0746daabae025a87c2ce5403d90ef632.png",
+    "catalog": "“我只嚼僵尸味的口香糖”粘液桉果说到。",
+    "skillIntro": "将面前的僵尸黏住并阻碍僵尸",
+    "labels": [
+      "召唤",
+      "消耗",
+      "防御"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "200",
+    "name": "橄榄坑",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012019/bb16673450d6e1a4607a283ccbb8dd3f.png",
+    "catalog": "橄榄坑埋在地下深处，他一直有个愿望，希望有一天能去一次天空之城里面的飞船。",
+    "skillIntro": "橄榄坑能减速前方一格僵尸，并让路过的僵尸掉下去",
+    "labels": [
+      "减速",
+      "秒杀"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "201",
+    "name": "刺眼花艺伎",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012019/27a6353183c6eb4706de5192708ba825.png",
+    "catalog": "长久的艺伎表演训练让她拥有量纯熟的花扇操纵技巧，她将用华丽的花扇表演来展示她对抗僵尸的实力。",
+    "skillIntro": "飞回的花扇可以对攻击范围内的僵尸造成伤害。",
+    "labels": [
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "202",
+    "name": "黏弹糯米",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012019/8929d285dc5e32df6d7c775d6b909f28.png",
+    "catalog": "黏弹糯米对炸弹，大米和黏性的抽象概念非常有信心。她发表了有关这三个方面的学术文章。",
+    "skillIntro": "黏弹糯米可以发射黏住僵尸的爆炸糯米团",
+    "labels": [
+      "抛投",
+      "控场",
+      "火焰",
+      "爆炸"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "203",
+    "name": "地星发射井",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012019/d930470e3dffbc0b4065bef05a69297d.png",
+    "catalog": "地星发射井看起来很矮，其他植物都以为他是矮个子家族的，可是地星却很委屈，他还有一大部分身高在土里面呢！",
+    "skillIntro": "发射核弹，造成高额伤害，同时留下辐射使僵尸变异",
+    "labels": [
+      "削弱",
+      "爆炸",
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "204",
+    "name": "奶油生菜",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012019/1ec8e73108a01034b1297149dea88a1e.png",
+    "catalog": "奶油生菜酷爱音乐和跳舞，特别是听着磕头士音乐蹦迪。时间一长，他练就了一项绝技，以头抢地的攻击方式和甩出头油的绝技。",
+    "skillIntro": "奶油生菜可以在攻击的时候甩出奶油，将远处的僵尸糊住。",
+    "labels": [
+      "控场",
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "205",
+    "name": "眩晕雏菊",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012019/8776735ed009cb7f5e2da545144d3563.png",
+    "catalog": "眩晕雏菊三兄弟他们三位一体，但是为了保持不必要的消耗，通常只留下白勇者在外面担任沟通工作。但是经过充分的运动后，白勇者的两位哥哥，紫博士和红霸王也会一同醒来，共同御敌！",
+    "skillIntro": "通过不断攻击，可以间歇性喷出眩晕性气体，眩晕一整行僵尸。",
+    "labels": [
+      "控场",
+      "物理",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "206",
+    "name": "爆炸桔梗",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012019/6db852d945515130861ebde24366e1f7.png",
+    "catalog": "爆炸桔梗的气球充满氢气和雾化煤油。这是一种反安全措施。",
+    "skillIntro": "爆炸桔梗会产生爆炸的气球，这些气球可以手动放置在草坪上。",
+    "labels": [
+      "手操",
+      "爆炸",
+      "物理",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "207",
+    "name": "庆典汽水椰",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012019/be95d37851a919bcb9a2ed99b15c3270.png",
+    "catalog": "庆典汽水椰原本装的是酒，不过在被告知装酒是少儿不宜的事之后，他就开始习惯装汽水了。",
+    "skillIntro": "受击一段时间会喷射汽水将前方的僵尸击退",
+    "labels": [
+      "位移",
+      "防御"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/坚韧.png"
+  },
+  {
+    "id": "208",
+    "name": "钩爪嘉兰",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012019/5480325dc08ebcbb7254b4cad99ca156.png",
+    "catalog": "曾经被嘉兰引以为豪的钩爪可以随意伸长缩短，然而由于某种不可抗力导致现在的钩爪失去了他原有的功能，从那以后他开始苦练右拳，最终练成的拳法被他称之为番茄炒蛋拳。",
+    "skillIntro": "抓住前方的第一个僵尸作为盾牌",
+    "labels": [
+      "物理",
+      "防御"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "209",
+    "name": "花盆",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025072201/935029acd0f83bd6d335fab75b45fdff.png",
+    "catalog": "花盆应该是最悠闲的植物了，又不需要战斗，屋顶阳光又充足。没错，其实作为植物，它也需要光合作用。",
+    "skillIntro": "花盆可以在屋顶地形时承载植物。",
+    "labels": [
+      "支援"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/辅助.png"
+  },
+  {
+    "id": "210",
+    "name": "凤仙花射手",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012019/fc56073a9954916efb3409b63a3f11c0.png",
+    "catalog": "一直想成为顶级化妆师的凤仙花射手虽然靠坚持不懈地在社交网络上上传自己染成各种颜色时的照片收获了一定的人气，可是她并不知道大家喜欢的其实是白色时的她。",
+    "skillIntro": "吐出染料子弹攻击前方僵尸",
+    "labels": [
+      "减速",
+      "控场",
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "211",
+    "name": "火鸡投手",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012123/96bd86e3aeb65f5cc587ef236254cb15.png",
+    "catalog": "火鸡投手时常感觉自己腰酸背痛，“冰冰凉凉的，真舒服”他一边往身上贴镇痛贴一边强力推荐投手们一定要尝试一次。",
+    "skillIntro": "向僵尸投掷豆腐火鸡",
+    "labels": [
+      "召唤",
+      "抛投",
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "212",
+    "name": "铁锤兰",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012123/c8a0c9824aec4ed69a15fe4d838ad114.png",
+    "catalog": "没有什么事是一锤子解决不了的，如果有，那就再来一锤子。——铁锤兰。",
+    "skillIntro": "攻击时能将僵尸锤入土中",
+    "labels": [
+      "控场",
+      "物理",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "213",
+    "name": "聚能山竹",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012123/2aa14b361fdb818f0cb7fef55113f2c7.png",
+    "catalog": "聚能山竹每次赌咒发誓时总是会以天打雷劈为条件。",
+    "skillIntro": "自身周围发射电圈",
+    "labels": [
+      "控场",
+      "电能",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "214",
+    "name": "鱼钩草",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012123/a1f663b39a4ce7ce0424fb8edebfd247.png",
+    "catalog": "钓僵尸是一门技术活，像鱼钩草这样钓到僵尸之后还能扔出去的，那可是少之又少。",
+    "skillIntro": "攻击时能将僵尸钓过来之后再甩出去",
+    "labels": [
+      "位移",
+      "控场",
+      "物理",
+      "秒杀"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "215",
+    "name": "烈焰火蕨",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012123/c97220c9e0ab57dc1e14bacfaa3ece34.png",
+    "catalog": "有的时候有些事，越想越气，越气越急，越急就...烈焰火蕨气得想走，可是他走不掉，只能喷个龙卷风勉强解压一下。",
+    "skillIntro": "制造火龙卷",
+    "labels": [
+      "位移",
+      "火焰"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "216",
+    "name": "虎头菇",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012123/60ea8ab9af2a86730f2b3b22641e3af8.png",
+    "catalog": "虎头菇在工作中擅长以迅雷不及掩耳之势的连击击溃对手，能够在战斗中进退自如。而回家后虎头菇则喜欢在网上搜索自己中意的猫片，据传虎头菇的电脑中已经积攒了数以万计的按照品种类别分门别类整理好的优质猫片。",
+    "skillIntro": "用吼叫震晕前方僵尸，随后发出幻影对僵尸进行攻击",
+    "labels": [
+      "控场",
+      "物理",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "217",
+    "name": "气流水仙花",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012123/0e126da8efaf2b74ec3c3ce832cff14e.png",
+    "catalog": "气流水仙花看起来充满了热空气，但事实并非如此。她充满了高压气，有区别！",
+    "skillIntro": "发出气流短暂僵直不会飞行的僵尸，吹飞飞行和小鬼僵尸。",
+    "labels": [
+      "控场",
+      "物理",
+      "秒杀"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "218",
+    "name": "地锯草",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012123/2f573a2ecfcbd23cbf1b0db19f332222.png",
+    "catalog": "我，卜若地，不知道为什么，拥有了锯子的功能，我很高兴，但是，是谁把我的名字截断了来用的？",
+    "skillIntro": "用头顶的帽子对僵尸进行攻击",
+    "labels": [
+      "控场",
+      "物理",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "219",
+    "name": "石楠探索者",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012123/aaba05c00b284785b22147e389451e45.png",
+    "catalog": "石楠探索者一直认为，两点之间的最短距离是一条经过精心设计的曲线，穿过几个僵尸，看起来也很漂亮。不用说，他们在几何课上苦苦挣扎。",
+    "skillIntro": "放出尖刺刺穿几个僵尸，可以击破魔力护盾",
+    "labels": [
+      "消耗",
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "220",
+    "name": "树灵护卫",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025062015/85f0ae9c433ab204f75fc8bb016d78a1.png",
+    "catalog": "树灵护卫每天都在维护它秀丽的头发，每掉一片树叶它都会叹一口气",
+    "skillIntro": "受伤时能不断恢复自身血量",
+    "labels": [
+      "物理",
+      "防御"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/坚韧.png"
+  },
+  {
+    "id": "221",
+    "name": "疯帽菇",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012123/95b1d1e24cb27e8716c5d8732dce1717.png",
+    "catalog": "“你知道的，”疯帽菇自豪地说“所有植物的帽子都是我做的，虽然他们好像都不怎么喜欢戴帽子。”",
+    "skillIntro": "疯帽菇会扔出头顶的帽子对身前的僵尸进行攻击",
+    "labels": [
+      "位移",
+      "控场",
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "222",
+    "name": "魔法番红花",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012123/a4cf77d4834a06378c6e841b09a86392.png",
+    "catalog": "颜色越粉，魔法越狠，千万不要小瞧一个魔法少女呦",
+    "skillIntro": "魔法番红花会攻击并缩小僵尸，同时增加僵尸所受到的伤害",
+    "labels": [
+      "削弱",
+      "魔法"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "223",
+    "name": "公主弹簧草",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012123/2fb1e51427e49f89797ce1f48d5a4c9b.png",
+    "catalog": "公主弹簧草作为弹簧王国的第137任公主，最讨厌别人提到她的身份，因为在弹簧王国除了她每个人都是国王或皇后。",
+    "skillIntro": "射出弹簧对僵尸造成伤害并将其弹开",
+    "labels": [
+      "位移",
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "224",
+    "name": "突击竹兵",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012123/b18685a36aa71597199c31f9e1642700.png",
+    "catalog": "瞄准目标……3！2！1！发射！耐心、认真、细致、稳重，这是周围植物夸突击竹兵的常用词汇，但他自己知道，其实这些词汇并不完全符合，举个例子他其实想长高，如果可以长得比高坚果高，他能从土里把自己刨出来并且绕花园跑三圈。",
+    "skillIntro": "发射一枚钻头子弹，钻透僵尸过程中对僵尸造成减速",
+    "labels": [
+      "减速",
+      "爆炸",
+      "物理",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "225",
+    "name": "黄油毛茛",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012123/b908214caec4a945ae6d52249ec04b3e.png",
+    "catalog": "黄油毛茛每天都在等一个童话故事里的白马王子出现，但考虑到相性相合的问题，这个王子可能是面包树乔装打扮的。",
+    "skillIntro": "甩出一块黄油砸在僵尸身上使它定身，并在地上留下一滩黄油",
+    "labels": [
+      "控场",
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "226",
+    "name": "刺果流星锤",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012123/8c3de1ae0310e739e8ae1333e7ed429a.png",
+    "catalog": "与铁锤兰拜入同一师门下。但后来他发现锤子的攻击范围是有极限的，除非超越锤子。“我不做锤子了！”此后他就变成了流星锤。",
+    "skillIntro": "在未攻击僵尸时，会旋转流星锤进行蓄力，蓄力攻击能造成击退",
+    "labels": [
+      "位移",
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "227",
+    "name": "激光皇冠花",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012123/f28e17b805f6e9a3254858b881432c39.png",
+    "catalog": "皇冠花的花苞中蕴含着无限的能量，只要瞄准目标，再给他一些时间，就能发射恐怖的高能激光。",
+    "skillIntro": "发射穿透僵尸的激光，会被大型僵尸阻挡，激光会随时间增强",
+    "labels": [
+      "电能"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "228",
+    "name": "僵尸豆荚",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012123/f8fbafc8977ffa228fbccc9b2763e245.png",
+    "catalog": "虽然豆腐僵尸们不太能打，但是至少他们外形到位了，完美混入僵尸群。并且因为他们闻起来有阵阵清香，拥有如此明显的特征，其他植物也不会误伤他们了。",
+    "skillIntro": "生成豆腐僵尸，豆腐僵尸向前行走啃咬其他僵尸",
+    "labels": [
+      "召唤"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "229",
+    "name": "扇贝兰法师",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012123/1442b9127aec599fdf40731857c61080.png",
+    "catalog": "因为幼年时身体虚弱，扇贝兰法师苦修引力魔法。现在她已修习圆满，借助引力她可以脱离重力的束缚，并将这股力量化作抵御僵尸的力量。",
+    "skillIntro": "发射一枚引力球，爆炸后吸引周围的中小型僵尸至中心",
+    "labels": [
+      "位移",
+      "物理",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "230",
+    "name": "杰克南瓜灯",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025062015/773f712b60c2bd806089ade4d2009da3.png",
+    "catalog": "“Trick or treat！”杰克南瓜灯试图让其他植物们交出糖果，他要好好的保存在自己空空的肚肚里。可是他不小心一边念一边将火焰喷给僵尸了，也许僵尸们在心里也想学他。",
+    "skillIntro": "杰克南瓜灯会向前方喷火，对僵尸造成伤害",
+    "labels": [
+      "火焰",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "231",
+    "name": "豌豆药剂师",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012200/e678892b8f2ac23656c5f7a969440f38.png",
+    "catalog": "豌豆药剂师非常喜欢豌豆，所以它想把什么都变成豌豆，但是它忘记了一点，出现的豌豆越多，被吃掉的豌豆也就越多。",
+    "skillIntro": "豌豆药剂师扔出变形豌豆将僵尸变成豌豆",
+    "labels": [
+      "抛投",
+      "秒杀",
+      "魔法"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "232",
+    "name": "双生卯兔",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012200/c965c2a79b1b61ffa2667b5421721aa8.png",
+    "catalog": "双生卯兔很不喜欢别人叫它双生卯兔，因为它对于月球上的无空气栽培技术非常的怀疑，它非常担心哪一天有人会将它送到月球上去",
+    "skillIntro": "钻入地下并在前方僵尸脚下钻出将其击飞",
+    "labels": [
+      "物理",
+      "秒杀"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "233",
+    "name": "长枪球兰",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012200/3a7351a33216799c99a093a72afe4386.png",
+    "catalog": "长枪球兰对于长枪的使用非常的精通，即使是移动靶也能精准命中，比如那些逃跑的僵尸，和在脸上飞的苍蝇",
+    "skillIntro": "长枪球兰投掷长矛，对僵尸造成伤害",
+    "labels": [
+      "手操",
+      "控场",
+      "物理",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "234",
+    "name": "牛蒡击球手",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012200/c4fbb945c148dbc4e99ace880bb5d824.png",
+    "catalog": "能成为职业棒球手一直是牛蒡击球手的梦想，但是没有队伍敢录用它们，因为它们会占用2个上场名额",
+    "skillIntro": "可打出经过的豌豆子弹使其造成更大的伤害和控制",
+    "labels": [
+      "支援",
+      "物理",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "235",
+    "name": "吸血牛肝菌",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012200/e314f68e14363456a5c41bc6c22b7e31.png",
+    "catalog": "虽然植物们不知道僵尸身上的血是从哪里来的，但是每次看到吸血牛肝菌都能成功吸血的时候，它们也渐渐接受了这个设定",
+    "skillIntro": "可以阻挡僵尸并释放蝙蝠攻击僵尸并回复自身血量",
+    "labels": [
+      "物理",
+      "群攻",
+      "防御"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/坚韧.png"
+  },
+  {
+    "id": "236",
+    "name": "南瓜头",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012200/ae1096d07e997b0b2210f149d1c89bcb.png",
+    "catalog": "南瓜头可能是一个中空的外壳，但其实它有一个丰富的内心，其中充满了时刻保持微笑的善意、对感情的美好憧憬以及想要守护的那个它。",
+    "skillIntro": "南瓜头可以种植在其它植物上，提供一个坚固的额外装甲层",
+    "labels": [
+      "支援",
+      "藤蔓",
+      "防御"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/坚韧.png"
+  },
+  {
+    "id": "237",
+    "name": "鹳草击剑手",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012200/4d33a8601fe104596017f7238fd3fd47.png",
+    "catalog": "鹳草击剑手唯一1次和植物比试是在一个醉酒的晚上，鹳草击剑手向玫瑰剑客发出了击剑的挑战，那天晚上发生了什么没人知道，只是从那以后鹳草击剑手就戒了酒",
+    "skillIntro": "向前冲刺一格发起攻击后跳回原地，可使巨人僵尸的攻击打空",
+    "labels": [
+      "控场",
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "238",
+    "name": "蓄电雪松果",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012200/8d3946401c02f92b43cd1dfdefdaabf8.png",
+    "catalog": "蓄电雪松果有自己对于电的独特运用，将电能储存在体内是它的绝活。这全仰仗于它自身对于电的容纳能力，这一发现要从一次和电流醋栗的拥抱说起，随后蓄电雪松果就爱上电流充盈在体内的感觉了。所以你现在常常能看到它学着聚能山竹的样子在天天发誓。",
+    "skillIntro": "吸收电力储存起来，随后凝聚成电环发射出去",
+    "labels": [
+      "支援",
+      "电能"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "239",
+    "name": "流星花",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012200/30c083a5489576f5cf510e18c2879a71.png",
+    "catalog": "僵尸无法理解流星花为什么能召唤出陨石，但是看着从天而降的陨石，他只有最后一个想法“啊，原来恐龙是这么灭绝的呀。”",
+    "skillIntro": "流星花能够召唤陨石攻击僵尸，并在地块上留下陨石坑。",
+    "labels": [
+      "火焰",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "240",
+    "name": "蛇妖瓶子草",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012200/b43a95bd25f96b9b7da0b87852283810.png",
+    "catalog": "“我只是想给它们抛个媚眼，但就都变成石像了，真无趣~”在“僵尸最害怕的植物”评选的获奖台上，蛇妖瓶子草如是说道。",
+    "skillIntro": "蛇妖瓶子草能够石化僵尸，也能发射蛇灵对僵尸造成伤害。",
+    "labels": [
+      "物理",
+      "秒杀"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "241",
+    "name": "电能藤蔓",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012200/e97bc7d94fde5f7d6379566dc3fc2079.png",
+    "catalog": "电能藤蔓每天的早餐是牛奶加鸡蛋，他相信总有长高的一天。",
+    "skillIntro": "电能藤蔓能够快速发射子弹攻击僵尸。",
+    "labels": [
+      "支援",
+      "电能",
+      "藤蔓"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "242",
+    "name": "酷跑曼德拉",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012300/b7e177f84921b8bb51fe4a2e0276338a.png",
+    "catalog": "欢迎回到比赛现场，这里是第一届植物跑酷大赛。本届夺冠大热门酷跑曼德拉正在场边热身，他的目标是世界第一，是星辰大海！",
+    "skillIntro": "酷跑曼德拉能够向前奔跑，遇到僵尸时可以触发跑酷动作。",
+    "labels": [
+      "控场",
+      "物理",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "243",
+    "name": "深渊海葵",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012201/7c53bce594b48d17c61ece9bf64380e7.png",
+    "catalog": "没人知道它们从何而来，也没人知道它们身为何物，听到它们喃喃低语的僵尸，最后都发了疯",
+    "skillIntro": "深渊海葵将僵尸抓入地底进行吸收，为裂缝提供充能",
+    "labels": [
+      "电能",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "244",
+    "name": "深渊魔爪花",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012300/ad1e63bf41aae80b75c43c551b12ba65.png",
+    "catalog": "没有人知道它从何而来，但是每个接触的僵尸都会被吸成干尸，现在没有僵尸再好奇了",
+    "skillIntro": "魔爪花可以差遣深渊使徒抱住僵尸进行攻击并吸取能量",
+    "labels": [
+      "控场",
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "245",
+    "name": "粉丝心叶兰",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012300/a58da9139b9280935f3eed71024e5176.png",
+    "catalog": "观看了向日葵歌手的演唱会的心叶兰深受感动，决定一生只推这一位偶像，然而它已经忘了这是第几次发生同样的事情了",
+    "skillIntro": "应援前方一颗植物，增加其攻击力并恢复血量",
+    "labels": [
+      "支援",
+      "治疗"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/辅助.png"
+  },
+  {
+    "id": "246",
+    "name": "豌豆藤蔓",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012300/0f1624e43e327bec2feb24de1680f33e.png",
+    "catalog": "豌豆藤蔓拜师变身茄子学习模仿能力，但因为弯腰捡了块橡皮导致没学完整，只学会了一半，能模仿行动却不能模仿外形。",
+    "skillIntro": "有概率发射种植在其上的豌豆类植物的豌豆子弹",
+    "labels": [
+      "支援",
+      "物理",
+      "藤蔓",
+      "豌豆"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "247",
+    "name": "蜜蜂铃兰",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012300/7a95a3b078e00630211d26d6838e3187.png",
+    "catalog": "“我不仅仅是一组漂亮的铃铛，你知道吗？我还可以投出一个邪恶的弧线球。”",
+    "skillIntro": "召唤多只蜜蜂攻击僵尸",
+    "labels": [
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "248",
+    "name": "油菜花投手",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012300/7a5dbdab0fcf13b233e71cef3561e6bd.png",
+    "catalog": "油菜花投手从小喜欢盯着燃烧的火焰看，眼中的火焰也逐渐变为了手中的火焰。“燃烧就是艺术！”这是他的座右铭。",
+    "skillIntro": "投掷油子弹，使僵尸可被点燃或生成火柱",
+    "labels": [
+      "抛投",
+      "支援",
+      "火焰"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "249",
+    "name": "剑叶龙血树",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012300/58dcbac58b72ee8e080dfdaf4869a349.png",
+    "catalog": "“嘿！哈！”，剑叶龙血树挥舞着手中的长剑，这一刻他无比快乐。毕竟没有一棵植物可以拒绝又长又直的树枝。",
+    "skillIntro": "擅于剑术，使用剑气和飞剑攻击僵尸",
+    "labels": [
+      "物理",
+      "秒杀"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "250",
+    "name": "斯巴达竹",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012300/300660ee44b9b349790466730e543e86.png",
+    "catalog": "“为了炸玉米饼和自由！刮掉它......为了炸玉米饼！”",
+    "skillIntro": "攻防一体，使用手中的长矛攻击僵尸，盾牌破碎后伤害提高。",
+    "labels": [
+      "物理",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "251",
+    "name": "闪耀藤蔓",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012300/890b3a88a76455624bc01b55106d96b1.png",
+    "catalog": "“躲猫猫！” 闪耀藤蔓咯咯笑着，直视着你，玩家。“考虑一下第四堵墙已经破碎了！”",
+    "skillIntro": "辅助阳光植物产出更多的阳光。",
+    "labels": [
+      "产阳",
+      "支援",
+      "藤蔓"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/阳光.png"
+  },
+  {
+    "id": "252",
+    "name": "暗夜菇",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012300/e46ae872d135a4cd0ae167a509282f24.png",
+    "catalog": "暗夜菇一直对正义有着敏锐的感觉，从她还是个小孢子的时候起，她就开始观看深夜忍者电影，而不是专注于她的真菌学作业",
+    "skillIntro": "攻击僵尸使其减速并中毒，暗夜形态下不会受到伤害",
+    "labels": [
+      "减速",
+      "剧毒",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "253",
+    "name": "阳光韭菜",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012300/20def0b04e8e4a0f48ad320d300499f8.png",
+    "catalog": "有植物猜测阳光韭菜的能力是来源于大蒜和眩晕洋葱的言传身教，实际上，他只是喝了厨师杓兰做的神秘浓汤",
+    "skillIntro": "成长后产生阳光，一段时间后变成老年状态，可让前方僵尸换行",
+    "labels": [
+      "产阳"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/阳光.png"
+  },
+  {
+    "id": "254",
+    "name": "柴堆藤蔓",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012300/e217e30fb99eebd6423e302897d12859.png",
+    "catalog": "柴堆藤蔓考虑着他的财产、他的财富、他的巨额财富。他觉得这应该让他高兴，但尽管如此，他还是感到焦虑和恐惧。",
+    "skillIntro": "喷射火焰持续攻击僵尸",
+    "labels": [
+      "支援",
+      "火焰",
+      "藤蔓"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "255",
+    "name": "贪吃龙草",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012300/060183cef28946caec656cd07a6f6bc6.png",
+    "catalog": "作为龙草家族的老五，贪吃龙草有着惊人的大胃口，别说是零食，就算是一大堆僵尸也不在话下",
+    "skillIntro": "吃零食或啃僵尸积攒能量,随后消耗能量喷出火焰",
+    "labels": [
+      "火焰",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "256",
+    "name": "兔极",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012300/ddc7b9d73b25c39f5969eac4e813dfb6.png",
+    "catalog": "一种聪明的植物曾经说过……“在你的草坪上，用很小的力量就能取得巨大的成果！” 下雨的时候……会打雷……总之……速度是强大草坪防御的本质。” 这到底是什么意思？！",
+    "skillIntro": "使用耳朵持续拍击僵尸，每轮攻击后兔极头上的紫花将会成长",
+    "labels": [
+      "位移",
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "257",
+    "name": "蝎尾蕉机枪手",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012300/3e0ee622f924a27b6a51bb15fde3140a.png",
+    "catalog": "蝎尾蕉机枪手虽然平时很凶，但是一到下雨天就会变萌",
+    "skillIntro": "使用机枪对全方位僵尸进行扫射,一轮射击后需要换弹",
+    "labels": [
+      "控场",
+      "物理",
+      "输出"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "258",
+    "name": "电鳗香蕉",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2024033116/7eaad5aeb61ba771ea3dba3c73d84de9.png",
+    "catalog": "电鳗香蕉冷静沉着，它不会让任何人靠近它的衣服，这是有充分理由的。事实证明，它正在保护周围的人免受衣服的伤害。当被问及时，电鳗香蕉说道：“别碰我的衣服，你不会喜欢接下来发生的事情的！”，同时发出嗡嗡的电声，语气谨慎。",
+    "skillIntro": "释放电鳗向前移动，电击僵尸",
+    "labels": [
+      "群攻",
+      "输出",
+      "闪电"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "259",
+    "name": "荆棘巫师",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012300/2a4a91c32b17adb65e4a2a5c1a1793e8.png",
+    "catalog": "荆棘巫师能运用自己独特的魔法力量，操控荆棘去缠绕僵尸，锋利又带有剧毒的荆棘能使僵尸寸步难行。但没人知道，他只是比弟弟胆小荆棘更加胆小，不想直面僵尸才迫不得已学会的法术，想借此让僵尸远离自己。",
+    "skillIntro": "使用荆棘缠绕或突刺僵尸，攻击后能使僵尸中毒",
+    "labels": [
+      "削弱",
+      "剧毒",
+      "召唤",
+      "控场"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "260",
+    "name": "锯齿锦地罗",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012300/6a0009c94f6908b324b77bdf663a3bc3.png",
+    "catalog": "锯齿锦地罗从小擅长圆周运动，他天真的认为这有助于成为一名物理学天才。但事实上长大后的他靠这项天赋蝉联了数次悠悠球世界冠军。",
+    "skillIntro": "甩出回旋镖围绕自身旋转并持续攻击周围僵尸",
+    "labels": [
+      "火焰",
+      "群攻",
+      "输出"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "261",
+    "name": "电击鹰爪花",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012300/26383c7a587cdd40006a9c5bba605de1.png",
+    "catalog": "“滋...滋...滋...”鹰爪花全身散发着电光：“让僵尸尝尝电击的滋味”",
+    "skillIntro": "凝聚雷电球，持续电击僵尸",
+    "labels": [
+      "输出",
+      "闪电"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "262",
+    "name": "暴君火龙果",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012300/76c3000412ba38b42ca4db748d41e2d7.png",
+    "catalog": "暴君火龙果的每一个头之间没有名字的区分，但他们都有着自己的个性，中间的头冷静、理性；左边的头则有点矜持和害羞；至于右边的头……它总是对的",
+    "skillIntro": "对上中下三行的僵尸攻击，周围存在月光花时会进入暗影形态",
+    "labels": [
+      "暗影",
+      "输出"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "263",
+    "name": "忧郁藤蔓",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012300/de4db0db753b721462e6dadeb84e768f.png",
+    "catalog": "不应该因为忧郁藤蔓的外表而将其认为内心忧郁，虽然它的内心确实是忧郁的，但这需要追溯到很久很久以前。",
+    "skillIntro": "对范围内的僵尸攻击，使种植在其上的暗影植物进入暗影形态",
+    "labels": [
+      "减速",
+      "暗影",
+      "群攻",
+      "藤蔓"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "264",
+    "name": "留声曼陀罗",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012301/e353bc73c9cb2af96723b86916b88b76.png",
+    "catalog": "留声曼陀罗可以将听过的声音记在脑子里重现出来，因此它成为了许多乐队的核心粉丝。",
+    "skillIntro": "子弹经过时产生共鸣音波攻击周围僵尸",
+    "labels": [
+      "群攻",
+      "输出"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "265",
+    "name": "疯狂炮仗花",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012301/5c53d88955a30adb5900a6c1867d243e.png",
+    "catalog": "我有两串炮仗，左手那串叫“嘣”，右手那串叫“啪”。",
+    "skillIntro": "疯狂炮仗花可以攻击邻近三行的僵尸，并对僵尸造成短暂的眩晕。",
+    "labels": [
+      "抛投",
+      "控场",
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "266",
+    "name": "日月金银花",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012301/8969e54ee0d40342878b6449cdb37321.png",
+    "catalog": "金银花是一对双胞胎姐妹，在成长过程中分别获得了太阳和月亮之力。",
+    "skillIntro": "金花召唤太阳造成火伤，银花召唤月亮造成冰伤",
+    "labels": [
+      "寒冰",
+      "火焰",
+      "群攻",
+      "输出"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "267",
+    "name": "蛮族大黄",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012301/91d84025e9e95d2c56a14299f3d28aed.png",
+    "catalog": "“我打东西的动力？无法抑制！”蛮族大黄兴奋地说道。“那边的那棵树？打它！那个邮箱？碎裂！你的咖啡俱乐部集点卡？让我去打那个东西！。“",
+    "skillIntro": "攻击前方1格的僵尸，可向前跳跃，造成眩晕并留在落点攻击",
+    "labels": [
+      "控场",
+      "输出"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "268",
+    "name": "水生藤蔓",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012301/ef99a37cdbee13ce71146d69ab5d3aba.png",
+    "catalog": "在某一次晨练时，水生藤蔓将一份玉米卷绑在绳子的末端以此来帮助戴夫锻炼身体。谁知道戴夫居然能跑这么快？",
+    "skillIntro": "发射水弹或水柱进行攻击，低概率发射特殊水弹击退僵尸。",
+    "labels": [
+      "支援",
+      "水生",
+      "藤蔓"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "269",
+    "name": "寒霜白毛丹",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012301/6ae8fb0062225c28ac8c2db647563662.png",
+    "catalog": "寒霜白毛丹喜欢玩雪，为此他专门移居到了北方",
+    "skillIntro": "吐出雪球攻击，概率冰封被攻击的僵尸，并通过撞击直接击碎冰块",
+    "labels": [
+      "减速",
+      "寒冰",
+      "秒杀"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "270",
+    "name": "电击钩吻",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012301/41b3a24c1f6b737b0c0d97fbce67d25b.png",
+    "catalog": "电击钩吻体内有一半植拉夫血统，也许这就是它放弃下毒而转修电学的原因",
+    "skillIntro": "电击钩吻可以发射雷针到草坪任意格子上",
+    "labels": [
+      "电能",
+      "群攻",
+      "输出"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "271",
+    "name": "寒冰地刺",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012301/d13d458742c876d2a19d75ad5907b641.png",
+    "catalog": "被大联盟征召，寒冰地刺很兴奋，他迫不及待想要冷冻这些僵尸，並伤害他们。他执意要用“並”这个字。",
+    "skillIntro": "攻击所在格的僵尸，被寒冰地刺攻击的僵尸会进入冰霜减速状态",
+    "labels": [
+      "低矮",
+      "减速",
+      "寒冰"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "272",
+    "name": "泡泡姬珊瑚",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025072201/f7e7ee7a45f03cac0707c6b2fb66fae8.png",
+    "catalog": "“笨...笨蛋，你一直点没法攻击了啦！”泡泡姬珊瑚生气的说，“真拿你没办法，哼！”",
+    "skillIntro": "可以发射不同功能的泡泡进行攻击，对前方僵尸造成伤害",
+    "labels": [
+      "群攻",
+      "输出"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "273",
+    "name": "百宝兜兰",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025010700/48e3e5a99bf2d1a948112f0c1f7bf219.png",
+    "catalog": "谁都不知道百宝兜兰的口袋有多能装，激光豆的竹蜻蜓、土豆地雷的眼罩……大家总是对口袋里的下一个“惊喜”充满了期待，说不定啥时候还能变个传送门出来。甚至僵尸都罕见地对百宝兜兰作出了正面评价，至少零食挺好吃的",
+    "skillIntro": "用抛投形式扔出各种道具，产生各种效果",
+    "labels": [
+      "控场",
+      "群攻",
+      "输出"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "274",
+    "name": "女娲蛇尾草",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012301/e0bd327ec58788ef9eb6193c74c28735.png",
+    "catalog": "出于对植物本体论的深刻认知和实践，即使在这个每天对抗僵尸的浮躁年代，女娲蛇尾草也总是主张植物同胞们要好好对待那些没有眼睛的植物，不要总是把它们扔出去对付僵尸。她对某位疯狂的大胡子发明家的情感也是独一无二的。",
+    "skillIntro": "捏出植物小人，植物小人会自己寻找僵尸攻击",
+    "labels": [
+      "群攻",
+      "输出"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "275",
+    "name": "爆浆玉露",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025022011/c0da3ce82d5c8993522d295ca9310eab.png",
+    "catalog": "爆浆玉露对黄油的痴迷总是让他一触即发，当它看到僵尸博士正在食用山寨品牌的黄油时，草坪上瞬间炸开了锅！现在，他准备给僵尸涂上黄油，然后随着沸腾的黄油，砰然爆炸！",
+    "skillIntro": "黄油爆炸造成3×3范围的爆炸和控制，可以凝住史莱姆僵尸使其不再分裂",
+    "labels": [
+      "物理",
+      "秒杀"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "276",
+    "name": "守卫菇",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025031821/2e90b7739032eb83a690e1a05bdd49bd.png",
+    "catalog": "363.154e+13和守卫菇有什么共同点？当戴夫问时，潘妮花了4个多小时才完成守卫菇的普查并从地下室出来。潘妮强烈表示这个数字是准确的，并已禁止其他人下楼。",
+    "skillIntro": "守卫菇可以阻挡敌人并生成能够吞噬僵尸的小守卫菇",
+    "labels": [
+      "支援",
+      "防御",
+      "高大"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/坚韧.png"
+  },
+  {
+    "id": "277",
+    "name": "伏僵塔黄",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025041122/85c03c860a9aa183627af7fd3087e0e1.png",
+    "catalog": "把伏僵塔黄托在手心里会有种莫名的压力。但是把她放下之后，压力变得更大了……",
+    "skillIntro": "原地跳起将自身攻击范围内的僵尸吸引至身下，随后落下镇压",
+    "labels": [
+      "群攻",
+      "防御"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/坚韧.png"
+  },
+  {
+    "id": "278",
+    "name": "寄生仙钗",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025062016/fb3dbfaedd494628fcce679c68f64a79.png",
+    "catalog": "植物们面对她时，总是搞不清楚在和一株什么东西说话。因此，寄生仙钗总是很懊恼：“为什么他们总是搞不清楚我的身份呢？我是植物，植物是我，整个我都是植物，整个植物才是整个我。”寄生仙钗此刻建立了完美的私人生存哲学，或许她也忘了是否有“本来面目”这回事了。",
+    "skillIntro": "魅惑目标僵尸并眩晕周围其他僵尸",
+    "labels": [
+      "控场",
+      "操控",
+      "魅惑Ⅰ"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "279",
+    "name": "超级机枪射手",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025072201/60792f29821053e55827e6a45e0ba411.png",
+    "catalog": "豌豆家族中的大哥，可以使用各种豌豆的能力",
+    "skillIntro": "向右侧射出多个子弹，叠种其他豌豆后会发射更强力的子弹",
+    "labels": [
+      "豌豆",
+      "输出"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "280",
+    "name": "氧气海藻",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025062822/66110b09be9edc5235fdfe7c6663db3e.png",
+    "catalog": "氧气海藻每天都会做有氧运动，据悉这是她能向周围持续提供氧气的来源。",
+    "skillIntro": "为周围植物提供阳光和氧气",
+    "labels": [
+      "产阳",
+      "支援",
+      "水生"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/阳光.png"
+  },
+  {
+    "id": "281",
+    "name": "海蘑菇",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025062917/ac1904edf72d9bd39a14865a2a90c8bd.png",
+    "catalog": "海蘑菇和小喷菇是远房表亲。没有人知道他们的家谱是什么时候分叉的，但家庭聚会总是涉及泳池派对。",
+    "skillIntro": "海蘑菇可以种在水中，射程很近并只能持续一段时间。",
+    "labels": [
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "282",
+    "name": "海带守卫",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025062917/d32945307837275b9c2551aff5de2d88.png",
+    "catalog": "海带守卫一直试图冲破自己的减速带，但是从来没有成功过。",
+    "skillIntro": "海带守卫只能种在海水中，生成减速带并阻挡僵尸和洋流。",
+    "labels": [
+      "群攻",
+      "防御"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/坚韧.png"
+  },
+  {
+    "id": "283",
+    "name": "海神草",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025062917/075441b23ad578aa6518f4eb59a3b53b.png",
+    "catalog": "因为长有胡子所以被其他植物奉为智者和领导，引领着海洋植物们在海里生活，当然还包括小鲨鱼",
+    "skillIntro": "召唤鲨鱼攻击敌人",
+    "labels": [
+      "群攻",
+      "输出"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "284",
+    "name": "噗噗鱼藤",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025070919/1459bcb652c1c4a40aa56b0dc5d18daa.png",
+    "catalog": "噗噗鱼藤很喜欢到处喷出鱼藤酮。有一天她知道鱼群和僵尸都很讨厌鱼藤酮，她更开心了。",
+    "skillIntro": "噗噗鱼藤可以种在水中，驱赶鱼群和僵尸",
+    "labels": [
+      "控场"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "285",
+    "name": "海豌豆",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025072515/72c691655550b80c12c62520f0cf4970.png",
+    "catalog": "在泳池长大的海豌豆，也会有去往海底世界探险的一天，之后就没人再会说为什么他名字里带有“海”字。",
+    "skillIntro": "发射三发子弹攻击三个方向敌人",
+    "labels": [
+      "水生",
+      "物理",
+      "豌豆"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "286",
+    "name": "枫影剑客",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025071518/89fedd516437319f74854a7d1a166568.png",
+    "catalog": "枫影剑客的叶片总在等待一场秋风——但别误会，那可不是为了飘落，他只是想展示自己飘逸的长发",
+    "skillIntro": "使用刀剑斩击僵尸",
+    "labels": [
+      "秒杀"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/先锋.png"
+  },
+  {
+    "id": "287",
+    "name": "金盏花",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025081917/13a0f385792db547b86d688d590b0e18.png",
+    "catalog": "金盏花花了许多时间来考虑是吐出金币还是吐出银币。她权衡着各个角度，不停地思索着。她做了充足的研究，并且，时刻注意最新出版资料。这就是成功者们总是最先进的原因。",
+    "skillIntro": "每隔一段时间生产一枚银币",
+    "labels": [
+      "支援"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/辅助.png"
+  },
+  {
+    "id": "288",
+    "name": "球果训练家",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025081621/b654891c187b4c2cc63cf38e753c7d53.png",
+    "catalog": "往日，植物们通常并不欢迎那些占据他们窗台阳光的那些人类宠物。不过，当植物本身就是一个拥有魔力的宠物球，那养好什么宠物或许都不成问题",
+    "skillIntro": "召唤球果中的植宠",
+    "labels": [
+      "群攻",
+      "输出"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "289",
+    "name": "盒子草礼炮",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025081321/c78e6b48082be57a3c2cdff75d3e6348.png",
+    "catalog": "即使只是一个灰头土脸的小子，盒子草礼炮也尽力给那些一直陪伴的“朋友们”送上他认为最值得的礼物。“停止用那跛脚走路吧！停止追求虚假的脑梦吧！”如果那些家伙真的能做到，生于尘土的彼此才能献上真正的礼物。",
+    "skillIntro": "发射出各种礼盒，礼盒会吸引僵尸，并随机产生各种效果",
+    "labels": [
+      "控场",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "290",
+    "name": "胆小菇",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025091909/8985ec8fdf53de0444566eee270542ea.png",
+    "catalog": "谁在那儿？”胆小菇低声说，声音细微难辨。“走开！我不想见任何人。除非……除非你是马戏团的人。",
+    "skillIntro": "向敌人发射孢子，当有僵尸靠近时胆小菇会缩成一团",
+    "labels": [
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "291",
+    "name": "黑法师",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025091923/7c71a18a8774efb1238af0f2a82b3b99.png",
+    "catalog": "黑法师从虚空中来，也定会回到虚空中去",
+    "skillIntro": "使用魔法将僵尸放逐进虚空之中",
+    "labels": [
+      "支援",
+      "魔法"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "292",
+    "name": "太极木槿",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025121713/38c975ea2664d7b33bc681e740ead8ca.png",
+    "catalog": "“植之本性即是自然无为”，将僵尸丢到自己身后的太极木槿这样想到",
+    "skillIntro": "将中小体型僵尸抛向后方，格挡巨人僵尸攻击",
+    "labels": [
+      "物理"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/坚韧.png"
+  },
+  {
+    "id": "293",
+    "name": "青蛇藤蔓",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025102111/071d6e16628492e8ea7da49b017e0178.jpg",
+    "catalog": "青蛇藤蔓有时候会觉得自己是一条真的蛇，直到有一天真的长出了一根会开口的尾巴",
+    "skillIntro": "制造毒雾攻击僵尸，并增幅身上的毒系植物",
+    "labels": [
+      "剧毒",
+      "支援",
+      "藤蔓"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "294",
+    "name": "毁灭菇",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025111423/cbeed08312a423f773ed9f840b228322.png",
+    "catalog": "“你很幸运，我站在你这边，”毁灭蘑菇说，“我能摧毁你珍视的一切，小菜一碟。”",
+    "skillIntro": "被僵尸攻击会爆炸，造成毁灭性的伤害",
+    "labels": [
+      "消耗",
+      "火焰",
+      "灰烬",
+      "爆炸"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "295",
+    "name": "叶子保护伞",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025120116/4151582b6cf67a7cf54072bd4212b215.png",
+    "catalog": "“想要篮球保护服务吗？还是防御来自僵尸的空袭？或者乘凉服务？”叶子伞兴致勃勃的样子，“就是千万别让我替你淋雨！”她讨厌这个，这可不利于美发",
+    "skillIntro": "防御下落中的僵尸，将下落中的僵尸击退",
+    "labels": [
+      "位移",
+      "支援",
+      "防御"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/奇兵.png"
+  },
+  {
+    "id": "296",
+    "name": "鸭梨",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025121314/7ee6e02caece4afafa07ab04bc789663.png",
+    "catalog": "鸭梨靠着成名绝技“涡轮增鸭”在植物卖萌大赛上获得了不错的成绩",
+    "skillIntro": "蓄力后吐出水球攻击僵尸，可以制造水坑",
+    "labels": [
+      "控场",
+      "水生",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "297",
+    "name": "藕花白龙",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2026012115/9a44f1cdcf6e55cf987f1fd90815db0d.png",
+    "catalog": "藕花白龙有点身份认知危机。“我是条龙？是匹马？还是仅仅是一朵花？”他总是这样想。他过去常和一个和尚、一头猪以及一只猴子混在一起，但他为了追求平静的生活退休到了草坪上。只是千万别让他再挑担子了",
+    "skillIntro": "能够独立攻击或与猕猴桃叠种，叠种后增强双方能力",
+    "labels": [
+      "控场",
+      "群攻"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "298",
+    "name": "金蝉花",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2026012115/8221fbe9540cf1bf017506bdab9fc35d.png",
+    "catalog": "黄眉大亡曾在《谁能保持更久不出声》比赛中赢过了金蝉花",
+    "skillIntro": "死亡后留下底座在一段时间后复活",
+    "labels": [
+      "位移",
+      "防御"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/坚韧.png"
+  },
+  {
+    "id": "299",
+    "name": "草垛",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/202601add7099e42aecfe4e2d56ca1d8c7211f/85245a554aa6948a9713be7ed8cfdda4.png",
+    "catalog": "比起地宫阴冷的环境，草垛更喜欢他姥姥的姥爷的小姑的姑父的舅妈阳光明媚的屋顶生活",
+    "skillIntro": "草垛能够让植物种在坑道上",
+    "labels": [
+      "支援"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/辅助.png"
+  },
+  {
+    "id": "300",
+    "name": "魔藤",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2026012f48c0551af791b008710124d70598f2/bc27768dae51ae2b55584e16c3a5c2a1.png",
+    "catalog": "一株能够使用破坏护甲魔法的藤蔓，被其他植物亲切地称为“魔藤”。但其实她并不怎么喜欢这个名字，因为总有人会把她误认成某个会带来噩梦的家伙",
+    "skillIntro": "射出能破坏防具的魔弹进行攻击，魔弹对有防具的僵尸会造成双倍伤害",
+    "labels": [
+      "电能"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "301",
+    "name": "悬浮洋芋",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/202602ae26bb0d5e47dfd67cfae539eea46a88/b227fb603cc165e7123f9fb84e54cda6.png",
+    "catalog": "“我和其他土豆表亲有点不一样，”悬浮洋芋解释道。“我觉得最主要的区别是，我接触时不会爆炸，甚至根本不会。我会留下来的！”",
+    "skillIntro": "攻击使僵尸悬浮",
+    "labels": [
+      "控场",
+      "秒杀"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/远程.png"
+  },
+  {
+    "id": "302",
+    "name": "祥云飞莲",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2026031353d67b1738c2688f145bbef7868b44/82a5278611595231f0f6feae6ffc1de3.png",
+    "catalog": "为了维持那朵半透明的祥云，她每天要消耗惊人的阳光来支付“悬浮费”",
+    "skillIntro": "强化周围植物，使前方植物100%触发种植释放能量豆",
+    "labels": [
+      "支援"
+    ],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/辅助.png"
+  },
+  {
+    "id": "304",
+    "name": "吸金磁",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/20260401e0b7a542d51da6607d39170cc6c406/e433f71a4cbcd7d00af96d2709b2af11.png",
+    "catalog": "？？？",
+    "skillIntro": "？？？",
+    "labels": [],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/未知.png"
+  },
+  {
+    "id": "306",
+    "name": "幽潭婆罗",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/202604882bc0d0d2f1012abfb892b95937fd0d/758a6b2d3cefb49970e6829630114a9b.png",
+    "catalog": "？？？",
+    "skillIntro": "？？？",
+    "labels": [],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/未知.png"
+  },
+  {
+    "id": "308",
+    "name": "安息木编钟",
+    "image": "https://ad-cdn.hrgame.com.cn/pvz2/upload/202604f8e48207c0a309cf27db8271ffd7bdd2/43615623fe3d612c172cbfed666d83b5.png",
+    "catalog": "？？？",
+    "skillIntro": "？？？",
+    "labels": [],
+    "professionIcon": "https://ad-cdn.hrgame.com.cn/pvz2/book/10/classification/未知.png"
+  }
+]

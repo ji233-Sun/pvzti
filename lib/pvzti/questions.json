@@ -1,625 +1,205 @@
 {
-  "version": "2026-04-14-draft",
+  "version": "2026-04-16-v2",
   "totalQuestions": 20,
   "questions": [
     {
       "id": "q01",
-      "title": "启动方式",
-      "prompt": "一个全新的项目或挑战突然落到面前，你最本能的启动姿势是？",
+      "prompt": "一个全新的项目突然落到面前，你最本能的启动姿势是？",
       "options": [
-        {
-          "id": "q01-a",
-          "label": "先把资源、人手和情绪安顿好，再稳稳起步。",
-          "tone": "蓄能型、照料型",
-          "scores": { "sunflower": 3, "wallnut": 1 }
-        },
-        {
-          "id": "q01-b",
-          "label": "先冲出去打第一枪，边做边打开局面。",
-          "tone": "主动型、进攻型",
-          "scores": { "peashooter": 3, "cherryBomb": 1 }
-        },
-        {
-          "id": "q01-c",
-          "label": "不急于表态，暗中埋好伏笔，等关键节点再一击命中。",
-          "tone": "潜伏型、时机型",
-          "scores": { "potatoMine": 3, "cabbagePult": 1 }
-        },
-        {
-          "id": "q01-d",
-          "label": "先站远一点看全局，梳理出结构路线后再推进。",
-          "tone": "统筹型、结构型",
-          "scores": { "cabbagePult": 3, "sunflower": 1 }
-        }
+        { "id": "q01-a", "label": "先冲出去打第一枪，边做边打开局面。", "scores": { "edge": 3, "tenacity": 1 } },
+        { "id": "q01-b", "label": "先把资源和人手安顿好，再稳稳起步。", "scores": { "bond": 3, "resonance": 2 } },
+        { "id": "q01-c", "label": "不急于表态，暗中观察，等关键节点再出手。", "scores": { "order": 2, "tenacity": 2 } },
+        { "id": "q01-d", "label": "站远一点看全局，梳理出结构路线后再推进。", "scores": { "order": 3, "edge": 1 } }
       ]
     },
     {
       "id": "q02",
-      "title": "面对分歧",
-      "prompt": "当讨论逐渐升温，空气中充满火药味时，你的应对策略通常是？",
+      "prompt": "讨论逐渐升温，空气中充满火药味，你的应对策略是？",
       "options": [
-        {
-          "id": "q02-a",
-          "label": "不破不立，直接把情绪和底线砸到桌面上，当场解决。",
-          "tone": "爆发型、破局型",
-          "scores": { "cherryBomb": 3, "peashooter": 1 }
-        },
-        {
-          "id": "q02-b",
-          "label": "像一块海绵吸收火力，守住核心立场，任凭对方风浪起。",
-          "tone": "承压型、边界型",
-          "scores": { "wallnut": 3, "potatoMine": 1 }
-        },
-        {
-          "id": "q02-c",
-          "label": "退居二线，不动声色地观察对方的逻辑漏洞，准备最后发言。",
-          "tone": "观察型、后发型",
-          "scores": { "potatoMine": 3, "cabbagePult": 1 }
-        },
-        {
-          "id": "q02-d",
-          "label": "主动缓和气氛，寻找能让大家都下得去台阶的中间地带。",
-          "tone": "协调型、支持型",
-          "scores": { "sunflower": 3, "cabbagePult": 1 }
-        }
+        { "id": "q02-a", "label": "不破不立，直接把底线砸到桌面上当场解决。", "scores": { "edge": 3, "resonance": 1 } },
+        { "id": "q02-b", "label": "像海绵一样吸收火力，守住核心立场不动摇。", "scores": { "tenacity": 3, "order": 1 } },
+        { "id": "q02-c", "label": "退居二线观察对方的逻辑漏洞，准备最后发言。", "scores": { "order": 3, "tenacity": 1 } },
+        { "id": "q02-d", "label": "主动缓和气氛，寻找让大家都能接受的中间地带。", "scores": { "resonance": 3, "bond": 2 } }
       ]
     },
     {
       "id": "q03",
-      "title": "独处时光",
       "prompt": "终于迎来一个没有任何安排的周末，你会如何度过？",
       "options": [
-        {
-          "id": "q03-a",
-          "label": "沉浸在那些能给自己持续充电的小事里，或者和亲密的人待着。",
-          "tone": "供能型、亲密型",
-          "scores": { "sunflower": 3, "wallnut": 1 }
-        },
-        {
-          "id": "q03-b",
-          "label": "迅速锁定一个感兴趣的目标（游戏、电影或运动），直接拉满进度条。",
-          "tone": "单点突破、即时反馈",
-          "scores": { "peashooter": 3, "cherryBomb": 1 }
-        },
-        {
-          "id": "q03-c",
-          "label": "享受完全不被打扰的封闭感，谁也别想轻易闯入我的结界。",
-          "tone": "守护型、封闭型",
-          "scores": { "wallnut": 3, "potatoMine": 1 }
-        },
-        {
-          "id": "q03-d",
-          "label": "习惯性地将下周的生活甚至人生规划，在脑海里像下棋一样推演一遍。",
-          "tone": "抽离型、全局型",
-          "scores": { "cabbagePult": 3, "potatoMine": 1 }
-        }
+        { "id": "q03-a", "label": "沉浸在能给自己充电的小事里，或者和亲密的人待着。", "scores": { "resonance": 3, "bond": 1 } },
+        { "id": "q03-b", "label": "迅速锁定一个目标，直接拉满进度条。", "scores": { "edge": 3, "order": 1 } },
+        { "id": "q03-c", "label": "享受完全不被打扰的封闭感，谁也别想闯入我的结界。", "scores": { "tenacity": 2, "order": 2 } },
+        { "id": "q03-d", "label": "习惯性地将下周甚至人生规划在脑海里推演一遍。", "scores": { "order": 3, "tenacity": 1 } }
       ]
     },
     {
       "id": "q04",
-      "title": "突发危机",
-      "prompt": "旅行途中突然下起暴雨，原定行程全部作废，你会？",
+      "prompt": "旅行途中突然暴雨，原定行程全部作废，你会？",
       "options": [
-        {
-          "id": "q04-a",
-          "label": "有点炸毛，但立刻做出果断决绝的决定，哪怕代价巨大也要立刻止损。",
-          "tone": "决断型、情绪高燃",
-          "scores": { "cherryBomb": 3, "peashooter": 1 }
-        },
-        {
-          "id": "q04-b",
-          "label": "只要最重要的人和行李都没事，找个屋檐躲着也能岁月静好。",
-          "tone": "底线型、知足型",
-          "scores": { "wallnut": 3, "sunflower": 1 }
-        },
-        {
-          "id": "q04-c",
-          "label": "打开地图和备忘录，像开上帝视角一样重新拼凑出一条新路线。",
-          "tone": "系统型、重构型",
-          "scores": { "cabbagePult": 3, "wallnut": 1 }
-        },
-        {
-          "id": "q04-d",
-          "label": "刚才一路上就觉得天色不对，早就偷偷看好了一个避雨的绝佳位置。",
-          "tone": "预判型、藏匿型",
-          "scores": { "potatoMine": 3, "cabbagePult": 1 }
-        }
+        { "id": "q04-a", "label": "有点炸毛，但立刻做出果断决定，代价再大也要止损。", "scores": { "edge": 3, "order": 1 } },
+        { "id": "q04-b", "label": "只要最重要的人和行李没事，找个屋檐躲着也能岁月静好。", "scores": { "resonance": 2, "tenacity": 2 } },
+        { "id": "q04-c", "label": "打开地图和备忘录，像开上帝视角重新拼出一条新路线。", "scores": { "order": 3, "edge": 1 } },
+        { "id": "q04-d", "label": "一路上就觉得天色不对，早就偷偷看好了一个避雨位置。", "scores": { "order": 2, "tenacity": 2 } }
       ]
     },
     {
       "id": "q05",
-      "title": "社交试探",
       "prompt": "误入一个全是陌生人的派对，你会用哪种方式寻找同类？",
       "options": [
-        {
-          "id": "q05-a",
-          "label": "散发善意与温和的磁场，让那些同样需要安全感的人自动靠近。",
-          "tone": "稳定型、散发型",
-          "scores": { "sunflower": 3, "peashooter": 1 }
-        },
-        {
-          "id": "q05-b",
-          "label": "抛出一个直白的话题，看看谁能最快接住我的梗。",
-          "tone": "直接型、试探型",
-          "scores": { "peashooter": 3, "cherryBomb": 1 }
-        },
-        {
-          "id": "q05-c",
-          "label": "找个舒服的角落先坐下，构筑起礼貌的屏障，别人不招惹我，我就不动。",
-          "tone": "防御型、被动型",
-          "scores": { "wallnut": 3, "potatoMine": 1 }
-        },
-        {
-          "id": "q05-d",
-          "label": "默默打量全场，给每个人在心里贴上标签，评估他们的“危险系数”。",
-          "tone": "评估型、旁观型",
-          "scores": { "cabbagePult": 3, "sunflower": 1 }
-        }
+        { "id": "q05-a", "label": "散发善意的磁场，让需要安全感的人自动靠近。", "scores": { "resonance": 3, "bond": 2 } },
+        { "id": "q05-b", "label": "抛出一个直白的话题，看看谁能最快接住我的梗。", "scores": { "edge": 3, "bond": 1 } },
+        { "id": "q05-c", "label": "找个角落先坐下，构筑起礼貌的屏障，静观其变。", "scores": { "tenacity": 2, "order": 1 } },
+        { "id": "q05-d", "label": "默默打量全场，给每个人在心里贴上标签和危险系数。", "scores": { "order": 3, "edge": 1 } }
       ]
     },
     {
       "id": "q06",
-      "title": "表达不满",
       "prompt": "合作对象的做事方式让你极度不适，你会怎么反馈？",
       "options": [
-        {
-          "id": "q06-a",
-          "label": "绝不拖泥带水，当面指出问题，哪怕场面难看也要立刻切割。",
-          "tone": "果断型、爆破型",
-          "scores": { "cherryBomb": 3, "peashooter": 1 }
-        },
-        {
-          "id": "q06-b",
-          "label": "表面顺从，但在心里默默记下一笔，等到忍无可忍时让他付出代价。",
-          "tone": "隐忍型、反扑型",
-          "scores": { "potatoMine": 3, "cherryBomb": 1 }
-        },
-        {
-          "id": "q06-c",
-          "label": "不纠缠情绪，直接甩出一套更合理的流程标准，用规则碾压对方。",
-          "tone": "结构型、降维型",
-          "scores": { "cabbagePult": 3, "peashooter": 1 }
-        },
-        {
-          "id": "q06-d",
-          "label": "默默收紧合作尺度，把自己的核心利益保护好，公事公办。",
-          "tone": "界限型、防守型",
-          "scores": { "wallnut": 3, "potatoMine": 1 }
-        }
+        { "id": "q06-a", "label": "当面指出问题，哪怕场面难看也要立刻切割。", "scores": { "edge": 3, "order": 1 } },
+        { "id": "q06-b", "label": "表面顺从，暗中记下一笔，等忍无可忍时让他付出代价。", "scores": { "tenacity": 2, "edge": 2 } },
+        { "id": "q06-c", "label": "不纠缠情绪，直接甩出更合理的流程标准。", "scores": { "order": 3, "edge": 1 } },
+        { "id": "q06-d", "label": "默默收紧合作尺度，把核心利益保护好，公事公办。", "scores": { "tenacity": 3, "order": 1 } }
       ]
     },
     {
       "id": "q07",
-      "title": "陷入低谷",
-      "prompt": "当生活陷入一段毫无起色的瓶颈期，你会如何自救？",
+      "prompt": "生活陷入一段毫无起色的瓶颈期，你会如何自救？",
       "options": [
-        {
-          "id": "q07-a",
-          "label": "把旧的计划全部推翻，用一次疯狂的冒险或消费来刺激自己。",
-          "tone": "破局型、能量型",
-          "scores": { "cherryBomb": 3, "cabbagePult": 1 }
-        },
-        {
-          "id": "q07-b",
-          "label": "坚信量变引起质变，不管怎样，先把眼前的日常任务刷出声响。",
-          "tone": "行动型、输出型",
-          "scores": { "peashooter": 3, "wallnut": 1 }
-        },
-        {
-          "id": "q07-c",
-          "label": "告诉自己这只是在“憋大招”，蛰伏越久，将来的反弹越惊人。",
-          "tone": "蓄力型、时机型",
-          "scores": { "potatoMine": 3, "sunflower": 1 }
-        },
-        {
-          "id": "q07-d",
-          "label": "跳出现状，用第三视角的冷峻目光审视人生系统，寻找卡壳的齿轮。",
-          "tone": "抽离型、上帝视角",
-          "scores": { "cabbagePult": 3, "potatoMine": 1 }
-        }
+        { "id": "q07-a", "label": "把旧计划全部推翻，用一次疯狂冒险来刺激自己。", "scores": { "edge": 3, "resonance": 1 } },
+        { "id": "q07-b", "label": "坚信量变引起质变，先把眼前的任务刷出声响。", "scores": { "tenacity": 3, "edge": 1 } },
+        { "id": "q07-c", "label": "告诉自己这只是在「憋大招」，蛰伏越久反弹越惊人。", "scores": { "tenacity": 2, "resonance": 2 } },
+        { "id": "q07-d", "label": "跳出现状，用第三视角审视人生系统，寻找卡壳的齿轮。", "scores": { "order": 3, "tenacity": 1 } }
       ]
     },
     {
       "id": "q08",
-      "title": "抚慰伤痛",
-      "prompt": "好友遭遇重大挫折，深夜打电话找你哭诉，你会怎么说？",
+      "prompt": "好友遭遇重大挫折深夜来电哭诉，你会怎么说？",
       "options": [
-        {
-          "id": "q08-a",
-          "label": "“谁干的？告诉我，我这就去替你出气！”",
-          "tone": "护短型、仗义型",
-          "scores": { "cherryBomb": 3, "wallnut": 1 }
-        },
-        {
-          "id": "q08-b",
-          "label": "“别怕，这通电话打多久我都陪着你，明天我带着好吃的去找你。”",
-          "tone": "供养型、支持型",
-          "scores": { "sunflower": 3, "wallnut": 1 }
-        },
-        {
-          "id": "q08-c",
-          "label": "“这件事的底层逻辑其实是这样……我们可以从这几个维度来复盘。”",
-          "tone": "理智型、梳理型",
-          "scores": { "cabbagePult": 3, "peashooter": 1 }
-        },
-        {
-          "id": "q08-d",
-          "label": "“先别急着下结论，说不定这正是你翻盘的最好引子。”",
-          "tone": "翻盘型、隐忍型",
-          "scores": { "potatoMine": 3, "cabbagePult": 1 }
-        }
+        { "id": "q08-a", "label": "「谁干的？告诉我，我这就去替你出气！」", "scores": { "edge": 2, "resonance": 2, "bond": 1 } },
+        { "id": "q08-b", "label": "「别怕，这通电话打多久我都陪着，明天我带好吃的去找你。」", "scores": { "resonance": 3, "bond": 2 } },
+        { "id": "q08-c", "label": "「这件事的底层逻辑其实是这样……我们可以复盘一下。」", "scores": { "order": 3, "edge": 1 } },
+        { "id": "q08-d", "label": "「先别急着下结论，说不定这正是你翻盘的最好引子。」", "scores": { "tenacity": 2, "resonance": 2 } }
       ]
     },
     {
       "id": "q09",
-      "title": "面对繁琐",
-      "prompt": "桌面上堆满了看似毫无意义却又不得不做的琐碎任务，你会？",
+      "prompt": "桌面上堆满了看似无意义却又不得不做的琐碎任务，你会？",
       "options": [
-        {
-          "id": "q09-a",
-          "label": "像没有感情的机器一样，突突突一口气全部扫射完毕。",
-          "tone": "高效型、推进型",
-          "scores": { "peashooter": 3, "cherryBomb": 1 }
-        },
-        {
-          "id": "q09-b",
-          "label": "耐着性子慢慢啃，把它当成修炼内心抗压能力的一种修行。",
-          "tone": "承压型、韧性型",
-          "scores": { "wallnut": 3, "sunflower": 1 }
-        },
-        {
-          "id": "q09-c",
-          "label": "拖延到最后一刻，在极度焦虑中爆发出惊人的专注力，瞬间秒杀。",
-          "tone": "极限型、爆发型",
-          "scores": { "potatoMine": 3, "cherryBomb": 1 }
-        },
-        {
-          "id": "q09-d",
-          "label": "先花一半时间建立一个分类系统，然后把它们分门别类丢进框里。",
-          "tone": "统筹型、归纳型",
-          "scores": { "cabbagePult": 3, "peashooter": 1 }
-        }
+        { "id": "q09-a", "label": "像没有感情的机器一样，突突突一口气全部扫射完毕。", "scores": { "edge": 3, "tenacity": 1 } },
+        { "id": "q09-b", "label": "耐着性子慢慢啃，把它当成修炼抗压能力的修行。", "scores": { "tenacity": 3, "order": 1 } },
+        { "id": "q09-c", "label": "拖延到最后一刻，在极度焦虑中爆发出惊人的专注力。", "scores": { "edge": 2, "resonance": 1 } },
+        { "id": "q09-d", "label": "先花一半时间建立分类系统，然后分门别类处理。", "scores": { "order": 3, "bond": 1 } }
       ]
     },
     {
       "id": "q10",
-      "title": "被人误解",
-      "prompt": "当别人因为片面的信息而对你产生误会时，你的第一反应是？",
+      "prompt": "当别人因为片面信息对你产生误会时，你的第一反应是？",
       "options": [
-        {
-          "id": "q10-a",
-          "label": "不解释，甚至觉得有点好笑，真正的底牌没必要逢人就亮。",
-          "tone": "深藏型、低调型",
-          "scores": { "potatoMine": 3, "wallnut": 1 }
-        },
-        {
-          "id": "q10-b",
-          "label": "感到委屈，但更愿意通过持续的陪伴和行动，让时间证明一切。",
-          "tone": "长期型、维系型",
-          "scores": { "sunflower": 3, "wallnut": 1 }
-        },
-        {
-          "id": "q10-c",
-          "label": "第一时间冲上去澄清事实，把逻辑和证据拍在对方面前。",
-          "tone": "直接型、正面型",
-          "scores": { "peashooter": 3, "sunflower": 1 }
-        },
-        {
-          "id": "q10-d",
-          "label": "彻底心寒，一旦信任破裂，就瞬间把这个人从生命里炸毁、除名。",
-          "tone": "决绝型、零容忍",
-          "scores": { "cherryBomb": 3, "potatoMine": 1 }
-        }
+        { "id": "q10-a", "label": "不解释，真正的底牌没必要逢人就亮。", "scores": { "tenacity": 3, "edge": 1 } },
+        { "id": "q10-b", "label": "感到委屈，但更愿意通过持续陪伴让时间证明一切。", "scores": { "resonance": 3, "tenacity": 1 } },
+        { "id": "q10-c", "label": "第一时间冲上去澄清事实，把逻辑和证据拍在对方面前。", "scores": { "edge": 3, "bond": 1 } },
+        { "id": "q10-d", "label": "彻底心寒，一旦信任破裂就瞬间把这个人从生命里除名。", "scores": { "edge": 2, "resonance": 2 } }
       ]
     },
     {
       "id": "q11",
-      "title": "游戏偏好",
-      "prompt": "在一场多人合作的生存游戏中，你最倾向于选择什么定位？",
+      "prompt": "多人合作生存游戏中，你最倾向于选择什么定位？",
       "options": [
-        {
-          "id": "q11-a",
-          "label": "站在最后排纵观全局，用各种阵法和增益控制战场的辅助大脑。",
-          "tone": "全局型、控场型",
-          "scores": { "cabbagePult": 3, "sunflower": 1 }
-        },
-        {
-          "id": "q11-b",
-          "label": "冲锋陷阵的脆皮输出，享受满屏伤害数字带来的极致快感。",
-          "tone": "输出型、爽感型",
-          "scores": { "peashooter": 3, "cherryBomb": 1 }
-        },
-        {
-          "id": "q11-c",
-          "label": "把防御点满的前排坦克，看着敌人打我不掉血的样子就觉得很安心。",
-          "tone": "守护型、抗压型",
-          "scores": { "wallnut": 3, "sunflower": 1 }
-        },
-        {
-          "id": "q11-d",
-          "label": "平时看不见人影，只在残血局现身，一击完成华丽逆转的刺客。",
-          "tone": "潜伏型、收割型",
-          "scores": { "potatoMine": 3, "peashooter": 1 }
-        }
+        { "id": "q11-a", "label": "站在后排纵观全局的辅助大脑，控制战场节奏。", "scores": { "order": 3, "bond": 2 } },
+        { "id": "q11-b", "label": "冲锋陷阵的脆皮输出，享受满屏伤害数字的快感。", "scores": { "edge": 3, "bond": 1 } },
+        { "id": "q11-c", "label": "防御点满的前排坦克，看着敌人打我不掉血就安心。", "scores": { "tenacity": 3, "bond": 1 } },
+        { "id": "q11-d", "label": "平时隐身，只在残血局现身完成华丽逆转的刺客。", "scores": { "edge": 2, "order": 2 } }
       ]
     },
     {
       "id": "q12",
-      "title": "天降横财",
-      "prompt": "突然得到一笔完全不受限制的意外奖金，你会如何使用？",
+      "prompt": "突然得到一笔不受限制的意外奖金，你会如何使用？",
       "options": [
-        {
-          "id": "q12-a",
-          "label": "直接梭哈一个早就想买的大件，体验肾上腺素飙升的快乐。",
-          "tone": "冲动型、享受型",
-          "scores": { "cherryBomb": 3, "peashooter": 1 }
-        },
-        {
-          "id": "q12-b",
-          "label": "把它存进最稳妥的账户，或者加固现有的生活屏障，换取长久的安全感。",
-          "tone": "安全型、保守型",
-          "scores": { "wallnut": 3, "sunflower": 1 }
-        },
-        {
-          "id": "q12-c",
-          "label": "买一些能提升日常幸福感的小物件，顺便请在乎的人吃顿大餐。",
-          "tone": "利他型、协调型",
-          "scores": { "sunflower": 3, "peashooter": 1 }
-        },
-        {
-          "id": "q12-d",
-          "label": "将其作为撬动更大资源的杠杆，投入到一个长期且复杂的计划中。",
-          "tone": "布局型、结构型",
-          "scores": { "cabbagePult": 3, "potatoMine": 1 }
-        }
+        { "id": "q12-a", "label": "直接梭哈一个大件，体验肾上腺素飙升的快乐。", "scores": { "edge": 3, "resonance": 1 } },
+        { "id": "q12-b", "label": "存进最稳妥的账户，换取长久的安全感。", "scores": { "tenacity": 3, "order": 1 } },
+        { "id": "q12-c", "label": "买些提升幸福感的小物件，顺便请在乎的人吃大餐。", "scores": { "resonance": 2, "bond": 3 } },
+        { "id": "q12-d", "label": "作为杠杆投入到一个长期复杂的计划中。", "scores": { "order": 3, "tenacity": 1 } }
       ]
     },
     {
       "id": "q13",
-      "title": "心动时刻",
-      "prompt": "当你意识到自己对某个人产生了好感，你会如何行动？",
+      "prompt": "意识到自己对某个人产生好感时，你会如何行动？",
       "options": [
-        {
-          "id": "q13-a",
-          "label": "步步为营，放出若有似无的诱饵，等对方主动踩进自己的领地。",
-          "tone": "诱捕型、耐心型",
-          "scores": { "potatoMine": 3, "cabbagePult": 1 }
-        },
-        {
-          "id": "q13-b",
-          "label": "毫不掩饰眼里的光，用频繁的互动和直球表达去占据对方的视线。",
-          "tone": "主动型、直球型",
-          "scores": { "peashooter": 3, "cherryBomb": 1 }
-        },
-        {
-          "id": "q13-c",
-          "label": "默默成为对方生活里最可靠的后盾，只要他回头，就能看到你。",
-          "tone": "守护型、陪伴型",
-          "scores": { "wallnut": 3, "sunflower": 1 }
-        },
-        {
-          "id": "q13-d",
-          "label": "审视两人关系的匹配度，从更高维度评估这段感情的长期可行性。",
-          "tone": "评估型、抽离型",
-          "scores": { "cabbagePult": 3, "wallnut": 1 }
-        }
+        { "id": "q13-a", "label": "步步为营放出诱饵，等对方主动踩进自己的领地。", "scores": { "order": 2, "tenacity": 2 } },
+        { "id": "q13-b", "label": "毫不掩饰，用频繁互动和直球表达占据对方视线。", "scores": { "edge": 3, "resonance": 1 } },
+        { "id": "q13-c", "label": "默默成为对方最可靠的后盾，只要他回头就能看到你。", "scores": { "resonance": 2, "tenacity": 2, "bond": 1 } },
+        { "id": "q13-d", "label": "审视匹配度，从高维度评估这段感情的长期可行性。", "scores": { "order": 3, "resonance": 1 } }
       ]
     },
     {
       "id": "q14",
-      "title": "面临淘汰",
-      "prompt": "在一场生存竞技中，你即将面临被淘汰的风险，你会？",
+      "prompt": "生存竞技中你即将被淘汰，你会？",
       "options": [
-        {
-          "id": "q14-a",
-          "label": "宁为玉碎不为瓦全，就算是走，也要拉一个最强的垫背。",
-          "tone": "玉碎型、爆发型",
-          "scores": { "cherryBomb": 3, "potatoMine": 1 }
-        },
-        {
-          "id": "q14-b",
-          "label": "极致收缩防御，只要我不主动犯错，总有人会比我先倒下。",
-          "tone": "耗散型、防御型",
-          "scores": { "wallnut": 3, "cabbagePult": 1 }
-        },
-        {
-          "id": "q14-c",
-          "label": "抛弃所有顾虑，疯狂增加输出频率，用绝对的行动量搏一线生机。",
-          "tone": "拼搏型、极限输出",
-          "scores": { "peashooter": 3, "sunflower": 1 }
-        },
-        {
-          "id": "q14-d",
-          "label": "冷静研究规则漏洞，寻找从根本上掀翻这场局面的方法。",
-          "tone": "破壁型、系统思维",
-          "scores": { "cabbagePult": 3, "potatoMine": 1 }
-        }
+        { "id": "q14-a", "label": "宁为玉碎不为瓦全，就算走也要拉一个最强的垫背。", "scores": { "edge": 3, "resonance": 1 } },
+        { "id": "q14-b", "label": "极致收缩防御，只要不主动犯错，总有人会先倒下。", "scores": { "tenacity": 3, "order": 1 } },
+        { "id": "q14-c", "label": "抛弃顾虑疯狂增加输出，用绝对行动量搏一线生机。", "scores": { "edge": 2, "tenacity": 2 } },
+        { "id": "q14-d", "label": "冷静研究规则漏洞，寻找从根本上掀翻局面的方法。", "scores": { "order": 3, "edge": 1 } }
       ]
     },
     {
       "id": "q15",
-      "title": "房间整理",
-      "prompt": "看着一团糟的房间，你决定开始大扫除，你的风格是？",
+      "prompt": "看着一团糟的房间决定大扫除，你的风格是？",
       "options": [
-        {
-          "id": "q15-a",
-          "label": "找回遗忘在角落里的旧物，陷入回忆，最后只整理了一个抽屉。",
-          "tone": "挖掘型、怀旧型",
-          "scores": { "potatoMine": 3, "sunflower": 1 }
-        },
-        {
-          "id": "q15-b",
-          "label": "买一堆极具系统性的收纳盒，给每一件物品设定精确的经纬度。",
-          "tone": "秩序型、归纳型",
-          "scores": { "cabbagePult": 3, "wallnut": 1 }
-        },
-        {
-          "id": "q15-c",
-          "label": "挂上彩灯，换上暖色地毯，最重要的不是整洁，而是氛围拉满。",
-          "tone": "氛围型、供养型",
-          "scores": { "sunflower": 3, "cabbagePult": 1 }
-        },
-        {
-          "id": "q15-d",
-          "label": "看着烦，直接拎起垃圾袋进行断舍离，扔掉一半东西瞬间清爽。",
-          "tone": "决断型、清理型",
-          "scores": { "cherryBomb": 3, "peashooter": 1 }
-        }
+        { "id": "q15-a", "label": "找到角落里的旧物陷入回忆，最后只整理了一个抽屉。", "scores": { "resonance": 3, "tenacity": 1 } },
+        { "id": "q15-b", "label": "买一堆收纳盒，给每件物品设定精确的经纬度。", "scores": { "order": 3, "tenacity": 1 } },
+        { "id": "q15-c", "label": "挂彩灯换暖色地毯，最重要的不是整洁而是氛围拉满。", "scores": { "resonance": 2, "bond": 2 } },
+        { "id": "q15-d", "label": "直接拎起垃圾袋断舍离，扔掉一半东西瞬间清爽。", "scores": { "edge": 3, "order": 1 } }
       ]
     },
     {
       "id": "q16",
-      "title": "绝地反击",
-      "prompt": "在陷入被动许久后，终于迎来了反击的最佳时机，你会？",
+      "prompt": "陷入被动许久后终于迎来反击最佳时机，你会？",
       "options": [
-        {
-          "id": "q16-a",
-          "label": "酝酿已久的杀手锏在此刻破土而出，用惊人的伤害给对方致命一击。",
-          "tone": "绝杀型、后发制人",
-          "scores": { "potatoMine": 3, "cherryBomb": 1 }
-        },
-        {
-          "id": "q16-b",
-          "label": "不讲武德，直接制造一场声势浩大的混乱，把对方的心态彻底炸崩。",
-          "tone": "震慑型、火力覆盖",
-          "scores": { "cherryBomb": 3, "peashooter": 1 }
-        },
-        {
-          "id": "q16-c",
-          "label": "用无懈可击的逻辑链条和层层嵌套的计划，像收网一样绞杀对方。",
-          "tone": "织网型、高维打击",
-          "scores": { "cabbagePult": 3, "potatoMine": 1 }
-        },
-        {
-          "id": "q16-d",
-          "label": "积攒了足够的底气，开始源源不断地进行正面施压，直到对方崩溃。",
-          "tone": "持续施压、正攻法",
-          "scores": { "peashooter": 3, "wallnut": 1 }
-        }
+        { "id": "q16-a", "label": "酝酿已久的杀手锏破土而出，给对方致命一击。", "scores": { "tenacity": 2, "edge": 2 } },
+        { "id": "q16-b", "label": "直接制造一场混乱，把对方的心态彻底炸崩。", "scores": { "edge": 3, "resonance": 1 } },
+        { "id": "q16-c", "label": "用无懈可击的逻辑链条像收网一样绞杀对方。", "scores": { "order": 3, "edge": 1 } },
+        { "id": "q16-d", "label": "源源不断地正面施压，直到对方崩溃。", "scores": { "tenacity": 3, "edge": 1 } }
       ]
     },
     {
       "id": "q17",
-      "title": "面对赞美",
-      "prompt": "当别人当众对你进行高调且真诚的赞美时，你心里通常在想什么？",
+      "prompt": "别人当众对你进行高调且真诚的赞美，你心里在想什么？",
       "options": [
-        {
-          "id": "q17-a",
-          "label": "像阳光照在身上一样温暖，赶紧回赞对方，把这份美好传递回去。",
-          "tone": "吸收型、反哺型",
-          "scores": { "sunflower": 3, "peashooter": 1 }
-        },
-        {
-          "id": "q17-b",
-          "label": "表面云淡风轻甚至有点面瘫，但心里的小地雷已经开心地跳起舞来。",
-          "tone": "闷骚型、反差型",
-          "scores": { "potatoMine": 3, "wallnut": 1 }
-        },
-        {
-          "id": "q17-c",
-          "label": "理所应当，这就是我努力应得的，甚至觉得他们夸得还不够精准。",
-          "tone": "自信型、直面型",
-          "scores": { "peashooter": 3, "cherryBomb": 1 }
-        },
-        {
-          "id": "q17-d",
-          "label": "默默退后半步，思考这份赞美背后是否带有某种期待或隐性的人情交换。",
-          "tone": "警惕型、抽离型",
-          "scores": { "cabbagePult": 3, "potatoMine": 1 }
-        }
+        { "id": "q17-a", "label": "像阳光照在身上般温暖，赶紧回赞对方传递美好。", "scores": { "resonance": 3, "bond": 2 } },
+        { "id": "q17-b", "label": "表面云淡风轻甚至面瘫，但心里小地雷已开心起舞。", "scores": { "tenacity": 2, "resonance": 2 } },
+        { "id": "q17-c", "label": "理所应当，这是我努力应得的，甚至觉得夸得不够精准。", "scores": { "edge": 3, "order": 1 } },
+        { "id": "q17-d", "label": "退后半步，思考赞美背后是否带有某种期待或人情交换。", "scores": { "order": 3, "tenacity": 1 } }
       ]
     },
     {
       "id": "q18",
-      "title": "秘密保管",
       "prompt": "朋友向你倾诉了一个惊天大秘密，你会如何处理？",
       "options": [
-        {
-          "id": "q18-a",
-          "label": "就像吞进了一块石头，死死压在心底，甚至对自己的记忆都设下防火墙。",
-          "tone": "封存型、死守型",
-          "scores": { "wallnut": 3, "potatoMine": 1 }
-        },
-        {
-          "id": "q18-b",
-          "label": "听完之后就用上帝视角将其归档，觉得这不过是人类复杂系统中的一个寻常bug。",
-          "tone": "冷峻型、客观型",
-          "scores": { "cabbagePult": 3, "wallnut": 1 }
-        },
-        {
-          "id": "q18-c",
-          "label": "虽然绝不说出去，但每次看到相关的人，眼神总不自觉地闪烁，像憋着个大招。",
-          "tone": "憋气型、微表情",
-          "scores": { "potatoMine": 3, "peashooter": 1 }
-        },
-        {
-          "id": "q18-d",
-          "label": "情绪波动极大，差点当场炸毛，表现得甚至比当事人还要激动。",
-          "tone": "共情爆炸、情绪共振",
-          "scores": { "cherryBomb": 3, "sunflower": 1 }
-        }
+        { "id": "q18-a", "label": "像吞进石头一样死守心底，对自己的记忆都设防火墙。", "scores": { "tenacity": 3, "bond": 1 } },
+        { "id": "q18-b", "label": "用上帝视角将其归档，不过是人类系统中的一个寻常bug。", "scores": { "order": 3, "resonance": 1 } },
+        { "id": "q18-c", "label": "绝不说出去，但每次看到相关的人眼神总不自觉闪烁。", "scores": { "resonance": 2, "tenacity": 2 } },
+        { "id": "q18-d", "label": "情绪波动极大，差点当场炸毛，比当事人还激动。", "scores": { "resonance": 3, "edge": 1 } }
       ]
     },
     {
       "id": "q19",
-      "title": "遗忘角落",
-      "prompt": "在团体中，如果你发现自己逐渐被边缘化，你的反应是？",
+      "prompt": "在团体中发现自己逐渐被边缘化，你的反应是？",
       "options": [
-        {
-          "id": "q19-a",
-          "label": "无所谓，正好落得清静，躲在暗处观察他们的表演也挺有意思的。",
-          "tone": "隐形型、冷眼旁观",
-          "scores": { "potatoMine": 3, "cabbagePult": 1 }
-        },
-        {
-          "id": "q19-b",
-          "label": "感觉能量被抽干，会努力去寻找能重新建立情感连接的触点。",
-          "tone": "趋光型、关系依赖",
-          "scores": { "sunflower": 3, "wallnut": 1 }
-        },
-        {
-          "id": "q19-c",
-          "label": "哪里有事做就去哪里，用极高的办事效率重新刷出强烈的存在感。",
-          "tone": "行动派、存在感",
-          "scores": { "peashooter": 3, "cherryBomb": 1 }
-        },
-        {
-          "id": "q19-d",
-          "label": "忍无可忍，制造一个足够吸引眼球的事件，强行把聚光灯拉回自己身上。",
-          "tone": "破壁者、强干预",
-          "scores": { "cherryBomb": 3, "peashooter": 1 }
-        }
+        { "id": "q19-a", "label": "无所谓，正好落得清静，躲在暗处观察也挺有意思。", "scores": { "tenacity": 2, "order": 2 } },
+        { "id": "q19-b", "label": "感觉能量被抽干，努力寻找重建情感连接的触点。", "scores": { "resonance": 2, "bond": 3 } },
+        { "id": "q19-c", "label": "哪里有事做就去哪里，用效率重新刷出存在感。", "scores": { "edge": 3, "bond": 1 } },
+        { "id": "q19-d", "label": "忍无可忍，制造一个吸引眼球的事件把聚光灯拉回自己。", "scores": { "edge": 2, "resonance": 2 } }
       ]
     },
     {
       "id": "q20",
-      "title": "自我定义",
-      "prompt": "如果必须用一句略带中二的台词来总结你的人生哲学，你会选？",
+      "prompt": "用一句略带中二的台词总结你的人生哲学，你会选？",
       "options": [
-        {
-          "id": "q20-a",
-          "label": "“最好的防守就是坚不可摧，我站在这里，就是你们的底气。”",
-          "tone": "守护者、绝对壁垒",
-          "scores": { "wallnut": 3, "sunflower": 1 }
-        },
-        {
-          "id": "q20-b",
-          "label": "“不要轻易试探我的底线，当一切无可挽回时，我会掀翻整张桌子。”",
-          "tone": "引爆者、极端浪漫",
-          "scores": { "cherryBomb": 3, "potatoMine": 1 }
-        },
-        {
-          "id": "q20-c",
-          "label": "“他们只看到了我的平庸，却不知道我在等待一个改写结局的契机。”",
-          "tone": "潜伏者、终极后手",
-          "scores": { "potatoMine": 3, "cabbagePult": 1 }
-        },
-        {
-          "id": "q20-d",
-          "label": "“不在乎一时的得失，因为我是那个在云端俯瞰整个棋局的棋手。”",
-          "tone": "执棋者、绝对理性",
-          "scores": { "cabbagePult": 3, "wallnut": 1 }
-        }
+        { "id": "q20-a", "label": "「我站在这里，就是你们的底气。」", "scores": { "tenacity": 3, "bond": 2 } },
+        { "id": "q20-b", "label": "「不要试探我的底线，当一切无可挽回时我会掀翻整张桌子。」", "scores": { "edge": 3, "tenacity": 1 } },
+        { "id": "q20-c", "label": "「他们只看到平庸，却不知我在等待改写结局的契机。」", "scores": { "tenacity": 2, "order": 2 } },
+        { "id": "q20-d", "label": "「我是在云端俯瞰整个棋局的棋手。」", "scores": { "order": 3, "edge": 1 } }
       ]
     }
   ]
