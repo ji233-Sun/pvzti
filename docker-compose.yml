@@ -1,0 +1,14 @@
+services:
+  pvzti:
+    image: ${PVZTI_IMAGE:-pvzti:local}
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file:
+      - .env
+    environment:
+      HOSTNAME: 0.0.0.0
+      PORT: 3000
+    ports:
+      - "${PVZTI_PORT:-39123}:3000"
+    restart: unless-stopped

@@ -1,40 +1,30 @@
 "use client";
 
-import { useState, useCallback, useEffect } from "react";
+import { useState, useCallback, useSyncExternalStore } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { ArrowLeft } from "lucide-react";
 import { questionBank, allPlants } from "@/lib/pvzti/plants";
 import { calculateDimensions, findMatchingPlant } from "@/lib/pvzti/scoring";
 import {
-  loadSession,
   saveSession,
-  createFreshSession,
+  loadSession,
+  subscribeSession,
   saveResult,
   clearSession,
 } from "@/lib/pvzti/quiz-session";
-import type { QuizAnswers } from "@/lib/pvzti/types";
 import { cn } from "@/lib/utils";
 
 const questions = questionBank.questions;
+const subscribeHydration = () => () => {};
 
 export default function QuizPage() {
   const router = useRouter();
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [answers, setAnswers] = useState<QuizAnswers>({});
   const [selectedId, setSelectedId] = useState<string | null>(null);
-  const [initialized, setInitialized] = useState(false);
-
-  useEffect(() => {
-    const session = loadSession();
-    if (session && Object.keys(session.answers).length > 0) {
-      setAnswers(session.answers);
-      setCurrentIndex(session.currentIndex);
-    } else {
-      clearSession();
-    }
-    setInitialized(true);
-  }, []);
+  const isHydrated = useSyncExternalStore(subscribeHydration, () => true, () => false);
+  const session = useSyncExternalStore(subscribeSession, loadSession, () => null);
+  const currentIndex = session?.currentIndex ?? 0;
+  const answers = session?.answers;
 
   const handleSelect = useCallback(
     (optionId: string) => {
@@ -42,9 +32,7 @@ export default function QuizPage() {
       setSelectedId(optionId);
 
       const question = questions[currentIndex];
-      const newAnswers = { ...answers, [question.id]: optionId };
-      setAnswers(newAnswers);
-
+      const newAnswers = { ...(answers ?? {}), [question.id]: optionId };
       const nextIndex = currentIndex + 1;
 
       setTimeout(() => {
@@ -52,10 +40,9 @@ export default function QuizPage() {
           const dims = calculateDimensions(questionBank, newAnswers);
           const match = findMatchingPlant(dims, allPlants);
           saveResult({ plantId: match.id, userDimensions: dims });
-          clearSession();
           router.push("/result");
+          setTimeout(() => clearSession(), 0);
         } else {
-          setCurrentIndex(nextIndex);
           saveSession({ answers: newAnswers, currentIndex: nextIndex });
           setSelectedId(null);
         }
@@ -64,7 +51,7 @@ export default function QuizPage() {
     [currentIndex, answers, selectedId, router]
   );
 
-  if (!initialized) {
+  if (!isHydrated) {
     return (
       <main className="flex-1 flex items-center justify-center">
         <div className="text-muted-foreground">加载中...</div>

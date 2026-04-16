@@ -123,7 +123,7 @@ npm test
 
 ## Docker 运行
 
-仓库内提供了 `Dockerfile` 和 `docker-compose.yml`。
+仓库内提供了 `Dockerfile`、`docker-compose.yml`，并通过 GitHub Actions 自动构建镜像。
 
 ### 使用 docker compose
 
@@ -147,11 +147,20 @@ docker compose up -d
 
 - `http://localhost:39123`
 
-如果你想覆盖镜像地址，可以设置：
+如果你想直接使用 GitHub Actions 发布到 GHCR 的镜像，可以设置：
 
 ```env
 PVZTI_IMAGE=ghcr.io/ji233-sun/pvzti:latest
 ```
+
+## GitHub Actions 自动构建
+
+仓库包含 workflow：`/.github/workflows/docker-image.yml`
+
+- `pull_request -> main`：校验 `lint`、`build`，并执行 Docker 构建验证（不推送）
+- `push -> main`：校验通过后自动构建并推送镜像到 `ghcr.io/<owner>/<repo>`
+- `push tag v*`：额外打出对应 tag 镜像
+- `workflow_dispatch`：支持手动触发
 
 ## API
 

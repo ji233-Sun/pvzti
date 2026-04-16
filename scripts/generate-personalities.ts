@@ -152,7 +152,7 @@ async function main() {
   const rawPlants: PlantRaw[] = JSON.parse(await readFile(RAW_PATH, "utf-8"));
   console.log(`Loaded ${rawPlants.length} plants`);
 
-  let existing: Record<string, Personality> = {};
+  const existing: Record<string, Personality> = {};
   try {
     const data: PlantFull[] = JSON.parse(await readFile(OUT_PATH, "utf-8"));
     for (const p of data) {

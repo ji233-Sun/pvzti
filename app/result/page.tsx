@@ -1,36 +1,30 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useSyncExternalStore } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { ArrowRight, BookOpen, RotateCcw } from "lucide-react";
 import { getPlant, proxyImage } from "@/lib/pvzti/plants";
-import { loadResult, clearSession } from "@/lib/pvzti/quiz-session";
+import { loadResult, clearSession, subscribeResult } from "@/lib/pvzti/quiz-session";
 import { DimensionChart } from "@/components/pvzti/dimension-chart";
 import { Button } from "@/components/ui/button";
-import type { PlantPersonality, Dimensions } from "@/lib/pvzti/types";
+
+const subscribeHydration = () => () => {};
 
 export default function ResultPage() {
   const router = useRouter();
-  const [plant, setPlant] = useState<PlantPersonality | null>(null);
-  const [userDims, setUserDims] = useState<Dimensions | null>(null);
+  const isHydrated = useSyncExternalStore(subscribeHydration, () => true, () => false);
+  const result = useSyncExternalStore(subscribeResult, loadResult, () => null);
+  const plant = result ? getPlant(result.plantId) : null;
+  const userDims = result?.userDimensions ?? null;
 
   useEffect(() => {
-    const result = loadResult();
-    if (!result) {
+    if (isHydrated && (!result || !plant)) {
       router.replace("/quiz");
-      return;
     }
-    const p = getPlant(result.plantId);
-    if (!p) {
-      router.replace("/quiz");
-      return;
-    }
-    setPlant(p);
-    setUserDims(result.userDimensions);
-  }, [router]);
+  }, [router, isHydrated, result, plant]);
 
-  if (!plant || !userDims) {
+  if (!isHydrated || !plant || !userDims) {
     return (
       <main className="flex-1 flex items-center justify-center">
         <div className="text-muted-foreground">加载中...</div>
