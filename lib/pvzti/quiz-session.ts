@@ -33,15 +33,25 @@ function subscribeStorageEvent(name: string, callback: () => void): () => void {
   };
 }
 
-export function loadSession(): QuizSession | null {
-  if (typeof window === "undefined") return null;
-  try {
-    const raw = sessionStorage.getItem(SESSION_KEY);
-    return raw ? (JSON.parse(raw) as QuizSession) : null;
-  } catch {
-    return null;
-  }
+function createCachedReader<T>(key: string): () => T | null {
+  let cachedRaw: string | null | undefined;
+  let cachedValue: T | null = null;
+  return () => {
+    if (typeof window === "undefined") return null;
+    const raw = sessionStorage.getItem(key);
+    if (raw !== cachedRaw) {
+      cachedRaw = raw;
+      try {
+        cachedValue = raw ? (JSON.parse(raw) as T) : null;
+      } catch {
+        cachedValue = null;
+      }
+    }
+    return cachedValue;
+  };
 }
+
+export const loadSession = createCachedReader<QuizSession>(SESSION_KEY);
 
 export function saveSession(session: QuizSession): void {
   sessionStorage.setItem(SESSION_KEY, JSON.stringify(session));
@@ -69,15 +79,7 @@ export function saveResult(result: QuizResult): void {
   emitStorageEvent(RESULT_EVENT);
 }
 
-export function loadResult(): QuizResult | null {
-  if (typeof window === "undefined") return null;
-  try {
-    const raw = sessionStorage.getItem(RESULT_KEY);
-    return raw ? (JSON.parse(raw) as QuizResult) : null;
-  } catch {
-    return null;
-  }
-}
+export const loadResult = createCachedReader<QuizResult>(RESULT_KEY);
 
 export function subscribeSession(callback: () => void): () => void {
   return subscribeStorageEvent(SESSION_EVENT, callback);
