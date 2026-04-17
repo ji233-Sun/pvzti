@@ -7,7 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test": "tsx --test tests/pvzti.test.ts"
+    "test": "tsx --test tests/pvzti.test.ts",
+    "fetch:raw": "tsx scripts/fetch-plants.ts",
+    "fetch:images": "tsx scripts/download-images.ts",
+    "fetch:personalities": "tsx scripts/generate-personalities.ts"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",

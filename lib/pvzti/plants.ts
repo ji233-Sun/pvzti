@@ -18,3 +18,7 @@ export function proxyImage(url: string): string {
   if (!url) return "";
   return `https://images.weserv.nl/?url=${encodeURIComponent(url)}`;
 }
+
+export function plantIconSrc(plant: PlantPersonality): string {
+  return plant.iconLocal || (plant.icon ? proxyImage(plant.icon) : proxyImage(plant.image));
+}

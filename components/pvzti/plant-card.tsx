@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { proxyImage } from "@/lib/pvzti/plants";
+import { plantIconSrc } from "@/lib/pvzti/plants";
 import type { PlantPersonality } from "@/lib/pvzti/types";
 import { cn } from "@/lib/utils";
 
@@ -20,9 +20,9 @@ export function PlantCard({ plant, className }: PlantCardProps) {
     >
       <div className="flex items-center gap-3 mb-3">
         <img
-          src={proxyImage(plant.image)}
+          src={plantIconSrc(plant)}
           alt={plant.name}
-          className="w-14 h-14 rounded-lg object-cover bg-secondary"
+          className="w-14 h-14 rounded-lg object-contain bg-secondary"
           loading="lazy"
         />
         <div className="min-w-0">

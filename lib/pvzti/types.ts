@@ -10,10 +10,14 @@ export interface PlantPersonality {
   id: string;
   name: string;
   image: string;
+  imageLocal: string;
+  icon: string;
+  iconLocal: string;
   catalog: string;
   skillIntro: string;
   labels: string[];
   professionIcon: string;
+  professionIconLocal: string;
   personalityType: string;
   personalityBrief: string;
   personalityAnalysis: string;

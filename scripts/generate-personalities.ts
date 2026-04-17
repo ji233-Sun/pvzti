@@ -3,7 +3,6 @@ import { fileURLToPath } from "node:url";
 
 const RAW_PATH = fileURLToPath(new URL("../data/raw-plants.json", import.meta.url));
 const OUT_PATH = fileURLToPath(new URL("../data/plant-personalities.json", import.meta.url));
-const FINAL_PATH = fileURLToPath(new URL("../lib/pvzti/plant-data.json", import.meta.url));
 
 const API_KEY = process.argv[2];
 const BASE_URL = process.argv[3] || "https://api.deepseek.com/v1";
@@ -20,6 +19,7 @@ interface PlantRaw {
   id: string;
   name: string;
   image: string;
+  icon: string;
   catalog: string;
   skillIntro: string;
   labels: string[];
@@ -205,9 +205,8 @@ async function main() {
   results.sort((a, b) => Number(a.id) - Number(b.id));
   await writeFile(OUT_PATH, JSON.stringify(results, null, 2), "utf-8");
   console.log(`\nGenerated: ${generated}, Skipped: ${skipped}`);
-
-  await writeFile(FINAL_PATH, JSON.stringify(results, null, 2), "utf-8");
-  console.log(`Final data written to ${FINAL_PATH}`);
+  console.log(`Personality data written to ${OUT_PATH}`);
+  console.log("Next step: run `pnpm fetch:images` to localize images and build plant-data.json");
 }
 
 main().catch((e) => {

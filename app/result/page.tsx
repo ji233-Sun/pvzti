@@ -4,7 +4,7 @@ import { useEffect, useSyncExternalStore } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { ArrowRight, BookOpen, RotateCcw } from "lucide-react";
-import { getPlant, proxyImage } from "@/lib/pvzti/plants";
+import { getPlant, plantIconSrc } from "@/lib/pvzti/plants";
 import { loadResult, clearSession, subscribeResult } from "@/lib/pvzti/quiz-session";
 import { DimensionChart } from "@/components/pvzti/dimension-chart";
 import { Button } from "@/components/ui/button";
@@ -42,9 +42,9 @@ export default function ResultPage() {
         <div className="rounded-2xl border bg-card p-6 shadow-sm sm:p-8">
           <div className="flex flex-col items-center text-center">
             <img
-              src={proxyImage(plant.image)}
+              src={plantIconSrc(plant)}
               alt={plant.name}
-              className="w-32 h-32 rounded-2xl object-cover bg-secondary shadow-md"
+              className="w-32 h-32 rounded-2xl object-contain bg-secondary shadow-md"
             />
             <span className="mt-4 inline-block text-xs px-3 py-1 rounded-full bg-primary/10 text-primary font-medium">
               {plant.personalityType}

@@ -22,6 +22,7 @@ interface PlantRaw {
   id: string;
   name: string;
   image: string;
+  icon: string;
   catalog: string;
   skillIntro: string;
   labels: string[];
@@ -39,6 +40,10 @@ async function fetchJson<T>(url: string): Promise<T> {
 async function fetchAllPlants(): Promise<RawPlantListItem[]> {
   const list = await fetchJson<RawPlantListItem[]>(`${API_BASE}/all?book_type=10`);
   return list.filter((p) => p.name !== "敬请期待");
+}
+
+function buildAvatarMap(list: RawPlantListItem[]): Map<string, string> {
+  return new Map(list.map((p) => [p.id, p.avatar]));
 }
 
 async function fetchPlantDetail(id: string): Promise<RawPlantDetail> {
@@ -69,6 +74,7 @@ async function processInBatches<T, R>(
 async function main() {
   console.log("Fetching plant list...");
   const list = await fetchAllPlants();
+  const avatarMap = buildAvatarMap(list);
   console.log(`Found ${list.length} plants (excluded placeholders)`);
 
   const plants: PlantRaw[] = [];
@@ -81,6 +87,7 @@ async function main() {
         id: detail.bookId,
         name: detail.bookName,
         image: detail.bookimg,
+        icon: avatarMap.get(detail.bookId) || "",
         catalog: detail.bookCatalog || "",
         skillIntro: detail.skillIntroduction || "",
         labels: (detail.bookLable || []).map((l) => l.bookLabelname),

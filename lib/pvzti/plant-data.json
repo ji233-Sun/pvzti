@@ -19,7 +19,11 @@
       "order": 85,
       "tenacity": 90,
       "bond": 70
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012800/9e905e0c58863efd1ac106eaceaab211.jpg",
+    "imageLocal": "/plants/images/1.png",
+    "iconLocal": "/plants/icons/1.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "2",
@@ -40,7 +44,11 @@
       "order": 90,
       "tenacity": 95,
       "bond": 100
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/202601caf7c69f6f6afffb67b7f6585d905e6b/4697aebf513c16e21bd9644a122bebeb.jpg",
+    "imageLocal": "/plants/images/2.png",
+    "iconLocal": "/plants/icons/2.jpg",
+    "professionIconLocal": "/plants/professions/阳光.png"
   },
   {
     "id": "3",
@@ -61,7 +69,11 @@
       "order": 85,
       "tenacity": 95,
       "bond": 90
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012903/6a4b407925dcdf84d31462d229fb9d1a.jpg",
+    "imageLocal": "/plants/images/3.png",
+    "iconLocal": "/plants/icons/3.jpg",
+    "professionIconLocal": "/plants/professions/坚韧.png"
   },
   {
     "id": "4",
@@ -85,7 +97,11 @@
       "order": 65,
       "tenacity": 15,
       "bond": 30
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012903/3005f004a05fc860fa549fd874ee6114.jpg",
+    "imageLocal": "/plants/images/4.png",
+    "iconLocal": "/plants/icons/4.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "5",
@@ -107,7 +123,11 @@
       "order": 65,
       "tenacity": 60,
       "bond": 75
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012800/1f697c6cd05fe0fa987261265e1c356e.jpg",
+    "imageLocal": "/plants/images/5.png",
+    "iconLocal": "/plants/icons/5.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "6",
@@ -130,7 +150,11 @@
       "order": 70,
       "tenacity": 15,
       "bond": 65
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012903/d150bab8c6d6d5b23ba1227f3a4b81db.jpg",
+    "imageLocal": "/plants/images/6.png",
+    "iconLocal": "/plants/icons/6.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "7",
@@ -151,7 +175,11 @@
       "order": 40,
       "tenacity": 50,
       "bond": 80
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012903/ccc505acf642c06e1fe67ac1f9eb7adf.jpg",
+    "imageLocal": "/plants/images/7.png",
+    "iconLocal": "/plants/icons/7.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "8",
@@ -172,7 +200,11 @@
       "order": 90,
       "tenacity": 95,
       "bond": 85
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020823/2be3fe75db704efcf21d486b2eef616f.jpg",
+    "imageLocal": "/plants/images/8.png",
+    "iconLocal": "/plants/icons/8.jpg",
+    "professionIconLocal": "/plants/professions/阳光.png"
   },
   {
     "id": "9",
@@ -193,7 +225,11 @@
       "order": 40,
       "tenacity": 70,
       "bond": 65
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020823/453096f24fa34383f75f92f7e6233224.jpg",
+    "imageLocal": "/plants/images/9.png",
+    "iconLocal": "/plants/icons/9.jpg",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "10",
@@ -214,7 +250,11 @@
       "order": 75,
       "tenacity": 85,
       "bond": 60
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012903/b884d08cd22607bc5f576a28d6cd3be4.jpg",
+    "imageLocal": "/plants/images/10.png",
+    "iconLocal": "/plants/icons/10.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "11",
@@ -236,7 +276,11 @@
       "order": 85,
       "tenacity": 90,
       "bond": 40
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012903/31d420aa0771aa204049b413d498656e.jpg",
+    "imageLocal": "/plants/images/11.png",
+    "iconLocal": "/plants/icons/11.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "12",
@@ -258,7 +302,11 @@
       "order": 40,
       "tenacity": 65,
       "bond": 75
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020900/d1fcbb282408544b8a8c2c17a7b73291.gif",
+    "imageLocal": "/plants/images/12.png",
+    "iconLocal": "/plants/icons/12.gif",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "13",
@@ -280,7 +328,11 @@
       "order": 90,
       "tenacity": 70,
       "bond": 95
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020823/099b0a22896dd70982493eb6d382d7c2.jpg",
+    "imageLocal": "/plants/images/13.png",
+    "iconLocal": "/plants/icons/13.jpg",
+    "professionIconLocal": "/plants/professions/辅助.png"
   },
   {
     "id": "14",
@@ -303,7 +355,11 @@
       "order": 85,
       "tenacity": 5,
       "bond": 20
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020823/42cc2b397fb99d19a45b913f2ce17320.jpg",
+    "imageLocal": "/plants/images/14.png",
+    "iconLocal": "/plants/icons/14.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "15",
@@ -326,7 +382,11 @@
       "order": 25,
       "tenacity": 10,
       "bond": 55
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012903/65461d2ba599c7fb5d7eb7c423bf8c16.jpg",
+    "imageLocal": "/plants/images/15.png",
+    "iconLocal": "/plants/icons/15.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "16",
@@ -348,7 +408,11 @@
       "order": 75,
       "tenacity": 70,
       "bond": 80
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012903/50236536fac2d89bfdfcd29c6d330d51.jpg",
+    "imageLocal": "/plants/images/16.png",
+    "iconLocal": "/plants/icons/16.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "17",
@@ -371,7 +435,11 @@
       "order": 30,
       "tenacity": 10,
       "bond": 40
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012903/325853c61db55c4bf9bd9db1c0976813.jpg",
+    "imageLocal": "/plants/images/17.png",
+    "iconLocal": "/plants/icons/17.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "18",
@@ -392,7 +460,11 @@
       "order": 65,
       "tenacity": 90,
       "bond": 15
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012903/0cdb2c86d5aa78228dd8798c634ca136.jpg",
+    "imageLocal": "/plants/images/18.png",
+    "iconLocal": "/plants/icons/18.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "19",
@@ -415,7 +487,11 @@
       "order": 85,
       "tenacity": 70,
       "bond": 80
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012903/08f6052310cc01b00f66f371198eabd1.jpg",
+    "imageLocal": "/plants/images/19.png",
+    "iconLocal": "/plants/icons/19.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "20",
@@ -437,7 +513,11 @@
       "order": 65,
       "tenacity": 80,
       "bond": 95
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012903/432dcdf15f2e471724c4ba30be00a0c6.jpg",
+    "imageLocal": "/plants/images/20.png",
+    "iconLocal": "/plants/icons/20.jpg",
+    "professionIconLocal": "/plants/professions/辅助.png"
   },
   {
     "id": "21",
@@ -460,7 +540,11 @@
       "order": 50,
       "tenacity": 50,
       "bond": 50
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012903/378648c34fc35323e1844823cfb05108.jpg",
+    "imageLocal": "/plants/images/21.png",
+    "iconLocal": "/plants/icons/21.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "22",
@@ -482,7 +566,11 @@
       "order": 85,
       "tenacity": 60,
       "bond": 55
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020823/1f1198ad34aba14c484b98d5f904dd2a.jpg",
+    "imageLocal": "/plants/images/22.png",
+    "iconLocal": "/plants/icons/22.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "23",
@@ -506,7 +594,11 @@
       "order": 85,
       "tenacity": 40,
       "bond": 30
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020900/f52fbd7f80fcd251b5c1dac740a16c69.jpg",
+    "imageLocal": "/plants/images/23.png",
+    "iconLocal": "/plants/icons/23.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "24",
@@ -529,7 +621,11 @@
       "order": 85,
       "tenacity": 90,
       "bond": 75
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020617/bc8d51782092299518c4274cb1e7e992.jpg",
+    "imageLocal": "/plants/images/24.png",
+    "iconLocal": "/plants/icons/24.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "25",
@@ -551,7 +647,11 @@
       "order": 85,
       "tenacity": 90,
       "bond": 95
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020617/13be6e1adc7db05f5d0b6d42493fa434.jpg",
+    "imageLocal": "/plants/images/25.png",
+    "iconLocal": "/plants/icons/25.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "26",
@@ -572,7 +672,11 @@
       "order": 30,
       "tenacity": 20,
       "bond": 85
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020900/29cce2acac46a529bf9fccc86fef3d3a.jpg",
+    "imageLocal": "/plants/images/26.png",
+    "iconLocal": "/plants/icons/26.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "27",
@@ -594,7 +698,11 @@
       "order": 70,
       "tenacity": 75,
       "bond": 85
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020823/0f6d8300a4e5ca30a1a1256b5d7e4c52.jpg",
+    "imageLocal": "/plants/images/27.png",
+    "iconLocal": "/plants/icons/27.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "28",
@@ -618,7 +726,11 @@
       "order": 85,
       "tenacity": 95,
       "bond": 60
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020617/7cb1b29f51f58f15c4ea25111b373f6e.jpg",
+    "imageLocal": "/plants/images/28.png",
+    "iconLocal": "/plants/icons/28.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "29",
@@ -640,7 +752,11 @@
       "order": 85,
       "tenacity": 95,
       "bond": 70
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020617/0ff8a14317ea71e302a0bbc48415aa9b.jpg",
+    "imageLocal": "/plants/images/29.png",
+    "iconLocal": "/plants/icons/29.jpg",
+    "professionIconLocal": "/plants/professions/坚韧.png"
   },
   {
     "id": "30",
@@ -662,7 +778,11 @@
       "order": 85,
       "tenacity": 80,
       "bond": 40
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020617/846f84c2bb9748d0e66abe6d31678efc.jpg",
+    "imageLocal": "/plants/images/30.png",
+    "iconLocal": "/plants/icons/30.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "31",
@@ -685,7 +805,11 @@
       "order": 85,
       "tenacity": 90,
       "bond": 75
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020900/b5f0c15089cbff701de97928f0bdaedb.gif",
+    "imageLocal": "/plants/images/31.png",
+    "iconLocal": "/plants/icons/31.gif",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "32",
@@ -709,7 +833,11 @@
       "order": 15,
       "tenacity": 5,
       "bond": 40
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020823/b78478dfd05122fe0fda609c723f9089.jpg",
+    "imageLocal": "/plants/images/32.png",
+    "iconLocal": "/plants/icons/32.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "33",
@@ -731,7 +859,11 @@
       "order": 85,
       "tenacity": 90,
       "bond": 98
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012917/d1a5116c43ee6f0e496efc5a2472109f.jpg",
+    "imageLocal": "/plants/images/33.png",
+    "iconLocal": "/plants/icons/33.jpg",
+    "professionIconLocal": "/plants/professions/辅助.png"
   },
   {
     "id": "34",
@@ -754,7 +886,11 @@
       "order": 30,
       "tenacity": 85,
       "bond": 40
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012917/a1d9fd73bb7657895bfdf5cd1cf9de2b.jpg",
+    "imageLocal": "/plants/images/34.png",
+    "iconLocal": "/plants/icons/34.jpg",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "35",
@@ -776,7 +912,11 @@
       "order": 85,
       "tenacity": 95,
       "bond": 65
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012917/2db4ee9de1937b23be26efbebc8299e1.jpg",
+    "imageLocal": "/plants/images/35.png",
+    "iconLocal": "/plants/icons/35.jpg",
+    "professionIconLocal": "/plants/professions/坚韧.png"
   },
   {
     "id": "36",
@@ -798,7 +938,11 @@
       "order": 70,
       "tenacity": 40,
       "bond": 30
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012917/f9467b64458bd06ae47f01cea6fbcd49.jpg",
+    "imageLocal": "/plants/images/36.png",
+    "iconLocal": "/plants/icons/36.jpg",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "37",
@@ -820,7 +964,11 @@
       "order": 85,
       "tenacity": 30,
       "bond": 20
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020617/ee7c86eac46056ac900523923bd460c6.jpg",
+    "imageLocal": "/plants/images/37.png",
+    "iconLocal": "/plants/icons/37.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "38",
@@ -842,7 +990,11 @@
       "order": 90,
       "tenacity": 75,
       "bond": 40
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020823/3ba42ed8c5c84ea35b5806456d282703.jpg",
+    "imageLocal": "/plants/images/38.png",
+    "iconLocal": "/plants/icons/38.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "39",
@@ -863,7 +1015,11 @@
       "order": 30,
       "tenacity": 50,
       "bond": 70
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020823/c6d6162466790afabd519157256fa26d.jpg",
+    "imageLocal": "/plants/images/39.png",
+    "iconLocal": "/plants/icons/39.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "40",
@@ -885,7 +1041,11 @@
       "order": 65,
       "tenacity": 20,
       "bond": 75
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020823/55d026bf1ece8f45e237750274ad72b9.jpg",
+    "imageLocal": "/plants/images/40.png",
+    "iconLocal": "/plants/icons/40.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "41",
@@ -907,7 +1067,11 @@
       "order": 85,
       "tenacity": 10,
       "bond": 60
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020617/e95a496b307dacad1d1be24bf25408c6.jpg",
+    "imageLocal": "/plants/images/41.png",
+    "iconLocal": "/plants/icons/41.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "42",
@@ -928,7 +1092,11 @@
       "order": 90,
       "tenacity": 65,
       "bond": 40
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020913/e407869952122a43d24402887cead5d6.jpg",
+    "imageLocal": "/plants/images/42.png",
+    "iconLocal": "/plants/icons/42.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "43",
@@ -949,7 +1117,11 @@
       "order": 85,
       "tenacity": 95,
       "bond": 40
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020823/41395a584e6e9e0e6e9e7cf1f77acde6.jpg",
+    "imageLocal": "/plants/images/43.png",
+    "iconLocal": "/plants/icons/43.jpg",
+    "professionIconLocal": "/plants/professions/坚韧.png"
   },
   {
     "id": "44",
@@ -970,7 +1142,11 @@
       "order": 95,
       "tenacity": 80,
       "bond": 65
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020913/ff6d182ed4d894ff493779dc98dbb78f.gif",
+    "imageLocal": "/plants/images/44.png",
+    "iconLocal": "/plants/icons/44.gif",
+    "professionIconLocal": "/plants/professions/辅助.png"
   },
   {
     "id": "45",
@@ -991,7 +1167,11 @@
       "order": 88,
       "tenacity": 40,
       "bond": 55
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020912/47144846c1c2a3c83a4e1f35198a7979.jpg",
+    "imageLocal": "/plants/images/45.png",
+    "iconLocal": "/plants/icons/45.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "46",
@@ -1012,7 +1192,11 @@
       "order": 20,
       "tenacity": 15,
       "bond": 70
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012917/0b2e534de1c5dd5bacbe9247f6d31b67.jpg",
+    "imageLocal": "/plants/images/46.png",
+    "iconLocal": "/plants/icons/46.jpg",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "47",
@@ -1034,7 +1218,11 @@
       "order": 80,
       "tenacity": 70,
       "bond": 65
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012917/9d41b9a94d76511346cb281e7fa7309a.jpg",
+    "imageLocal": "/plants/images/47.png",
+    "iconLocal": "/plants/icons/47.jpg",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "48",
@@ -1055,7 +1243,11 @@
       "order": 65,
       "tenacity": 40,
       "bond": 90
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020823/a18a15cfe42cea986043c0d8e1131809.jpg",
+    "imageLocal": "/plants/images/48.png",
+    "iconLocal": "/plants/icons/48.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "49",
@@ -1076,7 +1268,11 @@
       "order": 70,
       "tenacity": 90,
       "bond": 95
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020913/ea02a4838011c08cb44d402c3557abbf.gif",
+    "imageLocal": "/plants/images/49.png",
+    "iconLocal": "/plants/icons/49.gif",
+    "professionIconLocal": "/plants/professions/阳光.png"
   },
   {
     "id": "50",
@@ -1098,7 +1294,11 @@
       "order": 85,
       "tenacity": 40,
       "bond": 90
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021601/7c87a0274754daa8e68da254ed9b4c8f.jpg",
+    "imageLocal": "/plants/images/50.png",
+    "iconLocal": "/plants/icons/50.jpg",
+    "professionIconLocal": "/plants/professions/阳光.png"
   },
   {
     "id": "51",
@@ -1120,7 +1320,11 @@
       "order": 75,
       "tenacity": 90,
       "bond": 80
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025062015/fbd6e5c5bd1f12bffe2dbcad9c366f4c.jpg",
+    "imageLocal": "/plants/images/51.png",
+    "iconLocal": "/plants/icons/51.jpg",
+    "professionIconLocal": "/plants/professions/坚韧.png"
   },
   {
     "id": "52",
@@ -1141,7 +1345,11 @@
       "order": 85,
       "tenacity": 70,
       "bond": 75
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012917/81a1629bc127ade4339c384b14122516.jpg",
+    "imageLocal": "/plants/images/52.png",
+    "iconLocal": "/plants/icons/52.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "53",
@@ -1162,7 +1370,11 @@
       "order": 85,
       "tenacity": 90,
       "bond": 80
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012917/d4c7e602b086eb349e79fa77f3d59af5.jpg",
+    "imageLocal": "/plants/images/53.png",
+    "iconLocal": "/plants/icons/53.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "54",
@@ -1184,7 +1396,11 @@
       "order": 20,
       "tenacity": 25,
       "bond": 90
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012917/c3c6fbb33b5be62c99dd0e3750d128bf.jpg",
+    "imageLocal": "/plants/images/54.png",
+    "iconLocal": "/plants/icons/54.jpg",
+    "professionIconLocal": "/plants/professions/辅助.png"
   },
   {
     "id": "55",
@@ -1207,7 +1423,11 @@
       "order": 85,
       "tenacity": 90,
       "bond": 60
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020913/96234dc1b198aa23216682508c039732.jpg",
+    "imageLocal": "/plants/images/55.png",
+    "iconLocal": "/plants/icons/55.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "56",
@@ -1228,7 +1448,11 @@
       "order": 40,
       "tenacity": 85,
       "bond": 30
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020913/c28b1b97cde8fd68a20a15ba1da9c26f.jpg",
+    "imageLocal": "/plants/images/56.png",
+    "iconLocal": "/plants/icons/56.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "57",
@@ -1249,7 +1473,11 @@
       "order": 90,
       "tenacity": 85,
       "bond": 30
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020912/988cec6a503c9c37c1f08e0cbc1023ee.jpg",
+    "imageLocal": "/plants/images/57.png",
+    "iconLocal": "/plants/icons/57.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "58",
@@ -1271,7 +1499,11 @@
       "order": 70,
       "tenacity": 75,
       "bond": 40
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020913/e2c29e1b1b13b11b8a42227037d06f43.jpg",
+    "imageLocal": "/plants/images/58.png",
+    "iconLocal": "/plants/icons/58.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "59",
@@ -1294,7 +1526,11 @@
       "order": 20,
       "tenacity": 60,
       "bond": 75
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020823/4f13d478d5c18a7ba6d83e4f935dcd0e.jpg",
+    "imageLocal": "/plants/images/59.png",
+    "iconLocal": "/plants/icons/59.jpg",
+    "professionIconLocal": "/plants/professions/坚韧.png"
   },
   {
     "id": "60",
@@ -1315,7 +1551,11 @@
       "order": 30,
       "tenacity": 70,
       "bond": 60
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020617/bc365f0ede67c7f6cf0c60f32958327e.jpg",
+    "imageLocal": "/plants/images/60.png",
+    "iconLocal": "/plants/icons/60.jpg",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "61",
@@ -1337,7 +1577,11 @@
       "order": 70,
       "tenacity": 90,
       "bond": 95
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012917/96a7c44dc7f110c904d6e9c0a955582b.jpg",
+    "imageLocal": "/plants/images/61.png",
+    "iconLocal": "/plants/icons/61.jpg",
+    "professionIconLocal": "/plants/professions/辅助.png"
   },
   {
     "id": "62",
@@ -1358,7 +1602,11 @@
       "order": 55,
       "tenacity": 70,
       "bond": 75
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020914/6310f551b0d87a3258c7e62582d20b72.jpg",
+    "imageLocal": "/plants/images/62.png",
+    "iconLocal": "/plants/icons/62.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "63",
@@ -1382,7 +1630,11 @@
       "order": 85,
       "tenacity": 5,
       "bond": 20
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012917/ad040e27b7c8cae0b9a26c0572c0e5f7.jpg",
+    "imageLocal": "/plants/images/63.png",
+    "iconLocal": "/plants/icons/63.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "64",
@@ -1406,7 +1658,11 @@
       "order": 70,
       "tenacity": 30,
       "bond": 25
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020914/f661cdb5555c3022ae2b6c35d99b26cf.jpg",
+    "imageLocal": "/plants/images/64.png",
+    "iconLocal": "/plants/icons/64.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "65",
@@ -1428,7 +1684,11 @@
       "order": 75,
       "tenacity": 70,
       "bond": 50
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020823/2155b5182be443d5dba736938da35a29.jpg",
+    "imageLocal": "/plants/images/65.png",
+    "iconLocal": "/plants/icons/65.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "66",
@@ -1449,7 +1709,11 @@
       "order": 90,
       "tenacity": 70,
       "bond": 30
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020823/54b7b8d7ba52813b264a44bf45073291.jpg",
+    "imageLocal": "/plants/images/66.png",
+    "iconLocal": "/plants/icons/66.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "67",
@@ -1472,7 +1736,11 @@
       "order": 20,
       "tenacity": 40,
       "bond": 60
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020823/ded74f413d8a79c90302aebbedb146f8.jpg",
+    "imageLocal": "/plants/images/67.png",
+    "iconLocal": "/plants/icons/67.jpg",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "68",
@@ -1493,7 +1761,11 @@
       "order": 60,
       "tenacity": 55,
       "bond": 30
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020914/9f6b07c55a1dbabeba19b22e85a9488f.gif",
+    "imageLocal": "/plants/images/68.png",
+    "iconLocal": "/plants/icons/68.gif",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "69",
@@ -1516,7 +1788,11 @@
       "order": 25,
       "tenacity": 60,
       "bond": 20
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020914/fde0cf889456c1f745023fe06f544b20.jpg",
+    "imageLocal": "/plants/images/69.png",
+    "iconLocal": "/plants/icons/69.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "70",
@@ -1538,7 +1814,11 @@
       "order": 60,
       "tenacity": 85,
       "bond": 90
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020617/0f45a36650b7215cc3f1343308df15e4.jpg",
+    "imageLocal": "/plants/images/70.png",
+    "iconLocal": "/plants/icons/70.jpg",
+    "professionIconLocal": "/plants/professions/坚韧.png"
   },
   {
     "id": "71",
@@ -1562,7 +1842,11 @@
       "order": 75,
       "tenacity": 90,
       "bond": 65
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020823/2bed54f4a5853965aa44601c4eaaed89.jpg",
+    "imageLocal": "/plants/images/71.png",
+    "iconLocal": "/plants/icons/71.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "72",
@@ -1586,7 +1870,11 @@
       "order": 70,
       "tenacity": 55,
       "bond": 40
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020823/b2ae6381654385eca2ee7fa444502b07.jpg",
+    "imageLocal": "/plants/images/72.png",
+    "iconLocal": "/plants/icons/72.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "73",
@@ -1609,7 +1897,11 @@
       "order": 40,
       "tenacity": 60,
       "bond": 85
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020617/ac66420c6f2c90cc4fefebfdd066c55b.jpg",
+    "imageLocal": "/plants/images/73.png",
+    "iconLocal": "/plants/icons/73.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "74",
@@ -1632,7 +1924,11 @@
       "order": 40,
       "tenacity": 15,
       "bond": 60
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020823/e24eb718abd4607a2b9426470190a24c.jpg",
+    "imageLocal": "/plants/images/74.png",
+    "iconLocal": "/plants/icons/74.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "75",
@@ -1654,7 +1950,11 @@
       "order": 90,
       "tenacity": 85,
       "bond": 70
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025062015/299fbd44c0825cd1d993f1b51a0dcd91.jpg",
+    "imageLocal": "/plants/images/75.png",
+    "iconLocal": "/plants/icons/75.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "76",
@@ -1676,7 +1976,11 @@
       "order": 90,
       "tenacity": 95,
       "bond": 70
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012917/5c2693332c60695fa426ce96e7f7d34a.jpg",
+    "imageLocal": "/plants/images/76.png",
+    "iconLocal": "/plants/icons/76.jpg",
+    "professionIconLocal": "/plants/professions/辅助.png"
   },
   {
     "id": "77",
@@ -1698,7 +2002,11 @@
       "order": 40,
       "tenacity": 30,
       "bond": 45
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020823/94a1dbc7c7da8e7da9d0ffaade2c9cc6.jpg",
+    "imageLocal": "/plants/images/77.png",
+    "iconLocal": "/plants/icons/77.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "78",
@@ -1720,7 +2028,11 @@
       "order": 75,
       "tenacity": 70,
       "bond": 90
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020914/fca367c8e226fb9c8a55156ab391b33e.jpg",
+    "imageLocal": "/plants/images/78.png",
+    "iconLocal": "/plants/icons/78.jpg",
+    "professionIconLocal": "/plants/professions/坚韧.png"
   },
   {
     "id": "79",
@@ -1743,7 +2055,11 @@
       "order": 85,
       "tenacity": 75,
       "bond": 55
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020617/0afd35e1d67b558fa7d039a857bd3983.jpg",
+    "imageLocal": "/plants/images/79.png",
+    "iconLocal": "/plants/icons/79.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "80",
@@ -1765,7 +2081,11 @@
       "order": 85,
       "tenacity": 65,
       "bond": 30
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020617/a99c5ade8abe10084fda8a2b54f53510.jpg",
+    "imageLocal": "/plants/images/80.png",
+    "iconLocal": "/plants/icons/80.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "81",
@@ -1787,7 +2107,11 @@
       "order": 40,
       "tenacity": 50,
       "bond": 70
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020617/a0de3a2f28176a65402633d6b40ec2ea.jpg",
+    "imageLocal": "/plants/images/81.png",
+    "iconLocal": "/plants/icons/81.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "82",
@@ -1809,7 +2133,11 @@
       "order": 30,
       "tenacity": 40,
       "bond": 60
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020617/9a7cf664649a04ccaa0da3001c759fc7.jpg",
+    "imageLocal": "/plants/images/82.png",
+    "iconLocal": "/plants/icons/82.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "83",
@@ -1832,7 +2160,11 @@
       "order": 70,
       "tenacity": 80,
       "bond": 95
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020823/2a80bbb3495701af2630340a1ee3b4b3.jpg",
+    "imageLocal": "/plants/images/83.png",
+    "iconLocal": "/plants/icons/83.jpg",
+    "professionIconLocal": "/plants/professions/坚韧.png"
   },
   {
     "id": "84",
@@ -1854,7 +2186,11 @@
       "order": 85,
       "tenacity": 95,
       "bond": 80
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020617/98386e0a5fe572ca02fd5cbcac4f71e6.jpg",
+    "imageLocal": "/plants/images/84.png",
+    "iconLocal": "/plants/icons/84.jpg",
+    "professionIconLocal": "/plants/professions/坚韧.png"
   },
   {
     "id": "85",
@@ -1877,7 +2213,11 @@
       "order": 70,
       "tenacity": 40,
       "bond": 90
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020617/8dae9515cf111f64e7e81c6cd751c4b8.jpg",
+    "imageLocal": "/plants/images/85.png",
+    "iconLocal": "/plants/icons/85.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "86",
@@ -1898,7 +2238,11 @@
       "order": 90,
       "tenacity": 70,
       "bond": 80
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020617/e3c8ef3ab7945be16990de6eb2da879d.jpg",
+    "imageLocal": "/plants/images/86.png",
+    "iconLocal": "/plants/icons/86.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "87",
@@ -1920,7 +2264,11 @@
       "order": 40,
       "tenacity": 30,
       "bond": 70
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020823/79f5028dd29bc9ddccbba0b5eb6868e0.jpg",
+    "imageLocal": "/plants/images/87.png",
+    "iconLocal": "/plants/icons/87.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "88",
@@ -1943,7 +2291,11 @@
       "order": 85,
       "tenacity": 90,
       "bond": 25
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020617/4c0583c788a5eb3cf806899893bdc456.jpg",
+    "imageLocal": "/plants/images/88.png",
+    "iconLocal": "/plants/icons/88.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "89",
@@ -1965,7 +2317,11 @@
       "order": 40,
       "tenacity": 55,
       "bond": 65
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020914/10ee5f69b2ca3ab259e7b31cf3e06151.jpg",
+    "imageLocal": "/plants/images/89.png",
+    "iconLocal": "/plants/icons/89.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "90",
@@ -1988,7 +2344,11 @@
       "order": 70,
       "tenacity": 85,
       "bond": 90
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012917/3179206697e2f5435825713a6271eeb3.jpg",
+    "imageLocal": "/plants/images/90.png",
+    "iconLocal": "/plants/icons/90.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "91",
@@ -2010,7 +2370,11 @@
       "order": 40,
       "tenacity": 85,
       "bond": 75
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020617/cfcbead7a5ed3b959d837fcc2f86fa34.jpg",
+    "imageLocal": "/plants/images/91.png",
+    "iconLocal": "/plants/icons/91.jpg",
+    "professionIconLocal": "/plants/professions/坚韧.png"
   },
   {
     "id": "92",
@@ -2031,7 +2395,11 @@
       "order": 40,
       "tenacity": 55,
       "bond": 60
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020914/bd0f7a5c6451679d5484768a0ff37da3.jpg",
+    "imageLocal": "/plants/images/92.png",
+    "iconLocal": "/plants/icons/92.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "93",
@@ -2052,7 +2420,11 @@
       "order": 20,
       "tenacity": 40,
       "bond": 25
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020823/45bf2fe02c15623c06f46d4538f8c15a.jpg",
+    "imageLocal": "/plants/images/93.png",
+    "iconLocal": "/plants/icons/93.jpg",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "94",
@@ -2073,7 +2445,11 @@
       "order": 75,
       "tenacity": 40,
       "bond": 25
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020914/5e60704c7222c986c6eb2fc1c899e37a.jpg",
+    "imageLocal": "/plants/images/94.png",
+    "iconLocal": "/plants/icons/94.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "95",
@@ -2096,7 +2472,11 @@
       "order": 70,
       "tenacity": 40,
       "bond": 60
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020914/afdca89efcdd1dee64b3454e9e8620ab.jpg",
+    "imageLocal": "/plants/images/95.png",
+    "iconLocal": "/plants/icons/95.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "96",
@@ -2118,7 +2498,11 @@
       "order": 25,
       "tenacity": 60,
       "bond": 90
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020914/d09539f459359e124d70f6b3b097d398.jpg",
+    "imageLocal": "/plants/images/96.png",
+    "iconLocal": "/plants/icons/96.jpg",
+    "professionIconLocal": "/plants/professions/阳光.png"
   },
   {
     "id": "97",
@@ -2140,7 +2524,11 @@
       "order": 60,
       "tenacity": 85,
       "bond": 15
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020914/99634eb09a940aa740dc6e246e5c0b99.jpg",
+    "imageLocal": "/plants/images/97.png",
+    "iconLocal": "/plants/icons/97.jpg",
+    "professionIconLocal": "/plants/professions/坚韧.png"
   },
   {
     "id": "98",
@@ -2162,7 +2550,11 @@
       "order": 40,
       "tenacity": 75,
       "bond": 15
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020823/416b4071d5327c50893731ad2a842044.jpg",
+    "imageLocal": "/plants/images/98.png",
+    "iconLocal": "/plants/icons/98.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "99",
@@ -2183,7 +2575,11 @@
       "order": 85,
       "tenacity": 90,
       "bond": 70
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012917/c0a8d7ebcd0f7e550fbcd976e55feafb.jpg",
+    "imageLocal": "/plants/images/99.png",
+    "iconLocal": "/plants/icons/99.jpg",
+    "professionIconLocal": "/plants/professions/阳光.png"
   },
   {
     "id": "100",
@@ -2205,7 +2601,11 @@
       "order": 75,
       "tenacity": 50,
       "bond": 70
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025062015/f2357cb364b19f6d47d6e02232a6a1a0.jpg",
+    "imageLocal": "/plants/images/100.png",
+    "iconLocal": "/plants/icons/100.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "101",
@@ -2227,7 +2627,11 @@
       "order": 85,
       "tenacity": 75,
       "bond": 90
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020823/e8f30289a0111aef242053167f0b02f1.jpg",
+    "imageLocal": "/plants/images/101.png",
+    "iconLocal": "/plants/icons/101.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "102",
@@ -2251,7 +2655,11 @@
       "order": 85,
       "tenacity": 90,
       "bond": 80
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020914/094faf5ab68193e70be554d6fe103f08.jpg",
+    "imageLocal": "/plants/images/102.png",
+    "iconLocal": "/plants/icons/102.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "103",
@@ -2275,7 +2683,11 @@
       "order": 85,
       "tenacity": 90,
       "bond": 30
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020912/8f731d9a9dafaf95463a76f9144fd96d.jpg",
+    "imageLocal": "/plants/images/103.png",
+    "iconLocal": "/plants/icons/103.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "104",
@@ -2298,7 +2710,11 @@
       "order": 90,
       "tenacity": 40,
       "bond": 65
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020823/13be501f788227ccdc22a964b9d1b247.jpg",
+    "imageLocal": "/plants/images/104.png",
+    "iconLocal": "/plants/icons/104.jpg",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "105",
@@ -2321,7 +2737,11 @@
       "order": 30,
       "tenacity": 60,
       "bond": 65
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020823/8cf32f7bc279dd80b9ba24445f1fb6d5.jpg",
+    "imageLocal": "/plants/images/105.png",
+    "iconLocal": "/plants/icons/105.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "106",
@@ -2343,7 +2763,11 @@
       "order": 40,
       "tenacity": 60,
       "bond": 45
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020823/a9205528e125805ba8e613b457ca7cf9.jpg",
+    "imageLocal": "/plants/images/106.png",
+    "iconLocal": "/plants/icons/106.jpg",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "107",
@@ -2366,7 +2790,11 @@
       "order": 30,
       "tenacity": 20,
       "bond": 65
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020617/2cf524bf2d03a3fb7900da09c3d80296.jpg",
+    "imageLocal": "/plants/images/107.png",
+    "iconLocal": "/plants/icons/107.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "108",
@@ -2389,7 +2817,11 @@
       "order": 40,
       "tenacity": 65,
       "bond": 55
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020914/29f48e31b798384b2f97e14f43de7284.jpg",
+    "imageLocal": "/plants/images/108.png",
+    "iconLocal": "/plants/icons/108.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "109",
@@ -2410,7 +2842,11 @@
       "order": 40,
       "tenacity": 60,
       "bond": 25
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020823/a0dd6e80d8cfb3b191706df2071ab699.jpg",
+    "imageLocal": "/plants/images/109.png",
+    "iconLocal": "/plants/icons/109.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "110",
@@ -2432,7 +2868,11 @@
       "order": 30,
       "tenacity": 40,
       "bond": 20
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020823/07e3f1c82bcc16d123e7092925828a4b.jpg",
+    "imageLocal": "/plants/images/110.png",
+    "iconLocal": "/plants/icons/110.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "111",
@@ -2453,7 +2893,11 @@
       "order": 90,
       "tenacity": 70,
       "bond": 40
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020914/77c31328fc6982d7a11abcbe3f062d18.gif",
+    "imageLocal": "/plants/images/111.png",
+    "iconLocal": "/plants/icons/111.gif",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "112",
@@ -2475,7 +2919,11 @@
       "order": 30,
       "tenacity": 60,
       "bond": 75
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020914/0d7d1907ae1ef3be8f51a5943a76d34b.jpg",
+    "imageLocal": "/plants/images/112.png",
+    "iconLocal": "/plants/icons/112.jpg",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "113",
@@ -2498,7 +2946,11 @@
       "order": 65,
       "tenacity": 60,
       "bond": 55
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020914/00cdfc36fc649bed4ae8e5413656c800.jpg",
+    "imageLocal": "/plants/images/113.png",
+    "iconLocal": "/plants/icons/113.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "114",
@@ -2520,7 +2972,11 @@
       "order": 75,
       "tenacity": 90,
       "bond": 40
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020914/09c51bf9db62b15fd5d6bd0177008115.jpg",
+    "imageLocal": "/plants/images/114.png",
+    "iconLocal": "/plants/icons/114.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "115",
@@ -2542,7 +2998,11 @@
       "order": 65,
       "tenacity": 40,
       "bond": 60
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020823/b80a8189efde62327f5b6475811a5d76.jpg",
+    "imageLocal": "/plants/images/115.png",
+    "iconLocal": "/plants/icons/115.jpg",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "116",
@@ -2564,7 +3024,11 @@
       "order": 85,
       "tenacity": 20,
       "bond": 65
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020914/58057a1233e695c200e0d93f9ed11ae7.jpg",
+    "imageLocal": "/plants/images/116.png",
+    "iconLocal": "/plants/icons/116.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "117",
@@ -2587,7 +3051,11 @@
       "order": 40,
       "tenacity": 65,
       "bond": 15
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020823/bbf9e2b25d89e3610f48394118da19ad.jpg",
+    "imageLocal": "/plants/images/117.png",
+    "iconLocal": "/plants/icons/117.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "118",
@@ -2609,7 +3077,11 @@
       "order": 75,
       "tenacity": 80,
       "bond": 90
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025062015/566e9721a76848669c6208c19ce6e303.jpg",
+    "imageLocal": "/plants/images/118.png",
+    "iconLocal": "/plants/icons/118.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "119",
@@ -2631,7 +3103,11 @@
       "order": 85,
       "tenacity": 70,
       "bond": 90
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020617/d9d6e59938e6bdaa7e1091e37d5fd7bf.jpg",
+    "imageLocal": "/plants/images/119.png",
+    "iconLocal": "/plants/icons/119.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "120",
@@ -2653,7 +3129,11 @@
       "order": 70,
       "tenacity": 30,
       "bond": 90
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020822/f22db7b674b92de538be5453b7027277.jpg",
+    "imageLocal": "/plants/images/120.png",
+    "iconLocal": "/plants/icons/120.jpg",
+    "professionIconLocal": "/plants/professions/辅助.png"
   },
   {
     "id": "121",
@@ -2675,7 +3155,11 @@
       "order": 85,
       "tenacity": 80,
       "bond": 40
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020914/e02cb520d499a204ca48a65d74063264.jpg",
+    "imageLocal": "/plants/images/121.png",
+    "iconLocal": "/plants/icons/121.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "122",
@@ -2698,7 +3182,11 @@
       "order": 30,
       "tenacity": 70,
       "bond": 55
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020915/09b1b140d7a5476387c484a4e9585169.gif",
+    "imageLocal": "/plants/images/122.png",
+    "iconLocal": "/plants/icons/122.gif",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "123",
@@ -2719,7 +3207,11 @@
       "order": 70,
       "tenacity": 65,
       "bond": 40
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020914/a46ae4c42623222ea7701da117fa6b18.jpg",
+    "imageLocal": "/plants/images/123.png",
+    "iconLocal": "/plants/icons/123.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "124",
@@ -2743,7 +3235,11 @@
       "order": 15,
       "tenacity": 5,
       "bond": 40
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020914/76527355c0aa3f73f044fa7c2324152c.jpg",
+    "imageLocal": "/plants/images/124.png",
+    "iconLocal": "/plants/icons/124.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "125",
@@ -2766,7 +3262,11 @@
       "order": 85,
       "tenacity": 75,
       "bond": 40
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020914/9066f5653b377259636a242b9dc68882.gif",
+    "imageLocal": "/plants/images/125.png",
+    "iconLocal": "/plants/icons/125.gif",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "126",
@@ -2788,7 +3288,11 @@
       "order": 75,
       "tenacity": 40,
       "bond": 85
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020915/56fed5fb36f4a08d7b242cf89248e884.jpg",
+    "imageLocal": "/plants/images/126.png",
+    "iconLocal": "/plants/icons/126.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "127",
@@ -2812,7 +3316,11 @@
       "order": 65,
       "tenacity": 70,
       "bond": 40
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020823/b0734af67756046d09a1b5873106ffa9.jpg",
+    "imageLocal": "/plants/images/127.png",
+    "iconLocal": "/plants/icons/127.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "128",
@@ -2833,7 +3341,11 @@
       "order": 85,
       "tenacity": 95,
       "bond": 90
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020823/7ca211ad644cff4eb00cf0e19fdc5164.jpg",
+    "imageLocal": "/plants/images/128.png",
+    "iconLocal": "/plants/icons/128.jpg",
+    "professionIconLocal": "/plants/professions/坚韧.png"
   },
   {
     "id": "129",
@@ -2855,7 +3367,11 @@
       "order": 60,
       "tenacity": 40,
       "bond": 90
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025062015/14c00f686a4570132fec5198ee1168e8.jpg",
+    "imageLocal": "/plants/images/129.png",
+    "iconLocal": "/plants/icons/129.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "130",
@@ -2876,7 +3392,11 @@
       "order": 85,
       "tenacity": 90,
       "bond": 95
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020823/4ed7314799bce8d08aeb262ed688707b.jpg",
+    "imageLocal": "/plants/images/130.png",
+    "iconLocal": "/plants/icons/130.jpg",
+    "professionIconLocal": "/plants/professions/阳光.png"
   },
   {
     "id": "131",
@@ -2900,7 +3420,11 @@
       "order": 90,
       "tenacity": 15,
       "bond": 30
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020915/01c34fb9f793c45c6f9b583f4261c7a8.jpg",
+    "imageLocal": "/plants/images/131.png",
+    "iconLocal": "/plants/icons/131.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "132",
@@ -2922,7 +3446,11 @@
       "order": 40,
       "tenacity": 30,
       "bond": 15
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020915/ce500491a7a529d1dad250c21734ea95.jpg",
+    "imageLocal": "/plants/images/132.png",
+    "iconLocal": "/plants/icons/132.jpg",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "133",
@@ -2944,7 +3472,11 @@
       "order": 85,
       "tenacity": 90,
       "bond": 40
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012917/00b1a40b24cb56228cdf929c5fe46b96.jpg",
+    "imageLocal": "/plants/images/133.png",
+    "iconLocal": "/plants/icons/133.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "134",
@@ -2965,7 +3497,11 @@
       "order": 85,
       "tenacity": 65,
       "bond": 40
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020915/db4b97b0b7225a2d4c6ed99eb4e83781.jpg",
+    "imageLocal": "/plants/images/134.png",
+    "iconLocal": "/plants/icons/134.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "135",
@@ -2988,7 +3524,11 @@
       "order": 30,
       "tenacity": 60,
       "bond": 40
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020915/f23a54d11210865370ad8e2c9a91fb85.jpg",
+    "imageLocal": "/plants/images/135.png",
+    "iconLocal": "/plants/icons/135.jpg",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "136",
@@ -3012,7 +3552,11 @@
       "order": 95,
       "tenacity": 40,
       "bond": 30
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020915/38790eb8cfcc759500ef3df51c50b583.jpg",
+    "imageLocal": "/plants/images/136.png",
+    "iconLocal": "/plants/icons/136.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "137",
@@ -3035,7 +3579,11 @@
       "order": 85,
       "tenacity": 70,
       "bond": 65
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020915/eff14546c7d9ae9dcdcc1fe97feae0a9.jpg",
+    "imageLocal": "/plants/images/137.png",
+    "iconLocal": "/plants/icons/137.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "138",
@@ -3057,7 +3605,11 @@
       "order": 90,
       "tenacity": 40,
       "bond": 65
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020915/06c0770972ee00f4bfbc5562aa76f7b3.jpg",
+    "imageLocal": "/plants/images/138.png",
+    "iconLocal": "/plants/icons/138.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "139",
@@ -3080,7 +3632,11 @@
       "order": 20,
       "tenacity": 30,
       "bond": 75
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020915/8dd5dc69c4d8c5e41de4fcd4030640aa.gif",
+    "imageLocal": "/plants/images/139.png",
+    "iconLocal": "/plants/icons/139.gif",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "140",
@@ -3102,7 +3658,11 @@
       "order": 85,
       "tenacity": 90,
       "bond": 95
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021415/f435c64096147e77611e5b0df746ff12.jpg",
+    "imageLocal": "/plants/images/140.png",
+    "iconLocal": "/plants/icons/140.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "141",
@@ -3125,7 +3685,11 @@
       "order": 85,
       "tenacity": 90,
       "bond": 75
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020915/68a9253407056b4e3592a430ec8021a6.jpg",
+    "imageLocal": "/plants/images/141.png",
+    "iconLocal": "/plants/icons/141.jpg",
+    "professionIconLocal": "/plants/professions/坚韧.png"
   },
   {
     "id": "142",
@@ -3147,7 +3711,11 @@
       "order": 70,
       "tenacity": 60,
       "bond": 75
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020915/616157b697eccf79f85a631c04ecec77.jpg",
+    "imageLocal": "/plants/images/142.png",
+    "iconLocal": "/plants/icons/142.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "143",
@@ -3171,7 +3739,11 @@
       "order": 85,
       "tenacity": 90,
       "bond": 65
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020823/8177becdef9993c0d1ccf09005edc94d.jpg",
+    "imageLocal": "/plants/images/143.png",
+    "iconLocal": "/plants/icons/143.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "144",
@@ -3194,7 +3766,11 @@
       "order": 70,
       "tenacity": 90,
       "bond": 95
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020823/8ae200bc826e5828b833f9c02e65f593.jpg",
+    "imageLocal": "/plants/images/144.png",
+    "iconLocal": "/plants/icons/144.jpg",
+    "professionIconLocal": "/plants/professions/辅助.png"
   },
   {
     "id": "145",
@@ -3218,7 +3794,11 @@
       "order": 90,
       "tenacity": 30,
       "bond": 65
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020823/0c7b82deda93f0c8bbbc2b6a5a22bb97.jpg",
+    "imageLocal": "/plants/images/145.png",
+    "iconLocal": "/plants/icons/145.jpg",
+    "professionIconLocal": "/plants/professions/坚韧.png"
   },
   {
     "id": "146",
@@ -3240,7 +3820,11 @@
       "order": 85,
       "tenacity": 70,
       "bond": 75
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020916/26f1bf83bcbddd4634e72c0193b41ac3.jpg",
+    "imageLocal": "/plants/images/146.png",
+    "iconLocal": "/plants/icons/146.jpg",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "147",
@@ -3264,7 +3848,11 @@
       "order": 85,
       "tenacity": 70,
       "bond": 55
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020915/6e1fbf30b0bff1436ff83a6a5dc6e1db.jpg",
+    "imageLocal": "/plants/images/147.png",
+    "iconLocal": "/plants/icons/147.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "148",
@@ -3286,7 +3874,11 @@
       "order": 70,
       "tenacity": 85,
       "bond": 40
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020823/9ac4aff3eda0173afb0625ec27e0e622.jpg",
+    "imageLocal": "/plants/images/148.png",
+    "iconLocal": "/plants/icons/148.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "149",
@@ -3310,7 +3902,11 @@
       "order": 90,
       "tenacity": 40,
       "bond": 30
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020916/5a5773638bea5ce475a16545f289b185.jpg",
+    "imageLocal": "/plants/images/149.png",
+    "iconLocal": "/plants/icons/149.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "150",
@@ -3331,7 +3927,11 @@
       "order": 40,
       "tenacity": 55,
       "bond": 30
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020915/b57c2d31a21cfe325c6d833a816d472a.jpg",
+    "imageLocal": "/plants/images/150.png",
+    "iconLocal": "/plants/icons/150.jpg",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "151",
@@ -3352,7 +3952,11 @@
       "order": 30,
       "tenacity": 40,
       "bond": 65
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020915/151b9937f4f34fa6025ec2c60f8e0be7.jpg",
+    "imageLocal": "/plants/images/151.png",
+    "iconLocal": "/plants/icons/151.jpg",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "152",
@@ -3375,7 +3979,11 @@
       "order": 30,
       "tenacity": 40,
       "bond": 75
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020916/0432f59d96225f3d6460177f532fd36e.jpg",
+    "imageLocal": "/plants/images/152.png",
+    "iconLocal": "/plants/icons/152.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "153",
@@ -3399,7 +4007,11 @@
       "order": 30,
       "tenacity": 90,
       "bond": 25
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020916/61d6719fe6c70271fe65f4fcde921ac8.jpg",
+    "imageLocal": "/plants/images/153.png",
+    "iconLocal": "/plants/icons/153.jpg",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "154",
@@ -3421,7 +4033,11 @@
       "order": 40,
       "tenacity": 10,
       "bond": 90
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012917/ffeca3d0aa3852e3fd1ee9180d38a71a.jpg",
+    "imageLocal": "/plants/images/154.png",
+    "iconLocal": "/plants/icons/154.jpg",
+    "professionIconLocal": "/plants/professions/阳光.png"
   },
   {
     "id": "155",
@@ -3442,7 +4058,11 @@
       "order": 85,
       "tenacity": 90,
       "bond": 70
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012917/4d94d6aebaa18de5ac1cb9068a42dbec.jpg",
+    "imageLocal": "/plants/images/155.png",
+    "iconLocal": "/plants/icons/155.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "156",
@@ -3464,7 +4084,11 @@
       "order": 70,
       "tenacity": 60,
       "bond": 55
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021513/0343661fa703379454bd055db7306a6c.jpg",
+    "imageLocal": "/plants/images/156.png",
+    "iconLocal": "/plants/icons/156.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "157",
@@ -3487,7 +4111,11 @@
       "order": 90,
       "tenacity": 80,
       "bond": 70
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021514/ce510a6936c1ee27bf839397f136f166.gif",
+    "imageLocal": "/plants/images/157.png",
+    "iconLocal": "/plants/icons/157.gif",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "158",
@@ -3510,7 +4138,11 @@
       "order": 85,
       "tenacity": 90,
       "bond": 65
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020823/76e8679a5fc35b486bf79cdba75717ee.jpg",
+    "imageLocal": "/plants/images/158.png",
+    "iconLocal": "/plants/icons/158.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "159",
@@ -3533,7 +4165,11 @@
       "order": 40,
       "tenacity": 30,
       "bond": 75
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021513/7d899a77982442575b73cf64a50751ac.jpg",
+    "imageLocal": "/plants/images/159.png",
+    "iconLocal": "/plants/icons/159.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "160",
@@ -3557,7 +4193,11 @@
       "order": 40,
       "tenacity": 20,
       "bond": 35
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021514/be027ce74f66c18b63eafbda475dd311.jpg",
+    "imageLocal": "/plants/images/160.png",
+    "iconLocal": "/plants/icons/160.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "161",
@@ -3580,7 +4220,11 @@
       "order": 65,
       "tenacity": 90,
       "bond": 70
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021514/7dbc9c810a5245cd2ee7ffdc853578f0.jpg",
+    "imageLocal": "/plants/images/161.png",
+    "iconLocal": "/plants/icons/161.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "162",
@@ -3603,7 +4247,11 @@
       "order": 85,
       "tenacity": 90,
       "bond": 80
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021514/b1ff3eb0e913e3d1270013b4c1385d7a.jpg",
+    "imageLocal": "/plants/images/162.png",
+    "iconLocal": "/plants/icons/162.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "163",
@@ -3627,7 +4275,11 @@
       "order": 70,
       "tenacity": 90,
       "bond": 60
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021513/f49a70e07108f83d0065f0d9c55307b0.jpg",
+    "imageLocal": "/plants/images/163.png",
+    "iconLocal": "/plants/icons/163.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "164",
@@ -3649,7 +4301,11 @@
       "order": 70,
       "tenacity": 60,
       "bond": 90
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021514/89e33d048fee53d8f9466f9a5fc2dae0.jpg",
+    "imageLocal": "/plants/images/164.png",
+    "iconLocal": "/plants/icons/164.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "165",
@@ -3671,7 +4327,11 @@
       "order": 90,
       "tenacity": 80,
       "bond": 25
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021514/f655b401588adf8f959ed09ffaba4758.jpg",
+    "imageLocal": "/plants/images/165.png",
+    "iconLocal": "/plants/icons/165.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "166",
@@ -3693,7 +4353,11 @@
       "order": 65,
       "tenacity": 40,
       "bond": 85
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021514/db82036a5880056276947cdbf441f659.jpg",
+    "imageLocal": "/plants/images/166.png",
+    "iconLocal": "/plants/icons/166.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "167",
@@ -3715,7 +4379,11 @@
       "order": 70,
       "tenacity": 40,
       "bond": 80
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021514/6090dfc76e73b9ed6eebface1cc5fa86.jpg",
+    "imageLocal": "/plants/images/167.png",
+    "iconLocal": "/plants/icons/167.jpg",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "168",
@@ -3737,7 +4405,11 @@
       "order": 25,
       "tenacity": 40,
       "bond": 20
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021514/0144fb028b6c965a0c8ececae7d65641.jpg",
+    "imageLocal": "/plants/images/168.png",
+    "iconLocal": "/plants/icons/168.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "169",
@@ -3761,7 +4433,11 @@
       "order": 90,
       "tenacity": 70,
       "bond": 85
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021514/a2304ecba9593d01d4bc5a419d67fdd1.jpg",
+    "imageLocal": "/plants/images/169.png",
+    "iconLocal": "/plants/icons/169.jpg",
+    "professionIconLocal": "/plants/professions/坚韧.png"
   },
   {
     "id": "170",
@@ -3784,7 +4460,11 @@
       "order": 90,
       "tenacity": 40,
       "bond": 60
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021514/982454970009e708fa006fa4fb6fc5fe.jpg",
+    "imageLocal": "/plants/images/170.png",
+    "iconLocal": "/plants/icons/170.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "171",
@@ -3808,7 +4488,11 @@
       "order": 65,
       "tenacity": 40,
       "bond": 20
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021514/6960b7596d1c56fbcab970c4fea96f0c.jpg",
+    "imageLocal": "/plants/images/171.png",
+    "iconLocal": "/plants/icons/171.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "172",
@@ -3830,7 +4514,11 @@
       "order": 40,
       "tenacity": 20,
       "bond": 25
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021514/7f82ed18151921389ae11f33605e02c0.jpg",
+    "imageLocal": "/plants/images/172.png",
+    "iconLocal": "/plants/icons/172.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "173",
@@ -3852,7 +4540,11 @@
       "order": 90,
       "tenacity": 80,
       "bond": 40
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021514/c1175967d27af73926110b84e6a04b88.jpg",
+    "imageLocal": "/plants/images/173.png",
+    "iconLocal": "/plants/icons/173.jpg",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "174",
@@ -3876,7 +4568,11 @@
       "order": 90,
       "tenacity": 85,
       "bond": 70
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021514/4cbe31abf5d3404720a73c96f2a5ed99.jpg",
+    "imageLocal": "/plants/images/174.png",
+    "iconLocal": "/plants/icons/174.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "175",
@@ -3899,7 +4595,11 @@
       "order": 40,
       "tenacity": 25,
       "bond": 60
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021514/2254f23dff956ad715900ea4abef1f43.gif",
+    "imageLocal": "/plants/images/175.png",
+    "iconLocal": "/plants/icons/175.gif",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "176",
@@ -3921,7 +4621,11 @@
       "order": 70,
       "tenacity": 65,
       "bond": 90
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021514/781c3563e5953c3328526a82fb553ecc.jpg",
+    "imageLocal": "/plants/images/176.png",
+    "iconLocal": "/plants/icons/176.jpg",
+    "professionIconLocal": "/plants/professions/辅助.png"
   },
   {
     "id": "177",
@@ -3943,7 +4647,11 @@
       "order": 20,
       "tenacity": 60,
       "bond": 40
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021514/fe7eb446aeef515fd853ecab5e8b6baa.jpg",
+    "imageLocal": "/plants/images/177.png",
+    "iconLocal": "/plants/icons/177.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "178",
@@ -3964,7 +4672,11 @@
       "order": 85,
       "tenacity": 95,
       "bond": 60
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020823/5a4ed1814aca214835a007e7083255cf.jpg",
+    "imageLocal": "/plants/images/178.png",
+    "iconLocal": "/plants/icons/178.jpg",
+    "professionIconLocal": "/plants/professions/坚韧.png"
   },
   {
     "id": "179",
@@ -3986,7 +4698,11 @@
       "order": 40,
       "tenacity": 10,
       "bond": 90
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021515/85817fcae554553af2dde0cb74915317.jpg",
+    "imageLocal": "/plants/images/179.png",
+    "iconLocal": "/plants/icons/179.jpg",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "180",
@@ -4008,7 +4724,11 @@
       "order": 40,
       "tenacity": 20,
       "bond": 25
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021515/ba6e5874c4af1e7c845c1ee9076c1aec.jpg",
+    "imageLocal": "/plants/images/180.png",
+    "iconLocal": "/plants/icons/180.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "181",
@@ -4030,7 +4750,11 @@
       "order": 40,
       "tenacity": 30,
       "bond": 65
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021515/b51d235d4714b2c85ab306bc4b76587b.jpg",
+    "imageLocal": "/plants/images/181.png",
+    "iconLocal": "/plants/icons/181.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "182",
@@ -4052,7 +4776,11 @@
       "order": 60,
       "tenacity": 40,
       "bond": 85
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020823/59587862450a070a1654dbc8e6791a2e.jpg",
+    "imageLocal": "/plants/images/182.png",
+    "iconLocal": "/plants/icons/182.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "183",
@@ -4075,7 +4803,11 @@
       "order": 65,
       "tenacity": 40,
       "bond": 25
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021514/3dbc38e6a7094173960f0a423bd04eca.jpg",
+    "imageLocal": "/plants/images/183.png",
+    "iconLocal": "/plants/icons/183.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "184",
@@ -4098,7 +4830,11 @@
       "order": 15,
       "tenacity": 10,
       "bond": 30
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021515/d20a11df6f3e7400bd78d7bc4f3d5db7.jpg",
+    "imageLocal": "/plants/images/184.png",
+    "iconLocal": "/plants/icons/184.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "185",
@@ -4121,7 +4857,11 @@
       "order": 40,
       "tenacity": 65,
       "bond": 55
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021514/606ec6a3f3abacc9b351681ff1daf866.jpg",
+    "imageLocal": "/plants/images/185.png",
+    "iconLocal": "/plants/icons/185.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "186",
@@ -4143,7 +4883,11 @@
       "order": 55,
       "tenacity": 70,
       "bond": 60
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021514/027243a7422dfd8304aa01f0738023cd.jpg",
+    "imageLocal": "/plants/images/186.png",
+    "iconLocal": "/plants/icons/186.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "187",
@@ -4164,7 +4908,11 @@
       "order": 85,
       "tenacity": 70,
       "bond": 40
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021514/47d3d6c4d45b90e9b0c6467b4dc26657.jpg",
+    "imageLocal": "/plants/images/187.png",
+    "iconLocal": "/plants/icons/187.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "188",
@@ -4186,7 +4934,11 @@
       "order": 85,
       "tenacity": 60,
       "bond": 55
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021514/0464a558dd693f2f5aa301b977301384.jpg",
+    "imageLocal": "/plants/images/188.png",
+    "iconLocal": "/plants/icons/188.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "189",
@@ -4208,7 +4960,11 @@
       "order": 40,
       "tenacity": 90,
       "bond": 60
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021514/4f96b119d4200cbf43469ac1bbadc865.jpg",
+    "imageLocal": "/plants/images/189.png",
+    "iconLocal": "/plants/icons/189.jpg",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "190",
@@ -4231,7 +4987,11 @@
       "order": 90,
       "tenacity": 95,
       "bond": 88
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021514/026a49eecc79e77ce57df25519765954.jpg",
+    "imageLocal": "/plants/images/190.png",
+    "iconLocal": "/plants/icons/190.jpg",
+    "professionIconLocal": "/plants/professions/辅助.png"
   },
   {
     "id": "191",
@@ -4252,7 +5012,11 @@
       "order": 75,
       "tenacity": 95,
       "bond": 70
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021514/3b6288f41d0f5cf54259ed85314c7c8b.jpg",
+    "imageLocal": "/plants/images/191.png",
+    "iconLocal": "/plants/icons/191.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "192",
@@ -4275,7 +5039,11 @@
       "order": 65,
       "tenacity": 40,
       "bond": 25
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021514/b0b8689f711ea7a30aed860f29a49ec3.jpg",
+    "imageLocal": "/plants/images/192.png",
+    "iconLocal": "/plants/icons/192.jpg",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "193",
@@ -4299,7 +5067,11 @@
       "order": 85,
       "tenacity": 70,
       "bond": 60
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021514/038232751ef654f6e86788129fe735ee.jpg",
+    "imageLocal": "/plants/images/193.png",
+    "iconLocal": "/plants/icons/193.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "194",
@@ -4321,7 +5093,11 @@
       "order": 15,
       "tenacity": 40,
       "bond": 10
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021514/acdfc7093d8f514c0a91d780e524e01f.jpg",
+    "imageLocal": "/plants/images/194.png",
+    "iconLocal": "/plants/icons/194.jpg",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "195",
@@ -4342,7 +5118,11 @@
       "order": 80,
       "tenacity": 90,
       "bond": 75
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020823/d93f3fc0cd100357c924c151f5b52067.jpg",
+    "imageLocal": "/plants/images/195.png",
+    "iconLocal": "/plants/icons/195.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "196",
@@ -4365,7 +5145,11 @@
       "order": 85,
       "tenacity": 70,
       "bond": 75
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012917/153144aa0083290d725777b4870781d0.jpg",
+    "imageLocal": "/plants/images/196.png",
+    "iconLocal": "/plants/icons/196.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "197",
@@ -4386,7 +5170,11 @@
       "order": 90,
       "tenacity": 95,
       "bond": 100
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020823/645b6474f157858c51e939d85eb90c42.jpg",
+    "imageLocal": "/plants/images/197.png",
+    "iconLocal": "/plants/icons/197.jpg",
+    "professionIconLocal": "/plants/professions/坚韧.png"
   },
   {
     "id": "198",
@@ -4409,7 +5197,11 @@
       "order": 70,
       "tenacity": 60,
       "bond": 40
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021514/4fc196525500428bd12604b1908555f7.jpg",
+    "imageLocal": "/plants/images/198.png",
+    "iconLocal": "/plants/icons/198.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "199",
@@ -4432,7 +5224,11 @@
       "order": 75,
       "tenacity": 20,
       "bond": 85
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021515/5b862932d0ae25b05644af7dea55cf2f.gif",
+    "imageLocal": "/plants/images/199.png",
+    "iconLocal": "/plants/icons/199.gif",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "200",
@@ -4454,7 +5250,11 @@
       "order": 85,
       "tenacity": 90,
       "bond": 40
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021515/4408ff72e95803af832f4b04a82d2ed6.jpg",
+    "imageLocal": "/plants/images/200.png",
+    "iconLocal": "/plants/icons/200.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "201",
@@ -4475,7 +5275,11 @@
       "order": 85,
       "tenacity": 75,
       "bond": 40
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021515/58584d2a78e5e94365ae5df2102659e5.jpg",
+    "imageLocal": "/plants/images/201.png",
+    "iconLocal": "/plants/icons/201.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "202",
@@ -4499,7 +5303,11 @@
       "order": 85,
       "tenacity": 40,
       "bond": 55
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021515/cebde65171dfd29ced88b26ee8c25984.jpg",
+    "imageLocal": "/plants/images/202.png",
+    "iconLocal": "/plants/icons/202.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "203",
@@ -4522,7 +5330,11 @@
       "order": 90,
       "tenacity": 95,
       "bond": 30
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021515/feb02b3db4e4a40ec1fd100bc2356088.jpg",
+    "imageLocal": "/plants/images/203.png",
+    "iconLocal": "/plants/icons/203.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "204",
@@ -4544,7 +5356,11 @@
       "order": 30,
       "tenacity": 40,
       "bond": 70
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021515/780185d4bdc2ef829a097e4334249483.jpg",
+    "imageLocal": "/plants/images/204.png",
+    "iconLocal": "/plants/icons/204.jpg",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "205",
@@ -4567,7 +5383,11 @@
       "order": 85,
       "tenacity": 60,
       "bond": 75
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021515/6a0fdf3499bc7630c3d0efc11c0327b5.jpg",
+    "imageLocal": "/plants/images/205.png",
+    "iconLocal": "/plants/icons/205.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "206",
@@ -4591,7 +5411,11 @@
       "order": 75,
       "tenacity": 20,
       "bond": 40
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021515/68b2061a2f4a674131e8e34b1baeba71.jpg",
+    "imageLocal": "/plants/images/206.png",
+    "iconLocal": "/plants/icons/206.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "207",
@@ -4613,7 +5437,11 @@
       "order": 70,
       "tenacity": 90,
       "bond": 75
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021515/984b53ea6c338b6a6f7e4d1488e45599.jpg",
+    "imageLocal": "/plants/images/207.png",
+    "iconLocal": "/plants/icons/207.jpg",
+    "professionIconLocal": "/plants/professions/坚韧.png"
   },
   {
     "id": "208",
@@ -4635,7 +5463,11 @@
       "order": 75,
       "tenacity": 90,
       "bond": 60
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021515/2ff95767bfc726c5e8196f4922535075.jpg",
+    "imageLocal": "/plants/images/208.png",
+    "iconLocal": "/plants/icons/208.jpg",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "209",
@@ -4656,7 +5488,11 @@
       "order": 85,
       "tenacity": 90,
       "bond": 95
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025012917/c097a9b67fdbf668e3c73dd58b659e28.jpg",
+    "imageLocal": "/plants/images/209.png",
+    "iconLocal": "/plants/icons/209.jpg",
+    "professionIconLocal": "/plants/professions/辅助.png"
   },
   {
     "id": "210",
@@ -4679,7 +5515,11 @@
       "order": 30,
       "tenacity": 70,
       "bond": 80
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021515/05578c289647c508c45e6c52485ecced.jpg",
+    "imageLocal": "/plants/images/210.png",
+    "iconLocal": "/plants/icons/210.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "211",
@@ -4702,7 +5542,11 @@
       "order": 75,
       "tenacity": 85,
       "bond": 60
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021600/bf0d444a6fd0d574d25105fc67cd3337.jpg",
+    "imageLocal": "/plants/images/211.png",
+    "iconLocal": "/plants/icons/211.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "212",
@@ -4725,7 +5569,11 @@
       "order": 70,
       "tenacity": 60,
       "bond": 40
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021600/4dfa7c7a35dd8b0b468a75580222e0da.jpg",
+    "imageLocal": "/plants/images/212.png",
+    "iconLocal": "/plants/icons/212.jpg",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "213",
@@ -4748,7 +5596,11 @@
       "order": 85,
       "tenacity": 75,
       "bond": 60
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021600/f4925bb533032ac9d8dd2f833ae18281.jpg",
+    "imageLocal": "/plants/images/213.png",
+    "iconLocal": "/plants/icons/213.jpg",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "214",
@@ -4772,7 +5624,11 @@
       "order": 65,
       "tenacity": 30,
       "bond": 75
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021600/708907c583075a089834c714c7b2ff86.jpg",
+    "imageLocal": "/plants/images/214.png",
+    "iconLocal": "/plants/icons/214.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "215",
@@ -4794,7 +5650,11 @@
       "order": 20,
       "tenacity": 30,
       "bond": 40
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021600/af749c122a890358657e4ba0f135b088.jpg",
+    "imageLocal": "/plants/images/215.png",
+    "iconLocal": "/plants/icons/215.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "216",
@@ -4817,7 +5677,11 @@
       "order": 75,
       "tenacity": 60,
       "bond": 30
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021600/f05602fede6d45db6bebc1a339b9559b.gif",
+    "imageLocal": "/plants/images/216.png",
+    "iconLocal": "/plants/icons/216.gif",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "217",
@@ -4840,7 +5704,11 @@
       "order": 85,
       "tenacity": 40,
       "bond": 60
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021515/089ed49d918886e248d9d6a73744d337.jpg",
+    "imageLocal": "/plants/images/217.png",
+    "iconLocal": "/plants/icons/217.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "218",
@@ -4863,7 +5731,11 @@
       "order": 75,
       "tenacity": 70,
       "bond": 60
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021600/cefc9793ca5768d703006c34dcd5ce1d.jpg",
+    "imageLocal": "/plants/images/218.png",
+    "iconLocal": "/plants/icons/218.jpg",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "219",
@@ -4885,7 +5757,11 @@
       "order": 40,
       "tenacity": 20,
       "bond": 35
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021515/a1e4be707cab8b7286161840435914a2.jpg",
+    "imageLocal": "/plants/images/219.png",
+    "iconLocal": "/plants/icons/219.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "220",
@@ -4907,7 +5783,11 @@
       "order": 85,
       "tenacity": 95,
       "bond": 60
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025062015/90abf678afd9eeb1533ca4e64fc2642c.jpg",
+    "imageLocal": "/plants/images/220.png",
+    "iconLocal": "/plants/icons/220.jpg",
+    "professionIconLocal": "/plants/professions/坚韧.png"
   },
   {
     "id": "221",
@@ -4930,7 +5810,11 @@
       "order": 40,
       "tenacity": 60,
       "bond": 55
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021601/55e1c5b6aff037f1803f6f0fa3495add.jpg",
+    "imageLocal": "/plants/images/221.png",
+    "iconLocal": "/plants/icons/221.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "222",
@@ -4952,7 +5836,11 @@
       "order": 85,
       "tenacity": 70,
       "bond": 75
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021601/91be8002848f15f123e9d2b217a2b662.jpg",
+    "imageLocal": "/plants/images/222.png",
+    "iconLocal": "/plants/icons/222.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "223",
@@ -4974,7 +5862,11 @@
       "order": 70,
       "tenacity": 50,
       "bond": 30
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021601/15485cc01e58f6e4fa862d130fac1c58.jpg",
+    "imageLocal": "/plants/images/223.png",
+    "iconLocal": "/plants/icons/223.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "224",
@@ -4998,7 +5890,11 @@
       "order": 85,
       "tenacity": 70,
       "bond": 40
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021601/71de08fbf8a8d9a8683e9756681bc191.jpg",
+    "imageLocal": "/plants/images/224.png",
+    "iconLocal": "/plants/icons/224.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "225",
@@ -5020,7 +5916,11 @@
       "order": 70,
       "tenacity": 60,
       "bond": 65
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021515/2400af4dec01f2a23db64d5bd73352e6.jpg",
+    "imageLocal": "/plants/images/225.png",
+    "iconLocal": "/plants/icons/225.jpg",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "226",
@@ -5042,7 +5942,11 @@
       "order": 65,
       "tenacity": 85,
       "bond": 55
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021515/b506c0582c3382bc233fc2fc9c8c7365.jpg",
+    "imageLocal": "/plants/images/226.png",
+    "iconLocal": "/plants/icons/226.jpg",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "227",
@@ -5063,7 +5967,11 @@
       "order": 85,
       "tenacity": 90,
       "bond": 30
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021601/39f9e87a89ac61dbbe3f4659e67ae0ea.jpg",
+    "imageLocal": "/plants/images/227.png",
+    "iconLocal": "/plants/icons/227.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "228",
@@ -5084,7 +5992,11 @@
       "order": 85,
       "tenacity": 60,
       "bond": 90
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021601/65a6cc66f1f77427e9b2c0bb8bd26375.jpg",
+    "imageLocal": "/plants/images/228.png",
+    "iconLocal": "/plants/icons/228.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "229",
@@ -5107,7 +6019,11 @@
       "order": 85,
       "tenacity": 70,
       "bond": 60
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021601/acd9bd0c42f0bf6573da66f9b1bb58bf.jpg",
+    "imageLocal": "/plants/images/229.png",
+    "iconLocal": "/plants/icons/229.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "230",
@@ -5129,7 +6045,11 @@
       "order": 30,
       "tenacity": 60,
       "bond": 65
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025062015/14d87115682f2d902ef8265fef23a2e8.jpg",
+    "imageLocal": "/plants/images/230.png",
+    "iconLocal": "/plants/icons/230.jpg",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "231",
@@ -5152,7 +6072,11 @@
       "order": 40,
       "tenacity": 30,
       "bond": 20
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021601/c6471e0b19734775c1b0babe5c68e21b.jpg",
+    "imageLocal": "/plants/images/231.png",
+    "iconLocal": "/plants/icons/231.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "232",
@@ -5174,7 +6098,11 @@
       "order": 30,
       "tenacity": 20,
       "bond": 25
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021601/8da0d37355e3476b4536d27348728182.gif",
+    "imageLocal": "/plants/images/232.png",
+    "iconLocal": "/plants/icons/232.gif",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "233",
@@ -5198,7 +6126,11 @@
       "order": 40,
       "tenacity": 60,
       "bond": 30
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021601/ec2548c963d68c62ba021f0cbc387383.jpg",
+    "imageLocal": "/plants/images/233.png",
+    "iconLocal": "/plants/icons/233.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "234",
@@ -5221,7 +6153,11 @@
       "order": 40,
       "tenacity": 60,
       "bond": 90
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021601/57713d1db7d5ae12c8ad80647c8d6edf.jpg",
+    "imageLocal": "/plants/images/234.png",
+    "iconLocal": "/plants/icons/234.jpg",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "235",
@@ -5244,7 +6180,11 @@
       "order": 70,
       "tenacity": 95,
       "bond": 60
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021601/3e4a40fc8b0120ed9bf524ad9f22718e.jpg",
+    "imageLocal": "/plants/images/235.png",
+    "iconLocal": "/plants/icons/235.jpg",
+    "professionIconLocal": "/plants/professions/坚韧.png"
   },
   {
     "id": "236",
@@ -5267,7 +6207,11 @@
       "order": 70,
       "tenacity": 90,
       "bond": 95
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025020900/ce8ad81f32647097f0749f1a2b6d39e2.jpg",
+    "imageLocal": "/plants/images/236.png",
+    "iconLocal": "/plants/icons/236.jpg",
+    "professionIconLocal": "/plants/professions/坚韧.png"
   },
   {
     "id": "237",
@@ -5289,7 +6233,11 @@
       "order": 65,
       "tenacity": 30,
       "bond": 55
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021601/cc17c532182e1aca4f91e1a9b76c803f.jpg",
+    "imageLocal": "/plants/images/237.png",
+    "iconLocal": "/plants/icons/237.jpg",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "238",
@@ -5311,7 +6259,11 @@
       "order": 85,
       "tenacity": 90,
       "bond": 75
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021601/0f797425865356e9be9f6aff9d7a2023.jpg",
+    "imageLocal": "/plants/images/238.png",
+    "iconLocal": "/plants/icons/238.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "239",
@@ -5333,7 +6285,11 @@
       "order": 65,
       "tenacity": 30,
       "bond": 40
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021601/85de54238e86c3b7d3325b06a35a5f99.jpg",
+    "imageLocal": "/plants/images/239.png",
+    "iconLocal": "/plants/icons/239.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "240",
@@ -5355,7 +6311,11 @@
       "order": 30,
       "tenacity": 20,
       "bond": 40
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021601/2923ca7cdd73b7d39771556c65c63f70.jpg",
+    "imageLocal": "/plants/images/240.png",
+    "iconLocal": "/plants/icons/240.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "241",
@@ -5378,7 +6338,11 @@
       "order": 75,
       "tenacity": 80,
       "bond": 85
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021601/a9ecfa99856dd4e1b4650a35bbf35bc3.jpg",
+    "imageLocal": "/plants/images/241.png",
+    "iconLocal": "/plants/icons/241.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "242",
@@ -5401,7 +6365,11 @@
       "order": 30,
       "tenacity": 40,
       "bond": 60
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021601/1b9554de88edbeae9d0f5160066d849c.jpg",
+    "imageLocal": "/plants/images/242.png",
+    "iconLocal": "/plants/icons/242.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "243",
@@ -5423,7 +6391,11 @@
       "order": 85,
       "tenacity": 30,
       "bond": 25
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021601/42266ebd697c2cf32a1a8b3808d5611f.jpg",
+    "imageLocal": "/plants/images/243.png",
+    "iconLocal": "/plants/icons/243.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "244",
@@ -5445,7 +6417,11 @@
       "order": 85,
       "tenacity": 90,
       "bond": 40
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021601/c1ba1c6f983fc5f56ea6d490b2a4eb27.jpg",
+    "imageLocal": "/plants/images/244.png",
+    "iconLocal": "/plants/icons/244.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "245",
@@ -5467,7 +6443,11 @@
       "order": 40,
       "tenacity": 70,
       "bond": 90
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021601/959fafc6e097d29cdfec1ec07c6af719.jpg",
+    "imageLocal": "/plants/images/245.png",
+    "iconLocal": "/plants/icons/245.jpg",
+    "professionIconLocal": "/plants/professions/辅助.png"
   },
   {
     "id": "246",
@@ -5491,7 +6471,11 @@
       "order": 70,
       "tenacity": 80,
       "bond": 90
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021601/e0435212e7d5af2c7636ce73da34692d.jpg",
+    "imageLocal": "/plants/images/246.png",
+    "iconLocal": "/plants/icons/246.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "247",
@@ -5512,7 +6496,11 @@
       "order": 30,
       "tenacity": 25,
       "bond": 55
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021601/a35631745e60cb5572f0a9b171278bc4.jpg",
+    "imageLocal": "/plants/images/247.png",
+    "iconLocal": "/plants/icons/247.jpg",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "248",
@@ -5535,7 +6523,11 @@
       "order": 40,
       "tenacity": 30,
       "bond": 70
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021601/781e673793d74ed832669a205a5699ba.jpg",
+    "imageLocal": "/plants/images/248.png",
+    "iconLocal": "/plants/icons/248.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "249",
@@ -5557,7 +6549,11 @@
       "order": 40,
       "tenacity": 20,
       "bond": 35
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021601/922bd41fac9837578e1b8a65cfa78dd7.jpg",
+    "imageLocal": "/plants/images/249.png",
+    "iconLocal": "/plants/icons/249.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "250",
@@ -5579,7 +6575,11 @@
       "order": 80,
       "tenacity": 90,
       "bond": 70
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021601/c478b0cc69989ab61be5c48072d3d90c.jpg",
+    "imageLocal": "/plants/images/250.png",
+    "iconLocal": "/plants/icons/250.jpg",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "251",
@@ -5602,7 +6602,11 @@
       "order": 40,
       "tenacity": 30,
       "bond": 90
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021601/2359a05d190178fe2055c1bc1df835b0.jpg",
+    "imageLocal": "/plants/images/251.png",
+    "iconLocal": "/plants/icons/251.jpg",
+    "professionIconLocal": "/plants/professions/阳光.png"
   },
   {
     "id": "252",
@@ -5625,7 +6629,11 @@
       "order": 85,
       "tenacity": 90,
       "bond": 40
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021601/c9dc7f6a8c81e43acb8109ffbb8cc1b6.gif",
+    "imageLocal": "/plants/images/252.png",
+    "iconLocal": "/plants/icons/252.gif",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "253",
@@ -5646,7 +6654,11 @@
       "order": 65,
       "tenacity": 80,
       "bond": 90
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021601/6861b2a94d9937c650673a4768edad40.jpg",
+    "imageLocal": "/plants/images/253.png",
+    "iconLocal": "/plants/icons/253.jpg",
+    "professionIconLocal": "/plants/professions/阳光.png"
   },
   {
     "id": "254",
@@ -5669,7 +6681,11 @@
       "order": 85,
       "tenacity": 90,
       "bond": 40
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021615/b3a98502817aa6e8bb4830811a421b3b.jpg",
+    "imageLocal": "/plants/images/254.png",
+    "iconLocal": "/plants/icons/254.jpg",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "255",
@@ -5691,7 +6707,11 @@
       "order": 75,
       "tenacity": 80,
       "bond": 30
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021615/53e5da4b715dc14514b6273ebf7a06ab.gif",
+    "imageLocal": "/plants/images/255.png",
+    "iconLocal": "/plants/icons/255.gif",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "256",
@@ -5713,7 +6733,11 @@
       "order": 55,
       "tenacity": 85,
       "bond": 30
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021615/482a3b38bd62acbe58dc3aebde403c1d.jpg",
+    "imageLocal": "/plants/images/256.png",
+    "iconLocal": "/plants/icons/256.jpg",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "257",
@@ -5736,7 +6760,11 @@
       "order": 40,
       "tenacity": 30,
       "bond": 55
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021615/46847e3cf1d31baac2ae5c9c8ae4ecca.jpg",
+    "imageLocal": "/plants/images/257.png",
+    "iconLocal": "/plants/icons/257.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "258",
@@ -5759,7 +6787,11 @@
       "order": 90,
       "tenacity": 40,
       "bond": 30
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021615/7bd7a227ef2ea7f76fba3118733ac323.jpg",
+    "imageLocal": "/plants/images/258.png",
+    "iconLocal": "/plants/icons/258.jpg",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "259",
@@ -5783,7 +6815,11 @@
       "order": 75,
       "tenacity": 80,
       "bond": 40
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021615/f8c51e227f2bb4b99c02394fed700375.jpg",
+    "imageLocal": "/plants/images/259.png",
+    "iconLocal": "/plants/icons/259.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "260",
@@ -5806,7 +6842,11 @@
       "order": 40,
       "tenacity": 85,
       "bond": 30
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021615/1eb9c6454c666d723cfbd9fb64e8ff5a.jpg",
+    "imageLocal": "/plants/images/260.png",
+    "iconLocal": "/plants/icons/260.jpg",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "261",
@@ -5828,7 +6868,11 @@
       "order": 75,
       "tenacity": 85,
       "bond": 40
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021615/9b38aed1ffb34aa2926499ebb6a628d9.jpg",
+    "imageLocal": "/plants/images/261.png",
+    "iconLocal": "/plants/icons/261.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "262",
@@ -5850,7 +6894,11 @@
       "order": 70,
       "tenacity": 60,
       "bond": 55
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021615/ad9d0d25b377973f0d3eabde56582f47.jpg",
+    "imageLocal": "/plants/images/262.png",
+    "iconLocal": "/plants/icons/262.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "263",
@@ -5874,7 +6922,11 @@
       "order": 70,
       "tenacity": 65,
       "bond": 90
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021615/695e99ab4f976eaf40a4450fd31a8423.jpg",
+    "imageLocal": "/plants/images/263.png",
+    "iconLocal": "/plants/icons/263.jpg",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "264",
@@ -5896,7 +6948,11 @@
       "order": 60,
       "tenacity": 70,
       "bond": 65
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021615/e5341d17ce64d0cc9ef1492d2a4776d1.jpg",
+    "imageLocal": "/plants/images/264.png",
+    "iconLocal": "/plants/icons/264.jpg",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "265",
@@ -5919,7 +6975,11 @@
       "order": 30,
       "tenacity": 20,
       "bond": 65
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021615/183cf7338ad1ffbe268c1f3b6224bae9.jpg",
+    "imageLocal": "/plants/images/265.png",
+    "iconLocal": "/plants/icons/265.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "266",
@@ -5943,7 +7003,11 @@
       "order": 60,
       "tenacity": 75,
       "bond": 80
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021615/925ce59c35cdf316690567fda7b7e93b.jpg",
+    "imageLocal": "/plants/images/266.png",
+    "iconLocal": "/plants/icons/266.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "267",
@@ -5965,7 +7029,11 @@
       "order": 10,
       "tenacity": 70,
       "bond": 30
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021615/9e863bc93c3c5867a00e0a4bdb6f45d0.jpg",
+    "imageLocal": "/plants/images/267.png",
+    "iconLocal": "/plants/icons/267.jpg",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "268",
@@ -5988,7 +7056,11 @@
       "order": 40,
       "tenacity": 85,
       "bond": 80
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021615/361628b597c9ff6498c1f72640ccc1f9.jpg",
+    "imageLocal": "/plants/images/268.png",
+    "iconLocal": "/plants/icons/268.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "269",
@@ -6011,7 +7083,11 @@
       "order": 40,
       "tenacity": 35,
       "bond": 45
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021615/ce7501ff58df2d6695b470353b9e7b7e.jpg",
+    "imageLocal": "/plants/images/269.png",
+    "iconLocal": "/plants/icons/269.jpg",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "270",
@@ -6034,7 +7110,11 @@
       "order": 85,
       "tenacity": 60,
       "bond": 40
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021615/7b37034ee183e3d2144349b461b69636.jpg",
+    "imageLocal": "/plants/images/270.png",
+    "iconLocal": "/plants/icons/270.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "271",
@@ -6057,7 +7137,11 @@
       "order": 85,
       "tenacity": 90,
       "bond": 70
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021616/f90c1e75d110b90796aba82150ae815c.jpg",
+    "imageLocal": "/plants/images/271.png",
+    "iconLocal": "/plants/icons/271.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "272",
@@ -6079,7 +7163,11 @@
       "order": 85,
       "tenacity": 70,
       "bond": 60
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021616/9578573818688813f02ce05f384a80f9.jpg",
+    "imageLocal": "/plants/images/272.png",
+    "iconLocal": "/plants/icons/272.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "273",
@@ -6102,7 +7190,11 @@
       "order": 30,
       "tenacity": 40,
       "bond": 75
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021616/e15354f65a0b6284aef401c59427b03e.jpg",
+    "imageLocal": "/plants/images/273.png",
+    "iconLocal": "/plants/icons/273.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "274",
@@ -6124,7 +7216,11 @@
       "order": 70,
       "tenacity": 75,
       "bond": 90
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025021616/344bf42dbf72709501858461cd14fe02.gif",
+    "imageLocal": "/plants/images/274.png",
+    "iconLocal": "/plants/icons/274.gif",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "275",
@@ -6146,7 +7242,11 @@
       "order": 20,
       "tenacity": 10,
       "bond": 60
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025022011/6a0a842e8fac2d2a027f2060dc6fdfed.jpg",
+    "imageLocal": "/plants/images/275.png",
+    "iconLocal": "/plants/icons/275.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "276",
@@ -6169,7 +7269,11 @@
       "order": 85,
       "tenacity": 95,
       "bond": 70
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025031821/3744d75e6d300f5e8d1d9dea0c97ff21.jpg",
+    "imageLocal": "/plants/images/276.png",
+    "iconLocal": "/plants/icons/276.jpg",
+    "professionIconLocal": "/plants/professions/坚韧.png"
   },
   {
     "id": "277",
@@ -6191,7 +7295,11 @@
       "order": 90,
       "tenacity": 40,
       "bond": 70
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025041122/f1963f7c18d8b4772afd464c5ddb249f.jpg",
+    "imageLocal": "/plants/images/277.png",
+    "iconLocal": "/plants/icons/277.jpg",
+    "professionIconLocal": "/plants/professions/坚韧.png"
   },
   {
     "id": "278",
@@ -6214,7 +7322,11 @@
       "order": 40,
       "tenacity": 60,
       "bond": 30
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025062016/1d3bc2b873c1044aa9c012f8fbf7c147.jpg",
+    "imageLocal": "/plants/images/278.png",
+    "iconLocal": "/plants/icons/278.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "279",
@@ -6236,7 +7348,11 @@
       "order": 80,
       "tenacity": 75,
       "bond": 70
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025062822/c95c23ad6cf1de48fd78a355747168ea.gif",
+    "imageLocal": "/plants/images/279.png",
+    "iconLocal": "/plants/icons/279.gif",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "280",
@@ -6259,7 +7375,11 @@
       "order": 90,
       "tenacity": 95,
       "bond": 90
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025062822/3de0ef162fc76831299f0bea9bc16ea5.jpg",
+    "imageLocal": "/plants/images/280.png",
+    "iconLocal": "/plants/icons/280.jpg",
+    "professionIconLocal": "/plants/professions/阳光.png"
   },
   {
     "id": "281",
@@ -6280,7 +7400,11 @@
       "order": 70,
       "tenacity": 20,
       "bond": 65
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025062917/a58a3dd2ea391860fece02f34a779524.jpg",
+    "imageLocal": "/plants/images/281.png",
+    "iconLocal": "/plants/icons/281.jpg",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "282",
@@ -6302,7 +7426,11 @@
       "order": 85,
       "tenacity": 95,
       "bond": 70
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025062917/b8fd4dec4344b09314d4a731309b8b97.jpg",
+    "imageLocal": "/plants/images/282.png",
+    "iconLocal": "/plants/icons/282.jpg",
+    "professionIconLocal": "/plants/professions/坚韧.png"
   },
   {
     "id": "283",
@@ -6324,7 +7452,11 @@
       "order": 85,
       "tenacity": 70,
       "bond": 90
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025062917/62185b732e186371841742c8035f6fab.jpg",
+    "imageLocal": "/plants/images/283.png",
+    "iconLocal": "/plants/icons/283.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "284",
@@ -6345,7 +7477,11 @@
       "order": 30,
       "tenacity": 40,
       "bond": 70
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025070919/cf7f4689e02fb621a6517220804d8cb8.jpg",
+    "imageLocal": "/plants/images/284.png",
+    "iconLocal": "/plants/icons/284.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "285",
@@ -6368,7 +7504,11 @@
       "order": 55,
       "tenacity": 70,
       "bond": 60
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025072218/cd765b7febadd292464f462c9d65a696.jpg",
+    "imageLocal": "/plants/images/285.png",
+    "iconLocal": "/plants/icons/285.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "286",
@@ -6389,7 +7529,11 @@
       "order": 85,
       "tenacity": 20,
       "bond": 25
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025071518/7bcdd7d0e871327e09f49e530da32333.jpg",
+    "imageLocal": "/plants/images/286.png",
+    "iconLocal": "/plants/icons/286.jpg",
+    "professionIconLocal": "/plants/professions/先锋.png"
   },
   {
     "id": "287",
@@ -6410,7 +7554,11 @@
       "order": 95,
       "tenacity": 90,
       "bond": 70
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025080517/611145e3d3c2d43ce95dbf515139d16c.jpg",
+    "imageLocal": "/plants/images/287.png",
+    "iconLocal": "/plants/icons/287.jpg",
+    "professionIconLocal": "/plants/professions/辅助.png"
   },
   {
     "id": "288",
@@ -6432,7 +7580,11 @@
       "order": 60,
       "tenacity": 70,
       "bond": 95
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025081621/109cd888e77739bd13eb44b1baa91b93.jpg",
+    "imageLocal": "/plants/images/288.png",
+    "iconLocal": "/plants/icons/288.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "289",
@@ -6454,7 +7606,11 @@
       "order": 20,
       "tenacity": 60,
       "bond": 65
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025081321/37dc3dafdd28464b9a280981ac2ed4dc.jpg",
+    "imageLocal": "/plants/images/289.png",
+    "iconLocal": "/plants/icons/289.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "290",
@@ -6475,7 +7631,11 @@
       "order": 70,
       "tenacity": 40,
       "bond": 30
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025091909/68e0fb64fef3c86af58c58a77c2c9eab.jpg",
+    "imageLocal": "/plants/images/290.png",
+    "iconLocal": "/plants/icons/290.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "291",
@@ -6497,7 +7657,11 @@
       "order": 85,
       "tenacity": 40,
       "bond": 30
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025091923/bbc87415165ff3b088e7aac8a07c5021.jpg",
+    "imageLocal": "/plants/images/291.png",
+    "iconLocal": "/plants/icons/291.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "292",
@@ -6518,7 +7682,11 @@
       "order": 75,
       "tenacity": 90,
       "bond": 70
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025101712/c6b5642d6bb2aa4d3edd2d696e903323.jpg",
+    "imageLocal": "/plants/images/292.png",
+    "iconLocal": "/plants/icons/292.jpg",
+    "professionIconLocal": "/plants/professions/坚韧.png"
   },
   {
     "id": "293",
@@ -6541,7 +7709,11 @@
       "order": 60,
       "tenacity": 85,
       "bond": 90
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025102111/a681c9d1188c9b24fc1a273473887c98.jpg",
+    "imageLocal": "/plants/images/293.jpg",
+    "iconLocal": "/plants/icons/293.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "294",
@@ -6565,7 +7737,11 @@
       "order": 40,
       "tenacity": 10,
       "bond": 30
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025111423/dc3d331312760a38e26f8d5a5db84ee3.gif",
+    "imageLocal": "/plants/images/294.png",
+    "iconLocal": "/plants/icons/294.gif",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "295",
@@ -6588,7 +7764,11 @@
       "order": 60,
       "tenacity": 40,
       "bond": 85
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025120116/4967511f85b55a6ad64d0ad3f8269946.jpg",
+    "imageLocal": "/plants/images/295.png",
+    "iconLocal": "/plants/icons/295.jpg",
+    "professionIconLocal": "/plants/professions/奇兵.png"
   },
   {
     "id": "296",
@@ -6611,7 +7791,11 @@
       "order": 75,
       "tenacity": 80,
       "bond": 70
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2025121314/c446f4eb82792268b382b75d6aef85cc.jpg",
+    "imageLocal": "/plants/images/296.png",
+    "iconLocal": "/plants/icons/296.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "297",
@@ -6633,7 +7817,11 @@
       "order": 40,
       "tenacity": 70,
       "bond": 55
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2026012115/ac691cc8dd82b7b4ba5646385d3d62a8.gif",
+    "imageLocal": "/plants/images/297.png",
+    "iconLocal": "/plants/icons/297.gif",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "298",
@@ -6655,7 +7843,11 @@
       "order": 75,
       "tenacity": 95,
       "bond": 40
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/202601e2eab96008be279881dd4f9f04cfd042/aee339a16baf99387c0b0845a5977181.jpg",
+    "imageLocal": "/plants/images/298.png",
+    "iconLocal": "/plants/icons/298.jpg",
+    "professionIconLocal": "/plants/professions/坚韧.png"
   },
   {
     "id": "299",
@@ -6676,7 +7868,11 @@
       "order": 85,
       "tenacity": 90,
       "bond": 95
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/202601add7099e42aecfe4e2d56ca1d8c7211f/7842ac698ce9bd95c72962128f296f34.jpg",
+    "imageLocal": "/plants/images/299.png",
+    "iconLocal": "/plants/icons/299.jpg",
+    "professionIconLocal": "/plants/professions/辅助.png"
   },
   {
     "id": "300",
@@ -6697,7 +7893,11 @@
       "order": 65,
       "tenacity": 60,
       "bond": 40
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2026023af7516874156fb9aa0fee5f611e89df/ed38d1c5527b8a9926e48bcf143b333e.jpg",
+    "imageLocal": "/plants/images/300.png",
+    "iconLocal": "/plants/icons/300.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "301",
@@ -6719,7 +7919,11 @@
       "order": 85,
       "tenacity": 90,
       "bond": 70
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/202602ae26bb0d5e47dfd67cfae539eea46a88/8b40e966aaa2f4f58adbcfb202e7e7cd.jpg",
+    "imageLocal": "/plants/images/301.png",
+    "iconLocal": "/plants/icons/301.jpg",
+    "professionIconLocal": "/plants/professions/远程.png"
   },
   {
     "id": "302",
@@ -6740,7 +7944,11 @@
       "order": 70,
       "tenacity": 60,
       "bond": 95
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/2026031353d67b1738c2688f145bbef7868b44/1178ad1232917bbfb2ef39cf2f1a5da9.jpg",
+    "imageLocal": "/plants/images/302.png",
+    "iconLocal": "/plants/icons/302.jpg",
+    "professionIconLocal": "/plants/professions/辅助.png"
   },
   {
     "id": "304",
@@ -6759,7 +7967,11 @@
       "order": 85,
       "tenacity": 70,
       "bond": 90
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/20260401e0b7a542d51da6607d39170cc6c406/ad7f8b23ca2ef5971af3c37e3b9b288c.jpg",
+    "imageLocal": "/plants/images/304.png",
+    "iconLocal": "/plants/icons/304.jpg",
+    "professionIconLocal": "/plants/professions/未知.png"
   },
   {
     "id": "306",
@@ -6778,7 +7990,11 @@
       "order": 70,
       "tenacity": 85,
       "bond": 40
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/202604882bc0d0d2f1012abfb892b95937fd0d/25743004366ee0097c2327babfacaf0c.jpg",
+    "imageLocal": "/plants/images/306.png",
+    "iconLocal": "/plants/icons/306.jpg",
+    "professionIconLocal": "/plants/professions/未知.png"
   },
   {
     "id": "308",
@@ -6797,6 +8013,10 @@
       "order": 60,
       "tenacity": 75,
       "bond": 85
-    }
+    },
+    "icon": "https://ad-cdn.hrgame.com.cn/pvz2/upload/202604f8e48207c0a309cf27db8271ffd7bdd2/2fcb20a09c0c42fd98438655830fd621.jpg",
+    "imageLocal": "/plants/images/308.png",
+    "iconLocal": "/plants/icons/308.jpg",
+    "professionIconLocal": "/plants/professions/未知.png"
   }
 ]

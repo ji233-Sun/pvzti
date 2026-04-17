@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { notFound } from "next/navigation";
-import { allPlants, getPlant, proxyImage } from "@/lib/pvzti/plants";
+import { allPlants, getPlant, plantIconSrc } from "@/lib/pvzti/plants";
 import { DimensionChart } from "@/components/pvzti/dimension-chart";
 import { Button } from "@/components/ui/button";
 
@@ -42,9 +42,9 @@ export default async function PlantDetailPage({
         <div className="mt-6 rounded-2xl border bg-card p-6 shadow-sm sm:p-8">
           <div className="flex flex-col items-center text-center sm:flex-row sm:text-left sm:gap-6">
             <img
-              src={proxyImage(plant.image)}
+              src={plantIconSrc(plant)}
               alt={plant.name}
-              className="w-28 h-28 rounded-2xl object-cover bg-secondary shadow-sm"
+              className="w-28 h-28 rounded-2xl object-contain bg-secondary shadow-sm"
             />
             <div className="mt-4 sm:mt-0">
               <span className="inline-block text-xs px-2.5 py-0.5 rounded-full bg-primary/10 text-primary font-medium">
