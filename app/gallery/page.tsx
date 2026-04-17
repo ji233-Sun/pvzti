@@ -4,30 +4,71 @@ import { useState, useMemo } from "react";
 import Link from "next/link";
 import { ArrowLeft, Search } from "lucide-react";
 import { allPlants } from "@/lib/pvzti/plants";
+import { GALLERY_PAGE_SIZE, filterPlants, paginatePlants } from "@/lib/pvzti/gallery";
 import { PlantCard } from "@/components/pvzti/plant-card";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 
-const PAGE_SIZE = 40;
-
 export default function GalleryPage() {
   const [search, setSearch] = useState("");
-  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+  const [currentPage, setCurrentPage] = useState(1);
 
-  const filtered = useMemo(() => {
-    const q = search.trim().toLowerCase();
-    if (!q) return allPlants;
-    return allPlants.filter(
-      (p) =>
-        p.name.toLowerCase().includes(q) ||
-        p.personalityType.toLowerCase().includes(q) ||
-        p.personalityBrief.toLowerCase().includes(q) ||
-        p.labels.some((l) => l.toLowerCase().includes(q))
+  const filtered = useMemo(() => filterPlants(allPlants, search), [search]);
+  const pagination = useMemo(
+    () => paginatePlants(filtered, currentPage, GALLERY_PAGE_SIZE),
+    [filtered, currentPage]
+  );
+  const visiblePages = useMemo(() => {
+    const total = pagination.totalPages;
+    const current = pagination.currentPage;
+    if (total <= 7) return Array.from({ length: total }, (_, i) => i + 1);
+    
+    const pages = new Set([1, total, current, current - 1, current + 1]);
+    const sortedPages = Array.from(pages).filter(p => p >= 1 && p <= total).sort((a, b) => a - b);
+    
+    const result: (number | string)[] = [];
+    let prev = 0;
+    
+    for (const page of sortedPages) {
+      if (prev && page - prev > 1) {
+        result.push("...");
+      }
+      result.push(page);
+      prev = page;
+    }
+    
+    return result;
+  }, [pagination.currentPage, pagination.totalPages]);
+
+  const hasPrev = pagination.currentPage > 1;
+  const hasNext = pagination.currentPage < pagination.totalPages;
+  const pageButtonClassName = "size-9 shrink-0 rounded-full px-0 text-sm sm:size-9";
+
+  function renderPrevButton(className?: string) {
+    return (
+      <Button
+        variant="outline"
+        className={className}
+        onClick={() => setCurrentPage((page) => page - 1)}
+        disabled={!hasPrev}
+      >
+        上一页
+      </Button>
     );
-  }, [search]);
+  }
 
-  const visible = filtered.slice(0, visibleCount);
-  const hasMore = visibleCount < filtered.length;
+  function renderNextButton(className?: string) {
+    return (
+      <Button
+        variant="outline"
+        className={className}
+        onClick={() => setCurrentPage((page) => page + 1)}
+        disabled={!hasNext}
+      >
+        下一页
+      </Button>
+    );
+  }
 
   return (
     <main className="flex-1">
@@ -53,7 +94,7 @@ export default function GalleryPage() {
             value={search}
             onChange={(e) => {
               setSearch(e.target.value);
-              setVisibleCount(PAGE_SIZE);
+              setCurrentPage(1);
             }}
             className="pl-9"
           />
@@ -65,18 +106,49 @@ export default function GalleryPage() {
           </div>
         ) : (
           <>
+            <div className="mb-4 text-sm text-muted-foreground">
+              第 {pagination.currentPage} / {pagination.totalPages} 页，
+              显示 {pagination.startItem}-{pagination.endItem} 项，共 {pagination.totalItems} 项
+            </div>
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-              {visible.map((plant) => (
+              {pagination.items.map((plant) => (
                 <PlantCard key={plant.id} plant={plant} />
               ))}
             </div>
-            {hasMore && (
-              <div className="mt-8 text-center">
-                <Button
-                  variant="outline"
-                  onClick={() => setVisibleCount((c) => c + PAGE_SIZE)}
-                >
-                  加载更多 ({filtered.length - visibleCount} 个)
+            <div className="mt-8 sm:hidden">
+              <div className="flex items-center justify-between gap-4">
+                {renderPrevButton("flex-1")}
+                <span className="text-sm text-muted-foreground font-medium">
+                  {pagination.currentPage} / {pagination.totalPages}
+                </span>
+                {renderNextButton("flex-1")}
+              </div>
+            </div>
+            <div className="mt-8 hidden flex-wrap items-center justify-center gap-2 sm:flex">
+              {renderPrevButton()}
+              {visiblePages.map((page, i) => (
+                typeof page === "string" ? (
+                  <span key={`ellipsis-${i}`} className="px-2 text-muted-foreground">
+                    {page}
+                  </span>
+                ) : (
+                  <Button
+                    key={page}
+                    variant={page === pagination.currentPage ? "default" : "outline"}
+                    className={pageButtonClassName}
+                    aria-current={page === pagination.currentPage ? "page" : undefined}
+                    onClick={() => setCurrentPage(page)}
+                  >
+                    {page}
+                  </Button>
+                )
+              ))}
+              {renderNextButton()}
+            </div>
+            {search && (
+              <div className="mt-4 text-center">
+                <Button variant="ghost" onClick={() => setSearch("")}>
+                  清空搜索
                 </Button>
               </div>
             )}
